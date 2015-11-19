@@ -1,0 +1,177 @@
+------------------------------------------------------------
+-- ¬¿–»¿Õ“ 06
+------------------------------------------------------------
+EXEC Query26;
+
+Mountain-100 Silver, 48
+Mountain-100 Black, 38
+Mountain-100 Black, 42
+Mountain-300 Black, 38
+Mountain-300 Black, 40
+Mountain-300 Black, 48
+Road-250 Red, 44
+Road-250 Black, 48
+Road-250 Black, 52
+Road-550-W Yellow, 38
+Road-550-W Yellow, 48
+ML Road Frame-W - Yellow, 40
+ML Road Frame-W - Yellow, 42
+ML Road Frame-W - Yellow, 44
+ML Road Frame-W - Yellow, 48
+HL Road Frame - Black, 62
+HL Road Frame - Black, 44
+HL Road Frame - Black, 48
+HL Road Frame - Black, 52
+HL Touring Frame - Yellow, 60
+HL Touring Frame - Yellow, 46
+HL Touring Frame - Yellow, 50
+HL Touring Frame - Yellow, 54
+HL Touring Frame - Blue, 46
+HL Touring Frame - Blue, 50
+HL Touring Frame - Blue, 54
+HL Touring Frame - Blue, 60
+Mountain-500 Silver, 52
+Mountain-500 Black, 40
+Mountain-500 Black, 42
+Mountain-500 Black, 44
+Mountain-500 Black, 48
+Mountain-500 Black, 52
+Road-750 Black, 44
+Road-750 Black, 48
+Road-750 Black, 52
+
+EXEC Query27; 
+
+37
+
+EXEC Query28 @MinPrice = 500.00, @MaxPrice = 1000.00;
+
+Coalition Bike Company
+Good Toys
+Metropolitan Bicycle Supply
+Sports Products Store
+
+EXEC Query29; 
+
+774	Mountain-100 Silver, 48
+775	Mountain-100 Black, 38
+776	Mountain-100 Black, 42
+785	Mountain-300 Black, 38
+786	Mountain-300 Black, 40
+788	Mountain-300 Black, 48
+789	Road-250 Red, 44
+794	Road-250 Black, 48
+795	Road-250 Black, 52
+797	Road-550-W Yellow, 38
+801	Road-550-W Yellow, 48
+806	ML Headset
+810	HL Mountain Handlebars
+825	HL Mountain Rear Wheel
+826	LL Road Rear Wheel
+832	ML Mountain Frame - Black, 48
+833	ML Road Frame-W - Yellow, 40
+834	ML Road Frame-W - Yellow, 42
+835	ML Road Frame-W - Yellow, 44
+837	HL Road Frame - Black, 62
+838	HL Road Frame - Black, 44
+839	HL Road Frame - Black, 48
+840	HL Road Frame - Black, 52
+841	Men's Sports Shorts, S
+842	Touring-Panniers, Large
+843	Cable Lock
+844	Minipump
+845	Mountain Pump
+846	Taillights - Battery-Powered
+847	Headlights - Dual-Beam
+848	Headlights - Weatherproof
+849	Men's Sports Shorts, M
+850	Men's Sports Shorts, L
+851	Men's Sports Shorts, XL
+852	Women's Tights, S
+853	Women's Tights, M
+854	Women's Tights, L
+855	Men's Bib-Shorts, S
+856	Men's Bib-Shorts, M
+857	Men's Bib-Shorts, L
+861	Full-Finger Gloves, S
+862	Full-Finger Gloves, M
+863	Full-Finger Gloves, L
+866	Classic Vest, L
+871	Mountain Bottle Cage
+872	Road Bottle Cage
+878	Fender Set - Mountain
+879	All-Purpose Bike Stand
+882	Short-Sleeve Classic Jersey, M
+887	HL Touring Frame - Yellow, 46
+888	HL Touring Frame - Yellow, 50
+890	HL Touring Frame - Blue, 46
+891	HL Touring Frame - Blue, 50
+897	LL Touring Frame - Blue, 58
+898	LL Touring Frame - Blue, 62
+901	LL Touring Frame - Yellow, 54
+902	LL Touring Frame - Yellow, 58
+903	LL Touring Frame - Blue, 44
+906	ML Mountain Frame-W - Silver, 46
+907	Rear Brakes
+989	Mountain-500 Black, 40
+990	Mountain-500 Black, 42
+991	Mountain-500 Black, 44
+993	Mountain-500 Black, 52
+995	ML Bottom Bracket
+997	Road-750 Black, 44
+
+EXEC Query30; 
+
+Dallas	Fremont
+Dallas	Missoula
+Edmonton	Bothell
+Edmonton	Edmonton
+Edmonton	Everett
+Edmonton	Federal Way
+Edmonton	Fremont
+Edmonton	Kelso
+Edmonton	Kent
+Edmonton	Milpitas
+Edmonton	Puyallup
+Edmonton	Tacoma
+Edmonton	Union City
+High Wycombe	Cheyenne
+High Wycombe	Fullerton
+High Wycombe	Hayward
+High Wycombe	Portland
+London	Chehalis
+London	Renton
+London	Seattle
+Milwaukee	Puyallup
+Plano	Albany
+Plano	Bellingham
+Plano	Chehalis
+Plano	Cheyenne
+Plano	Edmonton
+Plano	Ellensburg
+Plano	Kennewick
+Plano	Lacey
+Plano	Milpitas
+Plano	Missoula
+Plano	Renton
+Plano	Rock Springs
+Plano	Salem
+Plano	Sandpoint
+Plano	Seattle
+Plano	Tacoma
+Toronto	 Puyallup
+Toronto	Albany
+Toronto	Bellingham
+Toronto	Casper
+Toronto	Chehalis
+Toronto	Cheyenne
+Toronto	Ellensburg
+Toronto	Kennewick
+Toronto	Lacey
+Toronto	Lynnwood
+Toronto	Missoula
+Toronto	Renton
+Toronto	Rock Springs
+Toronto	Sandpoint
+Toronto	Seattle
+Toronto	Spokane

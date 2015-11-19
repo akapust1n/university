@@ -1,0 +1,6 @@
+A*b+c/d -completed
+r:A b * c d / +
+!(нельзя делить на 0)
+---------
+y^(a^t)^(r-u)
+r:y a t ^ r u - ^ ^ 

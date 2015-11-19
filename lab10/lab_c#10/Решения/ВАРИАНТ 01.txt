@@ -1,0 +1,235 @@
+------------------------------------------------------------
+-- ¬¿–»¿Õ“ 01
+------------------------------------------------------------
+EXEC Query01;
+
+836	1
+858	1
+859	2
+860	1
+864	3
+865	2
+867	1
+868	1
+869	1
+870	2
+873	1
+874	1
+875	1
+876	3
+877	2
+880	2
+881	3
+883	2
+884	3
+885	2
+886	1
+889	1
+892	1
+893	2
+894	2
+895	1
+896	1
+899	1
+900	1
+904	1
+905	1
+988	2
+992	1
+994	2
+996	2
+998	1
+999	1
+
+EXEC Query02 @ProductID = 881;
+
+Coalition Bike Company
+Action Bicycle Specialists
+Professional Sales and Service
+ 
+EXEC Query03;
+
+452	A Cycle Shop
+461	Active Life Toys
+597	All Seasons Sports Supply
+528	Alpine Ski House
+491	Area Bike Accessories
+574	Area Sheet Metal Supply
+665	Authentic Sales and Service
+492	Basic Sports Equipment
+488	Bicycle Accessories and Kits
+529	Big-Time Bike Store
+487	Bike Experts
+598	Black Bicycle Company
+468	Blue Bicycle Company
+489	Cash & Carry Bikes
+466	Central Bicycle Specialists
+596	Coho Sports
+28	Commuter Bicycle Store
+552	Consolidated Messenger
+671	Contoso, Ltd.
+644	Convenient Sales and Service
+673	Countryside Company
+547	Curbside Sporting Goods
+595	Cycle Clearance
+592	Cycling Goods
+569	Designated Distributors
+508	Designer Department Stores
+484	Downhill Bicycle Specialists
+630	Eastside Parts Shop
+568	Economy Center
+629	Efficient Cycling
+660	Exhilarating Cycles
+641	Extended Tours
+490	Extraordinary Bike Works
+570	Family's Favorite Bike Shop
+613	Famous Bike Shop
+546	Field Trip Store
+542	Finer Parts Shop
+526	Finer Sales and Service
+545	Finish and Sealant Products
+670	First Bike Store
+624	First Cycle Store
+610	Fitness Department Stores
+643	Friendly Bike Shop
+543	Friendly Neighborhood Bikes
+527	Fun Times Club
+509	Fun Toys and Bikes
+523	Futuristic Sport Distributors
+480	General Bike Corporation
+588	General Cycle Storehouse
+661	General Department Stores
+462	General Riding Supplies
+479	General Supplies
+622	Gift and Toy Store
+507	Global Sporting Goods
+608	Golf and Cycle Store
+506	Great Bikes 
+623	Hardware Components
+504	Historic Bicycle Sales
+505	Honest Repair Service
+564	Imported and Domestic Cycles
+606	Little Bicycle Supply Shop
+607	Maintenance and Repair for Bicycles
+478	Major Cycling
+560	Major Sport Suppliers
+625	Major Sporting Goods
+653	Mercantile Outlet
+565	Metallic Paint and Overcoat Co
+520	Metro Metals Co.
+561	Mountain Toy Store
+541	Nonskid Tire Company
+668	Official Parts Shop
+586	One Bike Company
+654	Online Bike Warehouse
+655	Operational Manufacturing
+587	Our Sporting Goods Store
+605	Outstanding Cycles
+650	Permanent Finish Products
+562	Practical Bike Supply Company
+460	Price-Cutter Discount Bikes
+583	Professional Containers and Packaging Co.
+538	Prosperous Tours
+498	Quick Delivery Service
+669	Racing Bike Outlet
+473	Racing Toys
+475	Real Sporting Goods
+534	Recommended Bicycles
+637	Reliable Retail Center
+550	Remote Bicycle Specialists
+474	Retail Cycle Shop
+514	Retail Mall
+457	Retail Sporting Equipment
+626	Retail Sporting Goods
+579	Riders Company
+456	Riding Excursions
+451	Roadway Bike Emporium
+621	Running and Cycling Gear
+515	Rural Bicycle Supply
+580	Rural Sales and Service
+581	Safe Toys
+516	Seats and Saddles Company
+604	Sellers of Cycles
+11	Sharp Bikes
+659	Shipping Specialists
+454	Sleek Bikes 
+648	Small Bike Shop
+471	Social Activities Club
+647	Solid Bike Parts
+559	Some Discount Store
+635	Sports Store
+600	Strenuous Exercise Shop
+472	Summer Sports Place
+645	Superior Hardware Distributors
+577	Synthetic Materials Manufacturing
+563	Systematic Sales
+631	Tandem Sales and Service
+533	Tenth Bike Store
+578	The Bike Shop
+532	The Showroom
+455	Timely Shipping Service
+620	Tires and Tubes
+496	Top Sports Supply
+601	Transport Bikes
+617	Tubeless Tire Company
+453	Unique Bikes
+672	Utilitarian Sporting Goods
+493	Valley Bicycle Distributors
+544	Valley Bicycle Specialists
+497	Valley Toy Store
+556	Variety Cycling
+469	Vast Bike Sales and Rental
+551	Vinyl and Plastic Goods Corporation
+185	Weekend Bike Tours
+599	Westside Plaza
+511	Wheel Gallery
+470	Wingtip Toys
+510	World Bike Discount Store
+646	Yellow Bicycle Company
+
+EXEC Query04 'BLACK';
+
+Action Bicycle Specialists
+Metropolitan Bicycle Supply
+Professional Sales and Service
+Sports Products Store
+
+EXEC Query05;
+
+Bike Wash - Dissolver
+Classic Vest, M
+Classic Vest, S
+Half-Finger Gloves, L
+Half-Finger Gloves, M
+Half-Finger Gloves, S
+Hitch Rack - 4-Bike
+HL Bottom Bracket
+HL Touring Frame - Blue, 60
+HL Touring Frame - Yellow, 54
+HL Touring Frame - Yellow, 60
+Hydration Pack - 70 oz.
+LL Bottom Bracket
+LL Touring Frame - Blue, 50
+LL Touring Frame - Blue, 54
+LL Touring Frame - Yellow, 44
+LL Touring Frame - Yellow, 50
+ML Mountain Frame-W - Silver, 40
+ML Mountain Frame-W - Silver, 42
+ML Road Frame-W - Yellow, 48
+Mountain-500 Black, 48
+Mountain-500 Silver, 52
+Patch Kit/8 Patches
+Racing Socks, L
+Racing Socks, M
+Rear Derailleur
+Road-750 Black, 48
+Road-750 Black, 52
+Short-Sleeve Classic Jersey, L
+Short-Sleeve Classic Jersey, S
+Short-Sleeve Classic Jersey, XL
+Water Bottle - 30 oz.
+Women's Mountain Shorts, L
+Women's Mountain Shorts, M
+Women's Mountain Shorts, S
+
+

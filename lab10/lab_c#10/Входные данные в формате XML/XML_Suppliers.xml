@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Suppliers>
+<Supplier>
+  <SupplierID>11</SupplierID>
+  <SupplierName>Sharp Bikes</SupplierName>
+  <Status>89</Status>
+  <City>Bothell</City>
+</Supplier>
+<Supplier>
+  <SupplierID>25</SupplierID>
+  <SupplierName>Coalition Bike Company</SupplierName>
+  <Status>40</Status>
+  <City>Dallas</City>
+</Supplier>
+<Supplier>
+  <SupplierID>28</SupplierID>
+  <SupplierName>Commuter Bicycle Store</SupplierName>
+  <Status>78</Status>
+  <City>Phoenix</City>
+</Supplier>
+<Supplier>
+  <SupplierID>185</SupplierID>
+  <SupplierName>Weekend Bike Tours</SupplierName>
+  <Status>98</Status>
+  <City>Bellevue</City>
+</Supplier>
+<Supplier>
+  <SupplierID>448</SupplierID>
+  <SupplierName>Action Bicycle Specialists</SupplierName>
+  <Status>97</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>451</SupplierID>
+  <SupplierName>Roadway Bike Emporium</SupplierName>
+  <Status>84</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>452</SupplierID>
+  <SupplierName>A Cycle Shop</SupplierName>
+  <Status>73</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>453</SupplierID>
+  <SupplierName>Unique Bikes</SupplierName>
+  <Status>53</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>454</SupplierID>
+  <SupplierName>Sleek Bikes </SupplierName>
+  <Status>50</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>455</SupplierID>
+  <SupplierName>Timely Shipping Service</SupplierName>
+  <Status>69</Status>
+  <City>Weston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>456</SupplierID>
+  <SupplierName>Riding Excursions</SupplierName>
+  <Status>92</Status>
+  <City>Burnaby</City>
+</Supplier>
+<Supplier>
+  <SupplierID>457</SupplierID>
+  <SupplierName>Retail Sporting Equipment</SupplierName>
+  <Status>95</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>460</SupplierID>
+  <SupplierName>Price-Cutter Discount Bikes</SupplierName>
+  <Status>2</Status>
+  <City>Markham</City>
+</Supplier>
+<Supplier>
+  <SupplierID>461</SupplierID>
+  <SupplierName>Active Life Toys</SupplierName>
+  <Status>56</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>462</SupplierID>
+  <SupplierName>General Riding Supplies</SupplierName>
+  <Status>45</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>466</SupplierID>
+  <SupplierName>Central Bicycle Specialists</SupplierName>
+  <Status>70</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>468</SupplierID>
+  <SupplierName>Blue Bicycle Company</SupplierName>
+  <Status>40</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>469</SupplierID>
+  <SupplierName>Vast Bike Sales and Rental</SupplierName>
+  <Status>44</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>470</SupplierID>
+  <SupplierName>Wingtip Toys</SupplierName>
+  <Status>39</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>471</SupplierID>
+  <SupplierName>Social Activities Club</SupplierName>
+  <Status>51</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>472</SupplierID>
+  <SupplierName>Summer Sports Place</SupplierName>
+  <Status>39</Status>
+  <City>Richmond</City>
+</Supplier>
+<Supplier>
+  <SupplierID>473</SupplierID>
+  <SupplierName>Racing Toys</SupplierName>
+  <Status>18</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>474</SupplierID>
+  <SupplierName>Retail Cycle Shop</SupplierName>
+  <Status>5</Status>
+  <City>Surrey</City>
+</Supplier>
+<Supplier>
+  <SupplierID>475</SupplierID>
+  <SupplierName>Real Sporting Goods</SupplierName>
+  <Status>38</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>478</SupplierID>
+  <SupplierName>Major Cycling</SupplierName>
+  <Status>5</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>479</SupplierID>
+  <SupplierName>General Supplies</SupplierName>
+  <Status>41</Status>
+  <City>Scarborough</City>
+</Supplier>
+<Supplier>
+  <SupplierID>480</SupplierID>
+  <SupplierName>General Bike Corporation</SupplierName>
+  <Status>68</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>484</SupplierID>
+  <SupplierName>Downhill Bicycle Specialists</SupplierName>
+  <Status>21</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>487</SupplierID>
+  <SupplierName>Bike Experts</SupplierName>
+  <Status>82</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>488</SupplierID>
+  <SupplierName>Bicycle Accessories and Kits</SupplierName>
+  <Status>94</Status>
+  <City>Burnaby</City>
+</Supplier>
+<Supplier>
+  <SupplierID>489</SupplierID>
+  <SupplierName>Cash &amp; Carry Bikes</SupplierName>
+  <Status>66</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>490</SupplierID>
+  <SupplierName>Extraordinary Bike Works</SupplierName>
+  <Status>66</Status>
+  <City>Barrie</City>
+</Supplier>
+<Supplier>
+  <SupplierID>491</SupplierID>
+  <SupplierName>Area Bike Accessories</SupplierName>
+  <Status>82</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>492</SupplierID>
+  <SupplierName>Basic Sports Equipment</SupplierName>
+  <Status>37</Status>
+  <City>Sainte-Foy</City>
+</Supplier>
+<Supplier>
+  <SupplierID>493</SupplierID>
+  <SupplierName>Valley Bicycle Distributors</SupplierName>
+  <Status>74</Status>
+  <City>Winnipeg</City>
+</Supplier>
+<Supplier>
+  <SupplierID>496</SupplierID>
+  <SupplierName>Top Sports Supply</SupplierName>
+  <Status>77</Status>
+  <City>Mississauga</City>
+</Supplier>
+<Supplier>
+  <SupplierID>497</SupplierID>
+  <SupplierName>Valley Toy Store</SupplierName>
+  <Status>77</Status>
+  <City>Burnaby</City>
+</Supplier>
+<Supplier>
+  <SupplierID>498</SupplierID>
+  <SupplierName>Quick Delivery Service</SupplierName>
+  <Status>5</Status>
+  <City>Victoria</City>
+</Supplier>
+<Supplier>
+  <SupplierID>502</SupplierID>
+  <SupplierName>Metropolitan Bicycle Supply</SupplierName>
+  <Status>98</Status>
+  <City>Edmonton</City>
+</Supplier>
+<Supplier>
+  <SupplierID>504</SupplierID>
+  <SupplierName>Historic Bicycle Sales</SupplierName>
+  <Status>90</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>505</SupplierID>
+  <SupplierName>Honest Repair Service</SupplierName>
+  <Status>35</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>506</SupplierID>
+  <SupplierName>Great Bikes </SupplierName>
+  <Status>75</Status>
+  <City>Surrey</City>
+</Supplier>
+<Supplier>
+  <SupplierID>507</SupplierID>
+  <SupplierName>Global Sporting Goods</SupplierName>
+  <Status>93</Status>
+  <City>Kingston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>508</SupplierID>
+  <SupplierName>Designer Department Stores</SupplierName>
+  <Status>62</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>509</SupplierID>
+  <SupplierName>Fun Toys and Bikes</SupplierName>
+  <Status>37</Status>
+  <City>Surrey</City>
+</Supplier>
+<Supplier>
+  <SupplierID>510</SupplierID>
+  <SupplierName>World Bike Discount Store</SupplierName>
+  <Status>32</Status>
+  <City>Waterloo</City>
+</Supplier>
+<Supplier>
+  <SupplierID>511</SupplierID>
+  <SupplierName>Wheel Gallery</SupplierName>
+  <Status>74</Status>
+  <City>Outremont</City>
+</Supplier>
+<Supplier>
+  <SupplierID>514</SupplierID>
+  <SupplierName>Retail Mall</SupplierName>
+  <Status>49</Status>
+  <City>Richmond Hill</City>
+</Supplier>
+<Supplier>
+  <SupplierID>515</SupplierID>
+  <SupplierName>Rural Bicycle Supply</SupplierName>
+  <Status>9</Status>
+  <City>Etobicoke</City>
+</Supplier>
+<Supplier>
+  <SupplierID>516</SupplierID>
+  <SupplierName>Seats and Saddles Company</SupplierName>
+  <Status>79</Status>
+  <City>Brampton</City>
+</Supplier>
+<Supplier>
+  <SupplierID>520</SupplierID>
+  <SupplierName>Metro Metals Co.</SupplierName>
+  <Status>68</Status>
+  <City>Brossard</City>
+</Supplier>
+<Supplier>
+  <SupplierID>523</SupplierID>
+  <SupplierName>Futuristic Sport Distributors</SupplierName>
+  <Status>84</Status>
+  <City>Richmond</City>
+</Supplier>
+<Supplier>
+  <SupplierID>526</SupplierID>
+  <SupplierName>Finer Sales and Service</SupplierName>
+  <Status>80</Status>
+  <City>Edmonton</City>
+</Supplier>
+<Supplier>
+  <SupplierID>527</SupplierID>
+  <SupplierName>Fun Times Club</SupplierName>
+  <Status>5</Status>
+  <City>Richmond</City>
+</Supplier>
+<Supplier>
+  <SupplierID>528</SupplierID>
+  <SupplierName>Alpine Ski House</SupplierName>
+  <Status>55</Status>
+  <City>Mississauga</City>
+</Supplier>
+<Supplier>
+  <SupplierID>529</SupplierID>
+  <SupplierName>Big-Time Bike Store</SupplierName>
+  <Status>42</Status>
+  <City>Richmond</City>
+</Supplier>
+<Supplier>
+  <SupplierID>532</SupplierID>
+  <SupplierName>The Showroom</SupplierName>
+  <Status>51</Status>
+  <City>Ottawa</City>
+</Supplier>
+<Supplier>
+  <SupplierID>533</SupplierID>
+  <SupplierName>Tenth Bike Store</SupplierName>
+  <Status>39</Status>
+  <City>Kanata</City>
+</Supplier>
+<Supplier>
+  <SupplierID>534</SupplierID>
+  <SupplierName>Recommended Bicycles</SupplierName>
+  <Status>84</Status>
+  <City>Sillery</City>
+</Supplier>
+<Supplier>
+  <SupplierID>538</SupplierID>
+  <SupplierName>Prosperous Tours</SupplierName>
+  <Status>66</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>541</SupplierID>
+  <SupplierName>Nonskid Tire Company</SupplierName>
+  <Status>90</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>542</SupplierID>
+  <SupplierName>Finer Parts Shop</SupplierName>
+  <Status>77</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>543</SupplierID>
+  <SupplierName>Friendly Neighborhood Bikes</SupplierName>
+  <Status>52</Status>
+  <City>Ottawa</City>
+</Supplier>
+<Supplier>
+  <SupplierID>544</SupplierID>
+  <SupplierName>Valley Bicycle Specialists</SupplierName>
+  <Status>17</Status>
+  <City>Burnaby</City>
+</Supplier>
+<Supplier>
+  <SupplierID>545</SupplierID>
+  <SupplierName>Finish and Sealant Products</SupplierName>
+  <Status>37</Status>
+  <City>Vancouver</City>
+</Supplier>
+<Supplier>
+  <SupplierID>546</SupplierID>
+  <SupplierName>Field Trip Store</SupplierName>
+  <Status>70</Status>
+  <City>Calgary</City>
+</Supplier>
+<Supplier>
+  <SupplierID>547</SupplierID>
+  <SupplierName>Curbside Sporting Goods</SupplierName>
+  <Status>8</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>550</SupplierID>
+  <SupplierName>Remote Bicycle Specialists</SupplierName>
+  <Status>2</Status>
+  <City>Toronto</City>
+</Supplier>
+<Supplier>
+  <SupplierID>551</SupplierID>
+  <SupplierName>Vinyl and Plastic Goods Corporation</SupplierName>
+  <Status>7</Status>
+  <City>Aurora</City>
+</Supplier>
+<Supplier>
+  <SupplierID>552</SupplierID>
+  <SupplierName>Consolidated Messenger</SupplierName>
+  <Status>24</Status>
+  <City>Dorval</City>
+</Supplier>
+<Supplier>
+  <SupplierID>556</SupplierID>
+  <SupplierName>Variety Cycling</SupplierName>
+  <Status>26</Status>
+  <City>Montreal</City>
+</Supplier>
+<Supplier>
+  <SupplierID>559</SupplierID>
+  <SupplierName>Some Discount Store</SupplierName>
+  <Status>21</Status>
+  <City>Irving</City>
+</Supplier>
+<Supplier>
+  <SupplierID>560</SupplierID>
+  <SupplierName>Major Sport Suppliers</SupplierName>
+  <Status>36</Status>
+  <City>Austin</City>
+</Supplier>
+<Supplier>
+  <SupplierID>561</SupplierID>
+  <SupplierName>Mountain Toy Store</SupplierName>
+  <Status>76</Status>
+  <City>Irving</City>
+</Supplier>
+<Supplier>
+  <SupplierID>562</SupplierID>
+  <SupplierName>Practical Bike Supply Company</SupplierName>
+  <Status>65</Status>
+  <City>North Sioux City</City>
+</Supplier>
+<Supplier>
+  <SupplierID>563</SupplierID>
+  <SupplierName>Systematic Sales</SupplierName>
+  <Status>11</Status>
+  <City>Edina</City>
+</Supplier>
+<Supplier>
+  <SupplierID>564</SupplierID>
+  <SupplierName>Imported and Domestic Cycles</SupplierName>
+  <Status>99</Status>
+  <City>Laredo</City>
+</Supplier>
+<Supplier>
+  <SupplierID>565</SupplierID>
+  <SupplierName>Metallic Paint and Overcoat Co</SupplierName>
+  <Status>86</Status>
+  <City>West Chicago</City>
+</Supplier>
+<Supplier>
+  <SupplierID>568</SupplierID>
+  <SupplierName>Economy Center</SupplierName>
+  <Status>38</Status>
+  <City>Wood Dale</City>
+</Supplier>
+<Supplier>
+  <SupplierID>569</SupplierID>
+  <SupplierName>Designated Distributors</SupplierName>
+  <Status>46</Status>
+  <City>Round Rock</City>
+</Supplier>
+<Supplier>
+  <SupplierID>570</SupplierID>
+  <SupplierName>Family's Favorite Bike Shop</SupplierName>
+  <Status>35</Status>
+  <City>Fort Worth</City>
+</Supplier>
+<Supplier>
+  <SupplierID>574</SupplierID>
+  <SupplierName>Area Sheet Metal Supply</SupplierName>
+  <Status>84</Status>
+  <City>Dallas</City>
+</Supplier>
+<Supplier>
+  <SupplierID>577</SupplierID>
+  <SupplierName>Synthetic Materials Manufacturing</SupplierName>
+  <Status>30</Status>
+  <City>Dallas</City>
+</Supplier>
+<Supplier>
+  <SupplierID>578</SupplierID>
+  <SupplierName>The Bike Shop</SupplierName>
+  <Status>71</Status>
+  <City>Garland</City>
+</Supplier>
+<Supplier>
+  <SupplierID>579</SupplierID>
+  <SupplierName>Riders Company</SupplierName>
+  <Status>64</Status>
+  <City>Chicago</City>
+</Supplier>
+<Supplier>
+  <SupplierID>580</SupplierID>
+  <SupplierName>Rural Sales and Service</SupplierName>
+  <Status>25</Status>
+  <City>Carrollton</City>
+</Supplier>
+<Supplier>
+  <SupplierID>581</SupplierID>
+  <SupplierName>Safe Toys</SupplierName>
+  <Status>94</Status>
+  <City>Dallas</City>
+</Supplier>
+<Supplier>
+  <SupplierID>582</SupplierID>
+  <SupplierName>Professional Sales and Service</SupplierName>
+  <Status>50</Status>
+  <City>Plano</City>
+</Supplier>
+<Supplier>
+  <SupplierID>583</SupplierID>
+  <SupplierName>Professional Containers and Packaging Co.</SupplierName>
+  <Status>51</Status>
+  <City>Chicago</City>
+</Supplier>
+<Supplier>
+  <SupplierID>586</SupplierID>
+  <SupplierName>One Bike Company</SupplierName>
+  <Status>27</Status>
+  <City>Jefferson City</City>
+</Supplier>
+<Supplier>
+  <SupplierID>587</SupplierID>
+  <SupplierName>Our Sporting Goods Store</SupplierName>
+  <Status>9</Status>
+  <City>Houston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>588</SupplierID>
+  <SupplierName>General Cycle Storehouse</SupplierName>
+  <Status>21</Status>
+  <City>Dallas</City>
+</Supplier>
+<Supplier>
+  <SupplierID>592</SupplierID>
+  <SupplierName>Cycling Goods</SupplierName>
+  <Status>14</Status>
+  <City>Houston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>595</SupplierID>
+  <SupplierName>Cycle Clearance</SupplierName>
+  <Status>16</Status>
+  <City>Saint Louis</City>
+</Supplier>
+<Supplier>
+  <SupplierID>596</SupplierID>
+  <SupplierName>Coho Sports</SupplierName>
+  <Status>22</Status>
+  <City>San Antonio</City>
+</Supplier>
+<Supplier>
+  <SupplierID>597</SupplierID>
+  <SupplierName>All Seasons Sports Supply</SupplierName>
+  <Status>37</Status>
+  <City>Humble</City>
+</Supplier>
+<Supplier>
+  <SupplierID>598</SupplierID>
+  <SupplierName>Black Bicycle Company</SupplierName>
+  <Status>51</Status>
+  <City>Moline</City>
+</Supplier>
+<Supplier>
+  <SupplierID>599</SupplierID>
+  <SupplierName>Westside Plaza</SupplierName>
+  <Status>18</Status>
+  <City>Saint Ann</City>
+</Supplier>
+<Supplier>
+  <SupplierID>600</SupplierID>
+  <SupplierName>Strenuous Exercise Shop</SupplierName>
+  <Status>34</Status>
+  <City>Ferguson</City>
+</Supplier>
+<Supplier>
+  <SupplierID>601</SupplierID>
+  <SupplierName>Transport Bikes</SupplierName>
+  <Status>39</Status>
+  <City>Saint Louis</City>
+</Supplier>
+<Supplier>
+  <SupplierID>604</SupplierID>
+  <SupplierName>Sellers of Cycles</SupplierName>
+  <Status>54</Status>
+  <City>Joliet</City>
+</Supplier>
+<Supplier>
+  <SupplierID>605</SupplierID>
+  <SupplierName>Outstanding Cycles</SupplierName>
+  <Status>7</Status>
+  <City>San Antonio</City>
+</Supplier>
+<Supplier>
+  <SupplierID>606</SupplierID>
+  <SupplierName>Little Bicycle Supply Shop</SupplierName>
+  <Status>97</Status>
+  <City>Racine</City>
+</Supplier>
+<Supplier>
+  <SupplierID>607</SupplierID>
+  <SupplierName>Maintenance and Repair for Bicycles</SupplierName>
+  <Status>25</Status>
+  <City>Corpus Christi</City>
+</Supplier>
+<Supplier>
+  <SupplierID>608</SupplierID>
+  <SupplierName>Golf and Cycle Store</SupplierName>
+  <Status>33</Status>
+  <City>College Station</City>
+</Supplier>
+<Supplier>
+  <SupplierID>609</SupplierID>
+  <SupplierName>Good Toys</SupplierName>
+  <Status>57</Status>
+  <City>Milwaukee</City>
+</Supplier>
+<Supplier>
+  <SupplierID>610</SupplierID>
+  <SupplierName>Fitness Department Stores</SupplierName>
+  <Status>80</Status>
+  <City>Denby</City>
+</Supplier>
+<Supplier>
+  <SupplierID>613</SupplierID>
+  <SupplierName>Famous Bike Shop</SupplierName>
+  <Status>53</Status>
+  <City>Cedar Park</City>
+</Supplier>
+<Supplier>
+  <SupplierID>617</SupplierID>
+  <SupplierName>Tubeless Tire Company</SupplierName>
+  <Status>5</Status>
+  <City>Johnson Creek</City>
+</Supplier>
+<Supplier>
+  <SupplierID>620</SupplierID>
+  <SupplierName>Tires and Tubes</SupplierName>
+  <Status>54</Status>
+  <City>Woodbury</City>
+</Supplier>
+<Supplier>
+  <SupplierID>621</SupplierID>
+  <SupplierName>Running and Cycling Gear</SupplierName>
+  <Status>63</Status>
+  <City>Branch</City>
+</Supplier>
+<Supplier>
+  <SupplierID>622</SupplierID>
+  <SupplierName>Gift and Toy Store</SupplierName>
+  <Status>76</Status>
+  <City>San Antonio</City>
+</Supplier>
+<Supplier>
+  <SupplierID>623</SupplierID>
+  <SupplierName>Hardware Components</SupplierName>
+  <Status>88</Status>
+  <City>Houston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>624</SupplierID>
+  <SupplierName>First Cycle Store</SupplierName>
+  <Status>94</Status>
+  <City>Branson</City>
+</Supplier>
+<Supplier>
+  <SupplierID>625</SupplierID>
+  <SupplierName>Major Sporting Goods</SupplierName>
+  <Status>17</Status>
+  <City>Mosinee</City>
+</Supplier>
+<Supplier>
+  <SupplierID>626</SupplierID>
+  <SupplierName>Retail Sporting Goods</SupplierName>
+  <Status>66</Status>
+  <City>La Marque</City>
+</Supplier>
+<Supplier>
+  <SupplierID>629</SupplierID>
+  <SupplierName>Efficient Cycling</SupplierName>
+  <Status>27</Status>
+  <City>Saint Louis</City>
+</Supplier>
+<Supplier>
+  <SupplierID>630</SupplierID>
+  <SupplierName>Eastside Parts Shop</SupplierName>
+  <Status>9</Status>
+  <City>Arlington</City>
+</Supplier>
+<Supplier>
+  <SupplierID>631</SupplierID>
+  <SupplierName>Tandem Sales and Service</SupplierName>
+  <Status>90</Status>
+  <City>Odessa</City>
+</Supplier>
+<Supplier>
+  <SupplierID>635</SupplierID>
+  <SupplierName>Sports Store</SupplierName>
+  <Status>42</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>637</SupplierID>
+  <SupplierName>Reliable Retail Center</SupplierName>
+  <Status>72</Status>
+  <City>Gloucestershire</City>
+</Supplier>
+<Supplier>
+  <SupplierID>641</SupplierID>
+  <SupplierName>Extended Tours</SupplierName>
+  <Status>42</Status>
+  <City>W. York</City>
+</Supplier>
+<Supplier>
+  <SupplierID>643</SupplierID>
+  <SupplierName>Friendly Bike Shop</SupplierName>
+  <Status>69</Status>
+  <City>Oxon</City>
+</Supplier>
+<Supplier>
+  <SupplierID>644</SupplierID>
+  <SupplierName>Convenient Sales and Service</SupplierName>
+  <Status>8</Status>
+  <City>W. York</City>
+</Supplier>
+<Supplier>
+  <SupplierID>645</SupplierID>
+  <SupplierName>Superior Hardware Distributors</SupplierName>
+  <Status>33</Status>
+  <City>Milton Keynes</City>
+</Supplier>
+<Supplier>
+  <SupplierID>646</SupplierID>
+  <SupplierName>Yellow Bicycle Company</SupplierName>
+  <Status>21</Status>
+  <City>Lancaster</City>
+</Supplier>
+<Supplier>
+  <SupplierID>647</SupplierID>
+  <SupplierName>Solid Bike Parts</SupplierName>
+  <Status>64</Status>
+  <City>Basingstoke Hants</City>
+</Supplier>
+<Supplier>
+  <SupplierID>648</SupplierID>
+  <SupplierName>Small Bike Shop</SupplierName>
+  <Status>19</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>649</SupplierID>
+  <SupplierName>Sports Products Store</SupplierName>
+  <Status>88</Status>
+  <City>High Wycombe</City>
+</Supplier>
+<Supplier>
+  <SupplierID>650</SupplierID>
+  <SupplierName>Permanent Finish Products</SupplierName>
+  <Status>21</Status>
+  <City>Reading</City>
+</Supplier>
+<Supplier>
+  <SupplierID>653</SupplierID>
+  <SupplierName>Mercantile Outlet</SupplierName>
+  <Status>2</Status>
+  <City>West Sussex</City>
+</Supplier>
+<Supplier>
+  <SupplierID>654</SupplierID>
+  <SupplierName>Online Bike Warehouse</SupplierName>
+  <Status>84</Status>
+  <City>York</City>
+</Supplier>
+<Supplier>
+  <SupplierID>655</SupplierID>
+  <SupplierName>Operational Manufacturing</SupplierName>
+  <Status>61</Status>
+  <City>Berkshire</City>
+</Supplier>
+<Supplier>
+  <SupplierID>659</SupplierID>
+  <SupplierName>Shipping Specialists</SupplierName>
+  <Status>91</Status>
+  <City>Woolston</City>
+</Supplier>
+<Supplier>
+  <SupplierID>660</SupplierID>
+  <SupplierName>Exhilarating Cycles</SupplierName>
+  <Status>1</Status>
+  <City>Maidenhead</City>
+</Supplier>
+<Supplier>
+  <SupplierID>661</SupplierID>
+  <SupplierName>General Department Stores</SupplierName>
+  <Status>12</Status>
+  <City>Berks</City>
+</Supplier>
+<Supplier>
+  <SupplierID>665</SupplierID>
+  <SupplierName>Authentic Sales and Service</SupplierName>
+  <Status>71</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>668</SupplierID>
+  <SupplierName>Official Parts Shop</SupplierName>
+  <Status>20</Status>
+  <City>Oxford</City>
+</Supplier>
+<Supplier>
+  <SupplierID>669</SupplierID>
+  <SupplierName>Racing Bike Outlet</SupplierName>
+  <Status>28</Status>
+  <City>Cambridge</City>
+</Supplier>
+<Supplier>
+  <SupplierID>670</SupplierID>
+  <SupplierName>First Bike Store</SupplierName>
+  <Status>64</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>671</SupplierID>
+  <SupplierName>Contoso, Ltd.</SupplierName>
+  <Status>89</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>672</SupplierID>
+  <SupplierName>Utilitarian Sporting Goods</SupplierName>
+  <Status>10</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>673</SupplierID>
+  <SupplierName>Countryside Company</SupplierName>
+  <Status>48</Status>
+  <City>London</City>
+</Supplier>
+<Supplier>
+  <SupplierID>674</SupplierID>
+  <SupplierName>Discount Tours</SupplierName>
+  <Status>62</Status>
+  <City>London</City>
+</Supplier>
+</Suppliers>

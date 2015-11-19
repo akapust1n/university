@@ -1,0 +1,220 @@
+------------------------------------------------------------
+-- ¬¿–»¿Õ“ 03
+------------------------------------------------------------
+EXEC Query11;
+
+Area Sheet Metal Supply	Coalition Bike Company
+Synthetic Materials Manufacturing	Coalition Bike Company
+Safe Toys	Coalition Bike Company
+General Cycle Storehouse	Coalition Bike Company
+A Cycle Shop	Action Bicycle Specialists
+Sleek Bikes 	Action Bicycle Specialists
+Active Life Toys	Action Bicycle Specialists
+General Riding Supplies	Action Bicycle Specialists
+Wingtip Toys	Action Bicycle Specialists
+Major Cycling	Action Bicycle Specialists
+General Bike Corporation	Action Bicycle Specialists
+Cash & Carry Bikes	Action Bicycle Specialists
+Prosperous Tours	Action Bicycle Specialists
+Curbside Sporting Goods	Action Bicycle Specialists
+Remote Bicycle Specialists	Action Bicycle Specialists
+Central Bicycle Specialists	Roadway Bike Emporium
+Real Sporting Goods	Roadway Bike Emporium
+Bike Experts	Roadway Bike Emporium
+Historic Bicycle Sales	Roadway Bike Emporium
+Honest Repair Service	Roadway Bike Emporium
+Field Trip Store	Roadway Bike Emporium
+Sleek Bikes 	A Cycle Shop
+Active Life Toys	A Cycle Shop
+General Riding Supplies	A Cycle Shop
+Wingtip Toys	A Cycle Shop
+Major Cycling	A Cycle Shop
+General Bike Corporation	A Cycle Shop
+Cash & Carry Bikes	A Cycle Shop
+Prosperous Tours	A Cycle Shop
+Curbside Sporting Goods	A Cycle Shop
+Remote Bicycle Specialists	A Cycle Shop
+Social Activities Club	Unique Bikes
+Downhill Bicycle Specialists	Unique Bikes
+Area Bike Accessories	Unique Bikes
+Nonskid Tire Company	Unique Bikes
+Finer Parts Shop	Unique Bikes
+Variety Cycling	Unique Bikes
+Active Life Toys	Sleek Bikes 
+General Riding Supplies	Sleek Bikes 
+Wingtip Toys	Sleek Bikes 
+Major Cycling	Sleek Bikes 
+General Bike Corporation	Sleek Bikes 
+Cash & Carry Bikes	Sleek Bikes 
+Prosperous Tours	Sleek Bikes 
+Curbside Sporting Goods	Sleek Bikes 
+Remote Bicycle Specialists	Sleek Bikes 
+Bicycle Accessories and Kits	Riding Excursions
+Valley Toy Store	Riding Excursions
+Valley Bicycle Specialists	Riding Excursions
+Blue Bicycle Company	Retail Sporting Equipment
+Vast Bike Sales and Rental	Retail Sporting Equipment
+Racing Toys	Retail Sporting Equipment
+Designer Department Stores	Retail Sporting Equipment
+Finish and Sealant Products	Retail Sporting Equipment
+General Riding Supplies	Active Life Toys
+Wingtip Toys	Active Life Toys
+Major Cycling	Active Life Toys
+General Bike Corporation	Active Life Toys
+Cash & Carry Bikes	Active Life Toys
+Prosperous Tours	Active Life Toys
+Curbside Sporting Goods	Active Life Toys
+Remote Bicycle Specialists	Active Life Toys
+Wingtip Toys	General Riding Supplies
+Major Cycling	General Riding Supplies
+General Bike Corporation	General Riding Supplies
+Cash & Carry Bikes	General Riding Supplies
+Prosperous Tours	General Riding Supplies
+Curbside Sporting Goods	General Riding Supplies
+Remote Bicycle Specialists	General Riding Supplies
+Real Sporting Goods	Central Bicycle Specialists
+Bike Experts	Central Bicycle Specialists
+Historic Bicycle Sales	Central Bicycle Specialists
+Honest Repair Service	Central Bicycle Specialists
+Field Trip Store	Central Bicycle Specialists
+Vast Bike Sales and Rental	Blue Bicycle Company
+Racing Toys	Blue Bicycle Company
+Designer Department Stores	Blue Bicycle Company
+Finish and Sealant Products	Blue Bicycle Company
+Racing Toys	Vast Bike Sales and Rental
+Designer Department Stores	Vast Bike Sales and Rental
+Finish and Sealant Products	Vast Bike Sales and Rental
+Major Cycling	Wingtip Toys
+General Bike Corporation	Wingtip Toys
+Cash & Carry Bikes	Wingtip Toys
+Prosperous Tours	Wingtip Toys
+Curbside Sporting Goods	Wingtip Toys
+Remote Bicycle Specialists	Wingtip Toys
+Downhill Bicycle Specialists	Social Activities Club
+Area Bike Accessories	Social Activities Club
+Nonskid Tire Company	Social Activities Club
+Finer Parts Shop	Social Activities Club
+Variety Cycling	Social Activities Club
+Futuristic Sport Distributors	Summer Sports Place
+Fun Times Club	Summer Sports Place
+Big-Time Bike Store	Summer Sports Place
+Designer Department Stores	Racing Toys
+Finish and Sealant Products	Racing Toys
+Great Bikes 	Retail Cycle Shop
+Fun Toys and Bikes	Retail Cycle Shop
+Bike Experts	Real Sporting Goods
+Historic Bicycle Sales	Real Sporting Goods
+Honest Repair Service	Real Sporting Goods
+Field Trip Store	Real Sporting Goods
+General Bike Corporation	Major Cycling
+Cash & Carry Bikes	Major Cycling
+Prosperous Tours	Major Cycling
+Curbside Sporting Goods	Major Cycling
+Remote Bicycle Specialists	Major Cycling
+Cash & Carry Bikes	General Bike Corporation
+Prosperous Tours	General Bike Corporation
+Curbside Sporting Goods	General Bike Corporation
+Remote Bicycle Specialists	General Bike Corporation
+Area Bike Accessories	Downhill Bicycle Specialists
+Nonskid Tire Company	Downhill Bicycle Specialists
+Finer Parts Shop	Downhill Bicycle Specialists
+Variety Cycling	Downhill Bicycle Specialists
+Historic Bicycle Sales	Bike Experts
+Honest Repair Service	Bike Experts
+Field Trip Store	Bike Experts
+Valley Toy Store	Bicycle Accessories and Kits
+Valley Bicycle Specialists	Bicycle Accessories and Kits
+Prosperous Tours	Cash & Carry Bikes
+Curbside Sporting Goods	Cash & Carry Bikes
+Remote Bicycle Specialists	Cash & Carry Bikes
+Nonskid Tire Company	Area Bike Accessories
+Finer Parts Shop	Area Bike Accessories
+Variety Cycling	Area Bike Accessories
+Alpine Ski House	Top Sports Supply
+Valley Bicycle Specialists	Valley Toy Store
+Finer Sales and Service	Metropolitan Bicycle Supply
+Honest Repair Service	Historic Bicycle Sales
+Field Trip Store	Historic Bicycle Sales
+Field Trip Store	Honest Repair Service
+Fun Toys and Bikes	Great Bikes 
+Finish and Sealant Products	Designer Department Stores
+Fun Times Club	Futuristic Sport Distributors
+Big-Time Bike Store	Futuristic Sport Distributors
+Big-Time Bike Store	Fun Times Club
+Friendly Neighborhood Bikes	The Showroom
+Curbside Sporting Goods	Prosperous Tours
+Remote Bicycle Specialists	Prosperous Tours
+Finer Parts Shop	Nonskid Tire Company
+Variety Cycling	Nonskid Tire Company
+Variety Cycling	Finer Parts Shop
+Remote Bicycle Specialists	Curbside Sporting Goods
+Mountain Toy Store	Some Discount Store
+Synthetic Materials Manufacturing	Area Sheet Metal Supply
+Safe Toys	Area Sheet Metal Supply
+General Cycle Storehouse	Area Sheet Metal Supply
+Safe Toys	Synthetic Materials Manufacturing
+General Cycle Storehouse	Synthetic Materials Manufacturing
+Professional Containers and Packaging Co.	Riders Company
+General Cycle Storehouse	Safe Toys
+Cycling Goods	Our Sporting Goods Store
+Hardware Components	Our Sporting Goods Store
+Hardware Components	Cycling Goods
+Transport Bikes	Cycle Clearance
+Efficient Cycling	Cycle Clearance
+Outstanding Cycles	Coho Sports
+Gift and Toy Store	Coho Sports
+Efficient Cycling	Transport Bikes
+Gift and Toy Store	Outstanding Cycles
+Small Bike Shop	Sports Store
+Authentic Sales and Service	Sports Store
+First Bike Store	Sports Store
+Contoso, Ltd.	Sports Store
+Utilitarian Sporting Goods	Sports Store
+Countryside Company	Sports Store
+Discount Tours	Sports Store
+Convenient Sales and Service	Extended Tours
+Authentic Sales and Service	Small Bike Shop
+First Bike Store	Small Bike Shop
+Contoso, Ltd.	Small Bike Shop
+Utilitarian Sporting Goods	Small Bike Shop
+Countryside Company	Small Bike Shop
+Discount Tours	Small Bike Shop
+First Bike Store	Authentic Sales and Service
+Contoso, Ltd.	Authentic Sales and Service
+Utilitarian Sporting Goods	Authentic Sales and Service
+Countryside Company	Authentic Sales and Service
+Discount Tours	Authentic Sales and Service
+Contoso, Ltd.	First Bike Store
+Utilitarian Sporting Goods	First Bike Store
+Countryside Company	First Bike Store
+Discount Tours	First Bike Store
+Utilitarian Sporting Goods	Contoso, Ltd.
+Countryside Company	Contoso, Ltd.
+Discount Tours	Contoso, Ltd.
+Countryside Company	Utilitarian Sporting Goods
+Discount Tours	Utilitarian Sporting Goods
+Discount Tours	Countryside Company
+
+EXEC Query12;
+
+7
+
+EXEC Query13 @SupplierID = 25;
+
+6729,70
+
+EXEC Query14
+
+25	6729,70
+448	201716,40
+502	102031,70
+582	76330,90
+609	5948,30
+649	28168,20
+674	6884,30
+
+EXEC Query15 @SupplierID = 25;
+
+Yellow
+Silver
+

@@ -1,0 +1,3958 @@
+<ROOT>
+<Customer>
+  <CustomerID>1</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Orlando</FirstName>
+  <LastName>Gee</LastName>
+  <CompanyName>A Bike Store</CompanyName>
+  <EmailAddress>orlando0@adventure-works.com</EmailAddress>
+  <Phone>245-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>2</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Keith</FirstName>
+  <LastName>Harris</LastName>
+  <CompanyName>Progressive Sports</CompanyName>
+  <EmailAddress>keith0@adventure-works.com</EmailAddress>
+  <Phone>170-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>3</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Donna</FirstName>
+  <LastName>Carreras</LastName>
+  <CompanyName>Advanced Bike Components</CompanyName>
+  <EmailAddress>donna0@adventure-works.com</EmailAddress>
+  <Phone>279-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>4</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Janet</FirstName>
+  <LastName>Gates</LastName>
+  <CompanyName>Modular Cycle Systems</CompanyName>
+  <EmailAddress>janet1@adventure-works.com</EmailAddress>
+  <Phone>710-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>5</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Lucy</FirstName>
+  <LastName>Harrington</LastName>
+  <CompanyName>Metropolitan Sports Supply</CompanyName>
+  <EmailAddress>lucy0@adventure-works.com</EmailAddress>
+  <Phone>828-555-0186</Phone>
+</Customer>
+<Customer>
+  <CustomerID>6</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Rosmarie</FirstName>
+  <LastName>Carroll</LastName>
+  <CompanyName>Aerobic Exercise Company</CompanyName>
+  <EmailAddress>rosmarie0@adventure-works.com</EmailAddress>
+  <Phone>244-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>7</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Dominic</FirstName>
+  <LastName>Gash</LastName>
+  <CompanyName>Associated Bikes</CompanyName>
+  <EmailAddress>dominic0@adventure-works.com</EmailAddress>
+  <Phone>192-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>10</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kathleen</FirstName>
+  <LastName>Garza</LastName>
+  <CompanyName>Rural Cycle Emporium</CompanyName>
+  <EmailAddress>kathleen0@adventure-works.com</EmailAddress>
+  <Phone>150-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>11</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Katherine</FirstName>
+  <LastName>Harding</LastName>
+  <CompanyName>Sharp Bikes</CompanyName>
+  <EmailAddress>katherine0@adventure-works.com</EmailAddress>
+  <Phone>926-555-0159</Phone>
+</Customer>
+<Customer>
+  <CustomerID>12</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Johnny</FirstName>
+  <LastName>Caprio</LastName>
+  <CompanyName>Bikes and Motorbikes</CompanyName>
+  <EmailAddress>johnny0@adventure-works.com</EmailAddress>
+  <Phone>112-555-0191</Phone>
+</Customer>
+<Customer>
+  <CustomerID>16</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Christopher</FirstName>
+  <LastName>Beck</LastName>
+  <CompanyName>Bulk Discount Store</CompanyName>
+  <EmailAddress>christopher1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>18</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Liu</LastName>
+  <CompanyName>Catalog Store</CompanyName>
+  <EmailAddress>david20@adventure-works.com</EmailAddress>
+  <Phone>440-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>19</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Beaver</LastName>
+  <CompanyName>Center Cycle Shop</CompanyName>
+  <EmailAddress>john8@adventure-works.com</EmailAddress>
+  <Phone>521-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>20</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jean</FirstName>
+  <LastName>Handley</LastName>
+  <CompanyName>Central Discount Store</CompanyName>
+  <EmailAddress>jean1@adventure-works.com</EmailAddress>
+  <Phone>582-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>21</CustomerID>
+  <FirstName>Jinghao</FirstName>
+  <LastName>Liu</LastName>
+  <CompanyName>Chic Department Stores</CompanyName>
+  <EmailAddress>jinghao1@adventure-works.com</EmailAddress>
+  <Phone>928-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>22</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Linda</FirstName>
+  <LastName>Burnett</LastName>
+  <CompanyName>Travel Systems</CompanyName>
+  <EmailAddress>linda4@adventure-works.com</EmailAddress>
+  <Phone>121-555-0121</Phone>
+</Customer>
+<Customer>
+  <CustomerID>23</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Kerim</FirstName>
+  <LastName>Hanif</LastName>
+  <CompanyName>Bike World</CompanyName>
+  <EmailAddress>kerim0@adventure-works.com</EmailAddress>
+  <Phone>216-555-0122</Phone>
+</Customer>
+<Customer>
+  <CustomerID>24</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Kevin</FirstName>
+  <LastName>Liu</LastName>
+  <CompanyName>Eastside Department Store</CompanyName>
+  <EmailAddress>kevin5@adventure-works.com</EmailAddress>
+  <Phone>926-555-0164</Phone>
+</Customer>
+<Customer>
+  <CustomerID>25</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Donald</FirstName>
+  <LastName>Blanton</LastName>
+  <CompanyName>Coalition Bike Company</CompanyName>
+  <EmailAddress>donald0@adventure-works.com</EmailAddress>
+  <Phone>357-555-0161</Phone>
+</Customer>
+<Customer>
+  <CustomerID>28</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jackie</FirstName>
+  <LastName>Blackwell</LastName>
+  <CompanyName>Commuter Bicycle Store</CompanyName>
+  <EmailAddress>jackie0@adventure-works.com</EmailAddress>
+  <Phone>972-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>29</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bryan</FirstName>
+  <LastName>Hamilton</LastName>
+  <CompanyName>Cross-Country Riding Supplies</CompanyName>
+  <EmailAddress>bryan2@adventure-works.com</EmailAddress>
+  <Phone>344-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>30</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Todd</FirstName>
+  <LastName>Logan</LastName>
+  <CompanyName>Cycle Merchants</CompanyName>
+  <EmailAddress>todd0@adventure-works.com</EmailAddress>
+  <Phone>783-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>34</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Barbara</FirstName>
+  <LastName>German</LastName>
+  <CompanyName>Cycles Wholesaler &amp; Mfg.</CompanyName>
+  <EmailAddress>barbara4@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0181</Phone>
+</Customer>
+<Customer>
+  <CustomerID>37</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jim</FirstName>
+  <LastName>Geist</LastName>
+  <CompanyName>Two Bike Shops</CompanyName>
+  <EmailAddress>jim1@adventure-works.com</EmailAddress>
+  <Phone>724-555-0161</Phone>
+</Customer>
+<Customer>
+  <CustomerID>38</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Betty</FirstName>
+  <LastName>Haines</LastName>
+  <CompanyName>Finer Mart</CompanyName>
+  <EmailAddress>betty0@adventure-works.com</EmailAddress>
+  <Phone>867-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>39</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Sharon</FirstName>
+  <LastName>Looney</LastName>
+  <CompanyName>Fitness Hotel</CompanyName>
+  <EmailAddress>sharon2@adventure-works.com</EmailAddress>
+  <Phone>377-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>40</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Darren</FirstName>
+  <LastName>Gehring</LastName>
+  <CompanyName>Journey Sporting Goods</CompanyName>
+  <EmailAddress>darren0@adventure-works.com</EmailAddress>
+  <Phone>417-555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>41</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Erin</FirstName>
+  <LastName>Hagens</LastName>
+  <CompanyName>Distant Inn</CompanyName>
+  <EmailAddress>erin1@adventure-works.com</EmailAddress>
+  <Phone>244-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>42</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jeremy</FirstName>
+  <LastName>Los</LastName>
+  <CompanyName>Healthy Activity Store</CompanyName>
+  <EmailAddress>jeremy0@adventure-works.com</EmailAddress>
+  <Phone>911-555-0165</Phone>
+</Customer>
+<Customer>
+  <CustomerID>43</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Elsa</FirstName>
+  <LastName>Leavitt</LastName>
+  <CompanyName>Frugal Bike Shop</CompanyName>
+  <EmailAddress>elsa0@adventure-works.com</EmailAddress>
+  <Phone>482-555-0174</Phone>
+</Customer>
+<Customer>
+  <CustomerID>46</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Lawrence</LastName>
+  <CompanyName>Gear-Shift Bikes Limited</CompanyName>
+  <EmailAddress>david19@adventure-works.com</EmailAddress>
+  <Phone>653-555-0159</Phone>
+</Customer>
+<Customer>
+  <CustomerID>47</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Hattie</FirstName>
+  <LastName>Haemon</LastName>
+  <CompanyName>Greater Bike Store</CompanyName>
+  <EmailAddress>hattie0@adventure-works.com</EmailAddress>
+  <Phone>141-555-0172</Phone>
+</Customer>
+<Customer>
+  <CustomerID>48</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Anita</FirstName>
+  <LastName>Lucerne</LastName>
+  <CompanyName>Grand Industries</CompanyName>
+  <EmailAddress>anita0@adventure-works.com</EmailAddress>
+  <Phone>164-555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>52</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Rebecca</FirstName>
+  <LastName>Laszlo</LastName>
+  <CompanyName>Instruments and Parts Company</CompanyName>
+  <EmailAddress>rebecca2@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>55</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eric</FirstName>
+  <LastName>Lang</LastName>
+  <CompanyName>Kickstands and Accessories Company</CompanyName>
+  <EmailAddress>eric6@adventure-works.com</EmailAddress>
+  <Phone>932-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>56</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Brian</FirstName>
+  <LastName>Groth</LastName>
+  <CompanyName>Latest Accessories Sales</CompanyName>
+  <EmailAddress>brian5@adventure-works.com</EmailAddress>
+  <Phone>461-555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>57</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Judy</FirstName>
+  <LastName>Lundahl</LastName>
+  <CompanyName>Leading Sales &amp; Repair</CompanyName>
+  <EmailAddress>judy1@adventure-works.com</EmailAddress>
+  <Phone>260-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>58</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Peter</FirstName>
+  <LastName>Kurniawan</LastName>
+  <CompanyName>Largest Bike Store</CompanyName>
+  <EmailAddress>peter4@adventure-works.com</EmailAddress>
+  <Phone>436-555-0160</Phone>
+</Customer>
+<Customer>
+  <CustomerID>59</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Douglas</FirstName>
+  <LastName>Groncki</LastName>
+  <CompanyName>Locks Company</CompanyName>
+  <EmailAddress>douglas2@adventure-works.com</EmailAddress>
+  <Phone>385-555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>60</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sean</FirstName>
+  <LastName>Lunt</LastName>
+  <CompanyName>Main Bicycle Services</CompanyName>
+  <EmailAddress>sean4@adventure-works.com</EmailAddress>
+  <Phone>183-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>61</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jeffrey</FirstName>
+  <LastName>Kurtz</LastName>
+  <CompanyName>Many Bikes Store</CompanyName>
+  <EmailAddress>jeffrey3@adventure-works.com</EmailAddress>
+  <Phone>452-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>64</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Vamsi</FirstName>
+  <LastName>Kuppa</LastName>
+  <CompanyName>Metal Clearing House</CompanyName>
+  <EmailAddress>vamsi1@adventure-works.com</EmailAddress>
+  <Phone>290-555-0196</Phone>
+</Customer>
+<Customer>
+  <CustomerID>65</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jane</FirstName>
+  <LastName>Greer</LastName>
+  <CompanyName>Metro Manufacturing</CompanyName>
+  <EmailAddress>jane2@adventure-works.com</EmailAddress>
+  <Phone>737-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>66</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Alexander</FirstName>
+  <LastName>Deborde</LastName>
+  <CompanyName>Neighborhood Store</CompanyName>
+  <EmailAddress>alexander1@adventure-works.com</EmailAddress>
+  <Phone>394-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>70</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Deepak</FirstName>
+  <LastName>Kumar</LastName>
+  <CompanyName>Outdoor Aerobic Systems Company</CompanyName>
+  <EmailAddress>deepak0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0122</Phone>
+</Customer>
+<Customer>
+  <CustomerID>73</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Margaret</FirstName>
+  <LastName>Krupka</LastName>
+  <CompanyName>Outdoor Sports Supply</CompanyName>
+  <EmailAddress>margaret1@adventure-works.com</EmailAddress>
+  <Phone>107-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>74</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Christopher</FirstName>
+  <LastName>Bright</LastName>
+  <CompanyName>Parcel Express Delivery Service</CompanyName>
+  <EmailAddress>christopher2@adventure-works.com</EmailAddress>
+  <Phone>162-555-0166</Phone>
+</Customer>
+<Customer>
+  <CustomerID>75</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Aidan</FirstName>
+  <LastName>Delaney</LastName>
+  <CompanyName>Paint Supply</CompanyName>
+  <EmailAddress>aidan0@adventure-works.com</EmailAddress>
+  <Phone>358-555-0188</Phone>
+</Customer>
+<Customer>
+  <CustomerID>76</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>Krow</LastName>
+  <CompanyName>Out-of-the-Way Hotels</CompanyName>
+  <EmailAddress>james11@adventure-works.com</EmailAddress>
+  <Phone>265-555-0190</Phone>
+</Customer>
+<Customer>
+  <CustomerID>77</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Brundage</LastName>
+  <CompanyName>Mechanical Products Ltd.</CompanyName>
+  <EmailAddress>michael13@adventure-works.com</EmailAddress>
+  <Phone>128-555-0148</Phone>
+</Customer>
+<Customer>
+  <CustomerID>78</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stefan</FirstName>
+  <LastName>Delmarco</LastName>
+  <CompanyName>Preferred Bikes</CompanyName>
+  <EmailAddress>stefan0@adventure-works.com</EmailAddress>
+  <Phone>819-555-0186</Phone>
+</Customer>
+<Customer>
+  <CustomerID>79</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mitch</FirstName>
+  <LastName>Kennedy</LastName>
+  <CompanyName>Reasonable Bicycle Sales</CompanyName>
+  <EmailAddress>mitch0@adventure-works.com</EmailAddress>
+  <Phone>996-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>82</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>Kramer</LastName>
+  <CompanyName>Refined Department Stores</CompanyName>
+  <EmailAddress>james10@adventure-works.com</EmailAddress>
+  <Phone>814-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>83</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eric</FirstName>
+  <LastName>Brumfield</LastName>
+  <CompanyName>Requisite Part Supply</CompanyName>
+  <EmailAddress>eric3@adventure-works.com</EmailAddress>
+  <Phone>644-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>84</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Della</FirstName>
+  <LastName>Demott Jr</LastName>
+  <CompanyName>Rewarding Activities Company</CompanyName>
+  <EmailAddress>della0@adventure-works.com</EmailAddress>
+  <Phone>752-555-0185</Phone>
+</Customer>
+<Customer>
+  <CustomerID>88</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Pamala</FirstName>
+  <LastName>Kotc</LastName>
+  <CompanyName>Closest Bicycle Store</CompanyName>
+  <EmailAddress>pamala0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>91</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Joy</FirstName>
+  <LastName>Koski</LastName>
+  <CompanyName>Scooters and Bikes Store</CompanyName>
+  <EmailAddress>joy0@adventure-works.com</EmailAddress>
+  <Phone>810-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>92</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jovita</FirstName>
+  <LastName>Carmody</LastName>
+  <CompanyName>Sports Commodities</CompanyName>
+  <EmailAddress>jovita0@adventure-works.com</EmailAddress>
+  <Phone>646-555-0137</Phone>
+</Customer>
+<Customer>
+  <CustomerID>93</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Prashanth</FirstName>
+  <LastName>Desai</LastName>
+  <CompanyName>Stationary Bikes and Stands</CompanyName>
+  <EmailAddress>prashanth0@adventure-works.com</EmailAddress>
+  <Phone>138-555-0156</Phone>
+</Customer>
+<Customer>
+  <CustomerID>94</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>Konersmann</LastName>
+  <CompanyName>Specialty Sports Store</CompanyName>
+  <EmailAddress>scott6@adventure-works.com</EmailAddress>
+  <Phone>556-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>95</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jane</FirstName>
+  <LastName>Carmichael</LastName>
+  <CompanyName>Rural Department Store</CompanyName>
+  <EmailAddress>jane0@adventure-works.com</EmailAddress>
+  <Phone>716-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>96</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Bonnie</FirstName>
+  <LastName>Lepro</LastName>
+  <CompanyName>More Bikes!</CompanyName>
+  <EmailAddress>bonnie2@adventure-works.com</EmailAddress>
+  <Phone>354-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>97</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eugene</FirstName>
+  <LastName>Kogan</LastName>
+  <CompanyName>Mountain Bike Center</CompanyName>
+  <EmailAddress>eugene2@adventure-works.com</EmailAddress>
+  <Phone>136-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>100</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Kirk</FirstName>
+  <LastName>King</LastName>
+  <CompanyName>Up-To-Date Sports</CompanyName>
+  <EmailAddress>kirk2@adventure-works.com</EmailAddress>
+  <Phone>979-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>101</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>William</FirstName>
+  <LastName>Conner</LastName>
+  <CompanyName>Urban Sports Emporium</CompanyName>
+  <EmailAddress>william1@adventure-works.com</EmailAddress>
+  <Phone>383-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>102</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Linda</FirstName>
+  <LastName>Leste</LastName>
+  <CompanyName>National Manufacturing</CompanyName>
+  <EmailAddress>linda7@adventure-works.com</EmailAddress>
+  <Phone>493-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>106</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Andrea</FirstName>
+  <LastName>Thomsen</LastName>
+  <CompanyName>West Side Mart</CompanyName>
+  <EmailAddress>andrea1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>109</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Daniel</FirstName>
+  <LastName>Thompson</LastName>
+  <CompanyName>Travel Sports</CompanyName>
+  <EmailAddress>daniel2@adventure-works.com</EmailAddress>
+  <Phone>247-555-0197</Phone>
+</Customer>
+<Customer>
+  <CustomerID>110</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kendra</FirstName>
+  <LastName>Thompson</LastName>
+  <CompanyName>Vintage Sport Boutique</CompanyName>
+  <EmailAddress>kendra0@adventure-works.com</EmailAddress>
+  <Phone>464-555-0188</Phone>
+</Customer>
+<Customer>
+  <CustomerID>111</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>Colvin</LastName>
+  <CompanyName>Westside Cycle Store</CompanyName>
+  <EmailAddress>scott1@adventure-works.com</EmailAddress>
+  <Phone>119-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>112</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Elsie</FirstName>
+  <LastName>Lewin</LastName>
+  <CompanyName>Town Industries</CompanyName>
+  <EmailAddress>elsie0@adventure-works.com</EmailAddress>
+  <Phone>803-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>113</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Donald</FirstName>
+  <LastName>Thompson</LastName>
+  <CompanyName>Trendy Department Stores</CompanyName>
+  <EmailAddress>donald1@adventure-works.com</EmailAddress>
+  <Phone>273-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>114</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Colon</LastName>
+  <CompanyName>Two Wheels Cycle Store</CompanyName>
+  <EmailAddress>john14@adventure-works.com</EmailAddress>
+  <Phone>397-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>115</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>George</FirstName>
+  <LastName>Li</LastName>
+  <CompanyName>Security Racks and Locks Wholesalers</CompanyName>
+  <EmailAddress>george3@adventure-works.com</EmailAddress>
+  <Phone>699-555-0183</Phone>
+</Customer>
+<Customer>
+  <CustomerID>118</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Yale</FirstName>
+  <LastName>Li</LastName>
+  <CompanyName>Rapid Bikes</CompanyName>
+  <EmailAddress>yale0@adventure-works.com</EmailAddress>
+  <Phone>316-555-0138</Phone>
+</Customer>
+<Customer>
+  <CustomerID>119</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Phyllis</FirstName>
+  <LastName>Thomas</LastName>
+  <CompanyName>Red Bicycle Company</CompanyName>
+  <EmailAddress>phyllis2@adventure-works.com</EmailAddress>
+  <Phone>667-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>120</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Pat</FirstName>
+  <LastName>Coleman</LastName>
+  <CompanyName>Machines &amp; Cycles Store</CompanyName>
+  <EmailAddress>pat2@adventure-works.com</EmailAddress>
+  <Phone>292-555-0128</Phone>
+</Customer>
+<Customer>
+  <CustomerID>124</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Yuhong</FirstName>
+  <LastName>Li</LastName>
+  <CompanyName>Nearby Sporting Goods</CompanyName>
+  <EmailAddress>yuhong1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>127</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Joseph</FirstName>
+  <LastName>Lique</LastName>
+  <CompanyName>Front Sporting Goods</CompanyName>
+  <EmailAddress>joseph2@adventure-works.com</EmailAddress>
+  <Phone>119-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>128</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Judy</FirstName>
+  <LastName>Thames</LastName>
+  <CompanyName>Demand Distributors</CompanyName>
+  <EmailAddress>judy3@adventure-works.com</EmailAddress>
+  <Phone>799-555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>129</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Connie</FirstName>
+  <LastName>Coffman</LastName>
+  <CompanyName>Discount Bicycle Specialists</CompanyName>
+  <EmailAddress>connie0@adventure-works.com</EmailAddress>
+  <Phone>426-555-0181</Phone>
+</Customer>
+<Customer>
+  <CustomerID>130</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Paulo</FirstName>
+  <LastName>Lisboa</LastName>
+  <CompanyName>Elite Bikes</CompanyName>
+  <EmailAddress>paulo0@adventure-works.com</EmailAddress>
+  <Phone>380-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>131</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Vanessa</FirstName>
+  <LastName>Tench</LastName>
+  <CompanyName>Eighth Bike Store</CompanyName>
+  <EmailAddress>vanessa0@adventure-works.com</EmailAddress>
+  <Phone>785-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>132</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Teanna</FirstName>
+  <LastName>Cobb</LastName>
+  <CompanyName>Another Sporting Goods Company</CompanyName>
+  <EmailAddress>teanna0@adventure-works.com</EmailAddress>
+  <Phone>661-555-0168</Phone>
+</Customer>
+<Customer>
+  <CustomerID>133</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Graff</LastName>
+  <CompanyName>Commercial Sporting Goods</CompanyName>
+  <EmailAddress>michael16@adventure-works.com</EmailAddress>
+  <Phone>132-555-0150</Phone>
+</Customer>
+<Customer>
+  <CustomerID>136</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Derek</FirstName>
+  <LastName>Graham</LastName>
+  <CompanyName>Wholesale Parts</CompanyName>
+  <EmailAddress>derek0@adventure-works.com</EmailAddress>
+  <Phone>674-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>137</CustomerID>
+  <FirstName>Gytis</FirstName>
+  <LastName>Barzdukas</LastName>
+  <CompanyName>Transportation Options</CompanyName>
+  <EmailAddress>gytis0@adventure-works.com</EmailAddress>
+  <Phone>257-555-0119</Phone>
+</Customer>
+<Customer>
+  <CustomerID>138</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jane</FirstName>
+  <LastName>Clayton</LastName>
+  <CompanyName>South Bike Company</CompanyName>
+  <EmailAddress>jane1@adventure-works.com</EmailAddress>
+  <Phone>206-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>142</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jon</FirstName>
+  <LastName>Grande</LastName>
+  <CompanyName>Riding Cycles</CompanyName>
+  <EmailAddress>jon1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>145</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ted</FirstName>
+  <LastName>Bremer</LastName>
+  <CompanyName>Raw Materials Inc</CompanyName>
+  <EmailAddress>ted0@adventure-works.com</EmailAddress>
+  <Phone>962-555-0166</Phone>
+</Customer>
+<Customer>
+  <CustomerID>146</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Richard</FirstName>
+  <LastName>Bready</LastName>
+  <CompanyName>Latest Sports Equipment</CompanyName>
+  <EmailAddress>richard1@adventure-works.com</EmailAddress>
+  <Phone>340-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>147</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Alice</FirstName>
+  <LastName>Clark</LastName>
+  <CompanyName>Local Hardware Factory</CompanyName>
+  <EmailAddress>alice1@adventure-works.com</EmailAddress>
+  <Phone>221-555-0141</Phone>
+</Customer>
+<Customer>
+  <CustomerID>148</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Alan</FirstName>
+  <LastName>Brewer</LastName>
+  <CompanyName>Lots of Bikes Storehouse</CompanyName>
+  <EmailAddress>alan1@adventure-works.com</EmailAddress>
+  <Phone>494-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>149</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Cornelius</FirstName>
+  <LastName>Brandon</LastName>
+  <CompanyName>Initial Bike Company</CompanyName>
+  <EmailAddress>cornelius0@adventure-works.com</EmailAddress>
+  <Phone>229-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>150</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jill</FirstName>
+  <LastName>Christie</LastName>
+  <CompanyName>Fleet Bikes</CompanyName>
+  <EmailAddress>jill1@adventure-works.com</EmailAddress>
+  <Phone>927-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>151</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Walter</FirstName>
+  <LastName>Brian</LastName>
+  <CompanyName>Futuristic Bikes</CompanyName>
+  <EmailAddress>walter0@adventure-works.com</EmailAddress>
+  <Phone>163-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>154</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Carlton</FirstName>
+  <LastName>Carlisle</LastName>
+  <CompanyName>Camping and Sports Store</CompanyName>
+  <EmailAddress>carlton0@adventure-works.com</EmailAddress>
+  <Phone>193-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>155</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Joseph</FirstName>
+  <LastName>Castellucio</LastName>
+  <CompanyName>Corner Bicycle Supply</CompanyName>
+  <EmailAddress>joseph1@adventure-works.com</EmailAddress>
+  <Phone>180-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>156</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Lester</FirstName>
+  <LastName>Bowman</LastName>
+  <CompanyName>Metal Processing Company</CompanyName>
+  <EmailAddress>lester0@adventure-works.com</EmailAddress>
+  <Phone>844-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>160</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Brigid</FirstName>
+  <LastName>Cavendish</LastName>
+  <CompanyName>Vigorous Sports Store</CompanyName>
+  <EmailAddress>brigid0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0178</Phone>
+</Customer>
+<Customer>
+  <CustomerID>163</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Andrew</FirstName>
+  <LastName>Cencini</LastName>
+  <CompanyName>Sports Merchandise</CompanyName>
+  <EmailAddress>andrew2@adventure-works.com</EmailAddress>
+  <Phone>644-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>164</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Cindy</FirstName>
+  <LastName>Dodd</LastName>
+  <CompanyName>Suburban Cycle Shop</CompanyName>
+  <EmailAddress>cindy0@adventure-works.com</EmailAddress>
+  <Phone>706-555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>165</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Randall</FirstName>
+  <LastName>Boseman</LastName>
+  <CompanyName>Third Bike Store</CompanyName>
+  <EmailAddress>randall0@adventure-works.com</EmailAddress>
+  <Phone>383-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>166</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Stacey</FirstName>
+  <LastName>Cereghino</LastName>
+  <CompanyName>Fitness Toy Store</CompanyName>
+  <EmailAddress>stacey0@adventure-works.com</EmailAddress>
+  <Phone>351-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>167</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Blaine</FirstName>
+  <LastName>Dockter</LastName>
+  <CompanyName>Farthermost Bike Shop</CompanyName>
+  <EmailAddress>blaine0@adventure-works.com</EmailAddress>
+  <Phone>156-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>168</CustomerID>
+  <Title>Sr.</Title>
+  <FirstName>Luis</FirstName>
+  <LastName>Bonifaz</LastName>
+  <CompanyName>Economy Bikes Company</CompanyName>
+  <EmailAddress>luis0@adventure-works.com</EmailAddress>
+  <Phone>688-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>169</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Brenda</FirstName>
+  <LastName>Diaz</LastName>
+  <CompanyName>Downtown Hotel</CompanyName>
+  <EmailAddress>brenda2@adventure-works.com</EmailAddress>
+  <Phone>147-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>172</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Gabriele</FirstName>
+  <LastName>Dickmann</LastName>
+  <CompanyName>Certified Sports Supply</CompanyName>
+  <EmailAddress>gabriele0@adventure-works.com</EmailAddress>
+  <Phone>835-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>173</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Rudolph</FirstName>
+  <LastName>Dillon</LastName>
+  <CompanyName>Sundry Sporting Goods</CompanyName>
+  <EmailAddress>rudolph0@adventure-works.com</EmailAddress>
+  <Phone>722-555-0169</Phone>
+</Customer>
+<Customer>
+  <CustomerID>174</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Bohling</LastName>
+  <CompanyName>Toy Manufacturing Inc</CompanyName>
+  <EmailAddress>michael12@adventure-works.com</EmailAddress>
+  <Phone>838-555-0147</Phone>
+</Customer>
+<Customer>
+  <CustomerID>178</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Dick</FirstName>
+  <LastName>Dievendorff</LastName>
+  <CompanyName>Rampart Amusement Company</CompanyName>
+  <EmailAddress>dick1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0193</Phone>
+</Customer>
+<Customer>
+  <CustomerID>180</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Nicky</FirstName>
+  <LastName>Chesnut</LastName>
+  <CompanyName>Full-Service Bike Store</CompanyName>
+  <EmailAddress>nicky0@adventure-works.com</EmailAddress>
+  <Phone>264-555-0164</Phone>
+</Customer>
+<Customer>
+  <CustomerID>181</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Lee</LastName>
+  <CompanyName>Family Entertainment Center</CompanyName>
+  <EmailAddress>michael18@adventure-works.com</EmailAddress>
+  <Phone>396-555-0139</Phone>
+</Customer>
+<Customer>
+  <CustomerID>182</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stanley</FirstName>
+  <LastName>Alan</LastName>
+  <CompanyName>Another Bicycle Company</CompanyName>
+  <EmailAddress>stanley0@adventure-works.com</EmailAddress>
+  <Phone>156-555-0126</Phone>
+</Customer>
+<Customer>
+  <CustomerID>183</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Yao-Qiang</FirstName>
+  <LastName>Cheng</LastName>
+  <CompanyName>This Area Sporting Goods</CompanyName>
+  <EmailAddress>yao-qiang0@adventure-works.com</EmailAddress>
+  <Phone>344-555-0181</Phone>
+</Customer>
+<Customer>
+  <CustomerID>184</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Marjorie</FirstName>
+  <LastName>Lee</LastName>
+  <CompanyName>Go-cart and Bike Specialists</CompanyName>
+  <EmailAddress>marjorie0@adventure-works.com</EmailAddress>
+  <Phone>306-555-0166</Phone>
+</Customer>
+<Customer>
+  <CustomerID>185</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sandeep</FirstName>
+  <LastName>Kaliyath</LastName>
+  <CompanyName>Weekend Bike Tours</CompanyName>
+  <EmailAddress>sandeep1@adventure-works.com</EmailAddress>
+  <Phone>495-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>186</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Pei</FirstName>
+  <LastName>Chow</LastName>
+  <CompanyName>Thrilling Bike Tours</CompanyName>
+  <EmailAddress>pei0@adventure-works.com</EmailAddress>
+  <Phone>789-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>187</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Frank</FirstName>
+  <LastName>Campbell</LastName>
+  <CompanyName>Trailblazing Sports</CompanyName>
+  <EmailAddress>frank4@adventure-works.com</EmailAddress>
+  <Phone>491-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>190</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mark</FirstName>
+  <LastName>Lee</LastName>
+  <CompanyName>Racing Partners</CompanyName>
+  <EmailAddress>mark5@adventure-works.com</EmailAddress>
+  <Phone>371-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>191</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Sandra</FirstName>
+  <LastName>Kitt</LastName>
+  <CompanyName>Non-Slip Pedal Company</CompanyName>
+  <EmailAddress>sandra2@adventure-works.com</EmailAddress>
+  <Phone>303-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>192</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Hao</FirstName>
+  <LastName>Chen</LastName>
+  <CompanyName>Nuts and Bolts Mfg.</CompanyName>
+  <EmailAddress>hao1@adventure-works.com</EmailAddress>
+  <Phone>117-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>196</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jolie</FirstName>
+  <LastName>Lenehan</LastName>
+  <CompanyName>Exhibition Showroom</CompanyName>
+  <EmailAddress>jolie0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0126</Phone>
+</Customer>
+<Customer>
+  <CustomerID>197</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Diane</FirstName>
+  <LastName>Krane</LastName>
+  <CompanyName>Fabrikam Inc., West</CompanyName>
+  <EmailAddress>diane4@adventure-works.com</EmailAddress>
+  <Phone>224-555-0126</Phone>
+</Customer>
+<Customer>
+  <CustomerID>198</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Payton</FirstName>
+  <LastName>Benson</LastName>
+  <CompanyName>Field Trip Inc</CompanyName>
+  <EmailAddress>payton0@adventure-works.com</EmailAddress>
+  <Phone>528-555-0183</Phone>
+</Customer>
+<Customer>
+  <CustomerID>199</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Roger</FirstName>
+  <LastName>Lengel</LastName>
+  <CompanyName>Authorized Bike Sales and Rental</CompanyName>
+  <EmailAddress>roger1@adventure-works.com</EmailAddress>
+  <Phone>947-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>200</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Peggy</FirstName>
+  <LastName>Justice</LastName>
+  <CompanyName>Basic Bike Company</CompanyName>
+  <EmailAddress>peggy0@adventure-works.com</EmailAddress>
+  <Phone>170-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>201</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Edna</FirstName>
+  <LastName>Benson</LastName>
+  <CompanyName>Unsurpassed Bikes</CompanyName>
+  <EmailAddress>edna0@adventure-works.com</EmailAddress>
+  <Phone>789-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>202</CustomerID>
+  <FirstName>A.</FirstName>
+  <LastName>Leonetti</LastName>
+  <CompanyName>Two-Seater Bikes</CompanyName>
+  <EmailAddress>a0@adventure-works.com</EmailAddress>
+  <Phone>645-555-0193</Phone>
+</Customer>
+<Customer>
+  <CustomerID>203</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jean</FirstName>
+  <LastName>Jordan</LastName>
+  <CompanyName>Separate Parts Corporation</CompanyName>
+  <EmailAddress>jean3@adventure-works.com</EmailAddress>
+  <Phone>207-555-0129</Phone>
+</Customer>
+<Customer>
+  <CustomerID>204</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ido</FirstName>
+  <LastName>Ben-Sachar</LastName>
+  <CompanyName>Traction Tire Company</CompanyName>
+  <EmailAddress>ido0@adventure-works.com</EmailAddress>
+  <Phone>973-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>205</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Frank</FirstName>
+  <LastName>Mart?nez</LastName>
+  <CompanyName>Rally Master Company Inc</CompanyName>
+  <EmailAddress>frank5@adventure-works.com</EmailAddress>
+  <Phone>171-555-0147</Phone>
+</Customer>
+<Customer>
+  <CustomerID>208</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Steve</FirstName>
+  <LastName>Masters</LastName>
+  <CompanyName>Professional Cyclists</CompanyName>
+  <EmailAddress>steve2@adventure-works.com</EmailAddress>
+  <Phone>154-555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>209</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Jones</LastName>
+  <CompanyName>Purple Bicycle Company</CompanyName>
+  <EmailAddress>robert6@adventure-works.com</EmailAddress>
+  <Phone>595-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>210</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Josh</FirstName>
+  <LastName>Barnhill</LastName>
+  <CompanyName>Gasless Cycle Shop</CompanyName>
+  <EmailAddress>josh0@adventure-works.com</EmailAddress>
+  <Phone>584-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>214</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jennifer</FirstName>
+  <LastName>Maxham</LastName>
+  <CompanyName>Exclusive Bicycle Mart</CompanyName>
+  <EmailAddress>jennifer1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0175</Phone>
+</Customer>
+<Customer>
+  <CustomerID>217</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Chris</FirstName>
+  <LastName>Maxwell</LastName>
+  <CompanyName>City Manufacturing</CompanyName>
+  <EmailAddress>chris6@adventure-works.com</EmailAddress>
+  <Phone>642-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>218</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Johnson</LastName>
+  <CompanyName>Sure &amp; Reliable Sporting Goods</CompanyName>
+  <EmailAddress>david18@adventure-works.com</EmailAddress>
+  <Phone>476-555-0139</Phone>
+</Customer>
+<Customer>
+  <CustomerID>219</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Brian</FirstName>
+  <LastName>Johnson</LastName>
+  <CompanyName>Extras Sporting Goods</CompanyName>
+  <EmailAddress>brian6@adventure-works.com</EmailAddress>
+  <Phone>320-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>220</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Brown</LastName>
+  <CompanyName>Best o' Bikes</CompanyName>
+  <EmailAddress>robert5@adventure-works.com</EmailAddress>
+  <Phone>575-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>221</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Sandra</FirstName>
+  <LastName>Maynard</LastName>
+  <CompanyName>Bike Dealers Association</CompanyName>
+  <EmailAddress>sandra4@adventure-works.com</EmailAddress>
+  <Phone>993-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>222</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Barry</FirstName>
+  <LastName>Johnson</LastName>
+  <CompanyName>Sample Bike Store</CompanyName>
+  <EmailAddress>barry1@adventure-works.com</EmailAddress>
+  <Phone>858-555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>223</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Joyce</FirstName>
+  <LastName>Jarvis</LastName>
+  <CompanyName>Paints and Solvents Company</CompanyName>
+  <EmailAddress>joyce0@adventure-works.com</EmailAddress>
+  <Phone>458-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>226</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Vance</FirstName>
+  <LastName>Johns</LastName>
+  <CompanyName>Leisure Activities</CompanyName>
+  <EmailAddress>vance0@adventure-works.com</EmailAddress>
+  <Phone>103-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>227</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Robin</FirstName>
+  <LastName>McGuigan</LastName>
+  <CompanyName>Health Spa, Limited</CompanyName>
+  <EmailAddress>robin0@adventure-works.com</EmailAddress>
+  <Phone>431-555-0153</Phone>
+</Customer>
+<Customer>
+  <CustomerID>228</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Danielle</FirstName>
+  <LastName>Johnson</LastName>
+  <CompanyName>Home Town Bike Store</CompanyName>
+  <EmailAddress>danielle1@adventure-works.com</EmailAddress>
+  <Phone>356-555-0190</Phone>
+</Customer>
+<Customer>
+  <CustomerID>232</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Jaffe</LastName>
+  <CompanyName>Exceptional Cycle Services</CompanyName>
+  <EmailAddress>david17@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>235</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mary</FirstName>
+  <LastName>Alexander</LastName>
+  <CompanyName>Certified Bicycle Supply</CompanyName>
+  <EmailAddress>mary7@adventure-works.com</EmailAddress>
+  <Phone>344-555-0133</Phone>
+</Customer>
+<Customer>
+  <CustomerID>236</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Lola</FirstName>
+  <LastName>McCarthy</LastName>
+  <CompanyName>Closeout Boutique</CompanyName>
+  <EmailAddress>lola0@adventure-works.com</EmailAddress>
+  <Phone>173-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>237</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mary</FirstName>
+  <LastName>Browning</LastName>
+  <CompanyName>Client Discount Store</CompanyName>
+  <EmailAddress>mary5@adventure-works.com</EmailAddress>
+  <Phone>658-555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>238</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jodan</FirstName>
+  <LastName>Jacobson</LastName>
+  <CompanyName>A Great Bicycle Company</CompanyName>
+  <EmailAddress>jodan0@adventure-works.com</EmailAddress>
+  <Phone>652-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>239</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jane</FirstName>
+  <LastName>McCarty</LastName>
+  <CompanyName>Bicycle Merchandise Warehouse</CompanyName>
+  <EmailAddress>jane3@adventure-works.com</EmailAddress>
+  <Phone>529-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>240</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jessie</FirstName>
+  <LastName>Valerio</LastName>
+  <CompanyName>Wire Baskets and Parts</CompanyName>
+  <EmailAddress>jessie0@adventure-works.com</EmailAddress>
+  <Phone>103-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>241</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eric</FirstName>
+  <LastName>Jacobsen</LastName>
+  <CompanyName>Vale Riding Supplies</CompanyName>
+  <EmailAddress>eric5@adventure-works.com</EmailAddress>
+  <Phone>703-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>244</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bronson</FirstName>
+  <LastName>Jacobs</LastName>
+  <CompanyName>Retail Discount Store</CompanyName>
+  <EmailAddress>bronson0@adventure-works.com</EmailAddress>
+  <Phone>697-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>245</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>McCoy</LastName>
+  <CompanyName>Leather Seat Factory</CompanyName>
+  <EmailAddress>james12@adventure-works.com</EmailAddress>
+  <Phone>191-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>246</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Esther</FirstName>
+  <LastName>Valle</LastName>
+  <CompanyName>Large Bike Shop</CompanyName>
+  <EmailAddress>esther0@adventure-works.com</EmailAddress>
+  <Phone>481-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>250</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Denean</FirstName>
+  <LastName>Ison</LastName>
+  <CompanyName>Express Bike Services</CompanyName>
+  <EmailAddress>denean0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>253</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Erik</FirstName>
+  <LastName>Ismert</LastName>
+  <CompanyName>Roving Sports</CompanyName>
+  <EmailAddress>erik0@adventure-works.com</EmailAddress>
+  <Phone>116-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>254</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Bernacchi</LastName>
+  <CompanyName>Safe Cycles Shop</CompanyName>
+  <EmailAddress>robert4@adventure-works.com</EmailAddress>
+  <Phone>449-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>255</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sunil</FirstName>
+  <LastName>Uppal</LastName>
+  <CompanyName>Swift Cycles</CompanyName>
+  <EmailAddress>sunil0@adventure-works.com</EmailAddress>
+  <Phone>184-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>256</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Richard</FirstName>
+  <LastName>Irwin</LastName>
+  <CompanyName>Rental Bikes</CompanyName>
+  <EmailAddress>richard4@adventure-works.com</EmailAddress>
+  <Phone>367-555-0124</Phone>
+</Customer>
+<Customer>
+  <CustomerID>257</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Matthias</FirstName>
+  <LastName>Berndt</LastName>
+  <CompanyName>Number 1 Supply</CompanyName>
+  <EmailAddress>matthias1@adventure-works.com</EmailAddress>
+  <Phone>384-555-0169</Phone>
+</Customer>
+<Customer>
+  <CustomerID>258</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sairaj</FirstName>
+  <LastName>Uddin</LastName>
+  <CompanyName>Quantity Discounts</CompanyName>
+  <EmailAddress>sairaj1@adventure-works.com</EmailAddress>
+  <Phone>767-555-0193</Phone>
+</Customer>
+<Customer>
+  <CustomerID>259</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Lucio</FirstName>
+  <LastName>Iallo</LastName>
+  <CompanyName>Highway Bike Shop</CompanyName>
+  <EmailAddress>lucio0@adventure-works.com</EmailAddress>
+  <Phone>199-555-0135</Phone>
+</Customer>
+<Customer>
+  <CustomerID>262</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Beth</FirstName>
+  <LastName>Inghram</LastName>
+  <CompanyName>General Industries</CompanyName>
+  <EmailAddress>beth0@adventure-works.com</EmailAddress>
+  <Phone>718-555-0152</Phone>
+</Customer>
+<Customer>
+  <CustomerID>263</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Timothy</FirstName>
+  <LastName>Burnett</LastName>
+  <CompanyName>Farthest Bike Store</CompanyName>
+  <EmailAddress>timothy0@adventure-works.com</EmailAddress>
+  <Phone>251-555-0172</Phone>
+</Customer>
+<Customer>
+  <CustomerID>264</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Phyllis</FirstName>
+  <LastName>Tuffield</LastName>
+  <CompanyName>Fasteners &amp; Bolts Outlet</CompanyName>
+  <EmailAddress>phyllis3@adventure-works.com</EmailAddress>
+  <Phone>277-555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>268</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Richard</FirstName>
+  <LastName>Byham</LastName>
+  <CompanyName>Channel Outlet</CompanyName>
+  <EmailAddress>richard2@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0138</Phone>
+</Customer>
+<Customer>
+  <CustomerID>271</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jared</FirstName>
+  <LastName>Bustamante</LastName>
+  <CompanyName>Alternative Vehicles</CompanyName>
+  <EmailAddress>jared0@adventure-works.com</EmailAddress>
+  <Phone>164-555-0147</Phone>
+</Customer>
+<Customer>
+  <CustomerID>272</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Henry</FirstName>
+  <LastName>Campen</LastName>
+  <CompanyName>Metro Cycle Shop</CompanyName>
+  <EmailAddress>henry0@adventure-works.com</EmailAddress>
+  <Phone>635-555-0126</Phone>
+</Customer>
+<Customer>
+  <CustomerID>273</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Christie</FirstName>
+  <LastName>Trujillo</LastName>
+  <CompanyName>A Typical Bike Shop</CompanyName>
+  <EmailAddress>christie0@adventure-works.com</EmailAddress>
+  <Phone>686-555-0180</Phone>
+</Customer>
+<Customer>
+  <CustomerID>274</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Janet</FirstName>
+  <LastName>Gilliat</LastName>
+  <CompanyName>Active Systems</CompanyName>
+  <EmailAddress>janet2@adventure-works.com</EmailAddress>
+  <Phone>521-555-0183</Phone>
+</Customer>
+<Customer>
+  <CustomerID>275</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Chris</FirstName>
+  <LastName>Cannon</LastName>
+  <CompanyName>Outdoor Sporting Goods</CompanyName>
+  <EmailAddress>chris5@adventure-works.com</EmailAddress>
+  <Phone>118-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>276</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael John</FirstName>
+  <LastName>Troyer</LastName>
+  <CompanyName>Thrifty Parts and Sales</CompanyName>
+  <EmailAddress>michaeljohn0@adventure-works.com</EmailAddress>
+  <Phone>308-555-0175</Phone>
+</Customer>
+<Customer>
+  <CustomerID>277</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Guy</FirstName>
+  <LastName>Gilbert</LastName>
+  <CompanyName>The Bicycle Accessories Company</CompanyName>
+  <EmailAddress>guy0@adventure-works.com</EmailAddress>
+  <Phone>583-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>280</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Frances</FirstName>
+  <LastName>Giglio</LastName>
+  <CompanyName>Standard Bikes</CompanyName>
+  <EmailAddress>frances1@adventure-works.com</EmailAddress>
+  <Phone>692-555-0136</Phone>
+</Customer>
+<Customer>
+  <CustomerID>281</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Suzana De Abreu</FirstName>
+  <LastName>Canuto</LastName>
+  <CompanyName>Petroleum Products Distributors</CompanyName>
+  <EmailAddress>suzanadeabreu0@adventure-works.com</EmailAddress>
+  <Phone>990-555-0141</Phone>
+</Customer>
+<Customer>
+  <CustomerID>282</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Billy</FirstName>
+  <LastName>Trent</LastName>
+  <CompanyName>Quick Parts and Service</CompanyName>
+  <EmailAddress>billy0@adventure-works.com</EmailAddress>
+  <Phone>882-555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>286</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Leo</FirstName>
+  <LastName>Giakoumakis</LastName>
+  <CompanyName>Number One Bike Co.</CompanyName>
+  <EmailAddress>leo0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0169</Phone>
+</Customer>
+<Customer>
+  <CustomerID>287</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Grant</FirstName>
+  <LastName>Culbertson</LastName>
+  <CompanyName>Handy Bike Services</CompanyName>
+  <EmailAddress>grant1@adventure-works.com</EmailAddress>
+  <Phone>859-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>288</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Barker</LastName>
+  <CompanyName>Kickstand Sellers</CompanyName>
+  <EmailAddress>robert3@adventure-works.com</EmailAddress>
+  <Phone>241-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>289</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Gabriel</FirstName>
+  <LastName>Bockenkamp</LastName>
+  <CompanyName>Moderately-Priced Bikes Store</CompanyName>
+  <EmailAddress>gabriel0@adventure-works.com</EmailAddress>
+  <Phone>763-555-0145</Phone>
+</Customer>
+<Customer>
+  <CustomerID>290</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>Culp</LastName>
+  <CompanyName>Friendly Bike Shop</CompanyName>
+  <EmailAddress>scott3@adventure-works.com</EmailAddress>
+  <Phone>119-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>291</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Wayne</FirstName>
+  <LastName>Banack</LastName>
+  <CompanyName>Grand Bicycle Stores</CompanyName>
+  <EmailAddress>wayne0@adventure-works.com</EmailAddress>
+  <Phone>640-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>292</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Blythe</LastName>
+  <CompanyName>Grease and Oil Products Company</CompanyName>
+  <EmailAddress>michael11@adventure-works.com</EmailAddress>
+  <Phone>126-555-0172</Phone>
+</Customer>
+<Customer>
+  <CustomerID>293</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Conor</FirstName>
+  <LastName>Cunningham</LastName>
+  <CompanyName>Fashionable Bikes and Accessories</CompanyName>
+  <EmailAddress>conor0@adventure-works.com</EmailAddress>
+  <Phone>115-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>294</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Alberto</FirstName>
+  <LastName>Baltazar</LastName>
+  <CompanyName>Flawless Bike Shop</CompanyName>
+  <EmailAddress>alberto0@adventure-works.com</EmailAddress>
+  <Phone>780-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>295</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Joseph</FirstName>
+  <LastName>Mitzner</LastName>
+  <CompanyName>Engineered Bike Systems</CompanyName>
+  <EmailAddress>joseph4@adventure-works.com</EmailAddress>
+  <Phone>129-555-0164</Phone>
+</Customer>
+<Customer>
+  <CustomerID>298</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Mitosinka</LastName>
+  <CompanyName>City Cycling</CompanyName>
+  <EmailAddress>robert10@adventure-works.com</EmailAddress>
+  <Phone>239-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>299</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Thierry</FirstName>
+  <LastName>D'Hers</LastName>
+  <CompanyName>Citywide Service and Repair</CompanyName>
+  <EmailAddress>thierry1@adventure-works.com</EmailAddress>
+  <Phone>680-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>300</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Daniel</FirstName>
+  <LastName>Blanco</LastName>
+  <CompanyName>Nice Bikes</CompanyName>
+  <EmailAddress>daniel0@adventure-works.com</EmailAddress>
+  <Phone>221-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>304</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Linda</FirstName>
+  <LastName>Mitchell</LastName>
+  <CompanyName>Essential Bike Works</CompanyName>
+  <EmailAddress>linda9@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>306</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stephen</FirstName>
+  <LastName>Ayers</LastName>
+  <CompanyName>Work and Play Association</CompanyName>
+  <EmailAddress>stephen1@adventure-works.com</EmailAddress>
+  <Phone>818-555-0171</Phone>
+</Customer>
+<Customer>
+  <CustomerID>307</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Neva</FirstName>
+  <LastName>Mitchell</LastName>
+  <CompanyName>Riding Associates</CompanyName>
+  <EmailAddress>neva0@adventure-works.com</EmailAddress>
+  <Phone>992-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>308</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Megan</FirstName>
+  <LastName>Davis</LastName>
+  <CompanyName>Rugged Bikes</CompanyName>
+  <EmailAddress>megan1@adventure-works.com</EmailAddress>
+  <Phone>839-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>309</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Arthur</LastName>
+  <CompanyName>The Gear Store</CompanyName>
+  <EmailAddress>john6@adventure-works.com</EmailAddress>
+  <Phone>149-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>310</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Frank</FirstName>
+  <LastName>Miller</LastName>
+  <CompanyName>Orange Bicycle Company</CompanyName>
+  <EmailAddress>frank6@adventure-works.com</EmailAddress>
+  <Phone>118-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>311</CustomerID>
+  <Title>Sr.</Title>
+  <FirstName>Alvaro</FirstName>
+  <LastName>De Matos Miranda Filho</LastName>
+  <CompanyName>Principal Bike Company</CompanyName>
+  <EmailAddress>alvaro0@adventure-works.com</EmailAddress>
+  <Phone>551-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>312</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Thomas</FirstName>
+  <LastName>Armstrong</LastName>
+  <CompanyName>Resale Services</CompanyName>
+  <EmailAddress>thomas1@adventure-works.com</EmailAddress>
+  <Phone>226-555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>313</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Dylan</FirstName>
+  <LastName>Miller</LastName>
+  <CompanyName>Metropolitan Manufacturing</CompanyName>
+  <EmailAddress>dylan1@adventure-works.com</EmailAddress>
+  <Phone>140-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>316</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ben</FirstName>
+  <LastName>Miller</LastName>
+  <CompanyName>Low Price Cycles</CompanyName>
+  <EmailAddress>ben1@adventure-works.com</EmailAddress>
+  <Phone>207-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>317</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jacob</FirstName>
+  <LastName>Dean</LastName>
+  <CompanyName>Finer Riding Supplies</CompanyName>
+  <EmailAddress>jacob0@adventure-works.com</EmailAddress>
+  <Phone>767-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>318</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ann</FirstName>
+  <LastName>Beebe</LastName>
+  <CompanyName>First-Rate Outlet</CompanyName>
+  <EmailAddress>ann0@adventure-works.com</EmailAddress>
+  <Phone>277-555-0169</Phone>
+</Customer>
+<Customer>
+  <CustomerID>322</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Matthew</FirstName>
+  <LastName>Miller</LastName>
+  <CompanyName>Tachometers and Accessories</CompanyName>
+  <EmailAddress>matthew5@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>323</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jo</FirstName>
+  <LastName>Brown</LastName>
+  <CompanyName>Metro Bike Works</CompanyName>
+  <EmailAddress>jo2@adventure-works.com</EmailAddress>
+  <Phone>689-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>325</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Virginia</FirstName>
+  <LastName>Miller</LastName>
+  <CompanyName>All Cycle Shop</CompanyName>
+  <EmailAddress>virginia0@adventure-works.com</EmailAddress>
+  <Phone>918-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>326</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>Gode</LastName>
+  <CompanyName>Year-Round Sports</CompanyName>
+  <EmailAddress>scott4@adventure-works.com</EmailAddress>
+  <Phone>164-555-0145</Phone>
+</Customer>
+<Customer>
+  <CustomerID>327</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Caroline</FirstName>
+  <LastName>Vicknair</LastName>
+  <CompanyName>World of Bikes</CompanyName>
+  <EmailAddress>caroline0@adventure-works.com</EmailAddress>
+  <Phone>695-555-0158</Phone>
+</Customer>
+<Customer>
+  <CustomerID>328</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Vessa</LastName>
+  <CompanyName>Totes &amp; Baskets Company</CompanyName>
+  <EmailAddress>robert13@adventure-works.com</EmailAddress>
+  <Phone>560-555-0171</Phone>
+</Customer>
+<Customer>
+  <CustomerID>329</CustomerID>
+  <FirstName>Andreas</FirstName>
+  <LastName>Berglund</LastName>
+  <CompanyName>Unicycles, Bicycles, and Tricycles</CompanyName>
+  <EmailAddress>andreas1@adventure-works.com</EmailAddress>
+  <Phone>795-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>330</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mete</FirstName>
+  <LastName>Goktepe</LastName>
+  <CompanyName>The New Bike Store</CompanyName>
+  <EmailAddress>mete0@adventure-works.com</EmailAddress>
+  <Phone>637-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>331</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Wanda</FirstName>
+  <LastName>Vernon</LastName>
+  <CompanyName>Technical Parts Manufacturing</CompanyName>
+  <EmailAddress>wanda0@adventure-works.com</EmailAddress>
+  <Phone>433-555-0168</Phone>
+</Customer>
+<Customer>
+  <CustomerID>334</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Dora</FirstName>
+  <LastName>Verdad</LastName>
+  <CompanyName>Retreat Inn</CompanyName>
+  <EmailAddress>dora0@adventure-works.com</EmailAddress>
+  <Phone>155-555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>335</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Berger</LastName>
+  <CompanyName>Scratch-Resistant Finishes Company</CompanyName>
+  <EmailAddress>john10@adventure-works.com</EmailAddress>
+  <Phone>156-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>336</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Brian</FirstName>
+  <LastName>Goldstein</LastName>
+  <CompanyName>Primary Bike Distributors</CompanyName>
+  <EmailAddress>brian4@adventure-works.com</EmailAddress>
+  <Phone>495-555-0161</Phone>
+</Customer>
+<Customer>
+  <CustomerID>340</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Raja</FirstName>
+  <LastName>Venugopal</LastName>
+  <CompanyName>Nearby Cycle Shop</CompanyName>
+  <EmailAddress>raja0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>343</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Patricia</FirstName>
+  <LastName>Vasquez</LastName>
+  <CompanyName>Mail-Order Outlet</CompanyName>
+  <EmailAddress>patricia2@adventure-works.com</EmailAddress>
+  <Phone>490-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>344</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Karren</FirstName>
+  <LastName>Burkhardt</LastName>
+  <CompanyName>Fifth Bike Store</CompanyName>
+  <EmailAddress>karren0@adventure-works.com</EmailAddress>
+  <Phone>652-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>345</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Abigail</FirstName>
+  <LastName>Gonzalez</LastName>
+  <CompanyName>Genial Bike Associates</CompanyName>
+  <EmailAddress>abigail0@adventure-works.com</EmailAddress>
+  <Phone>121-555-0139</Phone>
+</Customer>
+<Customer>
+  <CustomerID>346</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ranjit</FirstName>
+  <LastName>Varkey Chudukatil</LastName>
+  <CompanyName>Great Bicycle Supply</CompanyName>
+  <EmailAddress>ranjit1@adventure-works.com</EmailAddress>
+  <Phone>810-555-0160</Phone>
+</Customer>
+<Customer>
+  <CustomerID>347</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ingrid</FirstName>
+  <LastName>Burkhardt</LastName>
+  <CompanyName>Bike Universe</CompanyName>
+  <EmailAddress>ingrid0@adventure-works.com</EmailAddress>
+  <Phone>857-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>348</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Oscar</FirstName>
+  <LastName>Alpuerto</LastName>
+  <CompanyName>Bold Bike Accessories</CompanyName>
+  <EmailAddress>oscar0@adventure-works.com</EmailAddress>
+  <Phone>855-555-0174</Phone>
+</Customer>
+<Customer>
+  <CustomerID>349</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Gary</FirstName>
+  <LastName>Vargas</LastName>
+  <CompanyName>Exercise Center</CompanyName>
+  <EmailAddress>gary6@adventure-works.com</EmailAddress>
+  <Phone>112-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>352</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Shane</FirstName>
+  <LastName>Kim</LastName>
+  <CompanyName>Twelfth Bike Store</CompanyName>
+  <EmailAddress>shane2@adventure-works.com</EmailAddress>
+  <Phone>155-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>353</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Joan</FirstName>
+  <LastName>Campbell</LastName>
+  <CompanyName>Two-Wheeled Transit Company</CompanyName>
+  <EmailAddress>joan0@adventure-works.com</EmailAddress>
+  <Phone>700-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>354</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Maxwell</FirstName>
+  <LastName>Amland</LastName>
+  <CompanyName>Serious Cycles</CompanyName>
+  <EmailAddress>maxwell0@adventure-works.com</EmailAddress>
+  <Phone>614-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>358</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Joe</FirstName>
+  <LastName>Kim</LastName>
+  <CompanyName>Mail Market</CompanyName>
+  <EmailAddress>joe1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>360</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ramona</FirstName>
+  <LastName>Antrim</LastName>
+  <CompanyName>Novelty Bikes</CompanyName>
+  <EmailAddress>ramona0@adventure-works.com</EmailAddress>
+  <Phone>327-555-0148</Phone>
+</Customer>
+<Customer>
+  <CustomerID>361</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Karan</FirstName>
+  <LastName>Khanna</LastName>
+  <CompanyName>Fitness Supplies</CompanyName>
+  <EmailAddress>karan1@adventure-works.com</EmailAddress>
+  <Phone>390-555-0150</Phone>
+</Customer>
+<Customer>
+  <CustomerID>362</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Sharon</FirstName>
+  <LastName>Crow</LastName>
+  <CompanyName>Grand Cycle Store</CompanyName>
+  <EmailAddress>sharon1@adventure-works.com</EmailAddress>
+  <Phone>889-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>363</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Chris</FirstName>
+  <LastName>Ashton</LastName>
+  <CompanyName>Immense Manufacturing Company</CompanyName>
+  <EmailAddress>chris3@adventure-works.com</EmailAddress>
+  <Phone>556-555-0145</Phone>
+</Customer>
+<Customer>
+  <CustomerID>364</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Imtiaz</FirstName>
+  <LastName>Khan</LastName>
+  <CompanyName>District Mall</CompanyName>
+  <EmailAddress>imtiaz0@adventure-works.com</EmailAddress>
+  <Phone>249-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>365</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jack</FirstName>
+  <LastName>Creasey</LastName>
+  <CompanyName>Distinctive Store</CompanyName>
+  <EmailAddress>jack2@adventure-works.com</EmailAddress>
+  <Phone>539-555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>366</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Teresa</FirstName>
+  <LastName>Atkinson</LastName>
+  <CompanyName>Extended Bike Sales</CompanyName>
+  <EmailAddress>teresa0@adventure-works.com</EmailAddress>
+  <Phone>129-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>367</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Tammy</FirstName>
+  <LastName>Khan</LastName>
+  <CompanyName>Brown Bicycle Company</CompanyName>
+  <EmailAddress>tammy0@adventure-works.com</EmailAddress>
+  <Phone>145-555-0166</Phone>
+</Customer>
+<Customer>
+  <CustomerID>370</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Elizabeth</FirstName>
+  <LastName>Keyser</LastName>
+  <CompanyName>Acceptable Sales &amp; Service</CompanyName>
+  <EmailAddress>elizabeth2@adventure-works.com</EmailAddress>
+  <Phone>656-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>371</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bruno</FirstName>
+  <LastName>Costa Da Silva</LastName>
+  <CompanyName>Custom Sales and Service</CompanyName>
+  <EmailAddress>bruno0@adventure-works.com</EmailAddress>
+  <Phone>140-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>372</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Katherine</FirstName>
+  <LastName>Swan</LastName>
+  <CompanyName>Top Bike Market</CompanyName>
+  <EmailAddress>katherine1@adventure-works.com</EmailAddress>
+  <Phone>421-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>376</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mary</FirstName>
+  <LastName>Kesslep</LastName>
+  <CompanyName>Commerce Bicycle Specialists</CompanyName>
+  <EmailAddress>mary8@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>377</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Marlin</FirstName>
+  <LastName>Coriell</LastName>
+  <CompanyName>Grand Sport Boutique</CompanyName>
+  <EmailAddress>marlin0@adventure-works.com</EmailAddress>
+  <Phone>941-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>379</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Kevin</FirstName>
+  <LastName>Kennedy</LastName>
+  <CompanyName>Fad Outlet</CompanyName>
+  <EmailAddress>kevin4@adventure-works.com</EmailAddress>
+  <Phone>275-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>380</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Eva</FirstName>
+  <LastName>Corets</LastName>
+  <CompanyName>First Department Stores</CompanyName>
+  <EmailAddress>eva0@adventure-works.com</EmailAddress>
+  <Phone>542-555-0164</Phone>
+</Customer>
+<Customer>
+  <CustomerID>381</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Julie</FirstName>
+  <LastName>Taft-Rider</LastName>
+  <CompanyName>Bicycle Lines Distributors</CompanyName>
+  <EmailAddress>julie1@adventure-works.com</EmailAddress>
+  <Phone>145-555-0194</Phone>
+</Customer>
+<Customer>
+  <CustomerID>382</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Kelly</LastName>
+  <CompanyName>Beneficial Exercises and Activities</CompanyName>
+  <EmailAddress>robert7@adventure-works.com</EmailAddress>
+  <Phone>510-555-0123</Phone>
+</Customer>
+<Customer>
+  <CustomerID>383</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>Cooper</LastName>
+  <CompanyName>Vehicle Shop</CompanyName>
+  <EmailAddress>scott2@adventure-works.com</EmailAddress>
+  <Phone>773-555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>384</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Clarence</FirstName>
+  <LastName>Tatman</LastName>
+  <CompanyName>Sparkling Paint and Finishes</CompanyName>
+  <EmailAddress>clarence0@adventure-works.com</EmailAddress>
+  <Phone>787-555-0128</Phone>
+</Customer>
+<Customer>
+  <CustomerID>385</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Kelly</LastName>
+  <CompanyName>Sturdy Toys</CompanyName>
+  <EmailAddress>john22@adventure-works.com</EmailAddress>
+  <Phone>330-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>388</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Victor</FirstName>
+  <LastName>Kelley</LastName>
+  <CompanyName>Road Way Sales and Rental</CompanyName>
+  <EmailAddress>victor0@adventure-works.com</EmailAddress>
+  <Phone>112-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>389</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Dorothy</FirstName>
+  <LastName>Contreras</LastName>
+  <CompanyName>Sixth Bike Store</CompanyName>
+  <EmailAddress>dorothy0@adventure-works.com</EmailAddress>
+  <Phone>428-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>390</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mike</FirstName>
+  <LastName>Taylor</LastName>
+  <CompanyName>Plastic Parts Company</CompanyName>
+  <EmailAddress>mike6@adventure-works.com</EmailAddress>
+  <Phone>204-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>394</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Bonnie</FirstName>
+  <LastName>Kearney</LastName>
+  <CompanyName>Little Sports Center</CompanyName>
+  <EmailAddress>bonnie1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>395</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>June</FirstName>
+  <LastName>Brunner</LastName>
+  <CompanyName>Online Bike Sellers</CompanyName>
+  <EmailAddress>june0@adventure-works.com</EmailAddress>
+  <Phone>249-555-0172</Phone>
+</Customer>
+<Customer>
+  <CustomerID>397</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sandeep</FirstName>
+  <LastName>Katyal</LastName>
+  <CompanyName>Capable Sales and Service</CompanyName>
+  <EmailAddress>sandeep2@adventure-works.com</EmailAddress>
+  <Phone>928-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>398</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Shirley</FirstName>
+  <LastName>Bruner</LastName>
+  <CompanyName>Commendable Bikes</CompanyName>
+  <EmailAddress>shirley0@adventure-works.com</EmailAddress>
+  <Phone>383-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>399</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Chad</FirstName>
+  <LastName>Tedford</LastName>
+  <CompanyName>Big Cycle Mall</CompanyName>
+  <EmailAddress>chad1@adventure-works.com</EmailAddress>
+  <Phone>588-555-0128</Phone>
+</Customer>
+<Customer>
+  <CustomerID>400</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Peter</FirstName>
+  <LastName>Houston</LastName>
+  <CompanyName>Local Sales and Rental</CompanyName>
+  <EmailAddress>peter3@adventure-works.com</EmailAddress>
+  <Phone>632-555-0171</Phone>
+</Customer>
+<Customer>
+  <CustomerID>401</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Tom</FirstName>
+  <LastName>Johnston</LastName>
+  <CompanyName>Brightwork Company</CompanyName>
+  <EmailAddress>tom1@adventure-works.com</EmailAddress>
+  <Phone>883-555-0177</Phone>
+</Customer>
+<Customer>
+  <CustomerID>402</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Marian</FirstName>
+  <LastName>Berch</LastName>
+  <CompanyName>Pro Sporting Goods</CompanyName>
+  <EmailAddress>marian0@adventure-works.com</EmailAddress>
+  <Phone>640-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>403</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Juanita</FirstName>
+  <LastName>Holman</LastName>
+  <CompanyName>Affordable Sports Equipment</CompanyName>
+  <EmailAddress>juanita0@adventure-works.com</EmailAddress>
+  <Phone>996-555-0196</Phone>
+</Customer>
+<Customer>
+  <CustomerID>406</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eddie</FirstName>
+  <LastName>Holmes</LastName>
+  <CompanyName>The Commissary</CompanyName>
+  <EmailAddress>eddie0@adventure-works.com</EmailAddress>
+  <Phone>570-555-0199</Phone>
+</Customer>
+<Customer>
+  <CustomerID>407</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Avalos</LastName>
+  <CompanyName>Workout Emporium</CompanyName>
+  <EmailAddress>robert2@adventure-works.com</EmailAddress>
+  <Phone>665-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>408</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Alexander</FirstName>
+  <LastName>Berger</LastName>
+  <CompanyName>Odometers and Accessories Company</CompanyName>
+  <EmailAddress>alexander0@adventure-works.com</EmailAddress>
+  <Phone>519-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>412</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jean</FirstName>
+  <LastName>Holloway</LastName>
+  <CompanyName>Leisure Clearing House</CompanyName>
+  <EmailAddress>jean2@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0181</Phone>
+</Customer>
+<Customer>
+  <CustomerID>415</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Greg</FirstName>
+  <LastName>Chapman</LastName>
+  <CompanyName>Imaginary Toys</CompanyName>
+  <EmailAddress>greg1@adventure-works.com</EmailAddress>
+  <Phone>708-555-0169</Phone>
+</Customer>
+<Customer>
+  <CustomerID>416</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Angela</FirstName>
+  <LastName>Barbariol</LastName>
+  <CompanyName>Impromptu Trips</CompanyName>
+  <EmailAddress>angela1@adventure-works.com</EmailAddress>
+  <Phone>134-555-0182</Phone>
+</Customer>
+<Customer>
+  <CustomerID>417</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ruth</FirstName>
+  <LastName>Choin</LastName>
+  <CompanyName>Genuine Bike Shop</CompanyName>
+  <EmailAddress>ruth1@adventure-works.com</EmailAddress>
+  <Phone>273-555-0181</Phone>
+</Customer>
+<Customer>
+  <CustomerID>418</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Lee</FirstName>
+  <LastName>Chapla</LastName>
+  <CompanyName>Good Bike Shop</CompanyName>
+  <EmailAddress>lee0@adventure-works.com</EmailAddress>
+  <Phone>223-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>419</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Darrell</FirstName>
+  <LastName>Banks</LastName>
+  <CompanyName>Exertion Activities Club</CompanyName>
+  <EmailAddress>darrell0@adventure-works.com</EmailAddress>
+  <Phone>816-555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>420</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Anthony</FirstName>
+  <LastName>Chor</LastName>
+  <CompanyName>Extreme Riding Supplies</CompanyName>
+  <EmailAddress>anthony0@adventure-works.com</EmailAddress>
+  <Phone>429-555-0145</Phone>
+</Customer>
+<Customer>
+  <CustomerID>421</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Forrest</FirstName>
+  <LastName>Chandler</LastName>
+  <CompanyName>Fitness Cycling</CompanyName>
+  <EmailAddress>forrest0@adventure-works.com</EmailAddress>
+  <Phone>448-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>424</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Eli</FirstName>
+  <LastName>Bowen</LastName>
+  <CompanyName>Bikes for Two</CompanyName>
+  <EmailAddress>eli0@adventure-works.com</EmailAddress>
+  <Phone>371-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>425</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stephen</FirstName>
+  <LastName>Jiang</LastName>
+  <CompanyName>Bikes for Kids and Adults</CompanyName>
+  <EmailAddress>stephen3@adventure-works.com</EmailAddress>
+  <Phone>910-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>426</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Dirk</FirstName>
+  <LastName>Bruno</LastName>
+  <CompanyName>Custom Accessories Company</CompanyName>
+  <EmailAddress>dirk0@adventure-works.com</EmailAddress>
+  <Phone>817-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>430</CustomerID>
+  <Title>Sr.</Title>
+  <FirstName>Gustavo</FirstName>
+  <LastName>Camargo</LastName>
+  <CompanyName>Uttermost Bike Shop</CompanyName>
+  <EmailAddress>gustavo1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>431</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Douglas</FirstName>
+  <LastName>Baldwin</LastName>
+  <CompanyName>Small Cycle Store</CompanyName>
+  <EmailAddress>douglas1@adventure-works.com</EmailAddress>
+  <Phone>583-555-0130</Phone>
+</Customer>
+<Customer>
+  <CustomerID>433</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Lindsey</FirstName>
+  <LastName>Camacho</LastName>
+  <CompanyName>Thorough Parts and Repair Services</CompanyName>
+  <EmailAddress>lindsey0@adventure-works.com</EmailAddress>
+  <Phone>827-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>434</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>Bailey</LastName>
+  <CompanyName>Road-Way Mart</CompanyName>
+  <EmailAddress>james3@adventure-works.com</EmailAddress>
+  <Phone>234-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>435</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Carol</FirstName>
+  <LastName>Elliott</LastName>
+  <CompanyName>Satin Finish Company</CompanyName>
+  <EmailAddress>carol2@adventure-works.com</EmailAddress>
+  <Phone>847-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>436</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Barbara</FirstName>
+  <LastName>Calone</LastName>
+  <CompanyName>Sheet Metal Manufacturing</CompanyName>
+  <EmailAddress>barbara2@adventure-works.com</EmailAddress>
+  <Phone>145-555-0152</Phone>
+</Customer>
+<Customer>
+  <CustomerID>437</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Megan</FirstName>
+  <LastName>Burke</LastName>
+  <CompanyName>Professional Cycle Store</CompanyName>
+  <EmailAddress>megan0@adventure-works.com</EmailAddress>
+  <Phone>148-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>438</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Cory</FirstName>
+  <LastName>Booth</LastName>
+  <CompanyName>Remarkable Bike Store</CompanyName>
+  <EmailAddress>cory0@adventure-works.com</EmailAddress>
+  <Phone>121-555-0157</Phone>
+</Customer>
+<Customer>
+  <CustomerID>439</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Shannon</FirstName>
+  <LastName>Elliott</LastName>
+  <CompanyName>Regional Manufacturing</CompanyName>
+  <EmailAddress>shannon0@adventure-works.com</EmailAddress>
+  <Phone>425-555-0158</Phone>
+</Customer>
+<Customer>
+  <CustomerID>442</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jauna</FirstName>
+  <LastName>Elson</LastName>
+  <CompanyName>Original Bicycle Supply Company</CompanyName>
+  <EmailAddress>jauna0@adventure-works.com</EmailAddress>
+  <Phone>185-555-0190</Phone>
+</Customer>
+<Customer>
+  <CustomerID>443</CustomerID>
+  <Title>Sra.</Title>
+  <FirstName>Janaina Barreiro Gambaro</FirstName>
+  <LastName>Bueno</LastName>
+  <CompanyName>Courteous Bicycle Specialists</CompanyName>
+  <EmailAddress>janainabarreirogambaro0@adventure-works.com</EmailAddress>
+  <Phone>476-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>444</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Shaun</FirstName>
+  <LastName>Beasley</LastName>
+  <CompanyName>Finer Cycle Shop</CompanyName>
+  <EmailAddress>shaun0@adventure-works.com</EmailAddress>
+  <Phone>396-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>448</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Terry</FirstName>
+  <LastName>Eminhizer</LastName>
+  <CompanyName>Action Bicycle Specialists</CompanyName>
+  <EmailAddress>terry1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>451</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Emory</LastName>
+  <CompanyName>Roadway Bike Emporium</CompanyName>
+  <EmailAddress>john16@adventure-works.com</EmailAddress>
+  <Phone>691-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>452</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Olga</FirstName>
+  <LastName>Trau</LastName>
+  <CompanyName>A Cycle Shop</CompanyName>
+  <EmailAddress>olga0@adventure-works.com</EmailAddress>
+  <Phone>398-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>453</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jon</FirstName>
+  <LastName>Ganio</LastName>
+  <CompanyName>Unique Bikes</CompanyName>
+  <EmailAddress>jon0@adventure-works.com</EmailAddress>
+  <Phone>672-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>454</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Gail</FirstName>
+  <LastName>Erickson</LastName>
+  <CompanyName>Sleek Bikes </CompanyName>
+  <EmailAddress>gail1@adventure-works.com</EmailAddress>
+  <Phone>834-555-0132</Phone>
+</Customer>
+<Customer>
+  <CustomerID>455</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>Tran</LastName>
+  <CompanyName>Timely Shipping Service</CompanyName>
+  <EmailAddress>james15@adventure-works.com</EmailAddress>
+  <Phone>740-555-0159</Phone>
+</Customer>
+<Customer>
+  <CustomerID>456</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Galos</LastName>
+  <CompanyName>Riding Excursions</CompanyName>
+  <EmailAddress>michael15@adventure-works.com</EmailAddress>
+  <Phone>912-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>457</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mark</FirstName>
+  <LastName>Erickson</LastName>
+  <CompanyName>Retail Sporting Equipment</CompanyName>
+  <EmailAddress>mark2@adventure-works.com</EmailAddress>
+  <Phone>962-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>460</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Martha</FirstName>
+  <LastName>Espinoza</LastName>
+  <CompanyName>Price-Cutter Discount Bikes</CompanyName>
+  <EmailAddress>martha0@adventure-works.com</EmailAddress>
+  <Phone>753-555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>461</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Glenn</FirstName>
+  <LastName>Track</LastName>
+  <CompanyName>Active Life Toys</CompanyName>
+  <EmailAddress>glenn0@adventure-works.com</EmailAddress>
+  <Phone>907-555-0170</Phone>
+</Customer>
+<Customer>
+  <CustomerID>462</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bob</FirstName>
+  <LastName>Gage</LastName>
+  <CompanyName>General Riding Supplies</CompanyName>
+  <EmailAddress>bob1@adventure-works.com</EmailAddress>
+  <Phone>962-555-0175</Phone>
+</Customer>
+<Customer>
+  <CustomerID>466</CustomerID>
+  <Title>Sra.</Title>
+  <FirstName>Janeth</FirstName>
+  <LastName>Esteves</LastName>
+  <CompanyName>Central Bicycle Specialists</CompanyName>
+  <EmailAddress>janeth1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0136</Phone>
+</Customer>
+<Customer>
+  <CustomerID>468</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Paul</FirstName>
+  <LastName>Fulton</LastName>
+  <CompanyName>Blue Bicycle Company</CompanyName>
+  <EmailAddress>paul3@adventure-works.com</EmailAddress>
+  <Phone>492-555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>469</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Twanna</FirstName>
+  <LastName>Evans</LastName>
+  <CompanyName>Vast Bike Sales and Rental</CompanyName>
+  <EmailAddress>twanna0@adventure-works.com</EmailAddress>
+  <Phone>554-555-0124</Phone>
+</Customer>
+<Customer>
+  <CustomerID>470</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Delia</FirstName>
+  <LastName>Toone</LastName>
+  <CompanyName>Wingtip Toys</CompanyName>
+  <EmailAddress>delia0@adventure-works.com</EmailAddress>
+  <Phone>328-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>471</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Ford</LastName>
+  <CompanyName>Social Activities Club</CompanyName>
+  <EmailAddress>john19@adventure-works.com</EmailAddress>
+  <Phone>596-555-0153</Phone>
+</Customer>
+<Customer>
+  <CustomerID>472</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ann</FirstName>
+  <LastName>Evans</LastName>
+  <CompanyName>Summer Sports Place</CompanyName>
+  <EmailAddress>ann1@adventure-works.com</EmailAddress>
+  <Phone>252-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>473</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kay</FirstName>
+  <LastName>Krane</LastName>
+  <CompanyName>Racing Toys</CompanyName>
+  <EmailAddress>kay0@adventure-works.com</EmailAddress>
+  <Phone>731-555-0187</Phone>
+</Customer>
+<Customer>
+  <CustomerID>474</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mihail</FirstName>
+  <LastName>Frintu</LastName>
+  <CompanyName>Retail Cycle Shop</CompanyName>
+  <EmailAddress>mihail1@adventure-works.com</EmailAddress>
+  <Phone>777-555-0163</Phone>
+</Customer>
+<Customer>
+  <CustomerID>475</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Evans</LastName>
+  <CompanyName>Real Sporting Goods</CompanyName>
+  <EmailAddress>john17@adventure-works.com</EmailAddress>
+  <Phone>581-555-0172</Phone>
+</Customer>
+<Customer>
+  <CustomerID>478</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ruby Sue</FirstName>
+  <LastName>Styles</LastName>
+  <CompanyName>Major Cycling</CompanyName>
+  <EmailAddress>rubysue0@adventure-works.com</EmailAddress>
+  <Phone>512-555-0122</Phone>
+</Customer>
+<Customer>
+  <CustomerID>479</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Lori</FirstName>
+  <LastName>Kane</LastName>
+  <CompanyName>General Supplies</CompanyName>
+  <EmailAddress>lori2@adventure-works.com</EmailAddress>
+  <Phone>765-555-0141</Phone>
+</Customer>
+<Customer>
+  <CustomerID>480</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Susan</FirstName>
+  <LastName>French</LastName>
+  <CompanyName>General Bike Corporation</CompanyName>
+  <EmailAddress>susan3@adventure-works.com</EmailAddress>
+  <Phone>994-555-0194</Phone>
+</Customer>
+<Customer>
+  <CustomerID>484</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Gary</FirstName>
+  <LastName>Suess</LastName>
+  <CompanyName>Downhill Bicycle Specialists</CompanyName>
+  <EmailAddress>gary5@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0199</Phone>
+</Customer>
+<Customer>
+  <CustomerID>487</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ruth</FirstName>
+  <LastName>Suffin</LastName>
+  <CompanyName>Bike Experts</CompanyName>
+  <EmailAddress>ruth2@adventure-works.com</EmailAddress>
+  <Phone>924-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>488</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Margaret</FirstName>
+  <LastName>Smith</LastName>
+  <CompanyName>Bicycle Accessories and Kits</CompanyName>
+  <EmailAddress>margaret0@adventure-works.com</EmailAddress>
+  <Phone>959-555-0151</Phone>
+</Customer>
+<Customer>
+  <CustomerID>489</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Dorothy</FirstName>
+  <LastName>Fox</LastName>
+  <CompanyName>Cash &amp; Carry Bikes</CompanyName>
+  <EmailAddress>dorothy1@adventure-works.com</EmailAddress>
+  <Phone>191-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>490</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Elizabeth</FirstName>
+  <LastName>Sullivan</LastName>
+  <CompanyName>Extraordinary Bike Works</CompanyName>
+  <EmailAddress>elizabeth4@adventure-works.com</EmailAddress>
+  <Phone>306-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>491</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Frances</FirstName>
+  <LastName>Adams</LastName>
+  <CompanyName>Area Bike Accessories</CompanyName>
+  <EmailAddress>frances0@adventure-works.com</EmailAddress>
+  <Phone>991-555-0183</Phone>
+</Customer>
+<Customer>
+  <CustomerID>492</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Garth</FirstName>
+  <LastName>Fort</LastName>
+  <CompanyName>Basic Sports Equipment</CompanyName>
+  <EmailAddress>garth0@adventure-works.com</EmailAddress>
+  <Phone>768-555-0125</Phone>
+</Customer>
+<Customer>
+  <CustomerID>493</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Sullivan</LastName>
+  <CompanyName>Valley Bicycle Distributors</CompanyName>
+  <EmailAddress>michael24@adventure-works.com</EmailAddress>
+  <Phone>323-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>496</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Marcia</FirstName>
+  <LastName>Sultan</LastName>
+  <CompanyName>Top Sports Supply</CompanyName>
+  <EmailAddress>marcia0@adventure-works.com</EmailAddress>
+  <Phone>613-555-0116</Phone>
+</Customer>
+<Customer>
+  <CustomerID>497</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Amy</FirstName>
+  <LastName>Alberts</LastName>
+  <CompanyName>Valley Toy Store</CompanyName>
+  <EmailAddress>amy1@adventure-works.com</EmailAddress>
+  <Phone>727-555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>498</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kelly</FirstName>
+  <LastName>Focht</LastName>
+  <CompanyName>Quick Delivery Service</CompanyName>
+  <EmailAddress>kelly0@adventure-works.com</EmailAddress>
+  <Phone>272-555-0123</Phone>
+</Customer>
+<Customer>
+  <CustomerID>502</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Krishna</FirstName>
+  <LastName>Sunkammurali</LastName>
+  <CompanyName>Metropolitan Bicycle Supply</CompanyName>
+  <EmailAddress>krishna1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0177</Phone>
+</Customer>
+<Customer>
+  <CustomerID>504</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mae</FirstName>
+  <LastName>Black</LastName>
+  <CompanyName>Historic Bicycle Sales</CompanyName>
+  <EmailAddress>mae1@adventure-works.com</EmailAddress>
+  <Phone>264-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>505</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Brad</FirstName>
+  <LastName>Sutton</LastName>
+  <CompanyName>Honest Repair Service</CompanyName>
+  <EmailAddress>brad0@adventure-works.com</EmailAddress>
+  <Phone>688-555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>506</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Francois</FirstName>
+  <LastName>Ferrier</LastName>
+  <CompanyName>Great Bikes </CompanyName>
+  <EmailAddress>francois1@adventure-works.com</EmailAddress>
+  <Phone>571-555-0128</Phone>
+</Customer>
+<Customer>
+  <CustomerID>507</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mary</FirstName>
+  <LastName>Bishop</LastName>
+  <CompanyName>Global Sporting Goods</CompanyName>
+  <EmailAddress>mary4@adventure-works.com</EmailAddress>
+  <Phone>176-555-0136</Phone>
+</Customer>
+<Customer>
+  <CustomerID>508</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Martin</FirstName>
+  <LastName>Svoboda</LastName>
+  <CompanyName>Designer Department Stores</CompanyName>
+  <EmailAddress>martin1@adventure-works.com</EmailAddress>
+  <Phone>132-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>509</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Ahlering</LastName>
+  <CompanyName>Fun Toys and Bikes</CompanyName>
+  <EmailAddress>robert1@adventure-works.com</EmailAddress>
+  <Phone>678-555-0175</Phone>
+</Customer>
+<Customer>
+  <CustomerID>510</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jimmy</FirstName>
+  <LastName>Bischoff</LastName>
+  <CompanyName>World Bike Discount Store</CompanyName>
+  <EmailAddress>jimmy1@adventure-works.com</EmailAddress>
+  <Phone>992-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>511</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Abraham</FirstName>
+  <LastName>Swearengin</LastName>
+  <CompanyName>Wheel Gallery</CompanyName>
+  <EmailAddress>abraham0@adventure-works.com</EmailAddress>
+  <Phone>926-555-0136</Phone>
+</Customer>
+<Customer>
+  <CustomerID>514</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ryan</FirstName>
+  <LastName>Calafato</LastName>
+  <CompanyName>Retail Mall</CompanyName>
+  <EmailAddress>ryan1@adventure-works.com</EmailAddress>
+  <Phone>726-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>515</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Dragan</FirstName>
+  <LastName>Tomic</LastName>
+  <CompanyName>Rural Bicycle Supply</CompanyName>
+  <EmailAddress>dragan1@adventure-works.com</EmailAddress>
+  <Phone>833-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>516</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Thomas</FirstName>
+  <LastName>Michaels</LastName>
+  <CompanyName>Seats and Saddles Company</CompanyName>
+  <EmailAddress>thomas2@adventure-works.com</EmailAddress>
+  <Phone>162-555-0174</Phone>
+</Customer>
+<Customer>
+  <CustomerID>520</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mari</FirstName>
+  <LastName>Caldwell</LastName>
+  <CompanyName>Metro Metals Co.</CompanyName>
+  <EmailAddress>mari0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>523</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Mary</FirstName>
+  <LastName>Gimmi</LastName>
+  <CompanyName>Futuristic Sport Distributors</CompanyName>
+  <EmailAddress>mary6@adventure-works.com</EmailAddress>
+  <Phone>149-555-0196</Phone>
+</Customer>
+<Customer>
+  <CustomerID>526</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Givens</LastName>
+  <CompanyName>Finer Sales and Service</CompanyName>
+  <EmailAddress>david15@adventure-works.com</EmailAddress>
+  <Phone>605-555-0111</Phone>
+</Customer>
+<Customer>
+  <CustomerID>527</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Diane</FirstName>
+  <LastName>Tibbott</LastName>
+  <CompanyName>Fun Times Club</CompanyName>
+  <EmailAddress>diane5@adventure-works.com</EmailAddress>
+  <Phone>847-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>528</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Helen</FirstName>
+  <LastName>Meyer</LastName>
+  <CompanyName>Alpine Ski House</CompanyName>
+  <EmailAddress>helen2@adventure-works.com</EmailAddress>
+  <Phone>519-555-0112</Phone>
+</Customer>
+<Customer>
+  <CustomerID>529</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jeanie</FirstName>
+  <LastName>Glenn</LastName>
+  <CompanyName>Big-Time Bike Store</CompanyName>
+  <EmailAddress>jeanie0@adventure-works.com</EmailAddress>
+  <Phone>669-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>532</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Diane</FirstName>
+  <LastName>Glimp</LastName>
+  <CompanyName>The Showroom</CompanyName>
+  <EmailAddress>diane3@adventure-works.com</EmailAddress>
+  <Phone>898-555-0137</Phone>
+</Customer>
+<Customer>
+  <CustomerID>533</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Yuping</FirstName>
+  <LastName>Tian</LastName>
+  <CompanyName>Tenth Bike Store</CompanyName>
+  <EmailAddress>yuping0@adventure-works.com</EmailAddress>
+  <Phone>744-555-0123</Phone>
+</Customer>
+<Customer>
+  <CustomerID>534</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stephen</FirstName>
+  <LastName>Mew</LastName>
+  <CompanyName>Recommended Bicycles</CompanyName>
+  <EmailAddress>stephen4@adventure-works.com</EmailAddress>
+  <Phone>399-555-0114</Phone>
+</Customer>
+<Customer>
+  <CustomerID>538</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Brooks</LastName>
+  <CompanyName>Prosperous Tours</CompanyName>
+  <EmailAddress>john12@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0179</Phone>
+</Customer>
+<Customer>
+  <CustomerID>541</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Willie</FirstName>
+  <LastName>Brooks</LastName>
+  <CompanyName>Nonskid Tire Company</CompanyName>
+  <EmailAddress>willie0@adventure-works.com</EmailAddress>
+  <Phone>525-555-0174</Phone>
+</Customer>
+<Customer>
+  <CustomerID>542</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Andrew</FirstName>
+  <LastName>Kobylinski</LastName>
+  <CompanyName>Finer Parts Shop</CompanyName>
+  <EmailAddress>andrew5@adventure-works.com</EmailAddress>
+  <Phone>129-555-0185</Phone>
+</Customer>
+<Customer>
+  <CustomerID>543</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>R. Morgan</FirstName>
+  <LastName>Mendoza</LastName>
+  <CompanyName>Friendly Neighborhood Bikes</CompanyName>
+  <EmailAddress>rmorgan0@adventure-works.com</EmailAddress>
+  <Phone>963-555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>544</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jay</FirstName>
+  <LastName>Adams</LastName>
+  <CompanyName>Valley Bicycle Specialists</CompanyName>
+  <EmailAddress>jay1@adventure-works.com</EmailAddress>
+  <Phone>158-555-0142</Phone>
+</Customer>
+<Customer>
+  <CustomerID>545</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Christian</FirstName>
+  <LastName>Kleinerman</LastName>
+  <CompanyName>Finish and Sealant Products</CompanyName>
+  <EmailAddress>christian1@adventure-works.com</EmailAddress>
+  <Phone>362-555-0177</Phone>
+</Customer>
+<Customer>
+  <CustomerID>546</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Anton</FirstName>
+  <LastName>Kirilov</LastName>
+  <CompanyName>Field Trip Store</CompanyName>
+  <EmailAddress>anton0@adventure-works.com</EmailAddress>
+  <Phone>608-555-0162</Phone>
+</Customer>
+<Customer>
+  <CustomerID>547</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Gladys</FirstName>
+  <LastName>Mendiola</LastName>
+  <CompanyName>Curbside Sporting Goods</CompanyName>
+  <EmailAddress>gladys0@adventure-works.com</EmailAddress>
+  <Phone>535-555-0189</Phone>
+</Customer>
+<Customer>
+  <CustomerID>550</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Raquel</FirstName>
+  <LastName>Mello</LastName>
+  <CompanyName>Remote Bicycle Specialists</CompanyName>
+  <EmailAddress>raquel0@adventure-works.com</EmailAddress>
+  <Phone>723-555-0124</Phone>
+</Customer>
+<Customer>
+  <CustomerID>551</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Samuel</FirstName>
+  <LastName>Agcaoili</LastName>
+  <CompanyName>Vinyl and Plastic Goods Corporation</CompanyName>
+  <EmailAddress>samuel0@adventure-works.com</EmailAddress>
+  <Phone>554-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>552</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Tim</FirstName>
+  <LastName>Kim</LastName>
+  <CompanyName>Consolidated Messenger</CompanyName>
+  <EmailAddress>tim0@adventure-works.com</EmailAddress>
+  <Phone>244-555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>556</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Nancy</FirstName>
+  <LastName>McPhearson</LastName>
+  <CompanyName>Variety Cycling</CompanyName>
+  <EmailAddress>nancy3@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>559</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Nkenge</FirstName>
+  <LastName>McLin</LastName>
+  <CompanyName>Some Discount Store</CompanyName>
+  <EmailAddress>nkenge0@adventure-works.com</EmailAddress>
+  <Phone>158-555-0123</Phone>
+</Customer>
+<Customer>
+  <CustomerID>560</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Paul</FirstName>
+  <LastName>Alcorn</LastName>
+  <CompanyName>Major Sport Suppliers</CompanyName>
+  <EmailAddress>paul2@adventure-works.com</EmailAddress>
+  <Phone>331-555-0162</Phone>
+</Customer>
+<Customer>
+  <CustomerID>561</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Marvin</FirstName>
+  <LastName>Allen</LastName>
+  <CompanyName>Mountain Toy Store</CompanyName>
+  <EmailAddress>marvin0@adventure-works.com</EmailAddress>
+  <Phone>447-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>562</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Yvonne</FirstName>
+  <LastName>McKay</LastName>
+  <CompanyName>Practical Bike Supply Company</CompanyName>
+  <EmailAddress>yvonne1@adventure-works.com</EmailAddress>
+  <Phone>623-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>563</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Sean</FirstName>
+  <LastName>Jacobson</LastName>
+  <CompanyName>Systematic Sales</CompanyName>
+  <EmailAddress>sean2@adventure-works.com</EmailAddress>
+  <Phone>555-555-0162</Phone>
+</Customer>
+<Customer>
+  <CustomerID>564</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Michelle</FirstName>
+  <LastName>Alexander</LastName>
+  <CompanyName>Imported and Domestic Cycles</CompanyName>
+  <EmailAddress>michelle0@adventure-works.com</EmailAddress>
+  <Phone>115-555-0175</Phone>
+</Customer>
+<Customer>
+  <CustomerID>565</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Richard</FirstName>
+  <LastName>Bentley</LastName>
+  <CompanyName>Metallic Paint and Overcoat Co</CompanyName>
+  <EmailAddress>richard0@adventure-works.com</EmailAddress>
+  <Phone>911-555-0153</Phone>
+</Customer>
+<Customer>
+  <CustomerID>568</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Curtis</FirstName>
+  <LastName>Howard</LastName>
+  <CompanyName>Economy Center</CompanyName>
+  <EmailAddress>curtis0@adventure-works.com</EmailAddress>
+  <Phone>555-555-0162</Phone>
+</Customer>
+<Customer>
+  <CustomerID>569</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Cecil</FirstName>
+  <LastName>Allison</LastName>
+  <CompanyName>Designated Distributors</CompanyName>
+  <EmailAddress>cecil0@adventure-works.com</EmailAddress>
+  <Phone>699-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>570</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Gregory</FirstName>
+  <LastName>Alderson</LastName>
+  <CompanyName>Family's Favorite Bike Shop</CompanyName>
+  <EmailAddress>gregory0@adventure-works.com</EmailAddress>
+  <Phone>968-555-0153</Phone>
+</Customer>
+<Customer>
+  <CustomerID>574</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Janice</FirstName>
+  <LastName>Hows</LastName>
+  <CompanyName>Area Sheet Metal Supply</CompanyName>
+  <EmailAddress>janice1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0119</Phone>
+</Customer>
+<Customer>
+  <CustomerID>577</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>George</FirstName>
+  <LastName>Huckaby</LastName>
+  <CompanyName>Synthetic Materials Manufacturing</CompanyName>
+  <EmailAddress>george1@adventure-works.com</EmailAddress>
+  <Phone>851-555-0127</Phone>
+</Customer>
+<Customer>
+  <CustomerID>578</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Carolyn</FirstName>
+  <LastName>Farino</LastName>
+  <CompanyName>The Bike Shop</CompanyName>
+  <EmailAddress>carolyn0@adventure-works.com</EmailAddress>
+  <Phone>957-555-0125</Phone>
+</Customer>
+<Customer>
+  <CustomerID>579</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kim</FirstName>
+  <LastName>Abercrombie</LastName>
+  <CompanyName>Riders Company</CompanyName>
+  <EmailAddress>kim2@adventure-works.com</EmailAddress>
+  <Phone>334-555-0137</Phone>
+</Customer>
+<Customer>
+  <CustomerID>580</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Joshua</FirstName>
+  <LastName>Huff</LastName>
+  <CompanyName>Rural Sales and Service</CompanyName>
+  <EmailAddress>joshua0@adventure-works.com</EmailAddress>
+  <Phone>190-555-0186</Phone>
+</Customer>
+<Customer>
+  <CustomerID>581</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Geri</FirstName>
+  <LastName>Farrell</LastName>
+  <CompanyName>Safe Toys</CompanyName>
+  <EmailAddress>geri0@adventure-works.com</EmailAddress>
+  <Phone>329-555-0183</Phone>
+</Customer>
+<Customer>
+  <CustomerID>582</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Catherine</FirstName>
+  <LastName>Abel</LastName>
+  <CompanyName>Professional Sales and Service</CompanyName>
+  <EmailAddress>catherine0@adventure-works.com</EmailAddress>
+  <Phone>747-555-0171</Phone>
+</Customer>
+<Customer>
+  <CustomerID>583</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Laura</FirstName>
+  <LastName>Steele</LastName>
+  <CompanyName>Professional Containers and Packaging Co.</CompanyName>
+  <EmailAddress>laura3@adventure-works.com</EmailAddress>
+  <Phone>741-555-0173</Phone>
+</Customer>
+<Customer>
+  <CustomerID>586</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Shanay</FirstName>
+  <LastName>Steelman</LastName>
+  <CompanyName>One Bike Company</CompanyName>
+  <EmailAddress>shanay0@adventure-works.com</EmailAddress>
+  <Phone>797-555-0118</Phone>
+</Customer>
+<Customer>
+  <CustomerID>587</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Rhoda</FirstName>
+  <LastName>Finley</LastName>
+  <CompanyName>Our Sporting Goods Store</CompanyName>
+  <EmailAddress>rhoda0@adventure-works.com</EmailAddress>
+  <Phone>920-555-0191</Phone>
+</Customer>
+<Customer>
+  <CustomerID>588</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Pat</FirstName>
+  <LastName>Chambers</LastName>
+  <CompanyName>General Cycle Storehouse</CompanyName>
+  <EmailAddress>pat1@adventure-works.com</EmailAddress>
+  <Phone>127-555-0124</Phone>
+</Customer>
+<Customer>
+  <CustomerID>592</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Stefano</FirstName>
+  <LastName>Stefani</LastName>
+  <CompanyName>Cycling Goods</CompanyName>
+  <EmailAddress>stefano0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0115</Phone>
+</Customer>
+<Customer>
+  <CustomerID>595</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Alan</FirstName>
+  <LastName>Steiner</LastName>
+  <CompanyName>Cycle Clearance</CompanyName>
+  <EmailAddress>alan4@adventure-works.com</EmailAddress>
+  <Phone>792-555-0194</Phone>
+</Customer>
+<Customer>
+  <CustomerID>596</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kathie</FirstName>
+  <LastName>Flood</LastName>
+  <CompanyName>Coho Sports</CompanyName>
+  <EmailAddress>kathie1@adventure-works.com</EmailAddress>
+  <Phone>627-555-0192</Phone>
+</Customer>
+<Customer>
+  <CustomerID>597</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bob</FirstName>
+  <LastName>Hodges</LastName>
+  <CompanyName>All Seasons Sports Supply</CompanyName>
+  <EmailAddress>bob2@adventure-works.com</EmailAddress>
+  <Phone>129-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>598</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Derik</FirstName>
+  <LastName>Stenerson</LastName>
+  <CompanyName>Black Bicycle Company</CompanyName>
+  <EmailAddress>derik0@adventure-works.com</EmailAddress>
+  <Phone>441-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>599</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Raul</FirstName>
+  <LastName>Casts</LastName>
+  <CompanyName>Westside Plaza</CompanyName>
+  <EmailAddress>raul0@adventure-works.com</EmailAddress>
+  <Phone>362-555-0162</Phone>
+</Customer>
+<Customer>
+  <CustomerID>600</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Holly</FirstName>
+  <LastName>Holt</LastName>
+  <CompanyName>Strenuous Exercise Shop</CompanyName>
+  <EmailAddress>holly1@adventure-works.com</EmailAddress>
+  <Phone>654-555-0150</Phone>
+</Customer>
+<Customer>
+  <CustomerID>601</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Vassar</FirstName>
+  <LastName>Stern</LastName>
+  <CompanyName>Transport Bikes</CompanyName>
+  <EmailAddress>vassar0@adventure-works.com</EmailAddress>
+  <Phone>328-555-0123</Phone>
+</Customer>
+<Customer>
+  <CustomerID>604</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Wathalee</FirstName>
+  <LastName>Steuber</LastName>
+  <CompanyName>Sellers of Cycles</CompanyName>
+  <EmailAddress>wathalee0@adventure-works.com</EmailAddress>
+  <Phone>517-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>605</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Matthew</FirstName>
+  <LastName>Cavallari</LastName>
+  <CompanyName>Outstanding Cycles</CompanyName>
+  <EmailAddress>matthew1@adventure-works.com</EmailAddress>
+  <Phone>695-555-0161</Phone>
+</Customer>
+<Customer>
+  <CustomerID>606</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Helge</FirstName>
+  <LastName>Hoeing</LastName>
+  <CompanyName>Little Bicycle Supply Shop</CompanyName>
+  <EmailAddress>helge0@adventure-works.com</EmailAddress>
+  <Phone>850-555-0198</Phone>
+</Customer>
+<Customer>
+  <CustomerID>607</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Alice</FirstName>
+  <LastName>Steiner</LastName>
+  <CompanyName>Maintenance and Repair for Bicycles</CompanyName>
+  <EmailAddress>alice4@adventure-works.com</EmailAddress>
+  <Phone>355-555-0180</Phone>
+</Customer>
+<Customer>
+  <CustomerID>608</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Steven</FirstName>
+  <LastName>Brown</LastName>
+  <CompanyName>Golf and Cycle Store</CompanyName>
+  <EmailAddress>steven1@adventure-works.com</EmailAddress>
+  <Phone>280-555-0124</Phone>
+</Customer>
+<Customer>
+  <CustomerID>609</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>David</FirstName>
+  <LastName>Hodgson</LastName>
+  <CompanyName>Good Toys</CompanyName>
+  <EmailAddress>david16@adventure-works.com</EmailAddress>
+  <Phone>969-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>610</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Liza Marie</FirstName>
+  <LastName>Stevens</LastName>
+  <CompanyName>Fitness Department Stores</CompanyName>
+  <EmailAddress>lizamarie0@adventure-works.com</EmailAddress>
+  <Phone>366-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>613</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jim</FirstName>
+  <LastName>Stewart</LastName>
+  <CompanyName>Famous Bike Shop</CompanyName>
+  <EmailAddress>jim5@adventure-works.com</EmailAddress>
+  <Phone>226-555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>617</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Arlene</FirstName>
+  <LastName>Huff</LastName>
+  <CompanyName>Tubeless Tire Company</CompanyName>
+  <EmailAddress>arlene0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0146</Phone>
+</Customer>
+<Customer>
+  <CustomerID>620</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Matthew</FirstName>
+  <LastName>Hunter</LastName>
+  <CompanyName>Tires and Tubes</CompanyName>
+  <EmailAddress>matthew4@adventure-works.com</EmailAddress>
+  <Phone>482-555-0188</Phone>
+</Customer>
+<Customer>
+  <CustomerID>621</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Matthew</FirstName>
+  <LastName>Hink</LastName>
+  <CompanyName>Running and Cycling Gear</CompanyName>
+  <EmailAddress>matthew3@adventure-works.com</EmailAddress>
+  <Phone>146-555-0176</Phone>
+</Customer>
+<Customer>
+  <CustomerID>622</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Stotka</LastName>
+  <CompanyName>Gift and Toy Store</CompanyName>
+  <EmailAddress>robert12@adventure-works.com</EmailAddress>
+  <Phone>493-555-0185</Phone>
+</Customer>
+<Customer>
+  <CustomerID>623</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Phyllis</FirstName>
+  <LastName>Huntsman</LastName>
+  <CompanyName>Hardware Components</CompanyName>
+  <EmailAddress>phyllis1@adventure-works.com</EmailAddress>
+  <Phone>153-555-0195</Phone>
+</Customer>
+<Customer>
+  <CustomerID>624</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Mike</FirstName>
+  <LastName>Hines</LastName>
+  <CompanyName>First Cycle Store</CompanyName>
+  <EmailAddress>mike3@adventure-works.com</EmailAddress>
+  <Phone>454-555-0160</Phone>
+</Customer>
+<Customer>
+  <CustomerID>625</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kayla</FirstName>
+  <LastName>Stotler</LastName>
+  <CompanyName>Major Sporting Goods</CompanyName>
+  <EmailAddress>kayla0@adventure-works.com</EmailAddress>
+  <Phone>315-555-0131</Phone>
+</Customer>
+<Customer>
+  <CustomerID>626</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Lawrence</FirstName>
+  <LastName>Hurkett</LastName>
+  <CompanyName>Retail Sporting Goods</CompanyName>
+  <EmailAddress>lawrence0@adventure-works.com</EmailAddress>
+  <Phone>129-555-0185</Phone>
+</Customer>
+<Customer>
+  <CustomerID>629</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ryan</FirstName>
+  <LastName>Ihrig</LastName>
+  <CompanyName>Efficient Cycling</CompanyName>
+  <EmailAddress>ryan4@adventure-works.com</EmailAddress>
+  <Phone>809-555-0152</Phone>
+</Customer>
+<Customer>
+  <CustomerID>630</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Andrew</FirstName>
+  <LastName>Hill</LastName>
+  <CompanyName>Eastside Parts Shop</CompanyName>
+  <EmailAddress>andrew4@adventure-works.com</EmailAddress>
+  <Phone>194-555-0149</Phone>
+</Customer>
+<Customer>
+  <CustomerID>631</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Lyeba</LastName>
+  <CompanyName>Tandem Sales and Service</CompanyName>
+  <EmailAddress>robert8@adventure-works.com</EmailAddress>
+  <Phone>631-555-0155</Phone>
+</Customer>
+<Customer>
+  <CustomerID>635</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Roger</FirstName>
+  <LastName>Van Houten</LastName>
+  <CompanyName>Sports Store</CompanyName>
+  <EmailAddress>roger2@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0110</Phone>
+</Customer>
+<Customer>
+  <CustomerID>637</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Robert</FirstName>
+  <LastName>Lyon</LastName>
+  <CompanyName>Reliable Retail Center</CompanyName>
+  <EmailAddress>robert9@adventure-works.com</EmailAddress>
+  <Phone>666-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>641</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Rose</FirstName>
+  <LastName>Vandenouer</LastName>
+  <CompanyName>Extended Tours</CompanyName>
+  <EmailAddress>rose1@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>643</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Denise</FirstName>
+  <LastName>Maccietto</LastName>
+  <CompanyName>Friendly Bike Shop</CompanyName>
+  <EmailAddress>denise1@adventure-works.com</EmailAddress>
+  <Phone>537-555-0190</Phone>
+</Customer>
+<Customer>
+  <CustomerID>644</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Gregory</FirstName>
+  <LastName>Vanderbout</LastName>
+  <CompanyName>Convenient Sales and Service</CompanyName>
+  <EmailAddress>gregory1@adventure-works.com</EmailAddress>
+  <Phone>684-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>645</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ronald</FirstName>
+  <LastName>Heymsfield</LastName>
+  <CompanyName>Superior Hardware Distributors</CompanyName>
+  <EmailAddress>ronald1@adventure-works.com</EmailAddress>
+  <Phone>784-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>646</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Scott</FirstName>
+  <LastName>MacDonald</LastName>
+  <CompanyName>Yellow Bicycle Company</CompanyName>
+  <EmailAddress>scott7@adventure-works.com</EmailAddress>
+  <Phone>470-555-0171</Phone>
+</Customer>
+<Customer>
+  <CustomerID>647</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Michael</FirstName>
+  <LastName>Vanderhyde</LastName>
+  <CompanyName>Solid Bike Parts</CompanyName>
+  <EmailAddress>michael25@adventure-works.com</EmailAddress>
+  <Phone>918-555-0141</Phone>
+</Customer>
+<Customer>
+  <CustomerID>648</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Cheryl</FirstName>
+  <LastName>Herring</LastName>
+  <CompanyName>Small Bike Shop</CompanyName>
+  <EmailAddress>cheryl0@adventure-works.com</EmailAddress>
+  <Phone>158-555-0154</Phone>
+</Customer>
+<Customer>
+  <CustomerID>649</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Walter</FirstName>
+  <LastName>Mays</LastName>
+  <CompanyName>Sports Products Store</CompanyName>
+  <EmailAddress>walter1@adventure-works.com</EmailAddress>
+  <Phone>245-555-0191</Phone>
+</Customer>
+<Customer>
+  <CustomerID>650</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Margaret</FirstName>
+  <LastName>Vanderkamp</LastName>
+  <CompanyName>Permanent Finish Products</CompanyName>
+  <EmailAddress>margaret2@adventure-works.com</EmailAddress>
+  <Phone>265-555-0143</Phone>
+</Customer>
+<Customer>
+  <CustomerID>653</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kara</FirstName>
+  <LastName>Vanderlinden</LastName>
+  <CompanyName>Mercantile Outlet</CompanyName>
+  <EmailAddress>kara0@adventure-works.com</EmailAddress>
+  <Phone>680-555-0160</Phone>
+</Customer>
+<Customer>
+  <CustomerID>654</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Jesus</FirstName>
+  <LastName>Hernandez</LastName>
+  <CompanyName>Online Bike Warehouse</CompanyName>
+  <EmailAddress>jesus0@adventure-works.com</EmailAddress>
+  <Phone>214-555-0145</Phone>
+</Customer>
+<Customer>
+  <CustomerID>655</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Irene</FirstName>
+  <LastName>Hernandez</LastName>
+  <CompanyName>Operational Manufacturing</CompanyName>
+  <EmailAddress>irene0@adventure-works.com</EmailAddress>
+  <Phone>790-555-0197</Phone>
+</Customer>
+<Customer>
+  <CustomerID>659</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Ajay</FirstName>
+  <LastName>Manchepalli</LastName>
+  <CompanyName>Shipping Specialists</CompanyName>
+  <EmailAddress>ajay0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0174</Phone>
+</Customer>
+<Customer>
+  <CustomerID>660</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Nieves</FirstName>
+  <LastName>Vargas</LastName>
+  <CompanyName>Exhilarating Cycles</CompanyName>
+  <EmailAddress>nieves0@adventure-works.com</EmailAddress>
+  <Phone>371-555-0184</Phone>
+</Customer>
+<Customer>
+  <CustomerID>661</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Kari</FirstName>
+  <LastName>Hensien</LastName>
+  <CompanyName>General Department Stores</CompanyName>
+  <EmailAddress>kari0@adventure-works.com</EmailAddress>
+  <Phone>143-555-0129</Phone>
+</Customer>
+<Customer>
+  <CustomerID>665</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Tomas</FirstName>
+  <LastName>Manzanares</LastName>
+  <CompanyName>Authentic Sales and Service</CompanyName>
+  <EmailAddress>tomas0@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0178</Phone>
+</Customer>
+<Customer>
+  <CustomerID>668</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Kathy</FirstName>
+  <LastName>Marcovecchio</LastName>
+  <CompanyName>Official Parts Shop</CompanyName>
+  <EmailAddress>kathy0@adventure-works.com</EmailAddress>
+  <Phone>942-555-0141</Phone>
+</Customer>
+<Customer>
+  <CustomerID>669</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Patricia</FirstName>
+  <LastName>Doyle</LastName>
+  <CompanyName>Racing Bike Outlet</CompanyName>
+  <EmailAddress>patricia0@adventure-works.com</EmailAddress>
+  <Phone>899-555-0134</Phone>
+</Customer>
+<Customer>
+  <CustomerID>670</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Valerie</FirstName>
+  <LastName>Hendricks</LastName>
+  <CompanyName>First Bike Store</CompanyName>
+  <EmailAddress>valerie0@adventure-works.com</EmailAddress>
+  <Phone>859-555-0140</Phone>
+</Customer>
+<Customer>
+  <CustomerID>671</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Jill</FirstName>
+  <LastName>Markwood</LastName>
+  <CompanyName>Contoso, Ltd.</CompanyName>
+  <EmailAddress>jill2@adventure-works.com</EmailAddress>
+  <Phone>747-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>672</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Gerald</FirstName>
+  <LastName>Drury</LastName>
+  <CompanyName>Utilitarian Sporting Goods</CompanyName>
+  <EmailAddress>gerald0@adventure-works.com</EmailAddress>
+  <Phone>169-555-0178</Phone>
+</Customer>
+<Customer>
+  <CustomerID>673</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>John</FirstName>
+  <LastName>Hanson</LastName>
+  <CompanyName>Countryside Company</CompanyName>
+  <EmailAddress>john20@adventure-works.com</EmailAddress>
+  <Phone>107-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>674</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Melissa</FirstName>
+  <LastName>Marple</LastName>
+  <CompanyName>Discount Tours</CompanyName>
+  <EmailAddress>melissa0@adventure-works.com</EmailAddress>
+  <Phone>685-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>677</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Cecelia</FirstName>
+  <LastName>Marshall</LastName>
+  <CompanyName>Tire Exchange</CompanyName>
+  <EmailAddress>cecelia0@adventure-works.com</EmailAddress>
+  <Phone>394-555-0168</Phone>
+</Customer>
+<Customer>
+  <CustomerID>678</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Reuben</FirstName>
+  <LastName>D'sa</LastName>
+  <CompanyName>Vigorous Exercise Company</CompanyName>
+  <EmailAddress>reuben1@adventure-works.com</EmailAddress>
+  <Phone>916-555-0137</Phone>
+</Customer>
+<Customer>
+  <CustomerID>679</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Brenda</FirstName>
+  <LastName>Heaney</LastName>
+  <CompanyName>Superb Sales and Repair</CompanyName>
+  <EmailAddress>brenda3@adventure-works.com</EmailAddress>
+  <Phone>393-555-0167</Phone>
+</Customer>
+<Customer>
+  <CustomerID>683</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Linda</FirstName>
+  <LastName>Martin</LastName>
+  <CompanyName>Oils and Fluids Warehouse</CompanyName>
+  <EmailAddress>linda8@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0137</Phone>
+</Customer>
+<Customer>
+  <CustomerID>685</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>James</FirstName>
+  <LastName>Haugh</LastName>
+  <CompanyName>Family Cycle Store</CompanyName>
+  <EmailAddress>james8@adventure-works.com</EmailAddress>
+  <Phone>763-555-0120</Phone>
+</Customer>
+<Customer>
+  <CustomerID>689</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Sandra</FirstName>
+  <LastName>Martinez</LastName>
+  <CompanyName>Consumer Equipment</CompanyName>
+  <EmailAddress>sandra3@adventure-works.com</EmailAddress>
+  <Phone>1 (11) 500 555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>692</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Bev</FirstName>
+  <LastName>Desalvo</LastName>
+  <CompanyName>Successful Sales Company</CompanyName>
+  <EmailAddress>bev0@adventure-works.com</EmailAddress>
+  <Phone>143-555-0113</Phone>
+</Customer>
+<Customer>
+  <CustomerID>693</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Bart</FirstName>
+  <LastName>Duncan</LastName>
+  <CompanyName>Stock Parts and Supplies</CompanyName>
+  <EmailAddress>bart0@adventure-works.com</EmailAddress>
+  <Phone>539-555-0121</Phone>
+</Customer>
+<Customer>
+  <CustomerID>694</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Ann</FirstName>
+  <LastName>Hass</LastName>
+  <CompanyName>The Accessories Store</CompanyName>
+  <EmailAddress>ann2@adventure-works.com</EmailAddress>
+  <Phone>713-555-0168</Phone>
+</Customer>
+<Customer>
+  <CustomerID>695</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Rob</FirstName>
+  <LastName>Caron</LastName>
+  <CompanyName>Responsible Bike Dealers</CompanyName>
+  <EmailAddress>rob2@adventure-works.com</EmailAddress>
+  <Phone>620-555-0117</Phone>
+</Customer>
+<Customer>
+  <CustomerID>696</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Maciej</FirstName>
+  <LastName>Dusza</LastName>
+  <CompanyName>Roadway Supplies</CompanyName>
+  <EmailAddress>maciej1@adventure-works.com</EmailAddress>
+  <Phone>962-555-0144</Phone>
+</Customer>
+<Customer>
+  <CustomerID>697</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Roger</FirstName>
+  <LastName>Harui</LastName>
+  <CompanyName>Brakes and Gears</CompanyName>
+  <EmailAddress>roger0@adventure-works.com</EmailAddress>
+  <Phone>774-555-0133</Phone>
+</Customer>
+<Customer>
+  <CustomerID>698</CustomerID>
+  <Title>Mr.</Title>
+  <FirstName>Andy</FirstName>
+  <LastName>Carothers</LastName>
+  <CompanyName>Western Bike Supplies</CompanyName>
+  <EmailAddress>andy1@adventure-works.com</EmailAddress>
+  <Phone>944-555-0148</Phone>
+</Customer>
+<Customer>
+  <CustomerID>701</CustomerID>
+  <Title>Ms.</Title>
+  <FirstName>Linda</FirstName>
+  <LastName>Ecoffey</LastName>
+  <CompanyName>Future Bikes</CompanyName>
+  <EmailAddress>linda5@adventure-works.com</EmailAddress>
+  <Phone>674-555-0188</Phone>
+</Customer>
+</ROOT>

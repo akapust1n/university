@@ -1,0 +1,4880 @@
+<ROOT>
+<SalesOrderDetail>
+  <SalesOrderID>71774</SalesOrderID>
+  <SalesOrderDetailID>110562</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>836</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71774</SalesOrderID>
+  <SalesOrderDetailID>110563</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>822</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71776</SalesOrderID>
+  <SalesOrderDetailID>110567</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>907</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110616</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>905</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110617</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>983</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110618</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>988</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110619</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>748</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110620</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>990</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110621</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>926</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110622</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>743</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110623</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110624</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>918</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110625</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>780</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110626</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110627</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110628</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>985</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110629</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>989</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110630</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>991</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110631</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>992</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110632</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>993</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110633</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>984</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110634</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>986</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110635</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>987</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110636</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>981</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110637</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>982</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110638</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>783</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110639</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>809</ProductID>
+  <UnitPrice>37.1520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110640</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>810</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110641</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>935</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110642</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>925</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110643</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>869</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71780</SalesOrderID>
+  <SalesOrderDetailID>110644</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110667</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110668</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>956</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110669</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110670</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110671</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110672</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>996</ProductID>
+  <UnitPrice>72.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110673</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110674</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110675</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>959</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110676</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>971</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110677</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110678</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>978</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110679</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>955</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110680</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110681</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>994</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110682</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>970</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110683</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>966</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110684</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110685</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>885</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110686</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110687</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>894</ProductID>
+  <UnitPrice>72.8760</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110688</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>957</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110689</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>967</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110690</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110691</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110692</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110693</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>958</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110694</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>963</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110695</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110696</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>968</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110697</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>951</ProductID>
+  <UnitPrice>242.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110698</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110699</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>916</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110700</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>886</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110701</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>892</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110702</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>893</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110703</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110704</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110705</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110706</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110707</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110708</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71782</SalesOrderID>
+  <SalesOrderDetailID>110709</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110710</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>738</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110711</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>939</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110712</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>793</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110713</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>977</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110714</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110715</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110716</SalesOrderDetailID>
+  <OrderQty>25</OrderQty>
+  <ProductID>976</ProductID>
+  <UnitPrice>850.4950</UnitPrice>
+  <UnitPriceDiscount>0.1000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110717</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110718</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110719</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>813</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110720</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110721</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>873</ProductID>
+  <UnitPrice>1.3740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110722</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110723</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>822</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110724</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>799</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110725</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>858</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110726</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>860</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110727</SalesOrderDetailID>
+  <OrderQty>15</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>34.9250</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110728</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110729</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>31.3142</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110730</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>722</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110731</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110732</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>998</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110733</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>999</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110734</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>797</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110735</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>798</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110736</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>801</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110737</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110738</SalesOrderDetailID>
+  <OrderQty>13</OrderQty>
+  <ProductID>974</ProductID>
+  <UnitPrice>986.5742</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110739</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>940</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110740</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>835</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110741</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>836</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110742</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>838</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110743</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>718</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110744</SalesOrderDetailID>
+  <OrderQty>17</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>27.4945</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110745</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>716</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110746</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110747</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110748</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.2142</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110749</SalesOrderDetailID>
+  <OrderQty>15</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>19.2445</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110750</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110751</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71783</SalesOrderID>
+  <SalesOrderDetailID>110752</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.2942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110753</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110754</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>885</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110755</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110756</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.8942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110757</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110758</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>970</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110759</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>959</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110760</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110761</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110762</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>972</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110763</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110764</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>716</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110765</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>965</ProductID>
+  <UnitPrice>430.5630</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110766</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>958</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110767</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110768</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>899</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110769</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>858</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110770</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>889</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110771</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>962</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110772</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>895</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110773</SalesOrderDetailID>
+  <OrderQty>12</OrderQty>
+  <ProductID>957</ProductID>
+  <UnitPrice>1382.7606</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110774</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110775</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110776</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>963</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110777</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110778</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>966</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110779</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>967</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110780</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>969</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110781</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>955</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110782</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>916</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110783</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>896</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110784</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>900</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110785</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>893</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110786</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110787</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110788</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110789</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110790</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110791</SalesOrderDetailID>
+  <OrderQty>23</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>34.9250</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110792</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110793</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>873</ProductID>
+  <UnitPrice>1.3740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110794</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71784</SalesOrderID>
+  <SalesOrderDetailID>110795</SalesOrderDetailID>
+  <OrderQty>12</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.2942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111018</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>891</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111019</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>972</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111020</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111021</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>916</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111022</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>958</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111023</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>957</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111024</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>969</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111025</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>967</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111026</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111027</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111028</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>965</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111029</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>970</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111030</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111031</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>955</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111032</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>947</ProductID>
+  <UnitPrice>54.9420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111033</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>899</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111034</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>900</ProductID>
+  <UnitPrice>200.0520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111035</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>892</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111036</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>893</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71796</SalesOrderID>
+  <SalesOrderDetailID>111037</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>885</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111038</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111039</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>838</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111040</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111041</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>940</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111042</SalesOrderDetailID>
+  <OrderQty>16</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>29.6945</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111043</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>913</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111044</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>738</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111045</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>722</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111046</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>835</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111047</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>718</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111048</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111049</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>716</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111050</SalesOrderDetailID>
+  <OrderQty>15</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>29.6945</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111051</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111052</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>860</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111053</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111054</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111055</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>873</ProductID>
+  <UnitPrice>1.3740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111056</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111057</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>977</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111058</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>798</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111059</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>813</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111060</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>939</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111061</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>801</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111062</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>998</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111063</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>999</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111064</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111065</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>794</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111066</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>795</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111067</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>797</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111068</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111069</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111070</SalesOrderDetailID>
+  <OrderQty>23</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>34.9250</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111071</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>976</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111072</SalesOrderDetailID>
+  <OrderQty>17</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.3725</UnitPrice>
+  <UnitPriceDiscount>0.0500</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111073</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>793</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111074</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>974</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111075</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111076</SalesOrderDetailID>
+  <OrderQty>9</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111077</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111078</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.8942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111079</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>717</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111080</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>858</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111081</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>836</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111082</SalesOrderDetailID>
+  <OrderQty>12</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.2942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71797</SalesOrderID>
+  <SalesOrderDetailID>111083</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>822</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71815</SalesOrderID>
+  <SalesOrderDetailID>111451</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>738</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71815</SalesOrderID>
+  <SalesOrderDetailID>111452</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>835</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71815</SalesOrderID>
+  <SalesOrderDetailID>111453</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>874</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111454</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111455</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111456</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111457</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111458</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111459</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71816</SalesOrderID>
+  <SalesOrderDetailID>111460</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71831</SalesOrderID>
+  <SalesOrderDetailID>111790</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>869</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71831</SalesOrderID>
+  <SalesOrderDetailID>111791</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71831</SalesOrderID>
+  <SalesOrderDetailID>111792</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111793</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>918</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111794</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>983</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111795</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>781</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111796</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>868</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111797</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>810</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111798</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>980</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111799</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>925</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111800</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>985</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111801</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>908</ProductID>
+  <UnitPrice>16.2720</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111802</SalesOrderDetailID>
+  <OrderQty>13</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>40.5942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111803</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111804</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111805</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>936</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111806</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>743</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111807</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>904</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111808</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>748</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111809</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>910</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111810</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>784</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111811</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>990</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111812</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>992</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111813</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>984</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111814</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>779</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111815</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>780</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111816</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>944</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111817</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>808</ProductID>
+  <UnitPrice>26.7240</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111818</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>809</ProductID>
+  <UnitPrice>37.1520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111819</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>935</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111820</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>926</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111821</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>917</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71832</SalesOrderID>
+  <SalesOrderDetailID>111822</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>920</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112118</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>988</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112119</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112120</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>904</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112121</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>742</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112122</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>780</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112123</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112124</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>949</ProductID>
+  <UnitPrice>105.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112125</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112126</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112127</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>748</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112128</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>905</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112129</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>781</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112130</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>869</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112131</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>783</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112132</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>784</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112133</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>951</ProductID>
+  <UnitPrice>242.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112134</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>747</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112135</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>809</ProductID>
+  <UnitPrice>37.1520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112136</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>920</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112137</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>743</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112138</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112139</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>944</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112140</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>808</ProductID>
+  <UnitPrice>26.7240</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112141</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>909</ProductID>
+  <UnitPrice>23.4840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112142</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>925</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112143</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112144</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>910</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112145</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>996</ProductID>
+  <UnitPrice>72.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112146</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>779</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112147</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>924</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71845</SalesOrderID>
+  <SalesOrderDetailID>112148</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>952</ProductID>
+  <UnitPrice>12.1440</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71846</SalesOrderID>
+  <SalesOrderDetailID>112149</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>936</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71846</SalesOrderID>
+  <SalesOrderDetailID>112150</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>739</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71846</SalesOrderID>
+  <SalesOrderDetailID>112151</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>984</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71846</SalesOrderID>
+  <SalesOrderDetailID>112152</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>981</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71856</SalesOrderID>
+  <SalesOrderDetailID>112331</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>962</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71856</SalesOrderID>
+  <SalesOrderDetailID>112332</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112359</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112360</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>962</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112361</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112362</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112363</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112364</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>957</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112365</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>965</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112366</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>952</ProductID>
+  <UnitPrice>12.1440</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112367</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112368</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112369</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>972</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112370</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112371</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>958</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112372</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>969</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112373</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112374</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>966</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71858</SalesOrderID>
+  <SalesOrderDetailID>112375</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112391</SalesOrderDetailID>
+  <OrderQty>11</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.2142</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112392</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>874</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112393</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>998</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112394</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112395</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112396</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>999</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71863</SalesOrderID>
+  <SalesOrderDetailID>112397</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71867</SalesOrderID>
+  <SalesOrderDetailID>112452</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>717</ProductID>
+  <UnitPrice>858.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71885</SalesOrderID>
+  <SalesOrderDetailID>112644</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71885</SalesOrderID>
+  <SalesOrderDetailID>112645</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71885</SalesOrderID>
+  <SalesOrderDetailID>112646</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71895</SalesOrderID>
+  <SalesOrderDetailID>112864</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>909</ProductID>
+  <UnitPrice>23.4840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71895</SalesOrderID>
+  <SalesOrderDetailID>112865</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71895</SalesOrderID>
+  <SalesOrderDetailID>112866</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112898</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>966</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112899</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112900</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>969</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112901</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112902</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112903</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112904</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71897</SalesOrderID>
+  <SalesOrderDetailID>112905</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112906</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>969</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112907</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>978</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112908</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>996</ProductID>
+  <UnitPrice>72.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112909</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>967</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112910</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>970</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112911</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>956</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112912</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>960</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112913</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>994</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112914</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>959</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112915</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>968</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112916</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>966</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112917</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>972</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112918</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>949</ProductID>
+  <UnitPrice>105.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112919</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>958</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112920</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112921</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>971</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112922</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>953</ProductID>
+  <UnitPrice>728.9100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112923</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>889</ProductID>
+  <UnitPrice>602.3460</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112924</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>955</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112925</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>964</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112926</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>916</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112927</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112928</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>979</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112929</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>951</ProductID>
+  <UnitPrice>242.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112930</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>954</ProductID>
+  <UnitPrice>1430.4420</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112931</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>952</ProductID>
+  <UnitPrice>12.1440</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112932</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>965</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71898</SalesOrderID>
+  <SalesOrderDetailID>112933</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>961</ProductID>
+  <UnitPrice>445.4100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112934</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112935</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>988</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112936</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>981</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112937</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>743</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112938</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>808</ProductID>
+  <UnitPrice>26.7240</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112939</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112940</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>944</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71899</SalesOrderID>
+  <SalesOrderDetailID>112941</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112953</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>780</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112954</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>981</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112955</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>904</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112956</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>987</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112957</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>783</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112958</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>781</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112959</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112960</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>869</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112961</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>908</ProductID>
+  <UnitPrice>16.2720</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112962</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112963</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>925</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112964</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112965</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>992</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112966</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>980</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112967</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112968</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>935</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112969</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>989</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112970</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>984</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112971</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>982</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112972</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112973</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>784</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112974</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>810</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112975</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>926</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112976</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112977</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112978</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112979</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112980</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112981</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>993</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112982</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112983</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112984</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>809</ProductID>
+  <UnitPrice>37.1520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112985</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>988</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112986</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112987</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>936</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112988</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112989</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>779</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112990</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>991</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112991</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112992</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>910</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112993</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112994</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>985</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112995</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112996</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>986</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112997</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>748</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112998</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>112999</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>918</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>113000</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>905</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>113001</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>983</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71902</SalesOrderID>
+  <SalesOrderDetailID>113002</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71915</SalesOrderID>
+  <SalesOrderDetailID>113089</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>836</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71915</SalesOrderID>
+  <SalesOrderDetailID>113090</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>738</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71915</SalesOrderID>
+  <SalesOrderDetailID>113091</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71915</SalesOrderID>
+  <SalesOrderDetailID>113092</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>939</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71915</SalesOrderID>
+  <SalesOrderDetailID>113093</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>940</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71917</SalesOrderID>
+  <SalesOrderDetailID>113100</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113139</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113140</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113141</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>976</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113142</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113143</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71920</SalesOrderID>
+  <SalesOrderDetailID>113144</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71923</SalesOrderID>
+  <SalesOrderDetailID>113152</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71923</SalesOrderID>
+  <SalesOrderDetailID>113153</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>874</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71923</SalesOrderID>
+  <SalesOrderDetailID>113154</SalesOrderDetailID>
+  <OrderQty>14</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.2142</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113219</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>874</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113220</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113221</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113222</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>976</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113223</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>998</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71935</SalesOrderID>
+  <SalesOrderDetailID>113224</SalesOrderDetailID>
+  <OrderQty>13</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.2142</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113225</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>944</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113226</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>985</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113227</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>996</ProductID>
+  <UnitPrice>72.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113228</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113229</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>926</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113230</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>808</ProductID>
+  <UnitPrice>26.7240</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113231</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>992</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113232</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>951</ProductID>
+  <UnitPrice>242.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113233</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>780</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113234</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>905</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113235</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>747</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113236</SalesOrderDetailID>
+  <OrderQty>14</OrderQty>
+  <ProductID>867</ProductID>
+  <UnitPrice>40.5942</UnitPrice>
+  <UnitPriceDiscount>0.0200</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113237</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>935</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113238</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>945</ProductID>
+  <UnitPrice>54.8940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113239</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>924</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113240</SalesOrderDetailID>
+  <OrderQty>10</OrderQty>
+  <ProductID>783</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113241</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>784</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113242</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>748</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113243</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>981</ProductID>
+  <UnitPrice>461.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113244</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>894</ProductID>
+  <UnitPrice>72.8760</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113245</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>779</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113246</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>782</ProductID>
+  <UnitPrice>1376.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113247</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>869</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113248</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>952</ProductID>
+  <UnitPrice>12.1440</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113249</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>949</ProductID>
+  <UnitPrice>105.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113250</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>937</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113251</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>910</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113252</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>917</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113253</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>994</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113254</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>984</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113255</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>860</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113256</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>948</ProductID>
+  <UnitPrice>63.9000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113257</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>925</ProductID>
+  <UnitPrice>149.8740</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113258</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>908</ProductID>
+  <UnitPrice>16.2720</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113259</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>918</ProductID>
+  <UnitPrice>158.4300</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113260</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>743</ProductID>
+  <UnitPrice>809.7600</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113261</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>739</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113262</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>987</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113263</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>809</ProductID>
+  <UnitPrice>37.1520</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113264</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>904</ProductID>
+  <UnitPrice>218.4540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113265</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>781</ProductID>
+  <UnitPrice>1391.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113266</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>868</ProductID>
+  <UnitPrice>41.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113267</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>988</ProductID>
+  <UnitPrice>112.9980</UnitPrice>
+  <UnitPriceDiscount>0.4000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113268</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>742</ProductID>
+  <UnitPrice>818.7000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113269</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>936</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71936</SalesOrderID>
+  <SalesOrderDetailID>113270</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>909</ProductID>
+  <UnitPrice>23.4840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113274</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>973</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113275</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>876</ProductID>
+  <UnitPrice>72.0000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113276</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>835</ProductID>
+  <UnitPrice>356.8980</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113277</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>974</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113278</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>707</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113279</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>813</ProductID>
+  <UnitPrice>72.1620</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113280</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>938</ProductID>
+  <UnitPrice>24.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113281</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>884</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113282</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>711</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113283</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>712</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113284</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>940</ProductID>
+  <UnitPrice>48.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113285</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>792</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113286</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>976</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113287</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>798</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113288</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>799</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113289</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>864</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113290</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>714</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113291</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>999</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113292</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>998</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113293</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>877</ProductID>
+  <UnitPrice>4.7700</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113294</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>796</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113295</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>708</ProductID>
+  <UnitPrice>20.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113296</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>865</ProductID>
+  <UnitPrice>38.1000</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113297</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>738</ProductID>
+  <UnitPrice>202.3320</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113298</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>883</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113299</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>997</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113300</SalesOrderDetailID>
+  <OrderQty>8</OrderQty>
+  <ProductID>870</ProductID>
+  <UnitPrice>2.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113301</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>795</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113302</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>874</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113303</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>859</ProductID>
+  <UnitPrice>14.6940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113304</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>975</ProductID>
+  <UnitPrice>1020.5940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113305</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>793</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113306</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>797</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113307</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>880</ProductID>
+  <UnitPrice>32.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113308</SalesOrderDetailID>
+  <OrderQty>4</OrderQty>
+  <ProductID>977</ProductID>
+  <UnitPrice>323.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113309</SalesOrderDetailID>
+  <OrderQty>5</OrderQty>
+  <ProductID>801</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113310</SalesOrderDetailID>
+  <OrderQty>7</OrderQty>
+  <ProductID>794</ProductID>
+  <UnitPrice>1466.0100</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113311</SalesOrderDetailID>
+  <OrderQty>6</OrderQty>
+  <ProductID>939</ProductID>
+  <UnitPrice>37.2540</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113312</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>715</ProductID>
+  <UnitPrice>29.9940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113313</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>881</ProductID>
+  <UnitPrice>32.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113314</SalesOrderDetailID>
+  <OrderQty>2</OrderQty>
+  <ProductID>875</ProductID>
+  <UnitPrice>5.3940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71938</SalesOrderID>
+  <SalesOrderDetailID>113315</SalesOrderDetailID>
+  <OrderQty>3</OrderQty>
+  <ProductID>800</ProductID>
+  <UnitPrice>672.2940</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+<SalesOrderDetail>
+  <SalesOrderID>71946</SalesOrderID>
+  <SalesOrderDetailID>113406</SalesOrderDetailID>
+  <OrderQty>1</OrderQty>
+  <ProductID>916</ProductID>
+  <UnitPrice>31.5840</UnitPrice>
+  <UnitPriceDiscount>0.0000</UnitPriceDiscount>
+  <ModifiedDate>2004-06-01T00:00:00</ModifiedDate>
+</SalesOrderDetail>
+</ROOT>

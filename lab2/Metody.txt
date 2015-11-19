@@ -1,0 +1,798 @@
+////////////////////////////////МЕТОДЫ УТОЧНЕНИЯ КОРНЕЙ/////////////////////////////////////////////////////// 
+_____________________________________________________________________________________________________________
+
+
+_______________________________________________________________________________________
+_______________________МЕТОД СТЕФФЕНСЕНА_____________________________________________________
+procedure Stef(A,B,Eps,St:Real; F,P: Func; NMax:Integer);
+
+var
+  W,Z: Real;     //  границы локального отрезка
+  N: Integer;    //  счетчик числа итераций
+  X1,X2: Real;   //  приближения корней уравнений
+  Num: Integer;  //  номер операции
+  Y: Real;       //  дополнительная переменные
+  X3: Real;      //  предыдущий корень
+  Kol: Integer;  //  количество найденных корней
+  Bool: Boolean;
+  X: Real;
+  S: string;
+begin
+  kol := 0;
+  Num := 1;
+  W := A;
+  X3 := 1e+6;
+  repeat
+    Z := W;         //  фиксируем начало локального отрезка
+    W := Z + St;    // фиксируем конец локального отрезка
+    if W > B then   //  последний отрезок выходит за границы интервала
+      W := B;
+    //  если значения функции на концах отрезка принимают значения одного
+    //  знака, то на данном отрезке корень отстутствует
+    if F(W)*F(Z) <= 0 then
+      begin
+        Inc(Kol);
+        Form2.StringGrid1.RowCount := Num + 1;
+        Form2.StringGrid1.Cells[0,Num] := IntToStr(Num);
+        Form2.StringGrid1.Cells[1,Num] := '[' + FloatToStrF(Z,ffGeneral,5,2) + ';'
+                          + FloatToStrF(W,ffGeneral,5,2)  + ']' ;
+        N := 1;
+        X2 := W;
+        repeat
+          X1 := X2;
+          Y := F(X1);
+          if (F(X1 + Y) - Y) = 0 then   // случай с делением на ноль
+            begin
+              ErrString(2,Num);
+              Continue;
+              Inc(Num);    //  увеличиваем номер операции
+            end;
+          X2 := X1 - Y*Y/(F(X1 + Y) - Y);     //
+          Inc(N);        // увеличиваем счетчик количества итераций
+        until Abs(X2-X1)<Eps;
+
+
+        if Abs(X2 - X3) < Eps then  //  корень на границе локального отрезка
+          begin
+            Form2.StringGrid1.RowCount := Form2.StringGrid1.RowCount-1;
+            Dec(Kol);
+            Continue;
+          end;
+        if (X2<Z) or (X2>W) then    //  корень уточнен неверно из-за свойств метода
+           begin
+             ErrString(3,Num);
+             Inc(Num);
+             Continue;
+           end;
+        if (N <= NMax)  then  //  корень найден без превышения числа итераций
+          begin
+            Form2.StringGrid1.Cells[5,Num]:= '0';
+            Form2.StringGrid1.Cells[2,Num]:= FloatToStr(RoundTo(X2,-5));
+           // S := FloatToStrF(F(X),ffExponent,0,5);
+            if F(X) = 0 then
+              Form2.StringGrid1.Cells[3,Num]:= '0'
+            else
+              Form2.StringGrid1.Cells[3,Num]:= FloatToStr(RoundTo(F(X2),-5));
+             // Form2.StringGrid1.Cells[3,Num]:= Short(S);
+            Form2.StringGrid1.Cells[4,Num]:= IntToStr(N);
+            Inc(Num);    //  увеличиваем номер операции
+          end
+        else
+          begin  //  корень найден с превышением предела итераций
+            Form2.StringGrid1.Cells[5,Num] := '2';
+            Form2.StringGrid1.Cells[2,Num] := '-';
+            Form2.StringGrid1.Cells[3,Num] := '-';
+            Form2.StringGrid1.Cells[4,Num] := IntToStr(N);
+            Inc(Num);    //  увеличиваем номер операции
+          end;
+
+        X3 := X2;
+       end;
+  until (B = W);
+  if Kol = 0 then
+    ShowMessage('Корней не найдено')
+  else
+  ShowMessage('Корней на отрезке: ' + IntToStr(Kol));  //  вывод количества корней
+      //  устанавливаем разер таблицы
+  Form2.StringGrid1.Height := Form2.StringGrid1.DefaultRowHeight * (Num + 1);
+end;
+
+
+
+ _______________________________________________________________________________________
+_______________________МЕТОД СЕКУЩИХ(1)_____________________________________________________
+procedure Sek(A,B,Eps,St:Real; F,P,PP: Func; NMax:Integer);
+label
+  L1;
+var
+  W,Z: Real;       //  границы локального отрезка
+  N: Integer;      //  счетчик числа итераций
+  X1,X2,X3: Real;  //  текущие точки
+  Buff: Real;      //  копия X2
+  XPred: Real;     //  Предыдущий корень
+  Kol: Integer;    //  количество найденных корней
+  Num: Integer;    //  номер операции
+  X: Real;         //  корень
+  Bool: Boolean;
+  S: string;
+  C: Real;
+begin
+  kol := 0;
+  Num := 1;
+  W := A;
+  XPred := 1e+6;
+  repeat
+    Z := W;         //  фиксируем начало локального отрезка
+    W := Z + St;    // фиксируем конец локального отрезка
+    if W > B then   //  последний отрезок выходит за границы интервала
+      W := B;
+    //  если значения функции на концах отрезка принимают значения одного
+    //  знака, то на данном отрезке корень отстутствует
+    if F(W)*F(Z) <= 0 then
+      begin
+        Inc(Kol);
+        Form2.StringGrid1.RowCount := Num + 1;
+        Form2.StringGrid1.Cells[0,Num] := IntToStr(Num);
+        Form2.StringGrid1.Cells[1,Num] := '[' + FloatToStrF(Z,ffGeneral,5,2) + ';'
+                          + FloatToStrF(W,ffGeneral,5,2)  + ']' ;
+
+        X1 := Z;      // фиксируем две точки
+        X2 := Z + 0.0001*St;
+        N := 0;
+        repeat
+          if (F(X1)-F(X2)) = 0 then   // случай с делением на ноль
+            begin
+              ErrString(2,Num);
+              Continue;
+              Inc(Num);      //  увеличиваем номер операции
+            end;
+          X3 := X2 - (X1-X2)* F(X2)/(F(X1)-F(X2));
+          Inc(N);
+          Buff := X2;
+          X1 := X2;   //   меняем
+          X2 := X3;   //       точки
+        until  Abs(X3-Buff) < Eps;
+
+        if Abs(X3 - XPred) < Eps then  //  корень на границе локального отрезка
+          begin
+            Form2.StringGrid1.RowCount := Form2.StringGrid1.RowCount-1;
+            Dec(Kol);
+            Continue;
+          end;
+
+        if (X2<Z) or (X2>W) then    //  корень уточнен неверно из-за свойств метода
+           begin
+             ErrString(3,Num);
+             Inc(Num);
+             Continue;
+           end;
+        if N <= NMax then   //  корень найден без превышения  предела итераций
+          begin
+            Form2.StringGrid1.Cells[5,Num]:= '0';
+            Form2.StringGrid1.Cells[2,Num]:= FloatToStr(RoundTo(X3,-5));
+            S := FloatToStrF(F(X3),ffExponent,0,5);
+            if F(X3) = 0 then
+              Form2.StringGrid1.Cells[3,Num]:= '0'
+            else
+              Form2.StringGrid1.Cells[3,Num]:= Short(S);
+            Form2.StringGrid1.Cells[4,Num]:= IntToStr(N);
+            Inc(Num);   //  увеличиваем номер операции
+          end
+        else
+          begin
+            //  корень найден с превышением предела итераций
+            Form2.StringGrid1.Cells[5,Num] := '2';
+            Form2.StringGrid1.Cells[2,Num] := '-';
+            Form2.StringGrid1.Cells[3,Num] := '-';
+            Form2.StringGrid1.Cells[4,Num] := IntToStr(N);
+            Inc(Num);   //  увеличиваем номер операции
+          end;
+        XPred := X3;
+      end;
+  until (B = W);
+
+  if Kol = 0 then
+    ShowMessage('Корней не найдено')
+  else
+    ShowMessage('Корней на отрезке: ' + IntToStr(Kol));
+         //  устанавливаем разер таблицы
+  Form2.StringGrid1.Height := Form2.StringGrid1.DefaultRowHeight * (Num + 1);
+end;
+
+
+
+_______________________________________________________________________________________
+_______________________МЕТОД СЕКУЩИХ(2)_____________________________________________________
+procedure TForm1.Secant(A, B: Real{; F: Func});
+var    d, y, r,e,b1: real;
+i:integer;
+begin
+ 
+b1:=b;
+r :=B1-A;
+d := f(a);
+i:=0;// iterations
+e:=strtofloat(editeps.text);
+        repeat
+                y := f(b1);
+                r := r/(d -y )*y;
+     d := y;
+                b1 := b1 + r;
+    inc(i)
+        until (abs(r) < e) or (i>strtofloat(edititer.text));
+  //превышение количества итераций
+  if (i>strtofloat(edititer.text)) then code:=1;// ну или какой там код ошибки
+  /// по МАТЕМАТИЧЕСКИЙ ПРИЧИНЕ_НЕЙМ метод не работает( не сходится  /типо тог
+    if (b1<a) or (b1>b)   then code:=5; // корень лежит вне интервала
+  output(b1,a,b,i);
+  end;
+
+
+
+_______________________________________________________________________________________
+_______________________МЕТОД НЬЮТОНА_____________________________________________________
+procedure TForm1.Newton(A: Real; B: Real{; F, FDer: Func});
+var
+  IMax: Integer;
+  I: Integer;
+  Eps: Real;
+  X1,X2: Real;
+begin
+  IMax := Trunc(StrToFloat(EditIter.Text));
+  I := 0;
+  Eps := StrToFloat(EditEps.Text);
+ 
+ if F(A)*prF(a)>0 then
+      X2 := A
+    else
+      X2 := B;
+ 
+ 
+  begin
+ 
+    if F(A - Eps/2) <> 0 then
+      repeat
+        X1 := X2;
+        if PrF(X1) = 0 then
+        begin
+          Code := 4;          // ошибка
+          Output(X2,A,B,I{,F});
+          exit;
+        end;
+ 
+        X2 := X1 - F(X1) / PrF(X1);
+        I := I + 1;
+      until (I >= IMax)
+ 
+     // or (X1 < A) or (X2 < A) or (X1 > B) or (X2 > B)
+     or
+          (Abs(X1-X2) < Eps) ;
+          //showmessage('lol');
+ 
+    if (X1 < A) or (X2 < A) or (X1 > B) or (X2 > B) or (I>=Imax) then
+    begin
+      if F(A) *prF(A)>0 then
+      X2 := b
+    else
+      X2 := a;
+ 
+ 
+ 
+    if F(A - Eps/2) <> 0 then
+      repeat
+        X1 := X2;
+        if PrF(X1) = 0 then
+        begin
+          Code := 4;          // ошибка
+         Output(X2,A,B,I{,F});
+        end;
+ 
+        X2 := X1 - F(X1) / PrF(X1);
+        I := I + 1;
+      until (I >= IMax)
+     // or (X1 < A) or (X2 < A) or (X1 > B) or (X2 > B)
+     or
+          (Abs(X1-X2) < Eps)
+ 
+    end;
+ 
+    if I >= IMax then
+    begin
+      Code := 2;
+      Output(X2,A,B,I{,F});
+      exit;
+    end;
+    if Abs(X1-X2) < Eps then
+    begin
+      Code := 0;
+   // Output(X2,A,B,I,F);
+    end;
+ 
+   { if (X2 <= A) or (X2 >= B) then
+      Code := 1;    }
+  end;
+  if (x2<a) or (x2>b) then code:=5; // корень лежит вне интервала
+ 
+  Output(X2,A,B,I{,F});
+end;
+
+_______________________________________________________________________________________
+_______________________МЕТОД ХОРД_____________________________________________________
+function TFormBase.MethodXord(A, B, Eps: Double; MaxIteration: Integer;
+                                         var CurrentIteration: Integer): Double;
+begin
+  B := B + 1e-10;
+  while (Abs(B - A) >= Eps) and (CurrentIteration <= MaxIteration) do
+  begin
+   Inc(CurrentIteration);
+   A := B - (B - A) * FunctionMethod(B)/(FunctionMethod(B) - FunctionMethod(A));
+   B := A - (A - B) * FunctionMethod(A)/(FunctionMethod(A) - FunctionMethod(B));
+  end;
+  Result := B;
+end;
+
+
+_______________________________________________________________________________________
+_______________________МЕТОД ИТЕРАЦИЙ_____________________________________________________
+function TFormBase.MethodIteration(A, B, Eps: Double; MaxIteration: Integer;
+                                         var CurrentIteration: Integer): Double;
+var
+  X1: Double;         // Текущий корень
+  Alpha: Double;      // Альфа
+  Maxx, Min: Double;  // Максимальное  и минимальное значения производной  
+  X2: Double;         // Следующий корень
+ 
+begin
+  X2 := A;
+  Maxx := PFunctionMethod(A);
+  Min := Maxx;
+ 
+  while X2 < B do         // Находим максимальное значение производной
+  begin
+    if PFunctionMethod(X2) > Maxx then
+      Maxx := PFunctionMethod(X2);
+ 
+    if PFunctionMethod(X2) < Min then
+      Min := PFunctionMethod(X2);
+    X2 := X2 + Eps;
+  end;
+ 
+  if Abs(Min) < Abs(Maxx) then
+    Alpha := 2/Maxx - 0.1
+  else
+    Alpha := -(2/Abs(Min) - 0.1);
+  X2 := A;
+  CurrentIteration := 0;
+ 
+  // Метод Итераций
+  if Abs(FunctionMethod(B)) < 0.00001 then
+  begin
+    X2 := B;
+    Inc(CurrentIteration);
+  end
+  else
+  begin
+    repeat
+      X1 := X2;
+      Inc(CurrentIteration);
+      X2 := X1 - Alpha*FunctionMethod(X1);
+    until ((CurrentIteration > MaxIteration) or (Abs(X2 - X1) < Eps));
+  end;
+  Result := X2;
+end;
+
+
+ _______________________________________________________________________________________
+_______________________МЕТОД ПОЛОВИННОГО ДЕЛЕНИЯ____________________________________________________
+procedure TForm1.PolDel(A, B: Real);
+var
+  Eps: Real;         { Точность вычисления         }
+  MaxIter: Integer;  { Максимальное число итераций }
+  A0, B0: Real;      { Границы отрезка             }
+  Iter: Integer;     { Текущее число итераций      }
+  C, Cpr: Real;      { Середина отрезка            }
+  Err: Char;         { Код ошибки                  }
+begin
+  Eps := StrToFloat(EdtEps.Text);
+  MaxIter := StrToInt(Max.Text);
+  A0 := A;
+  B0 := B;
+  if Funk(A)*Funk(B) <= 0 then
+    begin
+      if Funk(A) = 0 then
+      begin
+        Table(A0, B0, A, 1, '0');
+        Exit;
+      end;
+      if Funk(B) = 0 then
+      begin
+        Table(A0, B0, B, 1, '0');
+        Exit;
+      end;
+      Iter := 1;
+      C := 1e20;
+      Err := '0';
+      repeat
+        Cpr := C;
+        C := (A+B) / 2;
+        if Funk(A)*Funk(C) <= 0 then
+          B := C
+        else
+          A := C;
+        Iter := Iter + 1;
+      until (Abs(C-Cpr) <= Eps) or (Iter >= MaxIter);
+ 
+      if Iter >= MaxIter then
+        Err := '1';
+    end
+  else
+    Err := '4';
+  if Err <> '4' then
+    begin
+      Table(A0, B0, C, Iter, Err);
+    end;
+end;
+ 
+ _______________________________________________________________________________________
+_______________________МЕТОД ИТЕРАЦИЙ(2)_____________________________________________________
+procedure TForm1.MIP(A, B: Real);
+var
+  X1, DiffM: Real;
+  K: Real;            { Для преобразования функции }
+  Znak: Real;
+  Iter, MaxIter: Integer;
+  X, Xpr: Real;
+  Eps: Real;
+  Err: Char;
+begin
+  Eps := StrToFloat(EdtEps.Text);
+  MaxIter := StrToInt(Max.Text);
+  if Funk(A)*Funk(B) <= 0 then
+    begin
+      if Funk(A) = 0 then
+      begin
+        Table(A, B, A, 1, '0');
+        Exit;
+      end;
+      if Funk(B) = 0 then
+      begin
+        Table(A, B, B, 1, '0');
+        Exit;
+      end;
+      Iter := 1;
+      X := A;
+      Err := '0';
+ 
+        // Проверка на монотонность
+      X1 := A;
+      DiffM := Diff(A);
+      while (X1 <= B) do
+      begin
+        if (DiffM * Diff(X1)) < 0 then
+        begin
+          Table(A, B, A, 1, '2');
+          Exit;
+        end;
+        X1 := X1 + 0.05;
+      end;
+ 
+      K := 1/Diff(A);
+      repeat
+        Xpr := X;
+        X := Xpr - (Funk(Xpr) * K);
+        Iter := Iter + 1;
+        if (X > B) or (X < A) then
+        begin
+          K := K / 2;
+          X := A;
+          Xpr := 1e20;
+          Iter := 1;
+        end;
+      until (Abs(X-Xpr) < Eps) or (Iter >= MaxIter);
+ 
+      if Iter >= MaxIter then
+        Err := '1';
+    end
+  else
+    Err := '4';
+  if Err <> '4' then
+    begin
+      Table(A, B, X, Iter, Err);
+    end;
+end;
+ 
+
+ _______________________________________________________________________________________
+_______________________МЕТОД СЕКУЩИХ(3)_____________________________________________________
+    F - исходная функция
+    A, B - начало и конец отрезка
+    Eps - точность
+    NMax - максимальное число итераций
+    isAccuracyX - если True, то точность по Х
+    X - корень
+    Y - значение функции
+    N - число итераций
+    Err - код ошибки }
+procedure MethodSec(F: TFunc; A, B, Eps: Real; NMax: Integer;
+    isAccuracyX: Boolean; var X, Y: Real; var N, Err: Integer);
+var
+  isSolved: Boolean;  // Найдено ли решение
+  X1, X2: Real;       // Координаты, используемые в методе
+  Buff: Real;         // Буфер обмена
+begin
+  Err := 0;
+    // Проверка наличия корней
+  if F(A) * F(B) > 0 then
+  begin
+    Err := -1;
+    Exit;
+  end;
+  X1 := A;
+  X2 := B;
+  isSolved := False;
+  N := 0;
+  while not isSolved do
+  begin
+    Buff := X2;
+      // Перехватываем исключение при делении на 0
+    try
+      X2 := X2 - (X1 - X2) / (F(X1) - F(X2)) * F(X2);
+    except
+      Err := 2;
+      Exit;
+    end;
+    X1 := Buff;
+      // Проверяем, достаточно ли уточнен корень
+    if isAccuracyX then
+      isSolved := Abs(X2 - X1) < Eps
+    else
+      isSolved := Abs(F(X2)) < Eps;
+    Inc(N);
+      // Если превышено максимальное число итераций, завершение с ошибкой
+    if N >= NMax then
+    begin
+      Err := 1;
+      Exit;
+    end;
+  end;
+  X := X2;
+  Y := F(X);
+    // Если корень не принадлежит отрезку - ошибка
+  if (X < A) or (X > B) then
+    Err := 3;
+end;
+
+
+
+
+
+
+
+procedure TGraf.UtochKoren(A,B: Real; Shag: Real; E: Real);
+var
+  Xtek: Real;
+  Xs,Xf: Real;
+  XnPlus1: Real;
+  Xn: Real;
+  X0: Real;
+  N: Integer;
+  I: Integer;
+  Fsr: Real;
+  S: string;
+begin
+  Xtek:= A;
+  N:=0;
+_______________________________________________________________________________________
+_______________________УПРОЩЕННЫЙ НЬЮТОНА________________________________________________
+  case rg_Metod.ItemIndex of
+    0: begin
+         while Xtek+Shag < B +Shag/2 do
+           begin
+             I:=0;
+             Xs:=Xtek;
+             Xf:=Xtek+Shag;
+             if F(Xs)*F(Xf)<=0 then
+               begin
+                 if F(Xf)*F2((Xs+Xf)/2) >= 0 then
+                   X0:=Xf;
+                 if F(Xs)*F2((Xs+Xf)/2) >= 0 then
+                   X0:=Xs;
+                 {if (F1(Xs)*F1(Xf)>=0)  and (F1((Xs+Xf)/2)*F1(Xs)*F1(Xf)<=0) then
+                   with grd_Korni do
+                       begin
+                         Inc(N);
+                         Cells[5,RowCount]:='3';
+                         X0:=(Xf+Xs)/2;
+                       end;}
+                 if F1(X0)=0 then
+                   begin
+                     with grd_Korni do
+                       begin
+                         Inc(N);
+                         Cells[0,RowCount]:=IntToStr(N);
+                         Cells[1,RowCount]:=FloatToStr(RoundTo(Xtek,-M))+' ; '+
+                                            FloatToStr(RoundTo(Xtek+Shag,-M));
+                         Cells[2,RowCount]:='-';
+                         Cells[3,RowCount]:='-';
+                         Cells[4,RowCount]:='-';
+                         Cells[5,RowCount]:='2';
+                         RowCount:= RowCount+1;
+                         if (Xf+Shag > B) and (Xf+Shag <> B) then
+                           begin
+                             Shag:=B-Xf;
+                             Xtek:=Xf
+                           end
+                         else
+                           Xtek:=Xf;
+                         Continue;
+                       end;
+                   end;
+                 XnPlus1:=Xs;
+                 I:=0;
+                 repeat
+                   Inc(I);
+                   Xn:=XnPlus1;
+                   EsyMetod(X0,Xs,XnPlus1);
+                   Xs:= XnPlus1;
+                 until (Abs(XnPlus1-Xn) < E) or ( I = 10000 );
+                 if (I = 10000) or ((XnPlus1<Xs) and (XnPlus1>Xf)) then
+                   begin
+                     with grd_Korni do
+                       begin
+                         Inc(N);
+                         Cells[0,RowCount]:=IntToStr(N);
+                         Cells[1,RowCount]:=FloatToStr(RoundTo(Xtek,-M))+' ; '+
+                                            FloatToStr(RoundTo(Xtek+Shag,-M));
+                         Cells[2,RowCount]:='-';
+                         Cells[3,RowCount]:='-';
+                         Cells[4,RowCount]:='-';
+                         Cells[5,RowCount]:='3';
+                         RowCount:= RowCount+1;
+                         if (Xf+Shag > B) and (Xf+Shag <> B) then
+                           begin
+                             Shag:=B-Xf;
+                             Xtek:=Xf
+                           end
+                         else
+                           Xtek:=Xf;
+                         Continue;
+                       end;
+                   end;
+                 with grd_Korni do
+                 begin
+                   Inc(N);
+                   Cells[0,RowCount]:=IntToStr(N);
+                   Cells[1,RowCount]:=FloatToStr(RoundTo(Xtek,-M))+' ; '+
+                                      FloatToStr(RoundTo(Xtek+Shag,-M));
+                   Cells[2,RowCount]:=FloatToStr(RoundTo(XnPlus1,-M));
+                   if F(XnPlus1)=0 then
+                     S:='0'
+                   else
+                     begin
+                       S:=FloatToStrF(F(XnPlus1),ffExponent,0,5);
+                       Delete(S,Pos(',',S),2);
+                     end;
+                   Cells[3,RowCount]:=S;
+                   Cells[4,RowCount]:=IntToStr(I);
+                   if I > StrToInt(edt_I.Text) then
+                     Cells[5,RowCount]:='1';
+                   RowCount:= RowCount+1;
+                 end;
+                 if (Xf+Shag>B) and (Xf+Shag <> B) then
+                   begin
+                     Shag:=B-Xf;
+                     Xtek:=Xf
+                   end
+                 else
+                   Xtek:=Xf;
+               end
+             else
+               if (Xf+Shag>B) and (Xf+Shag <> B) then
+                 begin
+                   Shag:=B-Xf;
+                   Xtek:=Xf
+                 end
+               else
+                 Xtek:=Xf;
+           end;
+       end;
+_______________________________________________________________________________________
+_______________________МЕТОД ХОРД(2)_____________________________________________________
+    1: begin
+         while Xtek+Shag < B+Shag/2 do
+           begin
+             I:=0;
+             Xs:=Xtek;
+             Xf:=Xtek+Shag;
+             if ((F(Xs)>=0) and (F(xf)<=0)) or ((F(Xs)<=0) and (F(xf)>=0)) then
+               begin
+                 if F(Xs)>=F(Xf)then
+                   FSr:=(F(Xs)+F(Xf))/2
+                 else
+                   FSr:=(F(Xf)+F(Xs))/2;
+                 if ((F((Xf+Xs)/2)>= Fsr) and (F(Xs)<=0) and (F(Xf)>=0)) or
+                   ((F((Xf+Xs)/2)<= Fsr) and (F(Xs)>=0) and (F(Xf)<=0)) then
+                   begin
+                     XnPlus1:=Xf;
+                     I:=0;
+                     repeat
+                       Inc(I);
+                       Xn:=XnPlus1;
+                       if F(Xn)-F(Xs)=0 then
+                         begin
+                         with Grd_Korni do
+                           begin
+                           Cells[5,RowCount]:='2';
+                           end;
+                         Continue;
+                         end
+                       else
+                         Xord_A(Xs,Xn,XnPlus1);
+                     until Abs(XnPlus1-Xn) < E;
+                   end;
+                 if ((F((Xf+Xs)/2)>= Fsr) and (F(Xs)>=0) and (F(Xf)<=0)) or
+                   ((F((Xf+Xs)/2)<= Fsr) and (F(Xs)<=0) and (F(Xf)>=0)) then
+                   begin
+                     XnPlus1:=Xs;
+                     I:=0;
+                     repeat
+                       Inc(I);
+                       Xn:=XnPlus1;
+                       if F(Xf)-F(Xn)=0 then
+                         begin
+                         with Grd_Korni do
+                           begin
+                             Cells[5,RowCount]:='2';
+                           end;
+                         Continue;
+                         end
+                       else
+                         Xord_B(Xf,Xn,XnPlus1);
+                     until Abs(XnPlus1-Xn) < E;
+                   end;
+                 with grd_Korni do
+                 begin
+                   Inc(N);
+                   Cells[0,RowCount]:=IntToStr(N);
+                   Cells[1,RowCount]:=FloatToStr(RoundTo(Xtek,-M))+' ; '+
+                                      FloatToStr(RoundTo(Xtek+Shag,-M));
+                   Cells[2,RowCount]:=FloatToStr(RoundTo(XnPlus1,-M));
+                   if F(XnPlus1)=0 then
+                   S:='0'
+                   else
+                     begin
+                       S:=FloatToStrF(F(XnPlus1),ffExponent,0,5);
+                       Delete(S,Pos(',',S),2);
+                     end;
+                   Cells[3,RowCount]:=S;
+                   Cells[4,RowCount]:=IntToStr(I);
+                   if I > StrToInt(edt_I.Text) then
+                     Cells[5,RowCount]:='1';
+                   RowCount:= RowCount+1;
+                 end;
+                 if (Xf+Shag>B) and (Xf+Shag <> B) then
+                   begin
+                     Shag:=B-Xf;
+                     Xtek:=Xf
+                   end
+                 else
+                   Xtek:=Xf;
+               end
+             else
+               if (Xf+Shag>B) and (Xf+Shag <> B) then
+                 begin
+                   Shag:=B-Xf;
+                   Xtek:=Xf
+                 end
+               else
+                 Xtek:=Xf;
+
+           end
+       end;
+  end;
+  if N=0 then
+    ShowMessage('На данном интервале корней нет');
+end;
+
+
+////////////////////////////////////////////////////////////////////////////////

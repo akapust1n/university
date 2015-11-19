@@ -1,0 +1,57 @@
+struct Customer {
+	int CustomerID;
+	char Title[8];
+	char FirstName[50];
+	char LastName[50];
+	char CompanyName[128];
+	char EmailAddress[50];
+	char Phone[25];
+};
+
+struct Product {
+	int ProductID;
+	char Name[50];
+	char ProductNumber[25];
+	float ListPrice;
+	int Size;
+	float Weight;
+};
+
+struct Order {
+	int OrderID;
+  	char CustomerID[6];
+  	int EmployeeID;
+  	char OrderDate[20];
+  	char RequiredDate[20];
+  	char ShippedDate[20];
+  	float Freight;
+};
+
+struct Shipment {
+	int OrderID;
+	char ShippedDate[20];
+  	float Freight;
+  	char ShipName[40];
+  	char ShipAddress[50];
+  	char ShipCity[15];
+  	char ShipCountry[15];
+};
+
+struct SalesOrderDetail {
+  	int SalesOrderID;
+  	int SalesOrderDetailID;
+  	int OrderQty;
+  	int ProductID;
+  	float UnitPrice;
+  	float UnitPriceDiscount;
+  	char ModifiedDate[20];
+};
+
+struct OrderDetail {
+	int OrderID;
+  	int ProductID;
+  	float UnitPrice;
+  	int Quantity;
+  	float Discount;
+  	char ProductName[40];
+};	

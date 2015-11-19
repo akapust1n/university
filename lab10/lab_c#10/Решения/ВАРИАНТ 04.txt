@@ -1,0 +1,107 @@
+------------------------------------------------------------
+-- ¬¿–»¿Õ“ 04
+------------------------------------------------------------
+EXEC Query16;
+
+Metropolitan Bicycle Supply
+Sports Products Store
+
+EXEC Query17;
+
+502	996
+
+EXEC Query18;
+
+859
+864
+865
+870
+876
+877
+880
+881
+883
+884
+885
+893
+894
+988
+994
+996
+
+EXEC Query19;
+
+Coalition Bike Company	40
+Price-Cutter Discount Bikes	2
+General Riding Supplies	45
+Blue Bicycle Company	40
+Vast Bike Sales and Rental	44
+Wingtip Toys	39
+Summer Sports Place	39
+Racing Toys	18
+Retail Cycle Shop	5
+Real Sporting Goods	38
+Major Cycling	5
+General Supplies	41
+Downhill Bicycle Specialists	21
+Basic Sports Equipment	37
+Quick Delivery Service	5
+Honest Repair Service	35
+Fun Toys and Bikes	37
+World Bike Discount Store	32
+Retail Mall	49
+Rural Bicycle Supply	9
+Fun Times Club	5
+Big-Time Bike Store	42
+Tenth Bike Store	39
+Valley Bicycle Specialists	17
+Finish and Sealant Products	37
+Curbside Sporting Goods	8
+Remote Bicycle Specialists	2
+Vinyl and Plastic Goods Corporation	7
+Consolidated Messenger	24
+Variety Cycling	26
+Some Discount Store	21
+Major Sport Suppliers	36
+Systematic Sales	11
+Economy Center	38
+Designated Distributors	46
+Family's Favorite Bike Shop	35
+Synthetic Materials Manufacturing	30
+Rural Sales and Service	25
+One Bike Company	27
+Our Sporting Goods Store	9
+General Cycle Storehouse	21
+Cycling Goods	14
+Cycle Clearance	16
+Coho Sports	22
+All Seasons Sports Supply	37
+Westside Plaza	18
+Strenuous Exercise Shop	34
+Transport Bikes	39
+Outstanding Cycles	7
+Maintenance and Repair for Bicycles	25
+Golf and Cycle Store	33
+Tubeless Tire Company	5
+Major Sporting Goods	17
+Efficient Cycling	27
+Eastside Parts Shop	9
+Sports Store	42
+Extended Tours	42
+Convenient Sales and Service	8
+Superior Hardware Distributors	33
+Yellow Bicycle Company	21
+Small Bike Shop	19
+Permanent Finish Products	21
+Mercantile Outlet	2
+Exhilarating Cycles	1
+General Department Stores	12
+Official Parts Shop	20
+Racing Bike Outlet	28
+Utilitarian Sporting Goods	10
+Countryside Company	48
+
+EXEC Query20 @ProductID = 881;
+
+60	20
+
