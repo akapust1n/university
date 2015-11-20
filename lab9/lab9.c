@@ -8,7 +8,74 @@ struct SalesOrderDetail {
     float UnitPrice;
     float UnitPriceDiscount;
     char ModifiedDate[20];
-} S[1000];
+} ;
+struct SalesOrderDetail S[1000];
+// Объявление узла двоичного дерева.
+struct BTree
+{
+    double szText;
+    struct BTree *Left;
+    struct BTree *Right;
+};
+
+
+
+struct BTree* create_node( char name)
+{
+    struct BTree *node;
+
+    node = malloc(sizeof(struct BTree));
+
+    if (node)
+    {
+        node->szText= name;
+
+        node->Left = NULL;
+        node->Right = NULL;
+    }
+
+    return node;
+}
+
+struct BTree* insert(struct BTree*tree, struct BTree* node)
+{
+    int cmp;
+
+    if (tree == NULL)
+        return node;
+
+   if ( node->szText> tree->szText) cmp=1 ; else cmp=-1;
+    if (cmp == 0)
+    {
+
+    }
+    else if (cmp < 0)
+    {
+        tree->Left = insert(tree->Left, node);
+    }
+    else
+    {
+        tree->Right = insert(tree->Right, node);
+    }
+
+    return tree;
+}
+
+
+void PrintTree( struct BTree* btRoot )
+{
+    // Пройти левое поддерево (в обратном порядке).
+    if( btRoot->Left )
+        PrintTree( btRoot->Left );
+
+    // Попасть в корень.
+   printf("%lf\n",btRoot->szText);
+
+    // Пройти правое поддерево (в обратном порядке).
+    if( btRoot->Right )
+        PrintTree( btRoot->Right );
+}
+
 int menu()
 {
     int i=0;
@@ -19,7 +86,7 @@ int menu()
     printf("4)ProductID\n");
     printf("5)UnitPrice\n");
     printf("6)UnitPriceDiscount\n");
-    printf("7)ModifiedDate\n");
+    printf(">>");
     scanf("%d",&i);
 
     return i;
@@ -35,24 +102,46 @@ int menu2()
     printf("4)Successor:\n");
     printf("5)PREDECESSOR\n");
     printf("6)Delete\n");
+    printf(">>");
     scanf("%d",&i);
 
     return i;
 
 }
 
+struct BTree * search (struct BTree * tree, double key)
+{
+   struct SalesOrderDetail  *buf;
+
+    if (tree)
+        do
+        {
+            buf=tree;
+            if (tree->szText==key)
+                return NULL;
+            if (key<tree->szText)
+                tree=tree->Left;
+            else
+                tree=tree->Right;
+        } while (tree);
+
+        return buf;
+}
+void print_Tree(struct BTree * p,double level)
+{
+    if(p)
+    {
+        print_Tree(p->Left,level + 1);
+        for(int i = 0;i< level;i++) printf("   ");
+        printf("%lf\n",p->szText) ;
+        print_Tree(p->Right,level + 1);
+    }
+    return;
+}
 int main()
 {
-    int par=menu();
-    char * pch;
-    switch(par)
-    {
-    case 1:{
-         pch = strtok (str,"SalesOrderID>");
-
-    }
-    }
-    FILE *fp=fopen("SalesOrderDetails.xml","r");
+        int len=0;
+        FILE *fp=fopen("SalesOrderDetails.xml","r");
         char s[100];
         char * pch;
         fgets(s,99,fp);
@@ -60,6 +149,7 @@ int main()
         int i=0;
         while(1)
         {
+            len++;
          fgets(s,99,fp);
          if (!strcmp(s,"</ROOT>")) break;
          strcpy(s,"");
@@ -106,11 +196,69 @@ int main()
            strcpy(s,"");
            i++;
     }
+        //считатали файл в массив и перегоняем в числовой массив, из которого построим дерево
+           int par=menu();
+           double yy[len];
+           switch (par)
+           {
+               case 1:
+              {
+                  for(int i=0;i<len;i++)
+                      yy[i]=1.0*S[i].SalesOrderID;
+                  break;
+              };
+
+              case 2:
+             {
+              for(int i=0;i<len;i++)
+                  yy[i]=1.0*S[i].SalesOrderDetailID;
+              break;
+             };
+               case 3:
+
+              {
+               for(int i=0;i<len;i++)
+                   yy[i]=1.0*S[i].OrderQty;
+               break;
+              };
+
+               case 4:
+              {
+               for(int i=0;i<len;i++)
+                   yy[i]=1.0*S[i].ProductID;
+               break;
+              };
+
+               case 5:
+              {
+               for(int i=0;i<len;i++)
+                   yy[i]=1.0*S[i].UnitPrice;
+               break;
+              };
+               case 6:
+              {
+               for(int i=0;i<len;i++)
+                   yy[i]=1.0*S[i].UnitPriceDiscount;
+               break;
+              };
+
+
+           }
+struct BTree root=NULL;
+
     do
     {
         int u=menu2();
-        printf("");
+        switch (u)
+        {
+            case 1:
+            {
+                print_Tree(struct BTree * p,double level)
+            }
+
+        }
 
     }while (1);
+
     return 0;
 }
