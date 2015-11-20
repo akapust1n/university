@@ -20,7 +20,7 @@ struct BTree
 
 
 
-struct BTree* create_node( char name)
+struct BTree* create_node( double name)
 {
     struct BTree *node;
 
@@ -37,7 +37,7 @@ struct BTree* create_node( char name)
     return node;
 }
 
-struct BTree* insert(struct BTree*tree, struct BTree* node)
+/*struct BTree* insert(struct BTree*tree, struct BTree* node)
 {
     int cmp;
 
@@ -59,7 +59,20 @@ struct BTree* insert(struct BTree*tree, struct BTree* node)
     }
 
     return tree;
-}
+}*/
+struct BTree *INSERT(struct BTree *T, z)
+2. х <- root[T]
+3. while х <> NULL
+4. do y <- x
+5. if key[z] < key[x]
+6. then х <- left[x]
+7. else х <- right[x]
+8. p[z] <- у
+9. if у = NULL
+10. then root[T] <- z
+11. else if key[ z] < key[y]
+12. then left[y] <- z
+13. else right[y] <- z
 
 
 void PrintTree( struct BTree* btRoot )
@@ -140,8 +153,8 @@ void print_Tree(struct BTree * p,double level)
 }
 int main()
 {
-        int len=0;
-        FILE *fp=fopen("SalesOrderDetails.xml","r");
+       int len=0;
+    FILE *fp=fopen("SalesOrderDetails.xml","r");
         char s[100];
         char * pch;
         fgets(s,99,fp);
@@ -244,19 +257,22 @@ int main()
 
 
            }
-struct BTree root=NULL;
+// наполнение дерева
+    struct BTree *root=NULL;
+    struct BTree *node;
+    for(int i=0;i<len;i++)
+        {
+        node = create_node(yy[i]);
+       // printf("Name %lf",node->szText);
+       // printf("one");
+       root = insert(root, node);
+
+    }
 
     do
     {
         int u=menu2();
-        switch (u)
-        {
-            case 1:
-            {
-                print_Tree(struct BTree * p,double level)
-            }
-
-        }
+        printf("");
 
     }while (1);
 
