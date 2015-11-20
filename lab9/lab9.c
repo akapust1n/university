@@ -132,6 +132,9 @@ int menu2()
     printf("4)Successor\n");
     printf("5)Predecessor\n");
     printf("6)Delete\n");
+    printf("7)Pre-order\n");
+    printf("8)In-order\n");
+    printf("9)Post-order\n");
     printf(">>");
     scanf("%d",&i);
 
@@ -165,6 +168,7 @@ void print_Tree(struct BTree * p,double level,FILE *f)
         print_Tree(p->Left,level + 1,f);
         for(int i = 0;i< level;i++) fprintf(f,"___");
         fprintf(f,"%lf\n",p->szText) ;
+        if (p->szText==71776) print("!!!!!!!!!");
         print_Tree(p->Right,level + 1,f);
     }
 
@@ -203,12 +207,102 @@ double next(double  x,struct BTree* root)
       }
    return successor->szText;
  }
+double prev(double  x,struct BTree* root)
+ { struct BTree* current = root, *successor = NULL   ;             // root — корень дерева
+   while (current != NULL)
+      {if (current->szText < x)
+        { successor = current;
+         current = current->Right;}
+      else
+         current = current->Left;
+      }
+   return successor->szText;
+ }
 
+///ОБХОДЫ
+void print(struct BTree *node, void *param)
+{
+    static i=0;
+    i++;
+    const char *fmt = param;
+    if(!(i%5)) printf("\n");
+    printf(fmt, node->szText);
 
+}
+void apply_pre(struct BTree* tree, void (*f)(struct BTree*, void*), void *arg)
+{
+    if (tree == NULL)
+        return;
+
+    f(tree, arg);
+    apply_pre(tree->Left, f, arg);
+    apply_pre(tree->Right, f, arg);
+}
+
+void apply_in(struct BTree *tree, void (*f)(struct BTree*, void*), void *arg)
+{
+    if (tree == NULL)
+        return;
+
+    apply_in(tree->Left, f, arg);
+    f(tree, arg);
+    apply_in(tree->Right, f, arg);
+}
+
+void apply_post(struct BTree* tree, void (*f)(struct BTree*, void*), void *arg)
+{
+    if (tree == NULL)
+        return;
+
+    apply_post(tree->Left, f, arg);
+    apply_post(tree->Right, f, arg);
+    f(tree, arg);
+}
+struct BTree *dtree(struct BTree  *root, double key)
+{
+  struct BTree   *p,*p2;
+
+  if(!root) return root; /* вершина не найдена */
+
+  if(root->szText == key) { /* удаление корня */
+    /* это означает пустое дерево */
+      printf("combo\n");
+    if(root->Left == root->Right){
+      free(root);
+      return NULL;
+    }
+    /* или если одно из поддеревьев пустое */
+    else if(root->Left == NULL) {
+      p = root->Right;
+      free(root);
+      printf("combo1\n");
+      return p;
+    }
+    else if(root->Right == NULL) {
+      p = root->Left;
+      free(root);
+      printf("combo2\n");
+      return p;
+    }
+    /* или есть оба поддерева */
+    else {
+      p2 = root->Right;
+      p = root->Right;
+      while(p->Left) p = p->Left;
+      p->Left = root->Left;
+      free(root);
+      printf("combo3\n");
+      return p2;
+    }
+  }
+  if(root->szText < key) root->Right = dtree(root->Right, key);
+  else root->Left = dtree(root->Left, key);
+  return root;
+}
 
 int main()
 {
-    FILE *f = fopen("file1.txt", "w");
+    FILE *f;
        int len=0;
     FILE *fp=fopen("SalesOrderDetails.xml","r");
         char s[100];
@@ -313,6 +407,7 @@ int main()
 
 
            }
+           //len++;
            fclose(fp);
 // наполнение дерева
     struct BTree *root=NULL;
@@ -332,6 +427,7 @@ int main()
         {
             case 1:
             {
+                f = fopen("file1.txt", "w");
                 print_Tree(root,0,f);
 
                 printf("You can watch the tree in file1.txt\n");
@@ -357,8 +453,42 @@ int main()
             }
             case 5:
             {
-              //printf("Prev %lf\n",prev(root));
+              //
+                printf("input element:");
+                double b;
+                scanf("%lf",&b);
+               printf("Prev %lf\n",prev(b,root));
               break;
+            }
+            case 7:{
+                printf("Pre-order:\n");
+                apply_pre(root, print, "%8.1lf ");
+                printf("\n");
+                break;
+            }
+            case 8:{
+                printf("In-order:\n");
+                apply_in(root, print, "%8.1lf ");
+                printf("\n");
+                break;
+            }
+            case 9:{
+                printf("Post-order:\n");
+                apply_post(root, print, "%8.1lf ");
+                printf("\n");
+                break;
+            }
+            case 6:{
+                printf("input element:");
+                double b;
+                scanf("%lf",&b);
+
+                //printf("Name %lf",node->szText);
+               // printf("one");
+               root = dtree(root, b);
+               len--;
+               break;
+
             }
 
         }
