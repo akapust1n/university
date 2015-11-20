@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+
+
 struct SalesOrderDetail {
     int SalesOrderID;
     int SalesOrderDetailID;
@@ -16,6 +18,7 @@ struct BTree
     double szText;
     struct BTree *Left;
     struct BTree *Right;
+    struct BTree *Parent;
 };
 
 
@@ -32,12 +35,13 @@ struct BTree* create_node( double name)
 
         node->Left = NULL;
         node->Right = NULL;
+        node->Parent= NULL;
     }
 
     return node;
 }
 
-/*struct BTree* insert(struct BTree*tree, struct BTree* node)
+struct BTree* insert(struct BTree*tree, struct BTree* node)
 {
     int cmp;
 
@@ -52,6 +56,7 @@ struct BTree* create_node( double name)
     else if (cmp < 0)
     {
         tree->Left = insert(tree->Left, node);
+
     }
     else
     {
@@ -59,20 +64,31 @@ struct BTree* create_node( double name)
     }
 
     return tree;
+}
+
+/*struct BTree* insert(struct BTree* x, struct BTree* z)            // x — корень поддерева, z — вставляемый элемент
+ {  while (x != NULL)
+    { if (z->szText > x->szText)
+        if (x->Right != NULL)
+           x = x->Right;
+        else
+           {z->Parent = x;
+           x->Right = z;
+           break;
+        }
+     else
+            if (z->szText < x->szText)
+        if( x->Left != NULL)
+           x = x->Left;
+        else
+          { z->Parent = x;
+           x->Left = z;
+           break;}
+    }
+    return z;
 }*/
-struct BTree *INSERT(struct BTree *T, z)
-2. х <- root[T]
-3. while х <> NULL
-4. do y <- x
-5. if key[z] < key[x]
-6. then х <- left[x]
-7. else х <- right[x]
-8. p[z] <- у
-9. if у = NULL
-10. then root[T] <- z
-11. else if key[ z] < key[y]
-12. then left[y] <- z
-13. else right[y] <- z
+
+
 
 
 void PrintTree( struct BTree* btRoot )
@@ -87,6 +103,7 @@ void PrintTree( struct BTree* btRoot )
     // Пройти правое поддерево (в обратном порядке).
     if( btRoot->Right )
         PrintTree( btRoot->Right );
+    //system("1.txt");
 }
 
 int menu()
@@ -112,8 +129,8 @@ int menu2()
     printf("1)Print:\n");
     printf("2)Min:\n");
     printf("3)Max:\n");
-    printf("4)Successor:\n");
-    printf("5)PREDECESSOR\n");
+    printf("4)Successor\n");
+    printf("5)Predecessor\n");
     printf("6)Delete\n");
     printf(">>");
     scanf("%d",&i);
@@ -140,19 +157,58 @@ struct BTree * search (struct BTree * tree, double key)
 
         return buf;
 }
-void print_Tree(struct BTree * p,double level)
+void print_Tree(struct BTree * p,double level,FILE *f)
 {
+
     if(p)
     {
-        print_Tree(p->Left,level + 1);
-        for(int i = 0;i< level;i++) printf("   ");
-        printf("%lf\n",p->szText) ;
-        print_Tree(p->Right,level + 1);
+        print_Tree(p->Left,level + 1,f);
+        for(int i = 0;i< level;i++) fprintf(f,"___");
+        fprintf(f,"%lf\n",p->szText) ;
+        print_Tree(p->Right,level + 1,f);
     }
+
     return;
 }
+
+double min(struct BTree* x)
+{
+double min1;
+    while (x->Left!= NULL)
+ {
+        min1=x->szText;
+        x=x->Left;
+}
+    return min1;
+}
+
+double max(struct BTree* x)
+{
+double max1;
+    while (x->Right!= NULL)
+ {
+        max1=x->szText;
+        x=x->Right;
+}
+    return max1;
+}
+double next(double  x,struct BTree* root)
+ { struct BTree* current = root, *successor = NULL   ;             // root — корень дерева
+   while (current != NULL)
+      {if (current->szText > x)
+        { successor = current;
+         current = current->Left;}
+      else
+         current = current->Right;
+      }
+   return successor->szText;
+ }
+
+
+
 int main()
 {
+    FILE *f = fopen("file1.txt", "w");
        int len=0;
     FILE *fp=fopen("SalesOrderDetails.xml","r");
         char s[100];
@@ -257,22 +313,58 @@ int main()
 
 
            }
+           fclose(fp);
 // наполнение дерева
     struct BTree *root=NULL;
     struct BTree *node;
     for(int i=0;i<len;i++)
         {
         node = create_node(yy[i]);
-       // printf("Name %lf",node->szText);
+        //printf("Name %lf",node->szText);
        // printf("one");
        root = insert(root, node);
 
     }
-
     do
     {
         int u=menu2();
+        switch (u)
+        {
+            case 1:
+            {
+                print_Tree(root,0,f);
+
+                printf("You can watch the tree in file1.txt\n");
+                break;
+            }
+            case 2:
+            {
+              printf("Minimum %lf\n",min(root));
+              break;
+            }
+            case 3:
+            {
+              printf("Maximum %lf\n",max(root));
+              break;
+            }
+            case 4:
+            {
+               printf("input element:");
+               double b;
+               scanf("%lf",&b);
+              printf("Next %lf\n",next(b,root));
+              break;
+            }
+            case 5:
+            {
+              //printf("Prev %lf\n",prev(root));
+              break;
+            }
+
+        }
+
         printf("");
+
 
     }while (1);
 
