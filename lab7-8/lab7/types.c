@@ -1,7 +1,7 @@
 #include <stdlib.h>
-static char *KeywordsName[]=
+static char KeywordsName[20][37]=
 {
-"auto",
+    "auto",
     "break",
     "case",
     "char",
@@ -10,7 +10,7 @@ static char *KeywordsName[]=
     "default",
     "do",
     "double",
-    "else",
+    "else",//10
     "enum",
     "extern",
     "float",
@@ -20,7 +20,7 @@ static char *KeywordsName[]=
     "inline",
     "int",
     "long",
-    "register",
+    "register",//20
     "restrict",
     "return",
     "short",
@@ -30,12 +30,12 @@ static char *KeywordsName[]=
     "struct",
     "switch",
     "typedef",
-    "union",
+    "union",//30
     "unsigned",
     "void",
     "volatile",
     "while",
     "_Bool",
     "_Complex",
-    "_Imaginar"
+    "_Imaginar" //37
 };
