@@ -1,1 +1,6 @@
-auto
+auto1
+"2chaya"
+inline
+#include
+2803.1E+10
+%=
