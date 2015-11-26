@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-
+#include  <ctype.h>
 
 /*struct node_st{
     node_st *p1; 	// левая ветка
@@ -11,6 +11,88 @@
     int b; 		// фактор баланса
     };
 */
+
+struct Node
+{
+char key;
+char height;
+struct Node *right;
+struct Node *left;
+};
+void iniz(char k,struct Node * p)
+{
+     printf("Iniz succ");
+    p->key=k;
+    p->height=1;
+    p->left=p->right=0;
+
+return ;}
+
+char height(struct Node *p)
+{
+if (p) return p->height;
+else return 0;
+}
+
+int BF(struct Node *p)
+{ return height(p->right)-height(p->left); }
+
+void OverHeight(struct Node *p)
+{
+char hleft=height(p->left);
+char hright=height(p->right);
+p->height=(hleft>hright ? hleft : hright)+1;
+}
+
+struct Node* RightRotation(struct Node *x)
+{
+struct Node *y=x->left;
+x->left=y->right;
+y->right=x;
+OverHeight(x);
+OverHeight(y);
+return y;
+}
+struct Node *LeftRotation(struct Node *y)
+{
+ struct Node *x=y->right;
+y->right=x->left;
+x->left=y;
+OverHeight(y);
+OverHeight(x);
+return x;
+}
+struct Node *Balance(struct Node *x)
+{
+OverHeight(x);
+if (BF(x)==2)
+{
+if (BF(x->right)<0) x->right=RightRotation(x->right);
+return LeftRotation(x);
+}
+if (BF(x)==-2)
+{
+if (BF(x->left)>0) x->left=LeftRotation(x->left);
+return RightRotation(x);
+}
+return x;
+}
+struct Node *Insert(struct Node *x, char k) //к авл дереву
+{
+
+if (!x)
+{
+    printf("memory");
+    struct Node *r=malloc(sizeof(struct Node*));
+    return r;
+}
+ printf("%c",k);
+if (k<x->key) x->left=Insert(x->left, k);
+else x->right=Insert(x->right, k);
+
+return Balance(x);
+}
+
 unsigned long long tick(void)
 {
     unsigned long long d;
@@ -131,12 +213,14 @@ void apply_pre(struct tree_node *tree, void (*f)(struct tree_node*, void*), void
     apply_pre(tree->left, f, arg);
     apply_pre(tree->right, f, arg);
 }
+
 void print(struct tree_node *node, void *param)
 {
     const char *fmt = param;
 
     printf(fmt, node->name);
 }
+
 void to_dot(struct tree_node *tree, void *param)
 {
     FILE *f = param;
@@ -373,6 +457,7 @@ do{
         fclose(f);
         system("dot test.gv -Tpng -og.png");
         system("g.png");
+         goto haha;
         break;
         //заполняем дерево заново(чисто в угоду подсчету времени)
 
@@ -402,23 +487,18 @@ do{
     }
     }
    while(y!=0);
+  haha: //конец 6ой лабы и начала баланса
+   printf("\nlol\n");
+   struct Node *root1=malloc(sizeof(struct Node*));
+    iniz(abc[0],root1);
+   for(int i=1;abc[i];i++)
+   {
+       root1=Insert(root1,abc[i]);
+       printf("%c",root1->key);
+   }
 
 
 
 
-{
-    FILE *f = fopen("test.gv", "w");
-
-
-
-    export_to_dot(f, "test_tree", root);
-
-    fclose(f);
-}
-system("dot test.gv -Tpng -og.png");
-system("g.png");
 return 0;
 }
-
-
-
