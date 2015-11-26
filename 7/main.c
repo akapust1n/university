@@ -21,12 +21,13 @@ struct Node *left;
 };
 void iniz(char k,struct Node * p)
 {
-     printf("Iniz succ");
+     printf("Iniz succ\n");
     p->key=k;
     p->height=1;
     p->left=p->right=0;
 
-return ;}
+return ;
+}
 
 char height(struct Node *p)
 {
@@ -83,7 +84,8 @@ struct Node *Insert(struct Node *x, char k) //к авл дереву
 if (!x)
 {
     printf("memory");
-    struct Node *r=malloc(sizeof(struct Node*));
+    struct Node *r=malloc(sizeof(struct Node));
+    iniz( k,r);
     return r;
 }
  printf("%c",k);
@@ -213,12 +215,28 @@ void apply_pre(struct tree_node *tree, void (*f)(struct tree_node*, void*), void
     apply_pre(tree->left, f, arg);
     apply_pre(tree->right, f, arg);
 }
+void apply_pre1(struct Node*tree, void (*f)(struct Node*, void*), void *arg)
+{
+    if (tree == NULL)
+        return;
+
+    f(tree, arg);
+    apply_pre1(tree->left, f, arg);
+    apply_pre1(tree->right, f, arg);
+}
+
 
 void print(struct tree_node *node, void *param)
 {
     const char *fmt = param;
 
     printf(fmt, node->name);
+}
+void print1(struct Node *node, void *param)
+{
+    const char *fmt = param;
+
+    printf(fmt, node->key);
 }
 
 void to_dot(struct tree_node *tree, void *param)
@@ -234,10 +252,30 @@ void to_dot(struct tree_node *tree, void *param)
 
 
 }
+void to_dot1(struct Node *tree, void *param)
+{
+    FILE *f = param;
+
+    if (tree->left)
+        fprintf(f, "%c -> %c;\n", tree->key, tree->left->key);
+
+    if (tree->right)
+          fprintf(f, "%c -> %c ;  \n", tree->key, tree->right->key);
+   // fprintf(f,"d[shape=\"rectangle\",style=\"filled\",fillcolor=\"lightgrey\"];");
+
+
+}
 void export_to_dot(FILE *f, const char *tree_name, struct tree_node *tree)
 {
     fprintf(f, "digraph %s {\n", tree_name);
     apply_pre(tree, to_dot, f);
+
+
+}
+void export_to_dot1(FILE *f, const char *tree_name, struct Node *tree)
+{
+    fprintf(f, "digraph %s {\n", tree_name);
+    apply_pre1(tree, to_dot1, f);
 
 
 }
@@ -281,6 +319,7 @@ int letter[27];
 for(int i=0;i<27;i++) letter[i]=0;
 for(int i=0;i<27;i++) abc[i]=0;
  printf("Creating binary tree of letters\n");
+ start:
 do{
      y=menu2();
     switch (y)
@@ -413,7 +452,7 @@ do{
            {
 
             node = create_node(abc[i]);
-                printf("abc%c\n",abc[i]);
+              //  printf("abc%c\n",abc[i]);
 
            root = insert(root, node);
         }
@@ -457,7 +496,10 @@ do{
         fclose(f);
         system("dot test.gv -Tpng -og.png");
         system("g.png");
-         goto haha;
+        printf("Do you want to balance tree?(y/n) ");
+        char answer;
+         scanf("%c",&answer);
+         if (answer=='y')goto haha;
         break;
         //заполняем дерево заново(чисто в угоду подсчету времени)
 
@@ -489,15 +531,27 @@ do{
    while(y!=0);
   haha: //конец 6ой лабы и начала баланса
    printf("\nlol\n");
-   struct Node *root1=malloc(sizeof(struct Node*));
-    iniz(abc[0],root1);
-   for(int i=1;abc[i];i++)
+   for(int i=0;line[i];i++)
+       printf("%c\n",line[i]);
+   struct Node *root1=malloc(sizeof(struct Node));
+    iniz(line[0],root1);
+   for(int i=1;line[i];i++)
    {
-       root1=Insert(root1,abc[i]);
-       printf("%c",root1->key);
+       root1=Insert(root1,line[i]);
+       //printf("%c",root1->key);
    }
+   FILE *f = fopen("test1.gv", "w");
 
+   export_to_dot1(f, "test_tree", root1);
 
+     fprintf(f, "}\n");
+   fclose(f);
+   system("dot test1.gv -Tpng -og1.png");
+   system("g1.png");
+   printf("Do you want to start work with hash tables?(y/n): ");
+   char answer;
+   scanf("%c",&answer);
+   if(answer=='n') goto start;
 
 
 return 0;
