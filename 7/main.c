@@ -3,6 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include  <ctype.h>
+#include <hash.h>
 
 /*struct node_st{
     node_st *p1; 	// левая ветка
@@ -83,12 +84,12 @@ struct Node *Insert(struct Node *x, char k) //к авл дереву
 
 if (!x)
 {
-    printf("memory");
+
     struct Node *r=malloc(sizeof(struct Node));
     iniz( k,r);
     return r;
 }
- printf("%c",k);
+// printf("%c",k);
 if (k<x->key) x->left=Insert(x->left, k);
 else x->right=Insert(x->right, k);
 
@@ -483,6 +484,12 @@ do{
                                      line[x] = line[x+1]; // удаляем следующий
              if(i>0&&letter[line[i]-97]>0) i--;
           }
+          for(int k=0;k<27;k++)
+           {
+               letter[k]++;
+
+              // printf("\n%d letter[k]",letter[k]);
+          }
 
 
 
@@ -496,10 +503,12 @@ do{
         fclose(f);
         system("dot test.gv -Tpng -og.png");
         system("g.png");
-        printf("Do you want to balance tree?(y/n) ");
+        printf("u want to balance tree?(y/n) ");
         char answer;
+        fflush(stdin);
          scanf("%c",&answer);
          if (answer=='y')goto haha;
+         printf("\nIf you want to balance tree, pick this item again\n");
         break;
         //заполняем дерево заново(чисто в угоду подсчету времени)
 
@@ -529,10 +538,10 @@ do{
     }
     }
    while(y!=0);
-  haha: //конец 6ой лабы и начала баланса
-   printf("\nlol\n");
-   for(int i=0;line[i];i++)
-       printf("%c\n",line[i]);
+  haha:
+   //конец 6ой лабы и начала баланса
+  // printf("\nlol\n");
+  for(int i=0;abc[i];i++) printf("%c\n", abc[i]);//чтобы адекватно метка работала
    struct Node *root1=malloc(sizeof(struct Node));
     iniz(line[0],root1);
    for(int i=1;line[i];i++)

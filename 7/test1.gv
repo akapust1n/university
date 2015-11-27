@@ -1,0 +1,4 @@
+digraph test_tree {
+c -> a;
+c -> u ;  
+}
