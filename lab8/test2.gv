@@ -1,0 +1,12 @@
+digraph graphname1{
+A -> B[label=7 color="goldenrod1" fontcolor="goldenrod1"] ; 
+A -> C[label=1 color="goldenrod1" fontcolor="goldenrod1"] ; 
+A -> D[label=1 color="goldenrod1" fontcolor="goldenrod1"] ; 
+B -> A[label=10 color="red1" fontcolor="red1"] ; 
+B -> C[label=1 color="red1" fontcolor="red1"] ; 
+C -> A[label=1 color="blue2" fontcolor="blue2"] ; 
+C -> B[label=10 color="blue2" fontcolor="blue2"] ; 
+C -> D[label=1 color="blue2" fontcolor="blue2"] ; 
+D -> A[label=5 color="green1" fontcolor="green1"] ; 
+D -> C[label=8 color="green1" fontcolor="green1"] ; 
+  }
