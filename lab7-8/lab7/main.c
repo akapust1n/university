@@ -8,7 +8,7 @@ int isPunct_1(char name)
     int u=0;
     for(;u<100;u++)
         if (name==PuctuatorNames[u][0])
-            return 1;
+            return u;
 return 0;
 }
 
@@ -19,30 +19,38 @@ int ka(char p[],int * pos,char name[])
     {
 
         char s=p[*pos];
-       // printf("%s",p);
-        printf("s_ %c %d ",s);
+       printf(" ss %s",p);
+       // printf("s_ %c %d ",s);
         switch(state)
         {
            case 0:
             {
+                         if ((s=='/'&& p[(*pos)+1]=='*')||((s=='*')&&(p[(*pos)+1]=='//'))) return 0;        //комментарий либо один на строчке, либо им заканчивается строка
+                        if(*pos>(strlen(p))) return 0; // безопасность и пустые строки
+                       printf("*pos%d %d ", *pos,(int)s);
+                    if (s==' ' || (s<32)) {(*pos)++; printf("there"); break;} //убираем пробелы
+                    if((*pos)==(strlen(p)-1)) return 1; //пробелы в конце
                 if (s>64&&s<91||s>95&&s<123||s==95) state=1; //keyword or identifier
                 else
-                    if (s=='"') state =2; //commnent
+                    if (s=='"') state =2; //one line commnent
                     else
                         if (s=='#') state =3; //#directive
                         else
                             if (s>47&&s<58) state=4; // число без знака в начале
                             else
-                                if(isPunct_1((s))) state=5;
+                                if(isPunct_1((s))||s=='[')  state=5;
                                 else
-                                    if (s) (*pos)++;
-               else if ((*pos)==strlen(p)) return 0; // пробел вконце строки
- //printf("state %d %d",(*pos), strlen(p));
+                                    if ((*pos)==strlen(p)) return 0; // пробел вконце строки
+                                    else
+                                    if(s=='\'') state=6;
+
+
+
              break;
              }
            case 1: //ключевые слова  || переменные
             {
-
+                 printf("test");
 
                 int z=0;
                 while (s>64&&s<91||s>95&&s<123||s==95||s>47&&s<58)
@@ -80,9 +88,9 @@ int ka(char p[],int * pos,char name[])
                 }
                 (*pos)++;
                 st[z]='\0';
-                printf("st %s\n",st);
+                //printf("st %s\n",st);
                 strcpy(name,st);
-                printf("%d",*pos);
+               // printf("%d",*pos);
                 return -3; //комметарий
                 break;
 
@@ -95,9 +103,10 @@ int ka(char p[],int * pos,char name[])
             }
             case 4:
             {
-
-                int z=0;
-                printf("\nINTERETIN P%s\n",p);
+             int z;
+               if(st[0])  z=1;
+               else z=0;
+                //printf("\nINTERETIN P%s\n",p);
                 while(p[*pos]>47&&p[*pos]<58)
                 {
                     st[z]=p[*pos];
@@ -132,6 +141,8 @@ int ka(char p[],int * pos,char name[])
                                 z++;
                                 (*pos)++;
                             }
+                            (*pos)--; //потому что
+                            (*pos)--;
                     }
                     st[*pos]='\0';
                  strcpy(name,st);
@@ -140,32 +151,60 @@ int ka(char p[],int * pos,char name[])
             case 5:
             {
                 int z=0;
+              //  printf("INTerestin %c",p[(*pos)+1]);
                 if(s=='+'||s=='-')
-                  if(isdigit(p[(*pos)+1]))
+                  if(p[(*pos)+1]>47&&p[(*pos)+1]<58)
                   {
                       st[0]=s;
+                      st[1]='\0';
+                      strcpy(name,st);
                       (*pos)++;
                       state=4;
                       break;
                   }
-                  printf("Here");
-                while(isPunct_1(p[*pos])){
+                 // printf("Here");
+                int u=isPunct_1(p[*pos]);
+                while(isPunct_1(p[*pos])|| p[*pos]=='['){
+                  if(u!=isPunct_1(p[*pos]))
+                  {
+                      //(*pos)--;
+                      st[z]='\0';
+                      strcpy(name,st);
+                      return -6;
+                  }
                     st[z]=p[*pos];
                     z++;
 
+
+
+                    u=isPunct_1(p[*pos]);
                     (*pos)++;
                 }
+                st[z]='\0';
                 strcpy(name,st);
 
                 return -6;
             }
+            case 6:
+            {
+                int z=0;
+                (*pos)++;
+                while(p[*pos]!='\'')
+                {
+                    st[z]=p[*pos];
+                    z++;
+                    (*pos)++;
+                }
+                (*pos)++;
+                st[z]='\0';
+                strcpy(name,st);
 
+                return -7;
             }
-
-
+        }
     }
-
 }
+
 const char *category(int i)
 {
    switch(i)
@@ -176,6 +215,7 @@ const char *category(int i)
       //case -4: return "Directive";
        case -5: return "Number";
        case -6: return "Punctuator";
+       case -7: return "String literal";
    }
 }
 
@@ -184,30 +224,57 @@ int main()
     FILE *f=fopen("1.txt","r");
     int number=1;
     int pos=0;
-    char p[10000];
+    char p[1000];
     char name[200];
     int len;
-
+ int h=0;
     FILE *fout=fopen("2.xml","w");
     fprintf(fout,"<Table of tokens>\n");
+
     while (!feof(f))
     {
-
-       fgets(p,10000,f);
+     // fflush(p);
+       fgets(p,1000,f);
      pos=0;
-     puts(p);
-        while(pos<(strlen(p)-1))
+
+   // if (h==10)
+
+    //p[strlen(p)-1]='\0';
+      //p[strlen(p)-1]='\0';
+
+    //while(p[kk]) kk++;
+
+     //printf("ord%d\n",h);
+
+   // printf("KK_%c_",p[strlen(p)]);
+     //puts(p);
+       //  if(strlen(p)==0) continue; //особенность fgets
+  // puts(p);
+
+
+   if(strlen(p)==0) printf("%d",h);
+   printf("op:%s\n",p);
+    printf("number %d\n",h); h++;
+    printf("len %d\n\n",strlen(p));
+    // printf("%d",number);
+
+        while(pos<(strlen(p)))
         {
+
           //  printf(" string ");
             len=pos;
+           // printf("STRLEN%d",strlen(p));
            int key= ka( p,&pos, name);
-             printf("\nKey%d\n",key);
-             printf("\nname is_%s\n",name);
-           if (key==-4 ||key==0 || key==-3 ) break;
+
+           //  printf("\nKey%d\n",key);
+            // printf("\nname is_%s\n",name);
+             // printf("\n POS %d STRLEN %d\n", pos,strlen(p));
+
+           if (key==-4 ||key==0 || key==-3 || key==1) break;
 
          //  if () break;
             len=pos-len;
-
+            printf("hey");
             //распечатка токена
             fprintf(fout,"	<Token>\n");
             fprintf(fout," 		<Category_of_token>%s</Category_of_token>\n",category(key));
@@ -218,9 +285,14 @@ int main()
             fprintf(fout,"	</Token>\n");
 
         }
+        //strcpy(p,"");
         number++;
-     printf("U_i");
+        printf("why1");
+   // printf("U_i");
     }
+    printf("\nEnd of programm");
+    fclose(f);
+    fclose(fout);
 
     return 0;
 }

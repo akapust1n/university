@@ -1,4 +1,3 @@
-a=+1e-5
 #include <stdio.h>
 
 #include <string.h>
@@ -37,4 +36,3 @@ while (fgets(buf, 1024, stdin))
 		tok(buf, " ");
 	}
 }
-
