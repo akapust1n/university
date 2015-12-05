@@ -1,0 +1,103 @@
+774	Mountain-100 Silver, 48	Silver	9715,90	3399,9900	Pontiac
+775	Mountain-100 Black, 38	Black	9230,56	3374,9900	Novi
+776	Mountain-100 Black, 42	Black	9421,06	3374,9900	Southfield
+785	Mountain-300 Black, 38	Black	11498,51	1079,9900	Madison Heights
+786	Mountain-300 Black, 40	Black	11689,01	1079,9900	Westland
+788	Mountain-300 Black, 48	Black	11983,85	1079,9900	Southgate
+789	Road-250 Red, 44	Red	6699,52	2443,3500	Detroit
+794	Road-250 Black, 48	Black	6862,82	2443,3500	Saginaw
+795	Road-250 Black, 52	Black	6994,36	2443,3500	Saginaw
+797	Road-550-W Yellow, 38	Yellow	7869,79	1120,4900	Midland
+801	Road-550-W Yellow, 48	Yellow	8473,06	1120,4900	Holland
+806	ML Headset	NULL	NULL	102,2900	Monroe
+810	HL Mountain Handlebars	NULL	NULL	120,2700	Redford
+825	HL Mountain Rear Wheel	Black	NULL	327,2200	Port Huron
+826	LL Road Rear Wheel	Black	1050,00	112,5700	Howell
+832	ML Mountain Frame - Black, 48	Black	1292,73	348,7600	Seattle
+833	ML Road Frame-W - Yellow, 40	Yellow	1006,97	594,8300	Renton
+834	ML Road Frame-W - Yellow, 42	Yellow	1025,11	594,8300	Bothell
+835	ML Road Frame-W - Yellow, 44	Yellow	1043,26	594,8300	Kent
+836	ML Road Frame-W - Yellow, 48	Yellow	1061,40	594,8300	Puyallup
+837	HL Road Frame - Black, 62	Black	1043,26	1431,5000	Billings
+838	HL Road Frame - Black, 44	Black	961,61	1431,5000	Medford
+839	HL Road Frame - Black, 48	Black	979,75	1431,5000	Portland
+840	HL Road Frame - Black, 52	Black	997,90	1431,5000	North Bend
+841	Men's Sports Shorts, S	Black	NULL	59,9900	Portland
+842	Touring-Panniers, Large	Grey	NULL	125,0000	Beaverton
+843	Cable Lock	NULL	NULL	25,0000	Woodinville
+844	Minipump	NULL	NULL	19,9900	Issaquah
+845	Mountain Pump	NULL	NULL	24,9900	Idaho Falls
+846	Taillights - Battery-Powered	NULL	NULL	13,9900	Redmond
+847	Headlights - Dual-Beam	NULL	NULL	34,9900	Wenatchee
+848	Headlights - Weatherproof	NULL	NULL	44,9900	Redmond
+849	Men's Sports Shorts, M	Black	NULL	59,9900	Seattle
+850	Men's Sports Shorts, L	Black	NULL	59,9900	Klamath Falls
+851	Men's Sports Shorts, XL	Black	NULL	59,9900	Troutdale
+852	Women's Tights, S	Black	NULL	74,9900	Clackamas
+853	Women's Tights, M	Black	NULL	74,9900	Milwaukie
+854	Women's Tights, L	Black	NULL	74,9900	Renton
+855	Men's Bib-Shorts, S	Multi	NULL	89,9900	Port Orchard
+856	Men's Bib-Shorts, M	Multi	NULL	89,9900	Shelton
+857	Men's Bib-Shorts, L	Multi	NULL	89,9900	Longview
+858	Half-Finger Gloves, S	Black	NULL	24,4900	Lynnwood
+859	Half-Finger Gloves, M	Black	NULL	24,4900	Seattle
+860	Half-Finger Gloves, L	Black	NULL	24,4900	Puyallup
+861	Full-Finger Gloves, S	Black	NULL	37,9900	Bellevue
+862	Full-Finger Gloves, M	Black	NULL	37,9900	Washougal
+863	Full-Finger Gloves, L	Black	NULL	37,9900	Tacoma
+864	Classic Vest, S	Blue	NULL	63,5000	Renton
+865	Classic Vest, M	Blue	NULL	63,5000	Bellingham
+866	Classic Vest, L	Blue	NULL	63,5000	Puyallup
+867	Women's Mountain Shorts, S	Black	NULL	69,9900	Everett
+868	Women's Mountain Shorts, M	Black	NULL	69,9900	Bothell
+869	Women's Mountain Shorts, L	Black	NULL	69,9900	Kent
+870	Water Bottle - 30 oz.	NULL	NULL	4,9900	Ellensburg
+871	Mountain Bottle Cage	NULL	NULL	9,9900	Everett
+872	Road Bottle Cage	NULL	NULL	8,9900	Sequim
+873	Patch Kit/8 Patches	NULL	NULL	2,2900	Spokane
+874	Racing Socks, M	White	NULL	8,9900	Portland
+875	Racing Socks, L	White	NULL	8,9900	Cheyenne
+876	Hitch Rack - 4-Bike	NULL	NULL	120,0000	Seattle
+877	Bike Wash - Dissolver	NULL	NULL	7,9500	Sandpoint
+878	Fender Set - Mountain	NULL	NULL	21,9800	Spokane
+879	All-Purpose Bike Stand	NULL	NULL	159,0000	Union Gap
+880	Hydration Pack - 70 oz.	Silver	NULL	54,9900	Lacey
+881	Short-Sleeve Classic Jersey, S	Yellow	NULL	53,9900	Missoula
+882	Short-Sleeve Classic Jersey, M	Yellow	NULL	53,9900	Medford
+883	Short-Sleeve Classic Jersey, L	Yellow	NULL	53,9900	Albany
+884	Short-Sleeve Classic Jersey, XL	Yellow	NULL	53,9900	Chehalis
+885	HL Touring Frame - Yellow, 60	Yellow	1397,06	1003,9100	Kennewick
+886	LL Touring Frame - Yellow, 62	Yellow	1451,49	333,4200	Salem
+887	HL Touring Frame - Yellow, 46	Yellow	1342,63	1003,9100	Lewiston
+888	HL Touring Frame - Yellow, 50	Yellow	1360,77	1003,9100	Kelso
+889	HL Touring Frame - Yellow, 54	Yellow	1378,91	1003,9100	Casper
+890	HL Touring Frame - Blue, 46	Blue	1342,63	1003,9100	Great Falls
+891	HL Touring Frame - Blue, 50	Blue	1360,77	1003,9100	Kirkland
+892	HL Touring Frame - Blue, 54	Blue	1378,91	1003,9100	Cheyenne
+893	HL Touring Frame - Blue, 60	Blue	1397,06	1003,9100	Rock Springs
+894	Rear Derailleur	Silver	215,00	121,4600	Tacoma
+895	LL Touring Frame - Blue, 50	Blue	1406,13	333,4200	 Puyallup
+896	LL Touring Frame - Blue, 54	Blue	1424,27	333,4200	Albany
+897	LL Touring Frame - Blue, 58	Blue	1433,34	333,4200	Everett
+898	LL Touring Frame - Blue, 62	Blue	1451,49	333,4200	Clackamas
+899	LL Touring Frame - Yellow, 44	Yellow	1369,84	333,4200	Spokane
+900	LL Touring Frame - Yellow, 50	Yellow	1406,13	333,4200	Cheyenne
+901	LL Touring Frame - Yellow, 54	Yellow	1424,27	333,4200	Bellingham
+902	LL Touring Frame - Yellow, 58	Yellow	1433,34	333,4200	Springfield
+903	LL Touring Frame - Blue, 44	Blue	1369,84	333,4200	Beaverton
+904	ML Mountain Frame-W - Silver, 40	Silver	1256,44	364,0900	Kelso
+905	ML Mountain Frame-W - Silver, 42	Silver	1274,59	364,0900	Federal Way
+906	ML Mountain Frame-W - Silver, 46	Silver	1292,73	364,0900	Tigard
+907	Rear Brakes	Silver	317,00	106,5000	Hillsboro
+988	Mountain-500 Silver, 52	Silver	13008,96	564,9900	Fremont
+989	Mountain-500 Black, 40	Black	12405,69	539,9900	Camarillo
+990	Mountain-500 Black, 42	Black	12596,19	539,9900	Salt Lake City
+991	Mountain-500 Black, 44	Black	12759,49	539,9900	San Ramon
+992	Mountain-500 Black, 48	Black	12891,03	539,9900	Union City
+993	Mountain-500 Black, 52	Black	13008,96	539,9900	El Segundo
+994	LL Bottom Bracket	NULL	223,00	53,9900	Milpitas
+995	ML Bottom Bracket	NULL	168,00	101,2400	Newport Beach
+996	HL Bottom Bracket	NULL	170,00	121,4900	Edmonton
+997	Road-750 Black, 44	Black	8967,47	539,9900	Visalia
+998	Road-750 Black, 48	Black	9130,77	539,9900	Hayward
+999	Road-750 Black, 52	Black	9262,31	539,9900	Fullerton
