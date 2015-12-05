@@ -1,6 +1,6 @@
 
 11    Sharp Bikes 89     Bothell    
-25    Coalition Bike Company 66     msk    
+25    Coalition Bike Company 40     Dallas    
 185    Weekend Bike Tours 98     Bellevue    
 448    Action Bicycle Specialists 97     Toronto    
 451    Roadway Bike Emporium 84     Calgary    
@@ -10,7 +10,7 @@
 455    Timely Shipping Service 69     Weston    
 456    Riding Excursions 92     Burnaby    
 457    Retail Sporting Equipment 95     Vancouver    
-460    Price-Cutter Discount Bike 19     Markham    
+460    Price-Cutter Discount Bikes -19     Markham    
 461    Active Life Toys 56     Toronto    
 462    General Riding Supplies 45     Toronto    
 466    Central Bicycle Specialists 70     Calgary    
@@ -65,7 +65,7 @@
 545    Finish and Sealant Products 37     Vancouver    
 546    Field Trip Store 70     Calgary    
 547    Curbside Sporting Goods 41     Toronto    
-550    Remote Bicycle Specialist 19     Toronto    
+550    Remote Bicycle Specialists -19     Toronto    
 551    Vinyl and Plastic Goods Corporation 31     Aurora    
 552    Consolidated Messenger 24     Dorval    
 556    Variety Cycling 26     Montreal    
@@ -128,11 +128,11 @@
 648    Small Bike Shop 19     London    
 649    Sports Products Store 88     High Wycombe    
 650    Permanent Finish Products 21     Reading    
-653    Mercantile Outle 19     West Sussex    
+653    Mercantile Outlet -19     West Sussex    
 654    Online Bike Warehouse 84     York    
 655    Operational Manufacturing 61     Berkshire    
 659    Shipping Specialists 91     Woolston    
-660    Exhilarating Cycle 29     Maidenhead    
+660    Exhilarating Cycles -29     Maidenhead    
 661    General Department Stores 12     Berks    
 665    Authentic Sales and Service 71     London    
 668    Official Parts Shop 20     Oxford    
