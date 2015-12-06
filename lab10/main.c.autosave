@@ -641,7 +641,7 @@ int main()
           { ///задание часть 1
                 FILE *otvet=fopen("otvet","a+");
                 char City1[200]; ///первый блок
-                int ship[20]; //id поставщиков из города
+                int idship[20]; //id поставщиков из города
                 int index=0;
                printf("Intput city ");
                gets(City1);
@@ -705,19 +705,12 @@ int main()
 
                     if(feof(Suppliers)) break;
                }
-              //считываем ещё два поля
-               do
-               {
-                   printf("\nStatus ");
-                   scanf("%d",&Status);
-               }while(!(Status>0&&Status<100));
-
-               printf("City ");
-               fflush(stdin);
-               gets(City);
+           
+          
                if(!strcmp(City,City1))
                {
-
+                   idship[index++]=SupplierID;
+                    
                }
                fprintf(Suppliers,"\n%d    ",SupplierID+1);
                fprintf(Suppliers,"%s ",SupplierName1);

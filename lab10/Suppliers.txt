@@ -1,6 +1,6 @@
 
 11    Sharp Bikes 89     Bothell    
-25    Coalition Bike Company 66     msk    
+25    lol company 68     msk_2    
 185    Weekend Bike Tours 98     Bellevue    
 448    Action Bicycle Specialists 97     Toronto    
 451    Roadway Bike Emporium 84     Calgary    
