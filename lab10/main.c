@@ -33,6 +33,23 @@ char * del(char *str)
 
     return str;
 }
+int isCitySupplier(int idship[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return 1;
+    return 0;
+
+}
+int isProductID
+(int idpor[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return idship[i];
+    return 0;
+
+}
 
 int isColor(char *color)
 {
@@ -64,7 +81,7 @@ int menu1()
 int menu2()
 {
     int key;
-    printf("Choose table\n");
+    printf("\nChoose table\n");
     printf("1)Suppliers\n");
     printf("2)Products\n");
     printf("3)Shipments\n");
@@ -77,14 +94,15 @@ int main()
 {
     FILE *Suppliers;
     FILE *Products;
-    FILE *Shipments=fopen("Shipments.txt","r");
+    FILE *Shipments;
     FILE *test=fopen("test.txt","w");
     char line[500];
     char h;
     while(1)
     {
         int u1=menu2();
-        int u=menu1();
+        int u;
+        if(u1!=4) u=menu1();
         switch(u1)
         {
          case 1:
@@ -637,98 +655,35 @@ int main()
             {
                 break; //неинтересно, потом
             }
+
           case 4:
           { ///задание часть 1
                 FILE *otvet=fopen("otvet","a+");
                 char City1[200]; ///первый блок
-                int ship[20]; //id поставщиков из города
-                int index=0;
-               printf("Intput city ");
-               gets(City1);
-               Suppliers=fopen("Suppliers.txt","r"); //получаем id поставщиков из этого года
-               int SupplierID;
-
-               char  SupplierName[200];
-               char  SupplierName1[200];
-               int Status;
-               char City[100];
-
-              // FILE *Suppliers1=fopen("Suppliers_work.txt","w");
-
-               while(1)
-               {   //считываем два идентефикатоа
 
 
-                    //хотим проверить их уникальность
+                int SupplierID;
 
-                    while (!feof(Suppliers))
-                    {
-                        fscanf(Suppliers,"%d",&SupplierID);
-                        int y=0;
-                        do
-                        {
+                char  SupplierName[200];
+                char  SupplierName1[200];
+                int Status;
+                char City[100];
+               int ShipmentID_sp; // идентификатор поставки
+              int   SupplierID_sp; //идентификатор поставщика
+                int ProductID_sp; // идентификатор продукта
+                int Qty_sp; //количество
 
-                            ;
-                            fscanf(Suppliers,"%c",&h);
-                            //if (h==' ') continue;
-                             if(h>59||h<47) SupplierName[y++]=h;
-                             else break;
-
-                        } while(1);
-                         SupplierName[y]='\0';
-                        strcpy(SupplierName,del(strtrim(SupplierName))); //удаление лишних символов
-                       SupplierName[strlen(SupplierName)-1]='\0';
-                               // puts(SupplierName);
-
-                      if(h)  Status=h-'0';
-                        y=0;
-                        fscanf(Suppliers,"%c",&h);
-                                if (h<58)
-                        {
-                            Status*=10;
-                            Status+=(h-'0');
-                        }
-                        else
-                        { City[y++]=h;}
-
-                            do
-                            {
-                                fscanf(Suppliers,"%c",&h);
-                                 if(h!='\n'&&!feof(Suppliers)) City[y++]=h;
-                                 else break;
-
-                            } while(1);
-                            City[y]='\0';
-                            strcpy(City,del(strtrim(City))); //удаление лишних символов
-                           City[strlen(City)]='\0';  //а может и -1
-                    }
-
-                    if(feof(Suppliers)) break;
-               }
-              //считываем ещё два поля
-               do
-               {
-                   printf("\nStatus ");
-                   scanf("%d",&Status);
-               }while(!(Status>0&&Status<100));
-
-               printf("City ");
-               fflush(stdin);
-               gets(City);
-               if(!strcmp(City,City1))
-               {
-
-               }
-               fprintf(Suppliers,"\n%d    ",SupplierID+1);
-               fprintf(Suppliers,"%s ",SupplierName1);
-               fprintf(Suppliers,"%d     ",Status);
-               fprintf(Suppliers,"%s    ",City);
-               fclose(Suppliers);
-               printf("\nLine was added\n");
-            //вносим всё это в файл
-                break;
-               //printf
-
+                int ProductID; //продукты
+                int ProductID1;
+                char  ProductName1[200];
+                char  ProductName[200];
+                char  Color[200];
+                 char h;
+                char Weight[20];
+                char Price[200];
+                char City[100];
+                char temp[100];
+           #include <D:\13\Progr\lab10\variant1.c>
 
                 break;
             }
