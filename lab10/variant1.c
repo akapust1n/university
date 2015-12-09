@@ -4,6 +4,7 @@ int idproduct[100];//продукты, которые поставляют по�
 int idqty[100];  //количество
 int idship[20]; //id поставщиков из города
 int index=0;
+int sum_1=0;
 printf("Intput city ");
 fflush(stdin);
 gets(City1);

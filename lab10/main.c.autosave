@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <locale.h>
 char * strtrim (char *str) //удаление пробелов с конца и начала строки
 {
      char * szwcstr=" ";
@@ -18,6 +19,7 @@ char * strtrim (char *str) //удаление пробелов с конца и 
         *ptr = '\0';
 
     return str;
+    
 }
 char * del(char *str)
 {
@@ -33,6 +35,38 @@ char * del(char *str)
 
     return str;
 }
+int isBlackDelivery(int idship[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return 1;
+    return 0;
+
+}
+int isCitySupplier(int idship[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return 1;
+    return 0;
+
+}
+int isProductID (int idship[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return i+1;
+    return 0;
+
+}
+int isSampleID (int idship[],int id)
+{
+    for(int i=0;idship[i];i++)
+    if (idship[i]==id)
+        return 1;
+    return 0;
+
+}
 
 int isColor(char *color)
 {
@@ -47,9 +81,40 @@ int isColor(char *color)
     if(!strcmp("NULL",color1)) return 1;
     if(!strcmp("Multi",color1)) return 1;
     if(!strcmp("Blue",color1)) return 1;
+    if(!strcmp("White",color1)) return 1;
     return 0;
 
 }
+struct Shipment1
+{
+
+     int ShipmentID ;
+    int SupplierID;
+    int ProductID;
+   int Qty;
+
+} Shipments1;
+struct Product1
+{
+
+    int ProductID ;
+    char ProductName[100] ;
+    char Color [100];
+    char Weight[20];
+    char Price[200];
+    char City[100];
+
+} Products1;
+
+struct Supplier1
+{
+
+    int SupplierID;
+  char  SupplierName[200];
+  int Status;
+  char City[100];
+
+} Suppliers1;
 
 int menu1()
 {
@@ -64,7 +129,7 @@ int menu1()
 int menu2()
 {
     int key;
-    printf("Choose table\n");
+    printf("\nChoose table\n");
     printf("1)Suppliers\n");
     printf("2)Products\n");
     printf("3)Shipments\n");
@@ -77,658 +142,755 @@ int main()
 {
     FILE *Suppliers;
     FILE *Products;
-    FILE *Shipments=fopen("Shipments.txt","r");
+    FILE *Shipments;
     FILE *test=fopen("test.txt","w");
     char line[500];
     char h;
-    while(1)
-    {
-        int u1=menu2();
-        int u=menu1();
-        switch(u1)
+    setlocale(LC_ALL, ".ACP");//разделитель atof -запятая
+    //from txt to binary
+
+      FILE *Suppliers2=fopen("Suppliers2.bin","wb");
+     Suppliers=fopen("Suppliers.txt","a+");
+     int i=0;
+     while (!feof(Suppliers))
+     {
+         fscanf(Suppliers,"%d",&Suppliers1.SupplierID);
+         i++;
+         int y=0;
+         do
+         {
+
+             ;
+             fscanf(Suppliers,"%c",&h);
+             //if (h==' ') continue;
+              if(h>59||h<47) Suppliers1.SupplierName[y++]=h;
+              else break;
+
+         } while(1);
+          Suppliers1.SupplierName[y]='\0';
+         strcpy(Suppliers1.SupplierName,del(strtrim(Suppliers1.SupplierName))); //удаление лишних символов
+        Suppliers1.SupplierName[strlen(Suppliers1.SupplierName)-1]='\0';
+                // puts(SupplierName);
+                // printf("%s__%s__%d %d\n",SupplierName1,SupplierName,strlen(SupplierName1),strlen(SupplierName));
+
+       if(h)  Suppliers1.Status=h-'0';
+         y=0;
+         fscanf(Suppliers,"%c",&h);
+                 if (h<58)
+         {
+             Suppliers1.Status*=10;
+             Suppliers1.Status+=(h-'0');
+         }
+         else
+         { Suppliers1.City[y++]=h;}
+
+             do
+             {
+                 fscanf(Suppliers,"%c",&h);
+                  if(h!='\n'&&!feof(Suppliers)) Suppliers1.City[y++]=h;
+                  else break;
+
+             } while(1);
+            Suppliers1.City[y]='\0';
+           // printf("Suppliers1.City[y]%s \n",Suppliers1.City);
+             strcpy(Suppliers1.City,del(strtrim(Suppliers1.City))); //удаление лишних символов
+            Suppliers1.City[strlen(Suppliers1.City)]='\0';  //а может и -1
+            //printf("%d\n", Suppliers1.SupplierID);
+            fwrite(&Suppliers1, sizeof(Suppliers1),1,Suppliers2);
+            strcpy(Suppliers1.SupplierName,"");
+            strcpy(Suppliers1.City,"");
+
+        }
+     fclose(Suppliers);
+     fclose(Suppliers2);
+     ///читаем продукты
+     char temp[200];
+      FILE *Products2=fopen("Products2.bin","wb");
+      Products=fopen("Products.txt","r");;
+      while (!feof(Products))
         {
-         case 1:
-            {
-                switch (u)
-                {
+         fscanf(Products,"%d",&Products1.ProductID);
+        //  printf("%d\n", Products1.ProductID);
+          int y=0;
+          do
+          {
+          fscanf(Products,"%s",&temp);
+          if (!isColor(temp)) strcat(Products1.ProductName,temp);
+          else
+           break;
+          } while(1);
+
+            strcpy(Products1.Color,temp);
+             fscanf(Products,"%s",&Products1.Weight);
+              fscanf(Products,"%s",&Products1.Price);
+              y=0;
+                do
+              {
+                fscanf(Products,"%c",&h);
+                 if(h!='\n'&&!feof(Products)) Products1.City[y++]=h;
+                 else break;
+              } while(1);
+              Products1.City[y]='\0';
+              strcpy(Products1.City,del(strtrim(Products1.City))); //удаление лишних символов
+               Products1.City[strlen(Products1.City)]='\0';
+               fwrite(&Products1, sizeof(Products1),1,Products2);
+               strcpy(Products1. ProductName,"") ;
+               strcpy(Products1. Color,"");
+               strcpy(Products1. Weight,"");
+               strcpy(Products1. Price,"");
+               strcpy(Products1. City,"");
+
+                  }
+ fclose(Products);
+ fclose(Products2);
+ /// Поставки
+   FILE *Shipments2=fopen("Shipments2.bin","wb");
+   Shipments=fopen("Shipments.txt","r");
+   while (!feof(Shipments))
+   {
+
+       fscanf(Shipments,"%d",&Shipments1.ShipmentID);
+      fscanf(Shipments,"%d",&Shipments1.SupplierID);
+      fscanf(Shipments,"%d",&Shipments1.ProductID);
+     fscanf(Shipments,"%d",&Shipments1.Qty);
+     fwrite(&Shipments1, sizeof(Shipments1),1,Shipments2);
+
+   }
+   fclose(Shipments);
+   fclose(Shipments2);
+   while(1)
+   {
+       int u=menu2();
+       int u1;
+       if(u!=4) u1=menu1();
+       switch (u)
+       {
+           case 1:
+           {
+               switch (u1)
+               {
                    case 1:
                     {
-                        int SupplierID;
+                         struct Supplier1 Suppliers_wrk;
+                         start1:
+                       printf("\nInput data for adding:\n");
+                       printf("SupplierName ");
+                       fflush(stdin);
+                       gets(Suppliers_wrk.SupplierName);
 
-                        char  SupplierName[200];
-                        char  SupplierName1[200];
-                        int Status;
-                        char City[100];
+                       do{
+                           printf("Status ");
+                        scanf("%d", &Suppliers_wrk.Status);
+                       } while(Suppliers_wrk.Status>100||Suppliers_wrk.Status<1);
+                       printf("City ");
+                       fflush(stdin);
+                       gets(Suppliers_wrk.City);
 
-                       // FILE *Suppliers1=fopen("Suppliers_work.txt","w");
+                       Suppliers2=fopen("Suppliers2.bin","ab+");
+                       //fseek(Suppliers2, 0, SEEK_SET);
+                       int sch=0;
+                       while(!feof(Suppliers2))
+                       {
+                           sch++;
+                           printf("%d", sizeof(Suppliers1));
 
-                        while(1)
-                        {   //считываем два идентефикатоа
+                          fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                           if(!strcmp(Suppliers1.SupplierName,Suppliers_wrk.SupplierName)){
+                              printf("Isnt unique identifier\n");
+                               goto start1;
+                           }
+                          printf("lol %d\n",Suppliers1.SupplierID );
+                       }
+                       Suppliers_wrk.SupplierID=Suppliers1.SupplierID+1;
+                       fwrite(&Suppliers_wrk, sizeof(Suppliers_wrk),1,Shipments2);
+                      fclose(Suppliers2);
+                      printf("Element was added to  binary file\n");
+                      break;
+                   }
+                   case 2:
+                    {
 
-                             printf("Input unique identefikator:\n");
-                             printf("SupplierName ");
-                             fflush(stdin);
-                             gets(SupplierName1);
-                             //хотим проверить их уникальность
-                             Suppliers=fopen("Suppliers.txt","a+");
-                             while (!feof(Suppliers))
+                       int SupplierID;
+                       printf("\nInput data for deleting:\n");
+                       printf("SupplierID ");
+                       scanf("%d", &SupplierID);
+                       Suppliers2=fopen("Suppliers2.bin","ab+");
+                       //fseek(Suppliers2, 0, SEEK_SET);
+                       int sch=0;
+
+                       FILE *temp=fopen("temp.bin","wb");
+                       while(!feof(Suppliers2))
+                       {
+                           sch++;
+                           printf("%d", sizeof(Suppliers1));
+
+                          fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                           if(Suppliers1.SupplierID==SupplierID) continue;
+                          fwrite(&Suppliers1, sizeof(Suppliers1),1,temp);
+
+                       }
+                       fclose(Suppliers2);
+                       fclose(temp);
+                       system("del Suppliers2.bin");
+                        system("rename temp.bin Suppliers2.bin");
+                        printf("\nIf there had been  this element, element was deleted\n");
+
+                      break;
+                   }
+                   case 3:
+                    {
+                       struct Supplier1 Suppliers_wrk;
+
+
+
+
+                       printf("\nInput data for changing:\n");
+                       printf("SupplierID ");
+                       scanf("%d", &Suppliers_wrk.SupplierID);
+
+                       //fseek(Suppliers2, 0, SEEK_SET);
+                       int sch=0;
+                       Suppliers2=fopen("Suppliers2.bin","rb");
+                       FILE *temp=fopen("temp.bin","wb");
+                       int flag=0;
+                       while(!feof(Suppliers2))
+                       {
+                           sch++;
+                           printf("%d", sizeof(Suppliers1));
+
+                          fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                           if(Suppliers1.SupplierID==Suppliers_wrk.SupplierID&&flag==0) {
+                               flag--;
+                               printf("SupplierName ");
+                               fflush(stdin);
+                               gets(Suppliers_wrk.SupplierName);
+
+                               do{
+                                   printf("Status ");
+                                scanf("%d", &Suppliers_wrk.Status);
+                               } while(Suppliers_wrk.Status>100||Suppliers_wrk.Status<1);
+                               printf("City ");
+                               fflush(stdin);
+                               gets(Suppliers_wrk.City);
+                               fwrite(&Suppliers_wrk, sizeof(Suppliers_wrk),1,temp);
+                                printf("\n Element was changed\n");
+                               continue;
+                           }
+                        if(Suppliers_wrk.SupplierID!=Suppliers1.SupplierID)  fwrite(&Suppliers1, sizeof(Suppliers1),1,temp);
+                               printf("lol %d\n",Suppliers1.SupplierID );
+
+                       }
+                       fclose(Suppliers2);
+                       fclose(temp);
+                       system("del Suppliers2.bin");
+                        system("rename temp.bin Suppliers2.bin");
+
+
+
+                      break;
+                   }
+               }
+
+               break;
+           }
+           case 2:
+           {
+               switch (u1)
+               {
+                  case 1:{ struct Product1 Products_wrk;
+                  printf("\nInput data for adding:\n");
+                  printf("ProductsName ");
+                    fflush(stdin);
+                  gets(Products_wrk.ProductName);
+               printf("Color ");
+                fflush(stdin);
+                gets(Products_wrk.Color);
+                do
+                 {
+                    printf("Weight ");
+                    scanf("%s",&Products_wrk.Weight);
+                    if(!atof(Products_wrk.Weight)) continue;
+                      double  u=atof(Products_wrk.Weight);
+                       if (u<0) continue;
+                     break;
+                     } while(1);
+                     do
+                    {
+                     printf("Price ");
+                      scanf("%s", &Products_wrk.Price);
+                     if(!(atof(Products_wrk.Price))&&(Products_wrk.Price[0]-'0')!=0) continue;
+                     double  u=atof(Products_wrk.Price);
+                     if (u<0) continue;
+                      break;
+                     } while(1);
+                        printf("City ");
+                        fflush(stdin);
+                        gets(Products_wrk.City);
+                        Products2=fopen("Products2.bin","ab+");
+                        while (!feof(Products2))
+                        {
+                            fread(&Products1,sizeof(Products1),1,Products2);
+                             if(feof(Products2)) break;
+                        }
+                        Products_wrk.ProductID=Products1.ProductID+1;
+                        fwrite(&Products_wrk,sizeof(Products_wrk),1,Products2);
+                        fclose(Products2);
+                           Products2=fopen("Products2.bin","ab+");
+                        while (!feof(Products2))
+                        {
+                            fread(&Products1,sizeof(Products1),1,Products2);
+                            printf("%s \n",Products1.ProductName);
+                        }
+                        fclose(Products2);
+
+                    break;
+                   }
+                    case 2:
+                   {
+                       int num;
+                       printf("\nInput data for deleting:\n");
+                       printf("ProductsID ");
+                       scanf("%d",&num);
+
+                       FILE *temp=fopen("temp.bin","wb");
+                             Products2=fopen("Products2.bin","ab+");
+                             while (!feof(Products2))
                              {
-                                 fscanf(Suppliers,"%d",&SupplierID);
-                                 int y=0;
-                                 do
-                                 {
 
-                                     ;
-                                     fscanf(Suppliers,"%c",&h);
-                                     //if (h==' ') continue;
-                                      if(h>59||h<47) SupplierName[y++]=h;
-                                      else break;
-
-                                 } while(1);
-                                  SupplierName[y]='\0';
-                                 strcpy(SupplierName,del(strtrim(SupplierName))); //удаление лишних символов
-                                SupplierName[strlen(SupplierName)-1]='\0';
-                                        // puts(SupplierName);
-                                         printf("%s__%s__%d %d\n",SupplierName1,SupplierName,strlen(SupplierName1),strlen(SupplierName));
-                                 if(!strcmp(SupplierName,SupplierName1))
-                                 {
-                                    printf("\nNot unique identifier\n");
-
-                                    break;
-                                }
-                               if(h)  Status=h-'0';
-                                 y=0;
-                                 fscanf(Suppliers,"%c",&h);
-                                         if (h<58)
-                                 {
-                                     Status*=10;
-                                     Status+=(h-'0');
-                                 }
-                                 else
-                                 { City[y++]=h;}
-
-                                     do
-                                     {
-                                         fscanf(Suppliers,"%c",&h);
-                                          if(h!='\n'&&!feof(Suppliers)) City[y++]=h;
-                                          else break;
-
-                                     } while(1);
-                                     City[y]='\0';
-                                     strcpy(City,del(strtrim(City))); //удаление лишних символов
-                                    City[strlen(City)]='\0';  //а может и -1
+                                 fread(&Products1,sizeof(Products1),1,Products2);
+                                 if(feof(Products2)) break;
+                                 if(num==Products1.ProductID)continue;
+                                 fwrite(&Products1, sizeof(Products1),1,temp);
                              }
 
-                             if(feof(Suppliers)) break;
+                             fclose(Products2);
 
-
-                        }
-                       // fclose(Suppliers);
-
-                        //считываем ещё два поля
-                        do
-                        {
-                            printf("\nStatus ");
-                            scanf("%d",&Status);
-                        }while(!(Status>0&&Status<100));
-
-                        printf("City ");
-                        fflush(stdin);
-                        gets(City);
-                        fprintf(Suppliers,"\n%d    ",SupplierID+1);
-                        fprintf(Suppliers,"%s ",SupplierName1);
-                        fprintf(Suppliers,"%d     ",Status);
-                        fprintf(Suppliers,"%s    ",City);
-                        fclose(Suppliers);
-                        printf("\nLine was added\n");
-                     //вносим всё это в файл
-                         break;
-                        //printf
-                    }
-                    case 2:
-                      {
-                          int SupplierID1;
-                          int SupplierID;
-                          char  SupplierName[200];
-                          char  SupplierName1[200];
-                          int Status;
-                          char City[100];
-
-                          printf("Input SupplierID ");
-                          scanf("%d",&SupplierID1);
-                          FILE *f=fopen("temp.txt","w");
-                          Suppliers=fopen("Suppliers.txt","r");
-                          while (!feof(Suppliers))
-                          {
-                              fscanf(Suppliers,"%d",&SupplierID);
-
-                              int y=0;
-                              do
-                              {
-
-
-                                  fscanf(Suppliers,"%c",&h);
-                                  //if (h==' ') continue;
-                                   if(h>59||h<47) SupplierName[y++]=h;
-                                   else break;
-
-                              } while(1);
-                               SupplierName[y]='\0';
-                              strcpy(SupplierName,del(strtrim(SupplierName))); //удаление лишних символов
-                             SupplierName[strlen(SupplierName)-1]='\0';
-                                     // puts(SupplierName);
-
-                            if(h)  Status=h-'0';
-                              y=0;
-                              fscanf(Suppliers,"%c",&h);
-                                      if (h<58)
-                              {
-                                  Status*=10;
-                                  Status+=(h-'0');
-                              }
-                              else
-                              { City[y++]=h;}
-
-                                  do
-                                  {
-                                      fscanf(Suppliers,"%c",&h);
-                                       if(h!='\n'&&!feof(Suppliers)) City[y++]=h;
-                                       else break;
-
-                                  } while(1);
-                                  City[y]='\0';
-                                  strcpy(City,del(strtrim(City))); //удаление лишних символов
-                                 City[strlen(City)]='\0';
-                                 if (SupplierID==SupplierID1) continue;
-                                 fprintf(f,"\n%d    ",SupplierID);
-                                 fprintf(f,"%s ",SupplierName);
-                                 fprintf(f,"%d     ",Status);
-                                 fprintf(f,"%s    ",City);
-
-                          }
-                           fclose(Suppliers);
-                         fclose(f);
-                         system("del Suppliers.txt");
-                         system("rename temp.txt Suppliers.txt");
-                          printf("\nIf there was an element, element was deleted\n");
-                          break;
-                      }
-                    case 3:
-                     {
-                        int SupplierID1;
-                        int SupplierID;
-                        char  SupplierName[200];
-                        char  SupplierName1[200];
-                        int Status;
-                        char City[100];
-                        int flag=0;
-
-                        printf("Input SupplierID ");
-                        scanf("%d",&SupplierID1);
-                        FILE *f=fopen("temp.txt","w");
-                        Suppliers=fopen("Suppliers.txt","r");
-                        while (!feof(Suppliers))
-                        {
-                            fscanf(Suppliers,"%d",&SupplierID);
-                             if(SupplierID==SupplierID1) flag=1;
-                             else
-                                 flag=0;
-                            int y=0;
-                            do
-                            {
-
-
-                                fscanf(Suppliers,"%c",&h);
-
-                                //if (h==' ') continue;
-                                 if(h>59||h<47) SupplierName[y++]=h;
-                                 else break;
-
-                            } while(1);
-                             SupplierName[y]='\0';
-                            strcpy(SupplierName,del(strtrim(SupplierName))); //удаление лишних символов
-                           SupplierName[strlen(SupplierName)-1]='\0';
-                                   // puts(SupplierName);
-
-                          if(h)  Status=h-'0';
-                            y=0;
-                            fscanf(Suppliers,"%c",&h);
-                                    if (h<58)
-                            {
-                                Status*=10;
-                                Status+=(h-'0');
-                            }
-                            else
-                            { City[y++]=h;}
-
-                                do
-                                {
-                                    fscanf(Suppliers,"%c",&h);
-                                     if(h!='\n'&&!feof(Suppliers)) City[y++]=h;
-                                     else break;
-
-                                } while(1);
-                                City[y]='\0';
-                                strcpy(City,del(strtrim(City))); //удаление лишних символов
-                               City[strlen(City)]='\0';
-                               if (!flag) {
-                               fprintf(f,"\n%d    ",SupplierID);
-                               fprintf(f,"%s ",SupplierName);
-                               fprintf(f,"%d     ",Status);
-                               fprintf(f,"%s    ",City);
-                               }
-                               else
-                               {
-                                   printf("SupplierName ");
-                                   fflush(stdin);
-                                   gets(SupplierName);
-                                   do
-                                   {
-                                       printf("\nStatus ");
-                                       scanf("%d",&Status);
-                                   }while(!(Status>0&&Status<100));
-
-                                   printf("City ");
-                                   fflush(stdin);
-                                   gets(City);
-                                   fprintf(f,"\n%d    ",SupplierID);
-                                   fprintf(f,"%s ",SupplierName);
-                                   fprintf(f,"%d     ",Status);
-                                   fprintf(f,"%s    ",City);
-                               }
-
-
-                        }
-                         fclose(Suppliers);
-                       fclose(f);
-                       system("del Suppliers.txt");
-                       system("rename temp.txt Suppliers.txt");
-                        printf("\nIf there was an element, element was changed\n");
-                         break;
-                     }
-
-                }
-                break;
-            }
-         case 2:
-            {
-                switch (u)
-                {
-                    case 1:
-                    {
-                        int ProductID;
-                        char  ProductName[200]="";
-                        char  ProductName1[200];
-                        char  Color[200];
-                         char h;
-                        char Weight[20];
-                        char Price[200];
-                        char City[100];
-                        char temp[100];
-                        Products=fopen("Products.txt","a+");
-                        ///-------------
-                        while (!feof(Products))
-                        {
-                            fscanf(Products,"%d",&ProductID);
-                            printf("%d\n", ProductID);
-                            int y=0;
-                            do
-                            {
-                              fscanf(Products,"%s",&temp);
-
-                              if (!isColor(temp)) strcat(ProductName,temp);
-                              else
-                                  break;
-
-                            } while(1);
-
-                             strcpy(Color,temp);
-                             fscanf(Products,"%s",&Weight);
-                              fscanf(Products,"%s",&Price);
-                               y=0;
-                                do
-                                {
-                                    fscanf(Products,"%c",&h);
-                                     if(h!='\n'&&!feof(Products)) City[y++]=h;
-                                     else break;
-
-                                } while(1);
-                                City[y]='\0';
-                                strcpy(City,del(strtrim(City))); //удаление лишних символов
-                               City[strlen(City)]='\0';
-
-                        }
-                        ///------------------------------------------------------
-                        printf("Input :\n");
-                        printf("ProductName ");
-                        fflush(stdin);
-                        gets(ProductName1);
-                        //хотим проверить их уникальность-а тут уже не надо проверять
-                        printf("Color ");
-                        gets(Color);
-                        do
-                        {
-                        printf("Weight ");
-                        scanf("%s",& Weight);
-                        if(!atof(Weight)) continue;
-                            double  u=atof(Weight);
-                            if (u<0) continue;
-                        break;
-                        } while(1);
-                        do
-                        {
-                        printf("Price ");
-                        scanf("%s", &Price);
-                        if(!(atof(Price))&&(Price[0]-'0')!=0) continue;
-
-                            double  u=atof(Price);
-                            if (u<0) continue;
-
-                        break;
-                        } while(1);
-
-                        printf("City ");
-                        fflush(stdin);
-                        gets(City);
-                        fprintf(Products,"\n%d    ",ProductID+1);
-                        fprintf(Products,"%s ",ProductName1);
-                        fprintf(Products,"%s    ",Color);
-                        fprintf(Products,"%s    ",Weight);
-                        fprintf(Products,"%s    ",Price);
-                        fprintf(Products,"%s    ",City);
-                        fclose(Products);
-                         printf("\nLine was added\n");
-                        fclose(Products);
-                                              //вносим всё это в файл
-                                        break;
-                    }
-                //printf
-                    case 2:
-                    {
-                        int ProductID;
-                        int ProductID1;
-                        char  ProductName1[200];
-                        char  ProductName[200];
-                        char  Color[200];
-                         char h;
-                        char Weight[20];
-                        char Price[200];
-                        char City[100];
-                        char temp[100];
-                        int flag=0;
-                       // char temp[100];
-                        Products=fopen("Products.txt","r");
-                        FILE *temp1=fopen("temp.txt","w");
-                        printf("\nProductID ");
-                        scanf("%d",&ProductID1);
-
-                        ///-------------
-                        while (!feof(Products))
-                        {
-                            fscanf(Products,"%d",&ProductID);
-                            //printf("%d\n", ProductID);
-                            if (ProductID1==ProductID) flag=1;
-                            else
-                                flag=0;
-                            int y=0;
-                            strcpy(ProductName,"");
-                            do
-                            {
-                              fscanf(Products,"%s",&temp);
-
-                              if (!isColor(temp)) strcat(ProductName,temp);
-                              else
-                                  break;
-
-                            } while(1);
-
-                             strcpy(Color,temp);
-                             fscanf(Products,"%s",&Weight);
-                              fscanf(Products,"%s",&Price);
-
-                               y=0;
-                                do
-                                {
-                                    fscanf(Products,"%c",&h);
-                                     if(h!='\n'&&!feof(Products)) City[y++]=h;
-                                     else break;
-
-                                } while(1);
-                                City[y]='\0';
-                                strcpy(City,del(strtrim(City))); //удаление лишних символов
-                               City[strlen(City)]='\0';
-
-                              if(!flag){
-                                  fprintf(temp1,"\n%d    ",ProductID);
-                               fprintf(temp1,"%s ",ProductName);
-
-                               fprintf(temp1,"%s    ",Color);
-                               fprintf(temp1,"%s    ",Weight);
-                               fprintf(temp1,"%s    ",Price);
-                               fprintf(temp1,"%s    ",City);
-                              }
-                        }
-
-                        ///------------------------------------------------------
-                        fclose(temp1);
-                        fclose(Products);
-                        system("del Products.txt");
-                        system("rename temp.txt Products.txt");
-                        printf("\nIf there was an element, element was deleted\n");
-                               break;
+                             fclose(Products2);
+                             fclose(temp);
+                             system("del Products2.bin");
+                              system("rename temp.bin Products2.bin");
+                              printf("\nIf there had been  this element, element was deleted\n");
+                              Products2=fopen("Products2.bin","ab+");
+                           while (!feof(Products2))
+                           {
+                               fread(&Products1,sizeof(Products1),1,Products2);
+                               printf("%s \n",Products1.ProductName);
                            }
-                    case 3:
-                    {
-                        int ProductID;
-                        int ProductID1;
-                        char  ProductName1[200];
-                        char  ProductName[200];
-                        char  Color[200];
-                         char h;
-                        char Weight[20];
-                        char Price[200];
-                        char City[100];
-                        char temp[100];
-                        int flag=0;
-                       // char temp[100];
-                        Products=fopen("Products.txt","r");
-                        FILE *temp1=fopen("temp.txt","w");
-                        printf("\nProductID ");
-                        scanf("%d",&ProductID1);
 
-                        ///-------------
-                        while (!feof(Products))
-                        {
-                            fscanf(Products,"%d",&ProductID);
-                            //printf("%d\n", ProductID);
-                            if (ProductID1==ProductID) flag=1;
-                            else
-                                flag=0;
-                            int y=0;
-                            strcpy(ProductName,"");
-                            do
-                            {
-                              fscanf(Products,"%s",&temp);
+                         break;
 
-                              if (!isColor(temp)) strcat(ProductName,temp);
-                              else
-                                  break;
-
-                            } while(1);
-
-                             strcpy(Color,temp);
-                             fscanf(Products,"%s",&Weight);
-                              fscanf(Products,"%s",&Price);
-
-                               y=0;
-                                do
-                                {
-                                    fscanf(Products,"%c",&h);
-                                     if(h!='\n'&&!feof(Products)) City[y++]=h;
-                                     else break;
-
-                                } while(1);
-                                City[y]='\0';
-                                strcpy(City,del(strtrim(City))); //удаление лишних символов
-                               City[strlen(City)]='\0';
-
-                              if(!flag){
-                                  fprintf(temp1,"\n%d    ",ProductID);
-                               fprintf(temp1,"%s ",ProductName);
-
-                               fprintf(temp1,"%s    ",Color);
-                               fprintf(temp1,"%s    ",Weight);
-                               fprintf(temp1,"%s    ",Price);
-                               fprintf(temp1,"%s    ",City);
-                              }
-                              else
-                              {
-                                  printf("ProductName ");
-                                  fflush(stdin);
-                                  gets(ProductName);
-                                  //хотим проверить их уникальность-а тут уже не надо проверять
-                                  printf("Color ");
-                                  gets(Color);
-                                  do
-                                  {
-                                  printf("Weight ");
-                                  scanf("%s", &Weight);
-                                  if(!atof(Weight)) continue;
-                                      double  u=atof(Weight);
-                                      if (u<0) continue;
-                                  break;
-                                  } while(1);
-                                  do
-                                  {
-                                  printf("Price ");
-                                  scanf("%s", &Price);
-                                  if(!(atof(Price))&&(Price[0]-'0')!=0) continue;
-
-                                      double  u=atof(Price);
-                                      if (u<0) continue;
-
-                                  break;
-                                  } while(1);
-
-                                  printf("City ");
-                                  fflush(stdin);
-                                  gets(City);
-                                  fprintf(temp1,"\n%d    ",ProductID);
-                               fprintf(temp1,"%s ",ProductName);
-                               fprintf(temp1,"%s    ",Color);
-                               fprintf(temp1,"%s    ",Weight);
-                               fprintf(temp1,"%s    ",Price);
-                               fprintf(temp1,"%s    ",City);
-                              }
-                        }
-
-                        ///------------------------------------------------------
-                        fclose(temp1);
-                        fclose(Products);
-                        system("del Products.txt");
-                        system("rename temp.txt Products.txt");
-                        printf("\nIf there was an element, element was changed\n");
-                               break;
-                           }
-                    }
-                break;
-             }
-         case 3:
-            {
-                break; //неинтересно, потом
-            }
-          case 4:
-          { ///задание часть 1
-                FILE *otvet=fopen("otvet","a+");
-                char City1[200]; ///первый блок
-                int idship[20]; //id поставщиков из города
-                int index=0;
-               printf("Intput city ");
-               gets(City1);
-               Suppliers=fopen("Suppliers.txt","r"); //получаем id поставщиков из этого года
-               int SupplierID;
-
-               char  SupplierName[200];
-               char  SupplierName1[200];
-               int Status;
-               char City[100];
-
-              // FILE *Suppliers1=fopen("Suppliers_work.txt","w");
-
-               while(1)
-               {   //считываем два идентефикатоа
-
-
-                    //хотим проверить их уникальность
-
-                    while (!feof(Suppliers))
-                    {
-                        fscanf(Suppliers,"%d",&SupplierID);
-                        int y=0;
+                   }
+                   case 3:
+                   {
+                        struct Product1 Products_wrk;
+                       int num;
+                       printf("\nInput data for changing:\n");
+                       printf("ProductsID ");
+                       scanf("%d",&num);
+                       Products_wrk.ProductID=num;
+                       printf("ProductName ");
+                        fflush(stdin);
+                          gets(Products_wrk.ProductName);
+                       printf("Color ");
+                        fflush(stdin);
+                        gets(Products_wrk.Color);
                         do
-                        {
-
-                            ;
-                            fscanf(Suppliers,"%c",&h);
-                            //if (h==' ') continue;
-                             if(h>59||h<47) SupplierName[y++]=h;
-                             else break;
-
-                        } while(1);
-                         SupplierName[y]='\0';
-                        strcpy(SupplierName,del(strtrim(SupplierName))); //удаление лишних символов
-                       SupplierName[strlen(SupplierName)-1]='\0';
-                               // puts(SupplierName);
-
-                      if(h)  Status=h-'0';
-                        y=0;
-                        fscanf(Suppliers,"%c",&h);
-                                if (h<58)
-                        {
-                            Status*=10;
-                            Status+=(h-'0');
-                        }
-                        else
-                        { City[y++]=h;}
-
-                            do
+                         {
+                            printf("Weight ");
+                            scanf("%s",&Products_wrk.Weight);
+                            if(!atof(Products_wrk.Weight)) continue;
+                              double  u=atof(Products_wrk.Weight);
+                               if (u<0) continue;
+                             break;
+                             } while(1);
+                             do
                             {
-                                fscanf(Suppliers,"%c",&h);
-                                 if(h!='\n'&&!feof(Suppliers)) City[y++]=h;
-                                 else break;
+                             printf("Price ");
+                              scanf("%s", &Products_wrk.Price);
+                             if(!(atof(Products_wrk.Price))&&(Products_wrk.Price[0]-'0')!=0) continue;
+                             double  u=atof(Products_wrk.Price);
+                             if (u<0) continue;
+                              break;
+                             } while(1);
+                                printf("City ");
+                                fflush(stdin);
+                                gets(Products_wrk.City);
+                                FILE *temp=fopen("temp.bin","wb");
+                                      Products2=fopen("Products2.bin","ab+");
+                                      while (!feof(Products2))
+                                      {
 
-                            } while(1);
-                            City[y]='\0';
-                            strcpy(City,del(strtrim(City))); //удаление лишних символов
-                           City[strlen(City)]='\0';  //а может и -1
-                    }
+                                          fread(&Products1,sizeof(Products1),1,Products2);
+                                          if(feof(Products2)) break;
+                                          if(num==Products1.ProductID)
+                                          {fwrite(&Products_wrk,sizeof(Products_wrk),1,temp);
+                                              continue;
+                                          }
+                                          fwrite(&Products1, sizeof(Products1),1,temp);
+                                      }
+                                      fclose(Products2);
+                                      fclose(temp);
 
-                    if(feof(Suppliers)) break;
-               }
-           
-          
-               if(!strcmp(City,City1))
+
+                                system("del Products2.bin");
+                                system("rename temp.bin Products2.bin");
+                                printf("\nIf there had been  this element, element was changed\n");
+                                Products2=fopen("Products2.bin","ab+");
+                                while (!feof(Products2))
+                                {
+                                    fread(&Products1,sizeof(Products1),1,Products2);
+                                    printf("%s \n",Products1.ProductName);
+                                }
+                           fclose(Products2);
+                                break;
+
+                   }
+                   }
+
+                       break;
+           }
+          case 3:
+           {
+               switch (u1)
                {
-                   idship[index++]=SupplierID;
-                    
+                   case 1:
+                   {
+                       struct Shipment1 Shipment_wrk;
+                       start2:
+                       printf("\nInput data for adding\n");
+                       printf("\nShipmentID ");
+                       scanf("%d",&Shipment_wrk.ShipmentID);
+                       printf("\nSupplierID ");
+                       scanf("%d",&Shipment_wrk.SupplierID);
+                       printf("\nProductID ");
+                       scanf("%d",&Shipment_wrk.ProductID);
+                       printf("\nQty ");
+                       scanf("%d",&Shipment_wrk.Qty);
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          if (feof(Shipments2)) break;
+                          if (Shipments1.ShipmentID==Shipment_wrk.ShipmentID) {
+                              printf("\bIsnt unique key\n");goto start2;}
+                      }
+                      fwrite(&Shipment_wrk,sizeof(Shipment_wrk),1,Shipments2);
+                      fclose(Shipments2);
+
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          printf("%d\n",Shipments1.ProductID);
+                      }
+                      fclose(Shipments2);
+                      break;
+                   }
+                   case 2:
+                   {
+                      int ship;
+                       printf("\nInput data for deleting\n");
+                       printf("\nShipmentID ");
+                       scanf("%d",&ship);
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                       FILE *temp=fopen("temp.bin","wb");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          if (feof(Shipments2)) break;
+                          if (Shipments1.ShipmentID==ship) continue;
+                          fwrite(&Shipments1,sizeof(Shipments1),1,temp);
+
+                      }
+
+                      fclose(Shipments2);
+                      fclose(temp);
+                      system("del Shipments2.bin");
+                      system("rename temp.bin Shipments2.bin");
+                      printf("\nIf there had been  this element, element was deleted\n");
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          printf("%d\n",Shipments1.ProductID);
+                      }
+                      fclose(Shipments2);
+                      break;
+                   }
+                   case 3:
+                   {
+
+                       printf("\nInput data for changing\n");
+                       struct Shipment1 Shipment_wrk;
+
+                       printf("\nInput data for adding\n");
+                       printf("\nShipmentID ");
+                       scanf("%d",&Shipment_wrk.ShipmentID);
+                       printf("\nSupplierID ");
+                       scanf("%d",&Shipment_wrk.SupplierID);
+                       printf("\nProductID ");
+                       scanf("%d",&Shipment_wrk.ProductID);
+                       printf("\nQty ");
+                       scanf("%d",&Shipment_wrk.Qty);
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                       FILE *temp=fopen("temp.bin","wb");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          if (feof(Shipments2)) break;
+                          if (Shipments1.ShipmentID==Shipment_wrk.ShipmentID){
+                              fwrite(&Shipment_wrk,sizeof(Shipment_wrk),1,temp);
+                              continue;}
+                          fwrite(&Shipments1,sizeof(Shipments1),1,temp);
+
+                      }
+
+                      fclose(Shipments2);
+                      fclose(temp);
+                      system("del Shipments2.bin");
+                      system("rename temp.bin Shipments2.bin");
+                      printf("\nIf there had been  this element, element was changed\n");
+                      Shipments2=fopen("Shipments2.bin","ab+");
+                      while(!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          printf("%d\n",Shipments1.ProductID);
+                      }
+                      fclose(Shipments2);
+                      break;
+                   }
                }
-               fprintf(Suppliers,"\n%d    ",SupplierID+1);
-               fprintf(Suppliers,"%s ",SupplierName1);
-               fprintf(Suppliers,"%d     ",Status);
-               fprintf(Suppliers,"%s    ",City);
-               fclose(Suppliers);
-               printf("\nLine was added\n");
-            //вносим всё это в файл
-                break;
-               //printf
+
+               break;
+           }
+           case 4:
+              { //часть один
+                  FILE *result=fopen("result.txt","w");
+
+                  char City1[199];
+                  int idproduct[100];//продукты, которые поставляют поставщики
+                  int idqty[100];  //количество
+                  int idship[100]; //id поставщиков из города
+                  int index=0;
+                  double price1=0.0;
+                   for(int i=0;i<100;i++) idproduct[i]=0;
+                   for(int i=0;i<100;i++) idqty[i]=0;
+                   for(int i=0;i<100;i++) idship[i]=0;
+                   printf("\nCity ");
+                   fflush(stdin);
+                   gets(City1);
+                   Suppliers2=fopen("Suppliers2.bin","rb+");
+
+                   while(!feof(Suppliers2))
+                   {
+                     fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+
+                     if(!strcmp(Suppliers1.City,City1))
+                     {
 
 
-                break;
-            }
-        }
-     }
+                         idship[index++]=Suppliers1.SupplierID;
+
+                     }
+                   }
+                     fclose(Suppliers2);
+                       index=0;
+                     Shipments2=fopen("Shipments2.bin","rb");
+                     while (!feof(Shipments2))
+                     {
+
+                         fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                     if(isCitySupplier(idship,Shipments1.SupplierID))
+                      {
+                         idproduct[index]=Shipments1.ProductID;
+                      idqty[index++]=Shipments1.Qty;
+                       }
+                     }
+                    fclose(Shipments2);
+                    Products2=fopen("Products2.bin","rb");
+                    while(!feof(Products2))
+                    {
+                      fread(&Products1,sizeof(Products1),1,Products2);
+                       if(feof(Products2)) break;
+                      if(isProductID(idproduct,Products1.ProductID))
+                      {
 
 
+                                price1+=atof(Products1.Price)*idqty[isProductID(idproduct,Products1.ProductID)-1];
+                                //printf("\n %s %d",Products1.Price,idqty[isProductID(idproduct,Products1.ProductID)-1]);
+                      }
+
+                    }
+
+                    //printf("\n%lf______", price1);
+                    fprintf(result,"Task 1: City %s\n",City1);
+                    fprintf(result,"Sum %lf\n",price1);
+                    ///----------------------------------------
+                    //часть 2
+                    ///----------
+                    /// общая идея- считаем количество продуктов всего, считаем в поствках у каждого поставщика кол-во продуктов
+                    /// и сравниваем
+                    for(int i=0;i<50;i++) fprintf(result,"-");
+                    fprintf(result,"\nSuppliers all kind of products\n");
+                    int dif_prod=0; //считаем сколько всего различных продуктов
+                    Products2=fopen("Products2.bin","rb");
+                    while (!feof(Products2))
+                    {
+                        fread(&Products1,sizeof(Products1),1,Products2);
+                         if(feof(Products2)) break;
+                         dif_prod++;
+                    }
+                    fclose(Products2);
+                    int dif_prod_check=0;
+                    int dif_prod_pred=0;
+                    Shipments2=fopen("Shipments2.bin","rb");
+                    while (!feof(Shipments2))
+                    {
+                       fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                       if(feof(Products2)) break;
+                       if(Shipments1.SupplierID==dif_prod_pred) dif_prod_check++;
+                       else
+                       {
+                           dif_prod_pred=Shipments1.SupplierID;
+                           dif_prod_check=0   ;
+                       }
+                       if (dif_prod==dif_prod_check)
+                       {
+                           Suppliers2=fopen("Suppliers2.bin","rb");
+                           while (!feof(Suppliers2))
+                           {
+                               fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                               if(feof(Suppliers)) break;
+                               if(Suppliers1.SupplierID==Shipments1.SupplierID)
+                                   fprintf(result,"%s\n",Suppliers1.SupplierName);
+                           }
+                           fclose(Suppliers2);
+
+                       }
+                    }
+                    fclose(Shipments2);
+                    ///---------
+                    // часть 3
+                    ///-----
+                    int black_list[1000];
+                    int black_num;
+                    index=0;
+                    for(int i=0;i<1000;i++ ) black_list[i]=0;
+                    for(int i=0;i<50;i++) fprintf(result,"-");
+                     printf("\nProduct # isnt delevery ");
+                     scanf("%d", &black_num);
+                     Shipments2=fopen("Shipments2.bin","rb");
+                     while (!feof(Shipments2))
+                     {
+                         fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                         if(feof(Shipments2)) break;
+                         if(Shipments1.ProductID==black_num) black_list[index++]=Shipments1.SupplierID;
+                     }
+                     fclose(Shipments2);
+                     fprintf(result,"\nDont delivery product #%d\n",black_num);
+                     Suppliers2=fopen("Suppliers2.bin","rb");
+                     while (!feof(Suppliers2))
+                     {
+                         fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                         if (feof(Suppliers2)) break;
+                         if(!isBlackDelivery(black_list,Suppliers1.SupplierID))
+                             fprintf(result,"\n%s",Suppliers1.SupplierName);
+                     }
+                     fclose(Suppliers2);
+                     fprintf(result,"\n\n");
+                     ///---------
+                     // часть 4
+                     ///-----
+                     /// заносим в массив продукты поставщика №_. пробегаемся по файлу ещё раз, выписываем Suplid
+                     /// которые поставляют эти продукты. Потом из supplires2 по id берем имена
+                     int sample_supl[100];
+                     int black_sample_supl_list[1000];
+                     int number4;
+                    for(int i=0;i<50;i++) fprintf(result,"-");
+                     for(int i=0;i<100;i++) sample_supl[i]=0;
+                     for(int i=0;i<1000;i++) black_sample_supl_list[i]=0;
+                     printf("\nNumber for paragraph 4 ");
+                     scanf("%d",&number4);
+                     fprintf(result,"\nNeeded companises for number #%d\n",number4);
+                     index=0;
+                     Shipments2=fopen("Shipments2.bin","rb");
+                     while (!feof(Shipments2))
+                     {
+                         fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                         if(feof(Shipments2)) break;
+                         if(Shipments1.SupplierID==number4) sample_supl[index++]=Shipments1.ProductID;
+                     }
+                      fclose(Shipments2);
+                      Shipments2=fopen("Shipments2.bin","rb");
+                      index=0;
+                      while (!feof(Shipments2))
+                      {
+                          fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                          if(feof(Shipments2)) break;
+                          if(isSampleID(sample_supl,Shipments1.ProductID) ) black_sample_supl_list[index++]=Shipments1.SupplierID;
+                      }
+                      fclose(Shipments2);
+                      Suppliers2=fopen("Suppliers2.bin","rb");
+                      while (!feof(Suppliers2))
+                      {
+                          fread(&Suppliers1,sizeof(Suppliers1),1,Suppliers2);
+                          if (feof(Suppliers2)) break;
+                          if(isSampleID(black_sample_supl_list,Suppliers1.SupplierID))
+                                  fprintf(result,"\n%s",Suppliers1.SupplierName);
+                      }
+                      fclose(Suppliers2);
+                      fprintf(result,"\n");
+                      for(int i=0;i<50;i++) fprintf(result,"-");
+                      ///---------
+                      // часть 5
+                      ///-----
+                      /// Выписываем в массив все продукты из города, потом смотрим поставляются ли они
+                      char town[100];
+                      int products_city[100];
+                      double products_city_price[100];
+                      double price2=0.0;
+                      for(int i=0;i<100;i++) products_city[i]=0;
+                      for(int i=0;i<100;i++) products_city_price[i]=0;
+                      index=0;
+                      printf("\n City for parahraph 5 ");
+                      fflush(stdin);
+                      gets(town);
+                      Products2=fopen("Products2.bin","rb");
+                      while (!feof(Products2))
+                      {
+                          fread(&Products1,sizeof(Products1),1,Products2);
+                           if(feof(Products2)) break;
+                           if (!strcmp(town,Products1.City))
+                           { products_city[index]=Products1.ProductID;
+                               products_city_price[index++]=atof(Products1.Price);
+                           }
+
+                      }
+                    fclose(Products2);
+                    Shipments2=fopen("Shipments2.bin","rb");
+                    while (!feof(Shipments2))
+                    {
+                        fread(&Shipments1,sizeof(Shipments1),1,Shipments2);
+                        if(feof(Shipments2)) break;
+                        if(isProductID(products_city,Shipments1.ProductID) )
+                           {
+                            printf("%lf\n",products_city_price[isProductID(products_city,Shipments1.ProductID)-1]);
+                            price2+=Shipments1.Qty*products_city_price[isProductID(products_city,Shipments1.ProductID)-1];
+                        }
+                    }
+                    fclose(Shipments2);
+                    fprintf(result,"\nSum %lf",price2);
+                    fclose(result);
+                     break;
+                   }
+
+
+
+
+
+       }
+
+   }
 
 
 return 0;

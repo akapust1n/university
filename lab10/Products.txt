@@ -54,8 +54,8 @@
 871    MountainBottleCage NULL    NULL    9,9900    Everett    
 872    RoadBottleCage NULL    NULL    8,9900    Sequim    
 873    PatchKit/8Patches NULL    NULL    2,2900    Spokane    
-874    RacingSocks,MWhite NULL    8,9900    Portland    pokane    
-875    RacingSocks,LWhite NULL    8,9900    Cheyenne    okane    
+874    RacingSocks,M White NULL    8,9900    Portland    pokane    
+875    RacingSocks,L White NULL    8,9900    Cheyenne    okane    
 876    HitchRack-4-Bike NULL    NULL    120,0000    Seattle    
 877    BikeWash-Dissolver NULL    NULL    7,9500    Sandpoint    
 878    FenderSet-Mountain NULL    NULL    21,9800    Spokane    
