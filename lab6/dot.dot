@@ -1,0 +1,5 @@
+digraph G{
+Rozdenie->Unost->Zrelost->Starost->Smert;
+Unost->Smert;
+Zrelost->Smert;
+}
