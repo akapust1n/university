@@ -1,0 +1,41 @@
+Schildt Base_of_c++ willams 500 tech  programming perevod 2008
+Belousov Diskretnaya_matematika mgtu 320 tech maths russian 2009
+Melnikov Teorya_grafov librokom 240 tech maths russian 2013
+Gogol Mertvue_Dushi eksmo 200 hud satira
+Gogol Revizor Eksmo 250 hud komedia
+Goncharov Oblomov eksmo 400 hud roman
+Pushkin Onegin eksmo 100 hud stihi
+Lobacheva Ekonomicheskaya_teoria vush_obraz 515 tech economic russian 2009
+Kanatnikov Lineynaya_algebra mgstu 336 tech maths russian 2006
+Faronov Turbo_Paskal_7.0 noligzh  416 tech programming  russian 2000
+Kirik Phizika_11 ileksa  192 tech physics russian 2012
+Vilenkin Algebra_i_matan_11  prosveshenie 288 tech maths russian 1999
+Lobacheva Ekonomika mgtu 592 tech economic russian 2004
+Abramov Vvedenie_v_Paskal knorus 384 tech progmramming russian 2011
+Habibulin Samouchitel_Java bhv 768 tech programming russian 2011
+Ilichev Lineynue_operatoru mgtu 36 tech maths russian 2003
+Kandaurova Dif_uravnenia_1ogo_poryadka mgtu 48 tech maths russian 2008
+Vanko Elementu_lin_algebru mgtu  102 tech maths russian 2002
+Agafonov Dif_uravnenia mgtu 352 tech maths russian 2006
+Mitkin Dif_urav_vush_poryadkov mgtu 52 tech maths russian 2008
+Demidovich Sbornik_zadach alliance 480 tech maths russian 2010
+Schildt Polniy_Spravochnik_c++ willams  800 tech programming perevod 2012
+Grehem Konkretnaya_matematika  addison 320 tech maths perevod 1994
+Knut Iskussto_programmirovania addison 800 tech progmramming perevod 1968
+Makkonel Sovershenii_kod piter 600 tech programming perevod 2007
+Rouling Garry_Potter1 rosmen 320 hud fantatic
+Rouling Garry_Potter2 rosmen 370 hud fantatic
+Rouling Garry_Potter3 rosmen 360 hud fantatic
+Rouling Garry_Potter4 rosmen 450 hud fantatic
+Rouling Garry_Potter5 rosmen 540 hud fantatic
+Rouling Garry_Potter6 rosmen 420 hud fantatic
+Rouling Garry_Potter7 rosmen 500 hud fantatic
+Doil Sobaka_Baskerviley eksmo 608 hud detective
+King Green_Mile ast 448 hud drama
+Mitchel Unesennue_vetrom ast 952 hud roman
+Ostrovskii Bespridannitsa   ast 140 hud piesa
+Martin Burya_mechey astrel 620 hud fantastic
+Duma Graf_Monte-Kristo gorod 48 hud roman
+Remark Tri_torarisha ast 448 hud roman
+Li Ubit_peresmeshnika  ast  450 hud roman
+Bulgakov Master_i_Margarita martin  620 hud roman
