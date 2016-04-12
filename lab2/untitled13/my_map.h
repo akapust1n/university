@@ -7,6 +7,8 @@
 #include <stdlib.h>
 #include <type_traits>
 #include <utility>
+#include <stdlib.h>
+#include <stdarg.h>
 using namespace std;
 //#define GROW_SIZE 30
 
@@ -125,11 +127,13 @@ my_map<MyMapType, MyMapType2, Z>::my_map(size_t n, ...)
     : base()
     , a(0)
 {
-    size_t* p = &n; //--установились на начало списка параметров
+    va_list ap; //Указатель на список параметров
+    va_start(ap,n);
     while (n--) //--пока аргумент не равен нулю
     {
-        insert(*p);
-        p++; //--«перемещаемся на следующий аргумент
+        U ival=va_arg(ap,U);
+        insert(ival);
+
     };
 }
 
@@ -195,6 +199,12 @@ template <class MyMapType, class MyMapType2, class Z>
 iteratorM<dict<MyMapType, MyMapType2> > my_map<MyMapType, MyMapType2, Z>::end()
 {
     iteratorM<dict<MyMapType, MyMapType2> > tmp(&a[size - 1]);
+    return tmp;
+}
+template <class MyMapType, class MyMapType2, class Z>
+const_iteratorM<const dict<MyMapType, MyMapType2> > my_map<MyMapType, MyMapType2, Z>::cbegin() const
+{
+    const_iteratorM<const dict<MyMapType, MyMapType2> > tmp(a);
     return tmp;
 }
 //-----------Оператор доступа

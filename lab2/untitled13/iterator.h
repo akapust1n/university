@@ -26,6 +26,7 @@ public:
 private:
     VType* ptr;
 };
+
 template <typename VType>
 class const_iteratorM {
 public:
@@ -35,7 +36,7 @@ public:
     }
     ~const_iteratorM() {}
 
-    VType& value() const { return *ptr; }
+    const VType& value() const { return *ptr; }
 
     void operator++() { ++ptr; }
     void operator--() { --ptr; }
@@ -47,7 +48,7 @@ public:
     bool operator>=(iteratorM<VType>& it) const { return ptr >= it.ptr; }
     bool operator<=(iteratorM<VType>& it) const { return ptr <= it.ptr; }
 
-    VType& operator*() const { return *ptr; }
+    const VType& operator*() const { return *ptr; }
 
 private:
     VType* ptr;

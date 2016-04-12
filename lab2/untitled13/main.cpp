@@ -26,6 +26,10 @@ int main()
     iteratorM<dict<int, int> > z1_end(obj1.end());
     iteratorM<dict<int, int> > z2(obj2.begin());
     iteratorM<dict<int, int> > z2_end(obj2.end());
+    //test const iterator
+    const my_map<int, int> obj3(1, word);
+    const_iteratorM<const dict<int, int> > c_iter(obj3.cbegin());
+    cout << c_iter.value().first << endl;
 
     cout << "Map 1:" << endl;
     for (; z1 <= z1_end; ++z1)
@@ -55,14 +59,15 @@ int main()
 
     iteratorM<dict<int, int> > z_find(obj1.find(2));
     cout << "value " << z_find.value().second << endl;
-    cout<<obj1.find_elem(2);
+    cout << obj1.find_elem(2);
     cout << endl
          << "Erase two elements from map2:" << endl;
     iteratorM<dict<int, int> > z1_3(obj2.begin());
     iteratorM<dict<int, int> > z1_3_end(obj2.end());
     ++z1_3;
     obj2.erase(z1_3, z1_3_end);
-    cout << "New map2: " << endl;
+
+    cout << "New map: " << endl;
 
     iteratorM<dict<int, int> > z1_4(obj2.begin());
     iteratorM<dict<int, int> > z1_4_end(obj2.end());
@@ -80,9 +85,6 @@ int main()
     } catch (my_base_exception& err) {
         cout << err.what();
     }
-
-    const my_map<int, int> obj3;
-   const_iteratorM<const dict<int, int>> citer(obj3.cbegin());
 
     //iteratorM<const dict<int, int> > z1_6_end(obj2.end());
     return 0;
