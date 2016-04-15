@@ -5,7 +5,7 @@ class base {
 public:
     //Работа с размером
     base();
-    ~base(){};
+    //~base(){};
     size_t get_size() const;
     bool is_empty() const;
     size_t get_maxsize() const;
@@ -20,20 +20,6 @@ base::base()
     , max_size(0)
 {
 }
-//получение размера
-size_t base::get_size() const
-{
-    return size;
-}
-//проверка на пустоту
-bool base::is_empty() const
-{
-    return (size == 0) ? 1 : 0;
-}
-//получение максимального размера
-size_t base::get_maxsize() const
-{
-    return max_size;
-}
+#include <base_realis.h>
 
 #endif // BASE_H

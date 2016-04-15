@@ -15,4 +15,8 @@ HEADERS += \
     my_map.h \
     iterator.h \
     base.h \
-    my_exception.h
+    my_exception.h \
+    my_map_realis.h \
+    base_realis.h \
+    dict.h \
+    dict_realis.h
