@@ -7,19 +7,19 @@ int main()
     my_map<int, int> obj2;
     dict<int, int> word;
     word.first = 1;
-    word.second = 10;
+    word.setSecond(10);
     obj2.insert(word);
     word.first = 2;
-    word.second = 11;
+    word.setSecond(11);
     obj2.insert(word);
     word.first = 7;
-    word.second = 15;
+    word.setSecond(15);
     obj1.insert(word);
     word.first = 4;
-    word.second = 13;
+    word.setSecond(13);
     obj1.insert(word);
     word.first = 5;
-    word.second = 14;
+    word.setSecond(14);
     obj1.insert(word);
 
     iteratorM<dict<int, int> > z1(obj1.begin());
@@ -34,10 +34,10 @@ int main()
 
     cout << "Map 1:" << endl;
     for (; z1 <= z1_end; ++z1)
-        cout << z1.value().first << " " << z1.value().second << endl;
+        cout << z1.value().first << " " << z1.value().getSecond() << endl;
     cout << "Map 2:" << endl;
     for (; z2 <= z2_end; ++z2)
-        cout << z2.value().first << " " << z2.value().second << endl;
+        cout << z2.value().first << " " << z2.value().getSecond() << endl;
 
     cout << "Swap maps" << endl;
 
@@ -50,16 +50,31 @@ int main()
 
     cout << "Map 1:" << endl;
     for (; z1_1 <= z1_1_end; ++z1_1)
-        cout << z1_1.value().first << " " << z1_1.value().second << endl;
+        cout << z1_1.value().first << " " << z1_1.value().getSecond() << endl;
     cout << "Map 2:" << endl;
     for (; z2_1 <= z2_1_end; ++z2_1)
-        cout << z2_1.value().first << " " << z2_1.value().second << endl;
+        cout << z2_1.value().first << " " << z2_1.value().getSecond() << endl;
+    //------------пример много значений
+    cout << "Two meanings example:" << endl;
+    iteratorM<dict<int, int> > z6_1(obj2.begin());
+    iteratorM<dict<int, int> > z6_1_end(obj2.end());
+    word.first = 7;
+    word.setSecond(48);
+    obj2.insert(word);
+
+    cout << "new Map 2:" << endl;
+    for (; z6_1 <= z6_1_end; ++z6_1) {
+        if (z6_1.value().getcurrentMeaning() != 0) {
+            z6_1.value().setcurrentMeaning(1);
+        }
+        cout << z6_1.value().first << " " << z6_1.value().getSecond() << endl;
+    }
     //--------поиск
     cout << endl
          << "Find value for map1 key: 2" << endl;
 
     iteratorM<dict<int, int> > z_find(obj1.find(2));
-    cout << "value " << z_find.value().second << endl;
+    cout << "value " << z_find.value().getSecond() << endl;
     cout << obj1.find_elem(2);
     cout << endl
          << "Erase two elements from map2:" << endl;
@@ -74,7 +89,7 @@ int main()
     iteratorM<dict<int, int> > z1_4_end(obj2.end());
 
     for (; z1_4 <= z1_4_end; ++z1_4)
-        cout << z1_4.value().first << " " << z1_4.value().second << endl;
+        cout << z1_4.value().first << " " << z1_4.value().getSecond() << endl;
     //ловим ошибку
 
     cout << "Catch the error, wrong indexes: " << endl;

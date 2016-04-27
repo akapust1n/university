@@ -13,7 +13,6 @@ using namespace std;
 //#define GROW_SIZE 30
 #include <dict.h>
 
-
 //--------------
 
 template <typename MyMapType, typename MyMapType2, class Z = std::less<MyMapType> >
@@ -68,9 +67,10 @@ public:
 private:
     dict<MyMapType, MyMapType2>* a;
     void insertion_sort(U* b, int n, Z u = Z());
-    U& BinarySearch(U* arr, int count, MyMapType element, Z u = Z());
+    U& BinarySearch(U*& arr, int count, MyMapType element, Z u = Z());
     void grow();
+    void cmpWithGlobalMeaning(size_t index, U obj);
+    size_t def_meaningOfTheKey; //по умолчанию обращаемся к 0 значению слова
     const int GROW_SIZE = 30;
-    MyMapType2 non_element= 0;
+    MyMapType2 non_element = 0;
 };
-

@@ -9,6 +9,7 @@ template <class MyMapType, class MyMapType2, class Z>
 my_map<MyMapType, MyMapType2, Z>::my_map()
     : base()
     , a(0)
+    , def_meaningOfTheKey(0)
 {
 }
 
@@ -47,7 +48,7 @@ template <class MyMapType, class MyMapType2, class Z>
 my_map<MyMapType, MyMapType2, Z>::~my_map()
 {
     //  ~base();
-    delete[] a;
+   // delete[] a;
 }
 //- -------сортировка--------
 
@@ -61,7 +62,7 @@ void my_map<MyMapType, MyMapType2, Z>::insertion_sort(U* a, int n, Z u)
 }
 //---------------Поиск-------
 template <class MyMapType, class MyMapType2, class Z>
-dict<MyMapType, MyMapType2>& my_map<MyMapType, MyMapType2, Z>::BinarySearch(U* arr, int count, MyMapType element, Z u)
+dict<MyMapType, MyMapType2>& my_map<MyMapType, MyMapType2, Z>::BinarySearch(U*& arr, int count, MyMapType element, Z u)
 {
     int first = 0;
     int last = count;
@@ -73,8 +74,9 @@ dict<MyMapType, MyMapType2>& my_map<MyMapType, MyMapType2, Z>::BinarySearch(U* a
             first = mid + 1;
     }
     // Все элементы слева от first строго больше искомого.
-    if (first == count || arr[first].first != element)
+    if (first == count|| arr[first].first != element )
         throw value_error();
+
     return arr[first];
 }
 //-------Расширение массивa----------
@@ -118,26 +120,25 @@ template <class MyMapType, class MyMapType2, class Z>
 MyMapType2& my_map<MyMapType, MyMapType2, Z>::operator[](MyMapType& key)
 {
 
-
     try {
-        BinarySearch(a, size, key).second;
+        BinarySearch(a, size, key).second[BinarySearch(a, size, key).getcurrentMeaning()];
     } catch (value_error) {
         return non_element;
     }
 
-    return BinarySearch(a, size, key).second;
+    return BinarySearch(a, size, key).second[BinarySearch(a, size, key).getcurrentMeaning()];
 }
 template <class MyMapType, class MyMapType2, class Z>
 const MyMapType2& my_map<MyMapType, MyMapType2, Z>::operator[](MyMapType& key) const
 {
 
     try {
-        BinarySearch(a, size, key).second;
+        BinarySearch(a, size, key).second[BinarySearch(a, size, key).getcurrentMeaning()];
     } catch (value_error) {
         return non_element;
     }
 
-    return BinarySearch(a, size, key).second;
+    return BinarySearch(a, size, key).second[BinarySearch(a, size, key).getcurrentMeaning()];
 }
 
 //--------Модификаторы---------------------
@@ -152,20 +153,29 @@ void my_map<MyMapType, MyMapType2, Z>::clear()
 
 //-----Вставка элемента--------
 template <class MyMapType, class MyMapType2, class Z>
-void my_map<MyMapType, MyMapType2, Z>::insert(U& val)
+void my_map<MyMapType, MyMapType2, Z>::insert(U val)
 {
     size++;
+    dict<MyMapType,MyMapType2> *temp = nullptr ;
     if (size >= max_size)
         grow();
     try {
-        BinarySearch(a, size, val.first);
-    } catch (value_error) {
-        if (size > 1)
-            val.first = a[size - 2].first + 1;
-        a[size - 1] = val;
+       temp =& BinarySearch(a, size, val.first);
     }
+   /* catch(...)
+    {
+        std::cout<<"any";
+    }*/
+    catch (value_error) {
+        a[size - 1] = val;
+        insertion_sort(a, size);
+        return;
+    }
+    temp->grow();
+    temp->setcurrentMeaning(temp->getcurrentMeaning()+1);
+    temp->setSecond(val.getSecond());
 
-    insertion_sort(a, size);
+
 }
 template <class MyMapType, class MyMapType2, class Z>
 void my_map<MyMapType, MyMapType2, Z>::insert(iteratorM<U>& first, iteratorM<U>& last)
@@ -274,7 +284,8 @@ void my_map<MyMapType, MyMapType2, Z>::swap(my_map& x)
 template <typename MyMapType, typename MyMapType2, class Z>
 MyMapType2 my_map<MyMapType, MyMapType2, Z>::find_elem(const MyMapType& key)
 {
-    return BinarySearch(a, size, key).second;
+
+    return BinarySearch(a, size, key).getSecond();
 }
 
 template <typename MyMapType, typename MyMapType2, class Z>
@@ -400,4 +411,13 @@ template <typename MyMapType, typename MyMapType2, class Z>
 void my_map<MyMapType, MyMapType2, Z>::operator-(const my_map& mymap)
 {
     erase(find(mymap));
+}
+//если такого значения нет, то сбрасывается до максимального
+template <typename MyMapType, typename MyMapType2, class Z>
+void my_map<MyMapType, MyMapType2, Z>::cmpWithGlobalMeaning(size_t index, U obj)
+{
+    if (index > -1 and obj.getsize() > index)
+        obj.setcurrentMeaning(index);
+    else if (obj.setcurrentMeaning(obj.getsize() - 1))
+        ;
 }
