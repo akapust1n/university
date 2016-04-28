@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\interface.o
+./release\file_read.o
+./release\entrypoint.o
+./release\conversions.o
+./release\matrixworks.o
+./release\render.o
+./release\redraw.o
+./release\draw_lines.o
+./release\moc_mainwindow.o
+);
