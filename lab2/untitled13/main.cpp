@@ -63,6 +63,7 @@ int main()
     obj2.insert(word);
 
     cout << "new Map 2:" << endl;
+
     for (; z6_1 <= z6_1_end; ++z6_1) {
         if (z6_1.value().getcurrentMeaning() != 0) {
             z6_1.value().setcurrentMeaning(1);

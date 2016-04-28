@@ -11,13 +11,13 @@ dict<MyMapType, MyMapType2>::~dict()
 }
 
 template <typename MyMapType, typename MyMapType2>
-bool dict<MyMapType, MyMapType2>::operator==(const dict& dict_temp)
+bool dict<MyMapType, MyMapType2>::operator==(const dict& dict_temp) const
 {
     return dict_temp.first == first;
 }
 
 template <typename MyMapType, typename MyMapType2>
-bool dict<MyMapType, MyMapType2>::operator!=(const dict& dict_temp)
+bool dict<MyMapType, MyMapType2>::operator!=(const dict& dict_temp) const
 {
     return dict_temp.first != first;
 }

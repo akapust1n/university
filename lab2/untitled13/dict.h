@@ -8,16 +8,19 @@ struct dict {
     ~dict();
     dict(dict&& item);
     dict(const dict& item);
-    // dict & operator*() { return *ptr; }
-    bool operator==(const dict& dict_temp);
-    bool operator!=(const dict& dict_temp);
+
+    MyMapType first;
+
+    bool operator==(const dict& dict_temp) const;
+    bool operator!=(const dict& dict_temp) const;
     dict& operator=(const dict& item);
     void grow();
     size_t getsize() const { return size; }
-    size_t getcurrentMeaning() { return currentMeaning; }
-    MyMapType first;
+    size_t getcurrentMeaning() const { return currentMeaning; }
     MyMapType getSecond() { return second[currentMeaning]; }
+    const MyMapType cgetSecond() const { return second[currentMeaning]; }
     void setSecond(MyMapType2 temp) { second[currentMeaning] = temp; }
+
     void setcurrentMeaning(size_t i);
 
 private:

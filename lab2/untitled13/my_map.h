@@ -34,7 +34,7 @@ public:
 
     //модификаторы
     void insert(iteratorM<U>& first, iteratorM<U>& last);
-    void insert(U val);
+    void insert(const U& val);
     void erase(iteratorM<U>& position);
     void erase(MyMapType key);
     void erase(iteratorM<U>& first, iteratorM<U>& last);
@@ -55,7 +55,7 @@ public:
     bool equal(const my_map& mymap) const;
     bool not_equal(const my_map& mymap) const;
     //дублирование вставки/удаления
-    void operator+(my_map& mymap);
+    void operator+(const my_map& mymap);
     void operator-(const my_map& mymap);
 
     //операции
@@ -69,8 +69,6 @@ private:
     void insertion_sort(U* b, int n, Z u = Z());
     U& BinarySearch(U*& arr, int count, MyMapType element, Z u = Z());
     void grow();
-    void cmpWithGlobalMeaning(size_t index, U obj);
-    size_t def_meaningOfTheKey; //по умолчанию обращаемся к 0 значению слова
     const int GROW_SIZE = 30;
     MyMapType2 non_element = 0;
 };

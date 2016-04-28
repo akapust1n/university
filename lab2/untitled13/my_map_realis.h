@@ -8,8 +8,7 @@
 template <class MyMapType, class MyMapType2, class Z>
 my_map<MyMapType, MyMapType2, Z>::my_map()
     : base()
-    , a(0)
-    , def_meaningOfTheKey(0)
+    , a(nullptr)
 {
 }
 
@@ -153,7 +152,7 @@ void my_map<MyMapType, MyMapType2, Z>::clear()
 
 //-----Вставка элемента--------
 template <class MyMapType, class MyMapType2, class Z>
-void my_map<MyMapType, MyMapType2, Z>::insert(U val)
+void my_map<MyMapType, MyMapType2, Z>::insert(const U &val)
 {
     size++;
     dict<MyMapType,MyMapType2> *temp = nullptr ;
@@ -173,8 +172,8 @@ void my_map<MyMapType, MyMapType2, Z>::insert(U val)
     }
     temp->grow();
     temp->setcurrentMeaning(temp->getcurrentMeaning()+1);
-    temp->setSecond(val.getSecond());
-
+    temp->setSecond(val.cgetSecond());
+    return;
 
 }
 template <class MyMapType, class MyMapType2, class Z>
@@ -401,7 +400,7 @@ bool my_map<MyMapType, MyMapType2, Z>::not_equal(const my_map& mymap) const
 }
 //-------добавление элемента---------
 template <typename MyMapType, typename MyMapType2, class Z>
-void my_map<MyMapType, MyMapType2, Z>::operator+(my_map& mymap)
+void my_map<MyMapType, MyMapType2, Z>::operator+(const my_map& mymap)
 {
     insert(mymap);
 }
@@ -412,6 +411,7 @@ void my_map<MyMapType, MyMapType2, Z>::operator-(const my_map& mymap)
 {
     erase(find(mymap));
 }
+/*
 //если такого значения нет, то сбрасывается до максимального
 template <typename MyMapType, typename MyMapType2, class Z>
 void my_map<MyMapType, MyMapType2, Z>::cmpWithGlobalMeaning(size_t index, U obj)
@@ -421,3 +421,4 @@ void my_map<MyMapType, MyMapType2, Z>::cmpWithGlobalMeaning(size_t index, U obj)
     else if (obj.setcurrentMeaning(obj.getsize() - 1))
         ;
 }
+*/
