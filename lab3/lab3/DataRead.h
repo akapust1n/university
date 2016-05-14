@@ -1,8 +1,8 @@
 #ifndef DATAREAD_H
 #define DATAREAD_H
+#include <SceneObjects.h>
 #include <fstream>
 #include <string>
-#include <SceneObjects.h>
 using namespace std;
 class DataRead {
 public:
@@ -14,17 +14,19 @@ protected:
 
 class FileStreamDataRead : public DataRead {
 public:
-    FileStreamDataRead(string fileName) ;
-    ~FileStreamDataRead();
-    virtual void ReadData() final;
-    void open_file();
-    int  read_number_vertices();
-    int read_number_edges();
-    void set_model_type(PrototypeModel *obj1);
-    template <class T>  void mem_allocation_type(T* u , int size);
-    void mem_allocation();
+    FileStreamDataRead(string fileName);
+    // ~FileStreamDataRead();
+    virtual void ReadData();
+    ConcreteModel1* getModel() { return model; }
 private:
-    ConcreteModel1 *model; //может не стоит прямо судя модель девать? - не знаю как переделать
+    void open_file();
+    int read_number_vertices();
+    int read_number_edges();
+    template <class T>
+    void mem_allocation_type(T*& u, int size);
+    void model_mem_alocation(int vertices, int edges);
+    void read_params();
+    ConcreteModel1* model; //может не стоит прямо судя модель девать? - не знаю как переделать
     ifstream model1;
 };
 

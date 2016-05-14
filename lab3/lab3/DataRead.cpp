@@ -1,25 +1,30 @@
 #include "my_exception.h"
 #include <DataRead.h>
 #include <typeinfo>
- FileStreamDataRead::FileStreamDataRead(string Filename)
+#include <iostream>
+FileStreamDataRead::FileStreamDataRead(string Filename)
 {
-    SourceName = fileName;
-    model1 = new ConcreteModel1;
+    /*
+    SourceName = Filename;
+    model = new ConcreteModel1;*/
 }
-FileStreamDataRead::~FileStreamDataRead()
+
+/*FileStreamDataRead::~FileStreamDataRead()
 {
-if(!model->full)
-{
-   if(!model->links)
-       delete[] model->links;
-   if (!model->x)
-       delete model->x;
-   if (!model->y)
-       delete model->y;
-   if (!model->z)
-       delete model->z;
-}
-}
+    /*
+    if (!model->full) {
+        if (!model->links)
+            delete[] model->links;
+        if (!model->x)
+            delete[] model->x;
+        if (!model->y)
+            delete[] model->y;
+        if (!model->z)
+            delete[] model->z;
+        delete model;
+    }*/
+//}
+
 
 void FileStreamDataRead::open_file()
 {
@@ -32,7 +37,7 @@ int FileStreamDataRead::read_number_vertices()
     int z = 0;
     if (!(model1 >> z) or z < 1)
         throw file_read_error();
-    model.vertices = z;
+    model->vertices = z;
     return z;
 }
 int FileStreamDataRead::read_number_edges()
@@ -40,28 +45,40 @@ int FileStreamDataRead::read_number_edges()
     int z = 0;
     if (!(model1 >> z) or z < 1)
         throw file_read_error();
-    model.edge_num = z;
+    model->edge_num = z;
     return z;
 }
-template< class T>
-void FileStreamDataRead::model_mem_alocation(T* u, int size)
+template <class T>
+void FileStreamDataRead::mem_allocation_type(T*& u, int size)
 {
-
+    u = new T[size];
+    if (!u)
+        throw memory_alloc_error();
 }
 
-void FileStreamDataRead::model_mem_alocation(int vertices,int edges){
-    error_code = mem_allocation_double(model.x, vertices);
-    if (error_code != cfFine)
-        return error_code;
-    error_code = mem_allocation_double(model.y, vertices);
-    if (error_code != cfFine)
-        return error_code;
-    error_code = mem_allocation_double(model.z, vertices);
-    if (error_code != cfFine)
-        return error_code;
-
-
-
+void FileStreamDataRead::model_mem_alocation(int vertices, int edges)
+{
+    mem_allocation_type<double>(model->x, vertices);
+    mem_allocation_type<double>(model->y, vertices);
+    mem_allocation_type<double>(model->z, vertices);
+    mem_allocation_type<int>(model->links, edges);
+}
+void FileStreamDataRead::read_params()
+{
+    //считываем модель
+    for (int i = 0; i < model->vertices; i++) {
+        if (!(model1 >> model->x[i]))
+            throw file_read_error();
+        if (!(model1 >> model->y[i]))
+            throw file_read_error();
+        if (!(model1 >> model->z[i]))
+            throw file_read_error();
+    }
+    //считываем связи
+    for (int i = 0; model->edge_num; i++) {
+        if (!model1 >> model->links[i])
+            throw file_read_error();
+    }
 }
 
 void FileStreamDataRead::ReadData()
@@ -77,5 +94,9 @@ void FileStreamDataRead::ReadData()
     model_mem_alocation(vertices_read, edges_read);
 
     //читаем параметры модели(ребра и вершины)
-    error_code = read_params( vertices_read, edges_read);
+    try {
+       read_params();;
+    } catch (my_base_exception& err) {
+        std::cout << err.what();
+    }
 }

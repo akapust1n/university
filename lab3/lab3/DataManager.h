@@ -12,22 +12,20 @@ public:
 protected:
     string DataName;
 };
-class  FileStreamDataRead;
+class FileStreamDataRead;
 class ConcreteDataManager {
 public:
-
-    virtual void WriteData() final{}
+    ~ConcreteDataManager() {}
+    //virtual void WriteData() final {}
 
 private:
-
     FileStreamDataRead file_stream_data_read;
 
-    ~ConcreteDataManager();
     ConcreteModel1 model;
 
 public:
-
     ConcreteDataManager(string Filename);
+    ConcreteModel1* getModel();
 };
 
 #endif // DATAMANAGER_H
