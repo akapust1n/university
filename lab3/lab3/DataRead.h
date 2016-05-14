@@ -15,7 +15,7 @@ protected:
 class FileStreamDataRead : public DataRead {
 public:
     FileStreamDataRead(string fileName);
-    // ~FileStreamDataRead();
+    ~FileStreamDataRead();
     virtual void ReadData();
     ConcreteModel1* getModel() { return model; }
 private:
@@ -24,7 +24,7 @@ private:
     int read_number_edges();
     template <class T>
     void mem_allocation_type(T*& u, int size);
-    void model_mem_alocation(int vertices, int edges);
+    void model_mem_alocation();
     void read_params();
     ConcreteModel1* model; //может не стоит прямо судя модель девать? - не знаю как переделать
     ifstream model1;

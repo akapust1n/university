@@ -10,6 +10,5 @@ void BigModelManager::callDataManager(string sourceName)
      ConcreteDataManager data(sourceName);
      data.getModel();
 
-     //std::cout<<"lol";
 
 }

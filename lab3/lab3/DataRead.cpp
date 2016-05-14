@@ -1,17 +1,17 @@
 #include "my_exception.h"
 #include <DataRead.h>
-#include <typeinfo>
 #include <iostream>
+#include <typeinfo>
 FileStreamDataRead::FileStreamDataRead(string Filename)
 {
-    /*
+
     SourceName = Filename;
-    model = new ConcreteModel1;*/
+    model = new ConcreteModel1;
 }
 
-/*FileStreamDataRead::~FileStreamDataRead()
+FileStreamDataRead::~FileStreamDataRead()
 {
-    /*
+
     if (!model->full) {
         if (!model->links)
             delete[] model->links;
@@ -22,9 +22,8 @@ FileStreamDataRead::FileStreamDataRead(string Filename)
         if (!model->z)
             delete[] model->z;
         delete model;
-    }*/
-//}
-
+    }
+}
 
 void FileStreamDataRead::open_file()
 {
@@ -56,12 +55,12 @@ void FileStreamDataRead::mem_allocation_type(T*& u, int size)
         throw memory_alloc_error();
 }
 
-void FileStreamDataRead::model_mem_alocation(int vertices, int edges)
+void FileStreamDataRead::model_mem_alocation()
 {
-    mem_allocation_type<double>(model->x, vertices);
-    mem_allocation_type<double>(model->y, vertices);
-    mem_allocation_type<double>(model->z, vertices);
-    mem_allocation_type<int>(model->links, edges);
+    mem_allocation_type<double>(model->x, model->vertices);
+    mem_allocation_type<double>(model->y, model->vertices);
+    mem_allocation_type<double>(model->z, model->vertices);
+    mem_allocation_type<int>(model->links, model->edge_num);
 }
 void FileStreamDataRead::read_params()
 {
@@ -75,7 +74,7 @@ void FileStreamDataRead::read_params()
             throw file_read_error();
     }
     //считываем связи
-    for (int i = 0; model->edge_num; i++) {
+    for (int i = 0; i<model->edge_num; i++) {
         if (!model1 >> model->links[i])
             throw file_read_error();
     }
@@ -84,18 +83,18 @@ void FileStreamDataRead::read_params()
 void FileStreamDataRead::ReadData()
 {
     open_file();
-    read_number_vertices();
-    read_number_edges();
 
-    int vertices_read = read_number_vertices(); //считываем количество вершин
-    int edges_read = read_number_edges(); // считываем количество ребер
+
+    read_number_vertices(); //считываем количество вершин
+    read_number_edges(); // считываем количество ребер
 
     //выделяем память под ребра и вершины
-    model_mem_alocation(vertices_read, edges_read);
+    model_mem_alocation();
 
     //читаем параметры модели(ребра и вершины)
     try {
-       read_params();;
+        read_params();
+        ;
     } catch (my_base_exception& err) {
         std::cout << err.what();
     }
