@@ -15,7 +15,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     DataRead.cpp \
-    BigModelManager.cpp
+    BigModelManager.cpp \
+    DataManager.cpp
 
 HEADERS  += mainwindow.h \
     DataManager.h \
@@ -24,7 +25,8 @@ HEADERS  += mainwindow.h \
     BigModelManager.h \
     SceneManager.h \
     SceneObjects.h \
-    my_exception.h
+    my_exception.h \
+    Scene.h
 
 FORMS    += mainwindow.ui
 

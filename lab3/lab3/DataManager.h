@@ -1,25 +1,33 @@
 #ifndef DATAMANAGER_H
 #define DATAMANAGER_H
+#include <DataRead.h>
+#include <SceneObjects.h>
 #include <string>
 using namespace std;
-class DataManager
-{
+
+class DataManager {
 public:
     virtual void WriteData() = 0;
 
-
-  protected:
+protected:
     string DataName;
 };
-
-class ConcreteDataManager
-{
+class  FileStreamDataRead;
+class ConcreteDataManager {
 public:
+
+    virtual void WriteData() final{}
+
+private:
+
+    FileStreamDataRead file_stream_data_read;
+
+    ~ConcreteDataManager();
+    ConcreteModel1 model;
+
+public:
+
     ConcreteDataManager(string Filename);
-     virtual void WriteData() final;
-
-
-
 };
 
 #endif // DATAMANAGER_H

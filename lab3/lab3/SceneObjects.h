@@ -10,16 +10,17 @@ class InvisibleObjects : public SceneObject {
 };
 
 class PrototypeModel : public VisibleObject {
-protected:
+public:
     int vertices;
     int *links;
     double fx, fy, fz; //угол поворота
     double dx, dy, dz; //смещение модели
     double M; //масштаб отрисовки
+    bool full=false;
 };
 
 class ConcreteModel1 : public PrototypeModel {
-private:
+public:
     int edge_num;
     double* x;
     double* y;

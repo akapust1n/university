@@ -10,7 +10,7 @@ class my_base_exception : public std::exception
 class file_read_error : public my_base_exception
 {
 public:
-    file_read_error();
+    file_read_error(){}
     virtual const char* what() const throw();
 };
 // Класс ошибки памяти
