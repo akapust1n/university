@@ -16,7 +16,8 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     DataRead.cpp \
     BigModelManager.cpp \
-    DataManager.cpp
+    DataManager.cpp \
+    Scene.cpp
 
 HEADERS  += mainwindow.h \
     DataManager.h \

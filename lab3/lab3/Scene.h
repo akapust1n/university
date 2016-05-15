@@ -1,16 +1,13 @@
 #ifndef SCENE_H
 #define SCENE_H
 #include <SceneObjects.h>
+#include <vector>
 //синглтон
-class Scene
-{
+class Scene {
 public:
-
+    void addElement(SceneObject *param);
 
 private:
-
-
-        SceneObject *obj;
-        int size = 0;
+    std::vector <SceneObject*> obj;
 };
 #endif // SCENE_H

@@ -74,7 +74,7 @@ void FileStreamDataRead::read_params()
             throw file_read_error();
     }
     //считываем связи
-    for (int i = 0; i<model->edge_num; i++) {
+    for (int i = 0; i < model->edge_num; i++) {
         if (!model1 >> model->links[i])
             throw file_read_error();
     }
@@ -84,7 +84,6 @@ void FileStreamDataRead::ReadData()
 {
     open_file();
 
-
     read_number_vertices(); //считываем количество вершин
     read_number_edges(); // считываем количество ребер
 
@@ -92,10 +91,7 @@ void FileStreamDataRead::ReadData()
     model_mem_alocation();
 
     //читаем параметры модели(ребра и вершины)
-    try {
-        read_params();
-        ;
-    } catch (my_base_exception& err) {
-        std::cout << err.what();
-    }
+    read_params();
+
+    model->full = true;
 }

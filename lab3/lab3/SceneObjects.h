@@ -1,31 +1,42 @@
 #ifndef SCENEOBJECTS_H
 #define SCENEOBJECTS_H
+#include <string>
+using namespace  std;
 class SceneObject {
+public:
+    virtual string whatIsIt() { return "Scene"; }
 protected:
     bool enable;
 };
 class VisibleObject : public SceneObject {
+public:
+    virtual string whatIsIt() { return "VisibleObject"; }
+
 };
 class InvisibleObjects : public SceneObject {
+public:
+    virtual string whatIsIt() { return "InvisibleObject"; }
+
 };
 
 class PrototypeModel : public VisibleObject {
 public:
+    virtual string whatIsIt() { return "PrototypeModel"; }
     int vertices;
-    int *links;
+    int* links;
     double fx, fy, fz; //угол поворота
     double dx, dy, dz; //смещение модели
     double M; //масштаб отрисовки
-    bool full=false;
+    bool full = false;
 };
 
 class ConcreteModel1 : public PrototypeModel {
 public:
+    virtual string whatIsIt() { return "ConcreteModel1"; }
     int edge_num;
     double* x;
     double* y;
     double* z;
-
 };
 
 #endif // SCENEOBJECTS_H
