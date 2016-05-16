@@ -1,0 +1,18 @@
+#ifndef SCENEMANAGER_H
+#define SCENEMANAGER_H
+#include <structures.h>
+class SceneObjectManager
+{
+
+};
+class SetModelManager: public SceneObjectManager
+{
+public:
+    new_params newparam;
+    void setModelParams();
+    
+
+};
+
+
+#endif // SCENEMANAGER_H

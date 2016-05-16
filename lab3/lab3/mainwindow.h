@@ -4,11 +4,15 @@
 #include <QMainWindow>
 #include <QtWidgets>
 #include "Conroller.h"
-#include "BigModelManager.h"
 #include <SceneManager.h>
+#include <QString>
+#include <structures.h>
+#include "BigModelManager.h"
+//class BigModelManager;
 namespace Ui {
 class MainWindow;
 }
+
 
 class MainWindow : public QMainWindow
 {
@@ -17,13 +21,24 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    void clearold(QString text);
+    void set_style_button(pick a);
 
 private slots:
     void on_scaleButton_clicked();
     void Scale_slot();
     void Open_slot();
+    void Shift_slot();
+    void Rotate_slot();
+
 
     void on_openButton_clicked();
+
+    void on_shiftButton_clicked();
+
+    void on_ugolButton_clicked();
+
+    void on_doButton_clicked();
 
 private:
     Controller controller;

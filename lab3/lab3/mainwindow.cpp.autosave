@@ -67,7 +67,7 @@ void MainWindow::on_scaleButton_clicked()
 
 void MainWindow::Scale_slot()
 {
-    //bigmodelmanager.cal
+    bigmodelmanager.callSetSceneObjectManager(pick::pick_mash);
     QMessageBox lol;
     lol.setText("sss");
     lol.exec();

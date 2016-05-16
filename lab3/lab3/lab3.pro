@@ -24,10 +24,12 @@ HEADERS  += mainwindow.h \
     DataRead.h \
     Conroller.h \
     BigModelManager.h \
-    SceneManager.h \
     SceneObjects.h \
     my_exception.h \
-    Scene.h
+    Scene.h \
+    structures.h \
+    SceneObjectManager.h \
+    SceneManager.h
 
 FORMS    += mainwindow.ui
 

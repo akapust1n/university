@@ -14,12 +14,15 @@ void BigModelManager::callDataManager(string sourceName)
     temp = data.getModel();
     scene.addElement(temp);
 }
-void BigModelManager::setSceneObjectManager(pick action)
+void BigModelManager::callSetSceneObjectManager(pick action)
 {
 
     switch(action)
     {
     case(pick::pick_mash):{
+        getData(pick::pick_mash,new)
+        SetModelManager setmodelmanager;
+        setmodelmanager.setModelParams();
         break;
 
     }
