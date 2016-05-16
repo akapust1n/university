@@ -3,3 +3,7 @@ build*
 MakeFile
 Makefile*
 Makefile.*
+*.gz
+*.tar.gz
+*autosave
+
