@@ -22,7 +22,7 @@ void ConcreteConverter1::Convertation(sConvertedPoints*& conv, ConcreteModel1* p
         temp.x = points->x[i];
         temp.y = points->y[i];
         temp.z = points->z[i];
-       QPoint point = ConvertSinglePoint(temp, ConvMatrix);
+        QPoint point = ConvertSinglePoint(temp, ConvMatrix);
         conv->Xs[i] = point.x();
         conv->Ys[i] = point.y();
     }
@@ -139,7 +139,7 @@ double* ConcreteConverter1::MultVectorXMatrix(double* V, double* M, int d)
 {
     d++;
     double* res = new double[d];
-    if(!res)
+    if (!res)
         throw memory_alloc_error();
     for (int i = 0; i < d; i++) {
         double s = 0;
@@ -173,8 +173,8 @@ QPoint ConcreteConverter1::ConvertSinglePoint(sPoint3d p, double* ConvMatrix)
         throw memory_alloc_error();
     }
 
-    res.setX( (int)floor(conversion[0]));
-    res.setY( (int)floor(conversion[1]));
+    res.setX((int)floor(conversion[0]));
+    res.setY((int)floor(conversion[1]));
     delete conversion;
 
     return res;
