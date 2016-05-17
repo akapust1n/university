@@ -5,7 +5,6 @@ using namespace  std;
 class SceneObject {
 public:
     virtual string whatIsIt() { return "Scene"; }
-protected:
     bool enable;
 };
 class VisibleObject : public SceneObject {
@@ -32,6 +31,7 @@ public:
 
 class ConcreteModel1 : public PrototypeModel {
 public:
+     ConcreteModel1();
     virtual string whatIsIt() { return "ConcreteModel1"; }
     int edge_num;
     double* x;

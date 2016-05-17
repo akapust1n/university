@@ -17,7 +17,10 @@ SOURCES += main.cpp\
     DataRead.cpp \
     BigModelManager.cpp \
     DataManager.cpp \
-    Scene.cpp
+    Scene.cpp \
+    Controller.cpp \
+    SceneObjectManager.cpp \
+    SceneObjects.cpp
 
 HEADERS  += mainwindow.h \
     DataManager.h \
@@ -33,4 +36,4 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-QMAKE_CXXFLAGS += -std=c++14
+CONFIG += c++14

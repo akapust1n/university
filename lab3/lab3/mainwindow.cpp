@@ -10,6 +10,9 @@ MainWindow::MainWindow(QWidget* parent)
     QObject::connect(ui->openButton, SIGNAL(clicked()), SLOT(Open_slot()));
 
     ui->groupBox_2->setEnabled(false);
+    bigmodelmanager.setContoller(controller);
+    controller.setUi(ui);
+
 }
 void MainWindow::clearold(QString text)
 {
@@ -67,7 +70,7 @@ void MainWindow::on_scaleButton_clicked()
 
 void MainWindow::Scale_slot()
 {
-    //bigmodelmanager.cal
+    bigmodelmanager.callSetSceneObjectManager(pick::pick_mash);
     QMessageBox lol;
     lol.setText("sss");
     lol.exec();

@@ -6,8 +6,6 @@
 class Scene {
 public:
     void addElement(SceneObject *param);
-
-private:
     std::vector <SceneObject*> obj;
 };
 #endif // SCENE_H
