@@ -20,7 +20,9 @@ SOURCES += main.cpp\
     Scene.cpp \
     Controller.cpp \
     SceneObjectManager.cpp \
-    SceneObjects.cpp
+    SceneObjects.cpp \
+    Converter.cpp \
+    MatrixWorks.cpp
 
 HEADERS  += mainwindow.h \
     DataManager.h \
@@ -32,7 +34,9 @@ HEADERS  += mainwindow.h \
     Scene.h \
     structures.h \
     SceneObjectManager.h \
-    SceneManager.h
+    SceneManager.h \
+    Converter.h \
+    Matrixworks.h
 
 FORMS    += mainwindow.ui
 
