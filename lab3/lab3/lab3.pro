@@ -23,7 +23,8 @@ SOURCES += main.cpp\
     SceneObjects.cpp \
     Converter.cpp \
     MatrixWorks.cpp \
-    ShowSceneObjectsManager.cpp
+    ShowSceneObjectsManager.cpp \
+    SceneManager.cpp
 
 HEADERS  += mainwindow.h \
     DataManager.h \

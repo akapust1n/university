@@ -11,9 +11,10 @@ private:
     Controller *controller;
 public:
     BigModelManager();
+    ~BigModelManager();
     void callDataManager(string sourceName);
     void callSetSceneObjectManager(pick action);
-    Scene scene;
+    Scene *scene;
     void setContoller(Controller &temp);
 
 

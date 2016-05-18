@@ -6,7 +6,7 @@ class SceneObjectManager {
 };
 class SetModelManager : public SceneObjectManager {
 public:
-    SetModelManager(Scene &temp);
+    SetModelManager(Scene *&temp);
     new_params newparam;
     void setModelsParams(new_params temp);
 private:

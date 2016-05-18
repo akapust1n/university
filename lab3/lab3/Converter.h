@@ -6,12 +6,12 @@
 #include <QPoint>
 class Converter{
 public:
-     virtual sConvertedPoints *getConvertedPoints(PrototypeModel *a) = 0;
+     virtual sConvertedPoints *getConvertedPoints(PrototypeModel *a){}
 
 };
 class ConcreteConverter1:public Converter{
 public:
-    sConvertedPoints *getConvertedPoints(ConcreteModel1 *a);
+    virtual sConvertedPoints *getConvertedPoints(ConcreteModel1 *a);
 private:
     MatrixWorks mt;
     double* GetConversionMatrix(ConcreteModel1 *data);

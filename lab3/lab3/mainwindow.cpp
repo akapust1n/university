@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget* parent)
     ui->groupBox_2->setEnabled(false);
     bigmodelmanager.setContoller(controller);
     controller.setUi(ui);
+    scenemanager.setupUi(ui,bigmodelmanager.scene);
 
 }
 void MainWindow::clearold(QString text)

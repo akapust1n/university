@@ -1,8 +1,8 @@
 #include <SceneObjectManager.h>
 #include <typeinfo>
-SetModelManager::SetModelManager(Scene& temp)
+SetModelManager::SetModelManager(Scene *&temp)
 {
-    scene = &temp;
+    scene = temp;
 }
 
 void SetModelManager::setModelsParams(new_params temp)

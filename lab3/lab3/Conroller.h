@@ -10,8 +10,7 @@ class Controller
 public:
     new_params getParams(pick a);
     void setUi(Ui::MainWindow *&temp);
-private slots:
-    void on_scaleButton_clicked();
+
 
 private:
     Ui::MainWindow *ui;

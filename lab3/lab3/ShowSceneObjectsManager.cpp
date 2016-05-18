@@ -26,3 +26,4 @@ void DrawConcreteModel1::getScene(QGraphicsScene *&temp)
     scene = temp;
 
 }
+ void DrawCarcasManager:: drawModel(PrototypeModel *model){}
