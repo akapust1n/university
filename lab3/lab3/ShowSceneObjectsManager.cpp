@@ -1,7 +1,13 @@
 #include <ShowSceneObjectsManager.h>
-void DrawCarcasManager::DrawLine(QPoint p1, QPoint p2, QGraphicsScene* scene)
+#include <iostream>
+void DrawCarcasManager::DrawLine(QPoint p1, QPoint p2, QGraphicsScene*&scene1)
 {
-    scene->addLine(p1.x(), p1.y(), p2.x(), p2.y());
+    if(!scene1)
+        std::cout<<"lol";
+   // QGraphicsScene sc1;
+     //sc1.addLine(0,0,20,30);
+
+    scene1->addLine(p1.x(), p1.y(), p2.x(), p2.y(),QPen(QColor(0, 0, 0), 3, Qt::SolidLine, Qt::SquareCap, Qt::BevelJoin));
     return;
 }
 void DrawConcreteModel1::drawModel(ConcreteModel1& model, sConvertedPoints& points)

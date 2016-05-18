@@ -50,7 +50,7 @@ int FileStreamDataRead::read_number_edges()
 template <class T>
 void FileStreamDataRead::mem_allocation_type(T*& u, int size)
 {
-    u = new T[size];
+    u = new T[size]();
     if (!u)
         throw memory_alloc_error();
 }
@@ -75,7 +75,7 @@ void FileStreamDataRead::read_params()
     }
     //считываем связи
     for (int i = 0; i < model->edge_num; i++) {
-        if (!model1 >> model->links[i])
+        if (!(model1 >> model->links[i]))
             throw file_read_error();
     }
 }

@@ -7,6 +7,11 @@
 class Scene {
 public:
     QGraphicsScene *scene;
+    Scene();
+    Scene(const Scene &obj)
+        {
+            scene = obj.scene;
+        }
 
     void addElement(SceneObject *param);
     std::vector <SceneObject*> obj;

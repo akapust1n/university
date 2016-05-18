@@ -12,7 +12,7 @@ public:
 class DrawCarcasManager:public ShowSceneObjectManager {
 public:
     virtual void drawModel(PrototypeModel *model) ; // ДОЛЖНА БЫТЬ АБСТРАКТНОЙ
-    void DrawLine(QPoint p1,QPoint p2,QGraphicsScene *scene);
+    void DrawLine(QPoint p1, QPoint p2, QGraphicsScene *&scene);
 
 };
 class DrawConcreteModel1:public DrawCarcasManager

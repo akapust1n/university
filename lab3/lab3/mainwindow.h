@@ -42,8 +42,8 @@ private slots:
 
 private:
     Controller controller;
-    BigModelManager bigmodelmanager;
-    SceneManager scenemanager;
+    BigModelManager *bigmodelmanager;
+    SceneManager *scenemanager;
     QLineEdit *x_line_edit;
     QLineEdit *y_line_edit;
     QLineEdit *z_line_edit;

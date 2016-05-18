@@ -8,3 +8,7 @@ void Scene::addElement(SceneObject* param)
 
 
 }
+Scene::Scene()
+{
+    scene = new QGraphicsScene;
+}

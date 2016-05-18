@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <DataManager.h>
+#include <my_exception.h>
 #include <string>
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -10,9 +11,11 @@ MainWindow::MainWindow(QWidget* parent)
     QObject::connect(ui->openButton, SIGNAL(clicked()), SLOT(Open_slot()));
 
     ui->groupBox_2->setEnabled(false);
-    bigmodelmanager.setContoller(controller);
+    scenemanager = new SceneManager;
+    bigmodelmanager = new BigModelManager;
+    bigmodelmanager->setContoller(controller);
     controller.setUi(ui);
-    scenemanager.setupUi(ui,bigmodelmanager.scene);
+    scenemanager->setupUi(ui, bigmodelmanager->scene);
 
 }
 void MainWindow::clearold(QString text)
@@ -71,11 +74,10 @@ void MainWindow::on_scaleButton_clicked()
 
 void MainWindow::Scale_slot()
 {
-    bigmodelmanager.callSetSceneObjectManager(pick::pick_mash);
+    bigmodelmanager->callSetSceneObjectManager(pick::pick_mash);
     QMessageBox lol;
     lol.setText("sss");
     lol.exec();
-
 }
 
 void MainWindow::Open_slot()
@@ -94,8 +96,18 @@ void MainWindow::on_openButton_clicked()
     string sourceName = QFileDialog::getOpenFileName(this, QString::fromUtf8("Открыть файл"),
                             QDir::currentPath(), "txt models (*.txt)")
                             .toStdString();
-
-    bigmodelmanager.callDataManager(sourceName);
+    try {
+        bigmodelmanager->callDataManager(sourceName);
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+    scenemanager->test();;
+    scenemanager->drawModels();
+    ui->graphicsView->setScene(scenemanager->Qscene->scene);
+    ui->graphicsView->show();
 }
 
 void MainWindow::on_shiftButton_clicked()
@@ -128,10 +140,8 @@ void MainWindow::on_ugolButton_clicked()
     ui->xLabel->setText("x");
     ui->ylineEdit->setEnabled(true);
     ui->zlineEdit->setEnabled(true);
-
 }
 
 void MainWindow::on_doButton_clicked()
 {
-
 }

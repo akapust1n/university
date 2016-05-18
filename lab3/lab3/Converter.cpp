@@ -10,7 +10,7 @@ sConvertedPoints* ConcreteConverter1::getConvertedPoints(ConcreteModel1* a)
     Convertation(conv, a, ConvMatrix); //преобразуем точки
     //  return 0;
 
-    delete ConvMatrix;
+    //delete[] ConvMatrix;
 
     return conv;
 }

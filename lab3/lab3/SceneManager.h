@@ -11,13 +11,15 @@ class SceneManager {
 public:
     void setupUi(Ui::MainWindow*& temp, Scene *&temp2);
     void drawModels();
+    void test();
+    Scene *Qscene;
 
 private slots:
     void on_doButton_clicked();
 
 private:
     Ui::MainWindow *ui;
-    Scene *Qscene;
+
 
 };
 
