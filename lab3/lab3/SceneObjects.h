@@ -20,6 +20,7 @@ public:
 
 class PrototypeModel : public VisibleObject {
 public:
+    PrototypeModel();
     virtual string whatIsIt() { return "PrototypeModel"; }
     int vertices;
     int* links;

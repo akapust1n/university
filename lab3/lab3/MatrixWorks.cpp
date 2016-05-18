@@ -25,12 +25,13 @@ double* MatrixWorks::MultVectorXMatrix(double* V, double* M, int d)
 }
 
 //умножение матрицы на матрицу
-//фактически матрица сохраняется в первом параметре
+
 double* MatrixWorks::MultMatrixXMatrix(double*& M1, double* M2, int d)
 {
     d++;
     double* res = new double[d * d];
     for (int i = 0; i < d; i++) {
+
         for (int j = 0; j < d; j++) {
             double s = 0;
             for (int k = 0; k < d; k++) {
@@ -39,10 +40,7 @@ double* MatrixWorks::MultMatrixXMatrix(double*& M1, double* M2, int d)
             res[i * d + j] = s;
         }
     }
-    for(int i =0;i<d*d; i++)
-        M1[i]= res [i];
-    delete[] res;
-    return M1;
+    return res;
 }
 
 //получение матрицы поворота вокруг оси X

@@ -46,94 +46,104 @@ sConvertedPoints* ConcreteConverter1::AllocateConvertedPoints(int count)
 //получаем матрицу преобразований
 double* ConcreteConverter1::GetConversionMatrix(ConcreteModel1* data)
 {
-    double* ShiftMatrix = mt.Get3DShiftMatrix(data->dx, data->dy, data->dz); //смещение от О
-    if (!ShiftMatrix) {
-        return 0;
+    double *ShiftMatrix =mt. Get3DShiftMatrix(data->dx, data->dy, data->dz); //смещение от О
+    if (!ShiftMatrix)
+    {
+        return nullptr;
     }
-    double* RotateZMatrix = mt.Get3DRotateZMatrix(data->fz); //поворот вокруг OZ
-    if (!RotateZMatrix) {
+    double *RotateZMatrix =mt.Get3DRotateZMatrix(data->fz); //поворот вокруг OZ
+    if (!RotateZMatrix)
+    {
         delete ShiftMatrix;
-        return 0;
+        return nullptr;
     }
-    double* RotateYMatrix = mt.Get3DRotateYMatrix(data->fy); //поворот вокруг OY
-    if (!RotateYMatrix) {
+    double *RotateYMatrix = mt.Get3DRotateYMatrix(data->fy); //поворот вокруг OY
+    if (!RotateYMatrix)
+    {
         delete RotateZMatrix;
         delete ShiftMatrix;
-        return 0;
+        return nullptr;
     }
-    double* RotateXMatrix = mt.Get3DRotateXMatrix(data->fx); //поворот вокруг OX
-    if (!RotateXMatrix) {
+    double *RotateXMatrix =mt. Get3DRotateXMatrix(data->fx); //поворот вокруг OX
+    if (!RotateXMatrix)
+    {
         delete ShiftMatrix;
         delete RotateYMatrix;
         delete RotateZMatrix;
-        return 0;
+        return nullptr;
     }
-    double* ScaleMatrix = mt.Get3DScaleMatrix(data->M); //масштабировние относительно О
-    if (!ScaleMatrix) {
+    double *ScaleMatrix = mt.Get3DScaleMatrix(data->M); //масштабировние относительно О
+    if (!ScaleMatrix)
+    {
         delete ShiftMatrix;
         delete RotateZMatrix;
         delete RotateYMatrix;
         delete RotateXMatrix;
-        return 0;
+        return nullptr;
     }
 
     //матрицы получены - собираем из них исходную
-    //память новая не выделяется, результат умножения сохраняется в первый параметр
-    double* matr1 = mt.MultMatrixXMatrix(ShiftMatrix, RotateZMatrix, 3); // Shift х
-    // Z
-    if (!matr1) {
-        delete ShiftMatrix;
-        delete RotateZMatrix;
-        delete RotateYMatrix;
-        delete RotateXMatrix;
-        delete ScaleMatrix;
-        return 0;
-    }
-    double* matr2 = mt.MultMatrixXMatrix(matr1, RotateYMatrix, 3); // x Y
-    if (!matr2) {
-        delete ShiftMatrix;
-        delete RotateZMatrix;
-        delete RotateYMatrix;
-        delete RotateXMatrix;
-        delete ScaleMatrix;
-        //delete matr1;
-        return 0;
-    }
-    double* matr3 = mt.MultMatrixXMatrix(matr2, RotateXMatrix, 3); // x X
-    if (!matr3) {
-        delete ShiftMatrix;
-        delete RotateZMatrix;
-        delete RotateYMatrix;
-        delete RotateXMatrix;
-        delete ScaleMatrix;
-        //delete matr2;
-        //delete matr1;
-        return 0;
-    }
-    double* res = mt.MultMatrixXMatrix(matr3, ScaleMatrix, 3); // x Scale
-    if (!res) {
-        delete ShiftMatrix;
-        delete RotateZMatrix;
-        delete RotateYMatrix;
-        delete RotateXMatrix;
-        delete ScaleMatrix;
-        //delete matr1;
-        //delete matr2;
-        //delete matr3;
-        return 0;
-    }
 
-    delete ShiftMatrix;
+    double *matr1 = mt.MultMatrixXMatrix(ShiftMatrix, RotateZMatrix, 3); //Shift х Z
+    if (!matr1)
+    {
+        delete ShiftMatrix;
+        delete RotateZMatrix;
+        delete RotateYMatrix;
+        delete RotateXMatrix;
+        delete ScaleMatrix;
+        return nullptr;
+    }
+    double *matr2 = mt.MultMatrixXMatrix(matr1, RotateYMatrix, 3); // x Y
+    if (!matr2)
+    {
+        delete ShiftMatrix;
+        delete RotateZMatrix;
+        delete RotateYMatrix;
+        delete RotateXMatrix;
+        delete ScaleMatrix;
+        delete matr1;
+        return nullptr;
+    }
+    double *matr3 = mt.MultMatrixXMatrix(matr2, RotateXMatrix, 3); //x X
+    if (!matr3)
+    {
+        delete ShiftMatrix;
+        delete RotateZMatrix;
+        delete RotateYMatrix;
+        delete RotateXMatrix;
+        delete ScaleMatrix;
+        delete matr2;
+        delete matr1;
+        return nullptr;
+    }
+    double *res = mt.MultMatrixXMatrix(matr3, ScaleMatrix, 3); //x Scale
+    if (!res)
+    {
+        delete ShiftMatrix;
+        delete RotateZMatrix;
+        delete RotateYMatrix;
+        delete RotateXMatrix;
+        delete ScaleMatrix;
+        delete matr1;
+        delete matr2;
+        delete matr3;
+        return nullptr;
+    }
+  //мда
+   /* delete ShiftMatrix;
     delete RotateZMatrix;
     delete RotateYMatrix;
     delete RotateXMatrix;
     delete ScaleMatrix;
-    //delete matr1;
-    // delete matr2;
-    //delete matr3;
+    delete matr1;
+    delete matr2;
+    delete matr3;*/
 
     return res;
 }
+
+
 //умножение вектора на матрицу
 double* ConcreteConverter1::MultVectorXMatrix(double* V, double* M, int d)
 {

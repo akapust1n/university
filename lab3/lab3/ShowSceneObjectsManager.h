@@ -19,9 +19,9 @@ class DrawConcreteModel1:public DrawCarcasManager
 {
 public:
     virtual void getScene(QGraphicsScene *&temp);
-    virtual void drawModel(ConcreteModel1 &model,sConvertedPoints &points);
+    virtual void drawModel(ConcreteModel1 &model,sConvertedPoints* &points);
 private:
-    void getDrawableEdge(QPoint &p1, QPoint &p2, sConvertedPoints &points, int *links, int i);
+    void getDrawableEdge(QPoint &p1, QPoint &p2, sConvertedPoints* &points, int *links, int i);
     QGraphicsScene *scene;
 };
 

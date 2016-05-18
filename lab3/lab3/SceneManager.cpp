@@ -30,12 +30,11 @@ void SceneManager::drawModels()
                     auto my_b1 = dynamic_cast<ConcreteModel1*>(array[i]);
                     ConcreteConverter1 temp;
                     DrawConcreteModel1 mt;
-                    ConcreteModel1 *tt;
 
                     mt.getScene(Qscene->scene);
                     //не очень удачно каждый раз объект создавать, да и всё то, что выше - не круто
-                    sConvertedPoints *points = temp.getConvertedPoints(my_b1);
-                    mt.drawModel(*my_b1, points);
+                    sConvertedPoints *points1 = temp.getConvertedPoints(my_b1);
+                    mt.drawModel(*my_b1, points1);
 
                     break;
                 }
