@@ -1,9 +1,9 @@
 #include <Converter.h>
+#include <QMessageBox>
 #include <SceneManager.h>
 #include <ShowSceneObjectsManager.h>
-#include <typeinfo>
 #include <iostream>
-#include <QMessageBox>
+#include <typeinfo>
 void SceneManager::setupUi(Ui::MainWindow*& temp, Scene*& temp2)
 {
     ui = temp;
@@ -23,7 +23,7 @@ void SceneManager::test()
 void SceneManager::drawModels()
 {
     auto size = Qscene->obj.size();
-    std::cout<<size; //тест
+    std::cout << size; //тест
     auto& array = Qscene->obj;
     clear();
     for (int i = 0; i < size; i++) {
@@ -40,9 +40,7 @@ void SceneManager::drawModels()
                     mt.getScene(Qscene->scene);
                     //не очень удачно каждый раз объект создавать, да и всё то, что выше - не круто
                     sConvertedPoints* points1 = temp.getConvertedPoints(my_b1);
-
                     mt.drawModel(*my_b1, points1);
-
                 }
             }
 

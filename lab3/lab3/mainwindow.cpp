@@ -112,7 +112,7 @@ void MainWindow::Shift_slot()
 void MainWindow::Rotate_slot()
 {
     try {
-        bigmodelmanager->callSetSceneObjectManager(pick::pick_sdvig);
+        bigmodelmanager->callSetSceneObjectManager(pick::pick_pov);
     } catch (my_base_exception& err) {
         QMessageBox temp;
         QString tt(err.what());
@@ -142,7 +142,15 @@ void MainWindow::on_openButton_clicked()
         temp.setText(tt);
         temp.exec();
     }
-    scenemanager->drawModels();
+    try {
+        scenemanager->drawModels();
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+
     ui->graphicsView->setScene(scenemanager->Qscene->scene);
     ui->graphicsView->show();
 }

@@ -25,7 +25,6 @@ void SetModelManager::setModelsParams(new_params temp)
                     my_b1->fy += temp.fy;
                     my_b1->fz += temp.fz;
                     my_b1->M *= temp.M;
-                    break;
                 }
             }
 
