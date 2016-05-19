@@ -1,7 +1,7 @@
 #ifndef SCENEOBJECTS_H
 #define SCENEOBJECTS_H
 #include <string>
-using namespace  std;
+using namespace std;
 class SceneObject {
 public:
     virtual string whatIsIt() { return "Scene"; }
@@ -10,14 +10,24 @@ public:
 class VisibleObject : public SceneObject {
 public:
     virtual string whatIsIt() { return "VisibleObject"; }
-
 };
 class InvisibleObjects : public SceneObject {
 public:
     virtual string whatIsIt() { return "InvisibleObject"; }
-
+};
+//камеры
+class PrototypeCamera : public InvisibleObjects {
+public:
+    double x, y, z; //координаты камеры
 };
 
+class ConcreteCamera1 : public PrototypeCamera {
+public:
+    double fx, fy, fz;
+    virtual string whatIsIt() { return "ConcreteCamera1"; }
+};
+
+//прототипы
 class PrototypeModel : public VisibleObject {
 public:
     PrototypeModel();
@@ -32,7 +42,7 @@ public:
 
 class ConcreteModel1 : public PrototypeModel {
 public:
-     ConcreteModel1();
+    ConcreteModel1();
     virtual string whatIsIt() { return "ConcreteModel1"; }
     int edge_num;
     double* x;

@@ -26,6 +26,29 @@ void SceneManager::drawModels()
     std::cout << size; //тест
     auto& array = Qscene->obj;
     clear();
+    //кастим к камере
+    /*
+    for (int i = 0; i < size; i++) {
+            try {
+                if (array[i]->enable) {
+                    auto my_b = dynamic_cast<ConcreteCamera1*>(array[i]);
+
+                    if (my_b->whatIsIt() == "ConcreteCamera1") {
+
+                        auto my_b1 = dynamic_cast<ConcreteCamera1*>(array[i]);
+                        ConcreteConverter1 temp;
+                        DrawConcreteModel1 mt;
+
+                        mt.getScene(Qscene->scene);
+                        //не очень удачно каждый раз объект создавать, да и всё то, что выше - не круто
+                        sConvertedPoints* points1 = temp.getConvertedPoints(my_b1);
+                        mt.drawModel(*my_b1, points1);
+                    }
+                }
+
+            } catch (const std::bad_cast& e) {
+                continue;
+            }*/
     for (int i = 0; i < size; i++) {
         try {
             if (array[i]->enable) {
@@ -38,7 +61,6 @@ void SceneManager::drawModels()
                     DrawConcreteModel1 mt;
 
                     mt.getScene(Qscene->scene);
-                    //не очень удачно каждый раз объект создавать, да и всё то, что выше - не круто
                     sConvertedPoints* points1 = temp.getConvertedPoints(my_b1);
                     mt.drawModel(*my_b1, points1);
                 }
