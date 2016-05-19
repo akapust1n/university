@@ -7,6 +7,11 @@ void SceneManager::setupUi(Ui::MainWindow*& temp, Scene*& temp2)
     ui = temp;
     Qscene = temp2;
 }
+void SceneManager::clear()
+{
+    Qscene->scene->clear();
+}
+
 void SceneManager::test()
 {
     Qscene->scene->addLine(1, 1, 5, 7);
@@ -17,6 +22,7 @@ void SceneManager::drawModels()
 {
     auto size = Qscene->obj.size();
     auto& array = Qscene->obj;
+    clear();
     for (int i = 0; i < size; i++) {
 
         try {
@@ -32,6 +38,7 @@ void SceneManager::drawModels()
                     mt.getScene(Qscene->scene);
                     //не очень удачно каждый раз объект создавать, да и всё то, что выше - не круто
                     sConvertedPoints* points1 = temp.getConvertedPoints(my_b1);
+
                     mt.drawModel(*my_b1, points1);
 
                     break;

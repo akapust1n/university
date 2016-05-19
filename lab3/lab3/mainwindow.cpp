@@ -8,15 +8,14 @@ MainWindow::MainWindow(QWidget* parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QObject::connect(ui->openButton, SIGNAL(clicked()), SLOT(Open_slot()));
 
     ui->groupBox_2->setEnabled(false);
     scenemanager = new SceneManager;
     bigmodelmanager = new BigModelManager;
+    controller = new Controller;
     bigmodelmanager->setContoller(controller);
-    controller.setUi(ui);
+    controller->setUi(ui);
     scenemanager->setupUi(ui, bigmodelmanager->scene);
-
 }
 void MainWindow::clearold(QString text)
 {
@@ -74,21 +73,62 @@ void MainWindow::on_scaleButton_clicked()
 
 void MainWindow::Scale_slot()
 {
-    bigmodelmanager->callSetSceneObjectManager(pick::pick_mash);
-    QMessageBox lol;
-    lol.setText("sss");
-    lol.exec();
+    try {
+        bigmodelmanager->callSetSceneObjectManager(pick::pick_mash);
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+    try {
+        scenemanager->drawModels();
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
 }
 
-void MainWindow::Open_slot()
-{
-}
 void MainWindow::Shift_slot()
 {
+    try {
+        bigmodelmanager->callSetSceneObjectManager(pick::pick_sdvig);
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+    try {
+        scenemanager->drawModels();
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
 }
 
 void MainWindow::Rotate_slot()
 {
+    try {
+        bigmodelmanager->callSetSceneObjectManager(pick::pick_sdvig);
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+    try {
+        scenemanager->drawModels();
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
 }
 
 void MainWindow::on_openButton_clicked()
@@ -104,7 +144,6 @@ void MainWindow::on_openButton_clicked()
         temp.setText(tt);
         temp.exec();
     }
-    scenemanager->test();;
     scenemanager->drawModels();
     ui->graphicsView->setScene(scenemanager->Qscene->scene);
     ui->graphicsView->show();

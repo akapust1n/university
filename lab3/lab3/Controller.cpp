@@ -11,19 +11,19 @@ new_params Controller::getParams(pick a)
 
     switch (a) {
     case (pick::pick_mash): {
-        temp.M = ui->xlineEdit->text().toInt();
+        temp.M = ui->xlineEdit->text().toDouble();
         break;
     }
     case (pick::pick_pov): {
-        temp.fx = ui->xlineEdit->text().toInt();
-        temp.fy = ui->ylineEdit->text().toInt();
-        temp.fz = ui->zlineEdit->text().toInt();
+        temp.fx = ui->xlineEdit->text() == "" ? 0 : ui->xlineEdit->text().toDouble();
+        temp.fy = ui->ylineEdit->text() == "" ? 0 : ui->ylineEdit->text().toDouble();
+        temp.fz = ui->zlineEdit->text() == "" ? 0 : ui->zlineEdit->text().toDouble();
         break;
     }
     case (pick::pick_sdvig): {
-        temp.dx = ui->xlineEdit->text().toInt();
-        temp.dy = ui->ylineEdit->text().toInt();
-        temp.dz = ui->zlineEdit->text().toInt();
+        temp.dx = ui->xlineEdit->text().toDouble();
+        temp.dy = ui->ylineEdit->text().toDouble();
+        temp.dz = ui->zlineEdit->text().toDouble();
         break;
     }
     }

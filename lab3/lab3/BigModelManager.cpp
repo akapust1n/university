@@ -43,7 +43,7 @@ void BigModelManager::callSetSceneObjectManager(pick action)
     }
     }
 }
-void BigModelManager::setContoller(Controller& temp)
+void BigModelManager::setContoller(Controller*& temp)
 {
-    controller = &temp;
+    controller = temp;
 }

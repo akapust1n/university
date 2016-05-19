@@ -23,13 +23,11 @@ public:
     ~MainWindow();
     void clearold(QString text);
     void set_style_button(pick a);
+    ;
+
 
 private slots:
     void on_scaleButton_clicked();
-    void Scale_slot();
-    void Open_slot();
-    void Shift_slot();
-    void Rotate_slot();
 
 
     void on_openButton_clicked();
@@ -39,9 +37,12 @@ private slots:
     void on_ugolButton_clicked();
 
     void on_doButton_clicked();
+    void Scale_slot();
+    void Shift_slot();
+    void Rotate_slot();
 
 private:
-    Controller controller;
+    Controller *controller;
     BigModelManager *bigmodelmanager;
     SceneManager *scenemanager;
     QLineEdit *x_line_edit;

@@ -15,7 +15,7 @@ public:
     void callDataManager(string sourceName);
     void callSetSceneObjectManager(pick action);
     Scene *scene;
-    void setContoller(Controller &temp);
+    void setContoller(Controller *&temp);
 
 
 

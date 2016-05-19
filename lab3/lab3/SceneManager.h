@@ -12,6 +12,7 @@ public:
     void setupUi(Ui::MainWindow*& temp, Scene *&temp2);
     void drawModels();
     void test();
+    void clear();
     Scene *Qscene;
 
 private slots:
