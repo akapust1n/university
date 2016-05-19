@@ -59,11 +59,9 @@ void MainWindow::on_scaleButton_clicked()
 {
 
     set_style_button(pick::pick_mash);
-    QObject::disconnect(ui->doButton, SLOT(Open_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Shift_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Rotate_slot()));
+    QObject::disconnect(m_connection);
 
-    QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Scale_slot()));
+    m_connection=QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Scale_slot()));
     ui->groupBox_2->setEnabled(true);
     ui->doButton->setText("Масштаб");
     ui->xLabel->setText("Scale");
@@ -153,11 +151,9 @@ void MainWindow::on_shiftButton_clicked()
 {
 
     set_style_button(pick::pick_sdvig);
-    QObject::disconnect(ui->doButton, SLOT(Open_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Scale_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Rotate_slot()));
+    QObject::disconnect(m_connection);
+    m_connection=QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Shift_slot()));
 
-    QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Shift_slot()));
     ui->groupBox_2->setEnabled(true);
     ui->doButton->setText("Сдвиг");
     ui->xLabel->setText("x");
@@ -169,11 +165,9 @@ void MainWindow::on_ugolButton_clicked()
 {
 
     set_style_button(pick::pick_pov);
-    QObject::disconnect(ui->doButton, SLOT(Open_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Scale_slot()));
-    QObject::disconnect(ui->doButton, SLOT(Shift_slot()));
+    QObject::disconnect(m_connection);
 
-    QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Rotate_slot()));
+    m_connection=QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Rotate_slot()));
     ui->groupBox_2->setEnabled(true);
     ui->doButton->setText("Поворот");
     ui->xLabel->setText("x");

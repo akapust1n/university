@@ -42,6 +42,7 @@ private slots:
     void Rotate_slot();
 
 private:
+    QMetaObject::Connection m_connection;
     Controller *controller;
     BigModelManager *bigmodelmanager;
     SceneManager *scenemanager;
