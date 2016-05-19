@@ -16,7 +16,6 @@ class FileStreamDataRead;
 class ConcreteDataManager {
 public:
     ~ConcreteDataManager() {}
-    //virtual void WriteData() final {}
 
 private:
     FileStreamDataRead file_stream_data_read;

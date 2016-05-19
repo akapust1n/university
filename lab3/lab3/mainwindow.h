@@ -21,10 +21,7 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    void clearold(QString text);
     void set_style_button(pick a);
-    ;
-
 
 private slots:
     void on_scaleButton_clicked();

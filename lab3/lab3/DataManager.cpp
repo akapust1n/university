@@ -7,5 +7,5 @@ ConcreteDataManager::ConcreteDataManager(string Filename)
 ConcreteModel1* ConcreteDataManager::getModel()
 {
     file_stream_data_read.ReadData();
-    //file_stream_data_read.getModel();
+    return file_stream_data_read.getModel();
 }

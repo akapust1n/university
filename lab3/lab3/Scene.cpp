@@ -5,10 +5,12 @@
 void Scene::addElement(SceneObject* param)
 {
     obj.push_back(param);
-
-
 }
 Scene::Scene()
 {
     scene = new QGraphicsScene;
+}
+Scene::~Scene()
+{
+    delete scene;
 }

@@ -2,6 +2,8 @@
 #include <SceneManager.h>
 #include <ShowSceneObjectsManager.h>
 #include <typeinfo>
+#include <iostream>
+#include <QMessageBox>
 void SceneManager::setupUi(Ui::MainWindow*& temp, Scene*& temp2)
 {
     ui = temp;
@@ -21,10 +23,10 @@ void SceneManager::test()
 void SceneManager::drawModels()
 {
     auto size = Qscene->obj.size();
+    std::cout<<size; //тест
     auto& array = Qscene->obj;
     clear();
     for (int i = 0; i < size; i++) {
-
         try {
             if (array[i]->enable) {
                 auto my_b = dynamic_cast<PrototypeModel*>(array[i]);
@@ -41,7 +43,6 @@ void SceneManager::drawModels()
 
                     mt.drawModel(*my_b1, points1);
 
-                    break;
                 }
             }
 

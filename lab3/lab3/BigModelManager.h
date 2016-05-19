@@ -17,8 +17,6 @@ public:
     Scene *scene;
     void setContoller(Controller *&temp);
 
-
-
 };
 
 #endif // BIGDATAMANAGER_H

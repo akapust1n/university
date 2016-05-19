@@ -6,8 +6,10 @@
 //синглтон
 class Scene {
 public:
-    QGraphicsScene *scene;
     Scene();
+    ~Scene();
+
+    QGraphicsScene *scene;
     Scene(const Scene &obj)
         {
             scene = obj.scene;

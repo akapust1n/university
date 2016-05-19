@@ -26,7 +26,7 @@ private:
     void mem_allocation_type(T*& u, int size);
     void model_mem_alocation();
     void read_params();
-    ConcreteModel1* model; //может не стоит прямо судя модель девать? - не знаю как переделать
+    ConcreteModel1* model;
     ifstream model1;
 };
 
