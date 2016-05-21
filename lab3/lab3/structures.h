@@ -4,7 +4,8 @@ enum class pick {
     pick_mash,
     pick_pov,
     pick_sdvig,
-    pick_open
+    pick_open,
+    pick_camera
 };
 struct new_params {
     double fx, fy, fz; //угол поворота

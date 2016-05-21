@@ -1,28 +1,22 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <DataManager.h>
-#include <my_exception.h>
+
 #include <string>
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
     ui->groupBox_2->setEnabled(false);
-    scenemanager = new SceneManager;
-    bigmodelmanager = new BigModelManager;
-    controller = new Controller;
-    bigmodelmanager->setContoller(controller);
-    controller->setUi(ui);
-    scenemanager->setupUi(ui, bigmodelmanager->scene);
+    facade = new Facade;
+    facade->getui(ui);
+
 }
 
 MainWindow::~MainWindow()
 {
-    delete scenemanager;
-    delete bigmodelmanager;
-    delete controller;
+
     delete ui;
 }
 void MainWindow::set_style_button(pick a)
@@ -50,6 +44,17 @@ void MainWindow::set_style_button(pick a)
             "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
         ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
         ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+        break;
+    }
+    case pick::pick_camera:
+    {
+    ui->cameraButton->setStyleSheet(QString::fromUtf8(
+        "background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, "
+        "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
+    ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
+    ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+    ui->shiftButton->setStyleSheet(QString::fromUtf8(""));
+
     }
     }
 
@@ -71,62 +76,17 @@ void MainWindow::on_scaleButton_clicked()
 
 void MainWindow::Scale_slot()
 {
-    try {
-        bigmodelmanager->callSetSceneObjectManager(pick::pick_mash);
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
-    try {
-        scenemanager->drawModels();
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
+    facade->scaled();
 }
 
 void MainWindow::Shift_slot()
 {
-    try {
-        bigmodelmanager->callSetSceneObjectManager(pick::pick_sdvig);
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
-    try {
-        scenemanager->drawModels();
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
+    facade->shifted();
 }
 
 void MainWindow::Rotate_slot()
 {
-    try {
-        bigmodelmanager->callSetSceneObjectManager(pick::pick_pov);
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
-    try {
-        scenemanager->drawModels();
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
+    facade->rotated();
 }
 
 void MainWindow::on_openButton_clicked()
@@ -134,25 +94,11 @@ void MainWindow::on_openButton_clicked()
     string sourceName = QFileDialog::getOpenFileName(this, QString::fromUtf8("Открыть файл"),
                             QDir::currentPath(), "txt models (*.txt)")
                             .toStdString();
-    try {
-        bigmodelmanager->callDataManager(sourceName);
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
-    try {
-        scenemanager->drawModels();
-    } catch (my_base_exception& err) {
-        QMessageBox temp;
-        QString tt(err.what());
-        temp.setText(tt);
-        temp.exec();
-    }
+    facade->open_file(sourceName);
 
-    ui->graphicsView->setScene(scenemanager->Qscene->scene);
+    ui->graphicsView->setScene(facade->get_scene());
     ui->graphicsView->show();
+
 }
 
 void MainWindow::on_shiftButton_clicked()
@@ -185,4 +131,25 @@ void MainWindow::on_ugolButton_clicked()
 
 void MainWindow::on_doButton_clicked()
 {
+}
+void MainWindow::Camera_slot()
+{
+
+}
+
+void MainWindow::on_cameraButton_clicked()
+{
+    set_style_button(pick::pick_camera);
+    QObject::disconnect(m_connection);
+    m_connection = QObject::connect(ui->doButton, SIGNAL(clicked()), SLOT(Camera_slot()));
+
+    ui->groupBox_2->setEnabled(true);
+    ui->doButton->setText("Сменить");
+    ui->xLabel->setText("x");
+    ui->xlineEdit->setText("10");
+    ui->ylineEdit->setText("10");
+    ui->zlineEdit->setText("10");
+    ui->ylineEdit->setEnabled(true);
+    ui->zlineEdit->setEnabled(true);
+
 }

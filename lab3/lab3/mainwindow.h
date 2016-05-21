@@ -3,11 +3,9 @@
 #include <QLineEdit>
 #include <QMainWindow>
 #include <QtWidgets>
-#include "Conroller.h"
-#include <SceneManager.h>
 #include <QString>
 #include <structures.h>
-#include "BigModelManager.h"
+#include <Facade.h>
 //class BigModelManager;
 namespace Ui {
 class MainWindow;
@@ -37,12 +35,15 @@ private slots:
     void Scale_slot();
     void Shift_slot();
     void Rotate_slot();
+    void Camera_slot();
+
+    void on_cameraButton_clicked();
 
 private:
     QMetaObject::Connection m_connection;
-    Controller *controller;
-    BigModelManager *bigmodelmanager;
-    SceneManager *scenemanager;
+    Facade *facade;
+
+
     QLineEdit *x_line_edit;
     QLineEdit *y_line_edit;
     QLineEdit *z_line_edit;

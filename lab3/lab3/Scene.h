@@ -10,12 +10,9 @@ public:
     ~Scene();
 
     QGraphicsScene *scene;
-    Scene(const Scene &obj)
-        {
-            scene = obj.scene;
-        }
+    Scene(const Scene &obj);
 
-    void addElement(SceneObject *param);
-    std::vector <SceneObject*> obj;
+    void addElement(Composite *param);
+    std::vector <Composite*> obj;
 };
 #endif // SCENE_H

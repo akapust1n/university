@@ -1,5 +1,6 @@
 #include <BigModelManager.h>
 #include <DataManager.h>
+#include <QMessageBox>
 #include <Scene.h>
 #include <iostream>
 #include <my_exception.h>
@@ -12,12 +13,29 @@ BigModelManager::~BigModelManager()
 {
     delete scene;
 }
+//каждый раз добавляем камеру
 void BigModelManager::callDataManager(string sourceName)
 {
+    static int counter = 0;
     ConcreteDataManager data(sourceName);
     PrototypeModel* temp = nullptr;
     temp = data.getModel();
-    scene->addElement(temp);
+
+    static Composite* temp2 = new Composite; // создается один композит
+
+
+    temp2->vect.push_back(temp);
+
+    if (!counter) //костыль для добавления ОДНОГО комозита и одной камеры
+    {
+        ConcreteCamera1* camera1 = new ConcreteCamera1;
+        camera1->x = 1;
+        camera1->y = 1;
+        camera1->z = 1;
+        temp2->vect.push_back(camera1);
+        scene->addElement(temp2);
+    }
+    counter++;
 }
 void BigModelManager::callSetSceneObjectManager(pick action)
 {

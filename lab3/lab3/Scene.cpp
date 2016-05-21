@@ -1,8 +1,8 @@
 #include <Scene.h>
-#include <typeinfo>
 #include <iostream>
+#include <typeinfo>
 
-void Scene::addElement(SceneObject* param)
+void Scene::addElement(Composite* param)
 {
     obj.push_back(param);
 }
@@ -13,4 +13,10 @@ Scene::Scene()
 Scene::~Scene()
 {
     delete scene;
+}
+
+Scene::Scene(const Scene& obj)
+
+{
+    scene = obj.scene;
 }

@@ -1,6 +1,7 @@
 #ifndef SCENEOBJECTS_H
 #define SCENEOBJECTS_H
 #include <string>
+#include <vector>
 using namespace std;
 class SceneObject {
 public:
@@ -19,12 +20,14 @@ public:
 class PrototypeCamera : public InvisibleObjects {
 public:
     double x, y, z; //координаты камеры
+    virtual string whatIsIt() { return "PrototypeCamera"; }
 };
 
 class ConcreteCamera1 : public PrototypeCamera {
 public:
     double fx, fy, fz;
     virtual string whatIsIt() { return "ConcreteCamera1"; }
+    string test(){return "lol";}
 };
 
 //прототипы
@@ -48,6 +51,11 @@ public:
     double* x;
     double* y;
     double* z;
+};
+class Composite : public SceneObject {
+public:
+    std::vector<SceneObject*> vect;
+    virtual string whatIsIt() { return "Composite"; }
 };
 
 #endif // SCENEOBJECTS_H

@@ -26,6 +26,12 @@ new_params Controller::getParams(pick a)
         temp.dz = (ui->zlineEdit->text() == "" ? 0 : ui->zlineEdit->text().toDouble());
         break;
     }
+    case (pick::pick_camera): {
+        temp.dx = (ui->xlineEdit->text() == "" ? 0 : ui->xlineEdit->text().toDouble());
+        temp.dy = (ui->ylineEdit->text() == "" ? 0 : ui->ylineEdit->text().toDouble());
+        temp.dz = (ui->zlineEdit->text() == "" ? 0 : ui->zlineEdit->text().toDouble());
+        break;
+    }
     }
     return temp;
 }

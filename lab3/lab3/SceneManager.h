@@ -1,8 +1,6 @@
-
 #ifndef SCENEMANAGER_H
 #define SCENEMANAGER_H
-#include <vector>
-#include <ui_mainwindow.h>
+//#include <ui_mainwindow.h>
 #include <Scene.h>
 namespace Ui {
 class MainWindow;
