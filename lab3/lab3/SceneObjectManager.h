@@ -12,5 +12,13 @@ public:
 private:
     Scene *scene;
 };
+class SetCameraManager : public SceneObjectManager {
+public:
+    SetCameraManager(Scene *&temp);
+    new_params newparam;
+    void setCameraParams(new_params temp);
+private:
+    Scene *scene;
+};
 
 #endif // SCENEMANAGER_H

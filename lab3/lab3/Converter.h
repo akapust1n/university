@@ -14,7 +14,7 @@ public:
     virtual sConvertedPoints *getConvertedPoints(ConcreteModel1 *a, ConcreteCamera1 *camera1);
 private:
     MatrixWorks mt;
-    double* GetConversionMatrix(ConcreteModel1 *data);
+    double *GetConversionMatrix(ConcreteModel1* data,ConcreteCamera1 *camera);
     sConvertedPoints* AllocateConvertedPoints(int count);
     void Convertation(sConvertedPoints*& conv, ConcreteModel1* points, double* ConvMatrix, ConcreteCamera1 *camera1);
     QPoint ConvertSinglePoint(sPoint3d p, double* ConvMatrix);

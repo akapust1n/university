@@ -5,7 +5,7 @@ sConvertedPoints* ConcreteConverter1::getConvertedPoints(ConcreteModel1* a, Conc
 {
     sConvertedPoints* conv = AllocateConvertedPoints(a->vertices); //структура точек на экране
 
-    double* ConvMatrix = GetConversionMatrix(a); //матрица преобразований
+    double* ConvMatrix = GetConversionMatrix(a,camera1); //матрица преобразований
 
     Convertation(conv, a, ConvMatrix, camera1); //преобразуем точки
     //  return 0;
@@ -22,11 +22,11 @@ void ConcreteConverter1::Convertation(sConvertedPoints*& conv, ConcreteModel1* p
         temp1.x = points->x[i];
         temp1.y = points->y[i];
         temp1.z = points->z[i];
-        // QPointF point;
-        //  point.setX( (temp1.x*camera1->z+temp1.z*camera1->x)/(temp1.z+camera1->z));
-        //point.setY((temp1.y*camera1->z+temp1.z*camera1->y)/(temp1.z+camera1->z));
+      //  QPointF point;
+     //     point.setX( (temp1.x*camera1->z+temp1.z*camera1->x)/(temp1.z+camera1->z));
+       // point.setY((temp1.y*camera1->z+temp1.z*camera1->y)/(temp1.z+camera1->z));
         QPoint point = ConvertSinglePoint(temp1, ConvMatrix);
-        conv->Xs[i] = point.x();
+        conv->Xs[i] = point.x()+camera1->x;
         conv->Ys[i] = point.y();
     }
 }
@@ -47,9 +47,9 @@ sConvertedPoints* ConcreteConverter1::AllocateConvertedPoints(int count)
     conv->Ys = Ys;
 }
 //получаем матрицу преобразований
-double* ConcreteConverter1::GetConversionMatrix(ConcreteModel1* data)
+double* ConcreteConverter1::GetConversionMatrix(ConcreteModel1* data,ConcreteCamera1 *camera1)
 {
-    double* ShiftMatrix = mt.Get3DShiftMatrix(data->dx, data->dy, data->dz); //смещение от О
+    double* ShiftMatrix = mt.Get3DShiftMatrix(data->dx+camera1->x, data->dy+camera1->y, data->dz+camera1->z); //смещение от О
     if (!ShiftMatrix) {
         return nullptr;
     }

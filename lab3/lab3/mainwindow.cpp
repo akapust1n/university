@@ -134,6 +134,7 @@ void MainWindow::on_doButton_clicked()
 }
 void MainWindow::Camera_slot()
 {
+    facade->camera_changed();
 
 }
 

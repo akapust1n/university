@@ -1,21 +1,39 @@
 #include <Facade.h>
+#include <QFileDialog>
+#include <QMainWindow>
 #include <QMessageBox>
 #include <QtWidgets>
-#include <QMainWindow>
-#include <QFileDialog>
 Facade::Facade()
 {
     scenemanager = new SceneManager;
     bigmodelmanager = new BigModelManager;
     controller = new Controller;
     bigmodelmanager->setContoller(controller);
-
 }
 Facade::~Facade()
 {
     delete scenemanager;
     delete bigmodelmanager;
     delete controller;
+}
+void Facade::camera_changed()
+{
+    try {
+        bigmodelmanager->callSetSceneObjectManager(pick::pick_camera);
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
+    try {
+        scenemanager->drawModels();
+    } catch (my_base_exception& err) {
+        QMessageBox temp;
+        QString tt(err.what());
+        temp.setText(tt);
+        temp.exec();
+    }
 }
 
 void Facade::rotated()

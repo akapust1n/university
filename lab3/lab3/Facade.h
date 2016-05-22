@@ -23,6 +23,7 @@ public:
     void camera_changed();
     void open_file(string sourceName);
     void getui(Ui::MainWindow *&ui1);
+    void setCamera();
     QGraphicsScene* get_scene();
 
 

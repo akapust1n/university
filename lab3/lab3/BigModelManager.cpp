@@ -59,6 +59,12 @@ void BigModelManager::callSetSceneObjectManager(pick action)
         setmodelmanager.setModelsParams(temp);
         break;
     }
+    case(pick::pick_camera):
+    {
+        new_params temp = controller->getParams(pick::pick_camera);
+        SetCameraManager st(scene);
+        st.setCameraParams(temp);
+    }
     }
 }
 void BigModelManager::setContoller(Controller*& temp)
