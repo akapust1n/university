@@ -44,6 +44,7 @@ void MainWindow::set_style_button(pick a)
             "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
         ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
         ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+
         break;
     }
     case pick::pick_camera:
