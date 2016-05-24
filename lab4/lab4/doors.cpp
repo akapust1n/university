@@ -1,6 +1,6 @@
 #include "doors.h"
 #include "QTime"
-//#include "QMessageBox"
+#include <stats.h>
 doors::doors() :
     QObject()
 {
@@ -9,26 +9,22 @@ doors::doors() :
 }
 
 void doors::open(){
-     //statement = st_opening;
      emit set_st(state::st_opening);
      QTime time;
      time.start();
-     for(;time.elapsed() < 1000;)
+     for(;time.elapsed() < time_open_door;)
      {
         qApp->processEvents();
      }
      emit opened();
-     //QMessageBox::information(NULL,QObject::tr("Внимание!"),tr("Невозможно построить четырехугольник, т.к. слишком мало вершин."));
-     //statement = st_opened;
      emit set_st(state::st_opened);
 }
 
 void doors::close(){
-    //statement = st_closing;
     emit set_st(state::st_closing);
     QTime time;
     time.start();
-    for(;time.elapsed() < 1000;)
+    for(;time.elapsed() < time_open_door;)
     {
        qApp->processEvents();
     }

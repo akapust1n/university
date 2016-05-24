@@ -17,6 +17,7 @@ SOURCES += main.cpp\
     doors.cpp
 
 HEADERS  += mainwindow.h \
-    doors.h
+    doors.h \
+    stats.h
 
 FORMS    += mainwindow.ui
