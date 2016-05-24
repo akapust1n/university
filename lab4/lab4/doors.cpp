@@ -24,15 +24,14 @@ void doors::close(){
     emit set_st(state::st_closing);
     QTime time;
     time.start();
-    for(;time.elapsed() < time_open_door;)
+    for(;time.elapsed() < time_close_door;)
     {
        qApp->processEvents();
     }
     closed();
-    //statement = st_closed;
     emit set_st(state::st_closed);
 }
 
 void doors::set_st(state st){
-    statement = (state)st;
+    statement = st;
 }

@@ -6,7 +6,6 @@ MainWindow::MainWindow(QWidget* parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
     ui->lcdNumber->setStyleSheet("background : black; color : red; ;");
     ui->lcdNumber->setPalette(Qt::red);
 
