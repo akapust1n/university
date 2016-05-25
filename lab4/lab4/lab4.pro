@@ -24,3 +24,4 @@ HEADERS  += mainwindow.h \
     statements.h
 
 FORMS    += mainwindow.ui
+CONFIG += c++14

@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QPalette>
 #include <QMessageBox>
+#include <QPalette>
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -15,8 +15,8 @@ MainWindow::MainWindow(QWidget* parent)
     connect(&lft, SIGNAL(show_lift()), this, SLOT(show_el()));
     connect(&lft, SIGNAL(hide_lift()), this, SLOT(hide_el()));
     connect(&lft, SIGNAL(floor_changed(int)), this, SLOT(floor_changed(int)));
-    connect(this,SIGNAL(floor_button_pushed(int)),&lft,SLOT(floor_but(int)));
-    connect(this,SIGNAL(lift_button_pushed(int)),&lft,SLOT(lift_but(int)));
+    connect(this, SIGNAL(floor_button_pushed(int)), &lft, SLOT(floor_but(int)));
+    connect(this, SIGNAL(lift_button_pushed(int)), &lft, SLOT(lift_but(int)));
 }
 
 MainWindow::~MainWindow()
@@ -43,7 +43,7 @@ void MainWindow::change_lift_st(state_lift st_l)
         qApp->processEvents();
     }
     switch (st_l) {
-    case state_lift::doors_closing:
+    case (state_lift::doors_closing):
         ui->lift_state->setText("doors closing");
         break;
     case state_lift::doors_opening:
@@ -70,7 +70,7 @@ void MainWindow::on_floor1BTN_clicked()
     QMessageBox tt;
     tt.setText("lol");
     tt.exec();
-  emit  floor_button_pushed(1);
+    emit floor_button_pushed(1);
 }
 
 void MainWindow::on_floor2BTN_clicked()
@@ -80,7 +80,7 @@ void MainWindow::on_floor2BTN_clicked()
 
 void MainWindow::on_floor3BTN_clicked()
 {
-   floor_button_pushed(3);
+    floor_button_pushed(3);
 }
 
 void MainWindow::on_floor4BTN_clicked()
@@ -90,7 +90,7 @@ void MainWindow::on_floor4BTN_clicked()
 
 void MainWindow::on_floor5BTN_clicked()
 {
-   floor_button_pushed(5);
+    floor_button_pushed(5);
 }
 
 void MainWindow::on_floor6BTN_clicked()

@@ -34,11 +34,13 @@ signals:
     void hide_lift();
 
 public slots:
+    //lol
     void doors_opened_slot();
     void doors_closed_slot();
     void arrived_slot();
-    void floor_but(int);
-    void lift_but(int);
+    void floor_but(int f1);
+    void lift_but(int f2);
+
 };
 
 #endif // LIFT_H

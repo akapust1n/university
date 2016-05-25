@@ -45,3 +45,11 @@ void lift::set_st(state_lift a)
     st = a;
     emit st_changed(a);
 }
+void lift::floor_but(int f1)
+{
+
+}
+void lift::lift_but(int f2)
+{
+
+}
