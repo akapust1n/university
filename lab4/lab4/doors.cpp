@@ -5,7 +5,7 @@ doors::doors() :
     QObject()
 {
     statement = state::st_closed;
-    QObject::connect(this,SIGNAL(change_st(int)),this,SLOT(set_st(int)));
+    QObject::connect(this,SIGNAL(change_st(state)),this,SLOT(set_st(state)));
 }
 
 void doors::open(){

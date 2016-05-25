@@ -20,6 +20,7 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     doors.h \
     stats.h \
-    lift.h
+    lift.h \
+    statements.h
 
 FORMS    += mainwindow.ui

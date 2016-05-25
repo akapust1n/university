@@ -2,8 +2,7 @@
 #define DOORS_H
 #include <QObject>
 #include <QApplication>
- enum class state{st_opening,st_closing, st_opened, st_closed};
-
+#include <statements.h>
 class doors: public QObject{
     Q_OBJECT
 
@@ -16,7 +15,7 @@ public slots:
   void open();
   void close();
 signals:
-  void change_st(int);
+  void change_st(state);
   void opened();
   void closed();
 private slots:

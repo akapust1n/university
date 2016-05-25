@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QGroupBox" name="groupBox">
+   <widget class="QGroupBox" name="start_lift_box">
     <property name="geometry">
      <rect>
       <x>4</x>
@@ -84,7 +84,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QGroupBox" name="groupBox_2">
+   <widget class="QGroupBox" name="lift_floor_box">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -170,7 +170,7 @@
      <double>1.000000000000000</double>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lift_state">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -179,8 +179,11 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="state_label">
     <property name="geometry">
      <rect>
       <x>120</x>
