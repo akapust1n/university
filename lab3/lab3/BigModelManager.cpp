@@ -34,6 +34,7 @@ void BigModelManager::callDataManager(string sourceName)
         camera1->z = 1;
         temp2->vect.push_back(camera1);
         scene->addElement(temp2);
+
     }
     counter++;
 }

@@ -11,7 +11,6 @@ MainWindow::MainWindow(QWidget* parent)
     ui->groupBox_2->setEnabled(false);
     facade = new Facade;
     facade->getui(ui);
-
 }
 
 MainWindow::~MainWindow()
@@ -28,6 +27,7 @@ void MainWindow::set_style_button(pick a)
             "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
         ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
         ui->shiftButton->setStyleSheet(QString::fromUtf8(""));
+        ui->cameraButton->setStyleSheet(QString::fromUtf8(""));
         break;
     }
     case pick::pick_pov: {
@@ -36,6 +36,7 @@ void MainWindow::set_style_button(pick a)
             "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
         ui->shiftButton->setStyleSheet(QString::fromUtf8(""));
         ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+        ui->cameraButton->setStyleSheet(QString::fromUtf8(""));
         break;
     }
     case pick::pick_sdvig: {
@@ -44,16 +45,17 @@ void MainWindow::set_style_button(pick a)
             "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
         ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
         ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+        ui->cameraButton->setStyleSheet(QString::fromUtf8(""));
         break;
     }
-    case pick::pick_camera:
-    {
-    ui->cameraButton->setStyleSheet(QString::fromUtf8(
-        "background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, "
-        "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
-    ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
-    ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
-    ui->shiftButton->setStyleSheet(QString::fromUtf8(""));
+    case pick::pick_camera: {
+        ui->cameraButton->setStyleSheet(QString::fromUtf8(
+            "background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, "
+            "stop: 0 #dadbde, stop: 1 #f6f7fa)"));
+        ui->ugolButton->setStyleSheet(QString::fromUtf8(""));
+        ui->scaleButton->setStyleSheet(QString::fromUtf8(""));
+        ui->shiftButton->setStyleSheet(QString::fromUtf8(""));
+
 
     }
     }
@@ -98,7 +100,6 @@ void MainWindow::on_openButton_clicked()
 
     ui->graphicsView->setScene(facade->get_scene());
     ui->graphicsView->show();
-
 }
 
 void MainWindow::on_shiftButton_clicked()
@@ -135,7 +136,6 @@ void MainWindow::on_doButton_clicked()
 void MainWindow::Camera_slot()
 {
     facade->camera_changed();
-
 }
 
 void MainWindow::on_cameraButton_clicked()
@@ -152,5 +152,4 @@ void MainWindow::on_cameraButton_clicked()
     ui->zlineEdit->setText("10");
     ui->ylineEdit->setEnabled(true);
     ui->zlineEdit->setEnabled(true);
-
 }
