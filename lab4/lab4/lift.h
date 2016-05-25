@@ -24,7 +24,6 @@ private:
     int destination;
     QQueue<int> queue;
     void update();
-    void arriv();
 signals:
     void floor_changed(int);
     void open_doors();

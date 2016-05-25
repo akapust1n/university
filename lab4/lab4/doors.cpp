@@ -4,12 +4,9 @@
 doors::doors() :
     QObject()
 {
-    statement = state::st_closed;
-    QObject::connect(this,SIGNAL(change_st(state)),this,SLOT(set_st(state)));
 }
 
 void doors::open(){
-     emit set_st(state::st_opening);
      QTime time;
      time.start();
      for(;time.elapsed() < time_open_door;)
@@ -17,21 +14,16 @@ void doors::open(){
         qApp->processEvents();
      }
      emit opened();
-     emit set_st(state::st_opened);
 }
 
 void doors::close(){
-    emit set_st(state::st_closing);
     QTime time;
     time.start();
     for(;time.elapsed() < time_close_door;)
     {
        qApp->processEvents();
     }
-    closed();
-    emit set_st(state::st_closed);
+    emit closed();
 }
 
-void doors::set_st(state st){
-    statement = st;
-}
+

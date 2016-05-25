@@ -14,22 +14,11 @@ lift::lift()
     connect(&door, SIGNAL(opened()), this, SLOT(doors_opened_slot())); //получаем от дверей, что они открылись
     connect(&door, SIGNAL(closed()), this, SLOT(doors_closed_slot())); //получаем от дверей, что они закрылись
 }
-void lift::arriv()
-{
-    QTime time;
-    time.start();
-    set_st(state_lift::minor_wait);
-
-    for (; time.elapsed() < minor_wait_time;) {
-        qApp->processEvents();
-    }
-    emit arrived();
-}
 
 void lift::update()
 {
     if (floor == dest) { //прибываем
-        arriv();
+        emit arrived();
         return;
     }
     QTime time;
@@ -38,7 +27,7 @@ void lift::update()
         qApp->processEvents();
     }
     floor += (dest - floor) / abs(dest - floor); //меняем этаж на 1
-    floor_changed(floor);
+    emit floor_changed(floor);
 }
 void lift::arrived_slot()
 {
@@ -49,7 +38,7 @@ void lift::arrived_slot()
 void lift::doors_opened_slot()
 {
     set_st(state_lift::doors_opened);
-    empty = !empty;
+    empty = !empty; //довозим до цели
     if (empty == true) {
         emit show_lift();
     } else {
@@ -59,7 +48,7 @@ void lift::doors_opened_slot()
 }
 void lift::doors_closed_slot()
 {
-    set_st(state_lift::wait);
+
     if ((!queue.isEmpty())) {
         dest = queue.first();
         queue.pop_front();
@@ -67,9 +56,9 @@ void lift::doors_closed_slot()
         while (st == state_lift::go) {
             update();
         }
-    } else {
-        set_st(state_lift::wait); //или нет
     }
+
+    set_st(state_lift::wait);
 }
 
 void lift::set_st(state_lift a)
@@ -89,7 +78,7 @@ void lift::floor_but(int f1)
                 update();
             }
         } else {
-            arriv();
+           emit arrived();
         }
     }
 }

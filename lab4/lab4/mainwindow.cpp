@@ -58,9 +58,9 @@ void MainWindow::change_lift_st(state_lift st_l)
     case state_lift::wait:
         ui->lift_state->setText("waiting");
         break;
-    case state_lift::minor_wait:
+   /* case state_lift::minor_wait:
         ui->lift_state->setText("minor_wait");
-        break;
+        break;*/
     }
 }
 
