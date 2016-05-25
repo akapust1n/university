@@ -34,6 +34,13 @@ private slots:
     void on_floor5BTN_clicked();
     void on_floor6BTN_clicked();
     void on_floor7BTN_clicked();
+    void on_floor1BTN_2_clicked();
+    void on_floor2BTN_2_clicked();
+    void on_floor3BTN_2_clicked();
+    void on_floor4BTN_2_clicked();
+    void on_floor5BTN_2_clicked();
+    void on_floor6BTN_2_clicked();
+    void on_floor7BTN_2_clicked();
 };
 
 #endif // MAINWINDOW_H

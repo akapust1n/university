@@ -1,24 +1,24 @@
 #ifndef DOORS_H
 #define DOORS_H
-#include <QApplication>
 #include <QObject>
+#include <QApplication>
 #include <statements.h>
-class doors : public QObject {
+class doors: public QObject{
     Q_OBJECT
 
 public:
-    doors();
+  doors();
 
 private:
     state statement;
 public slots:
-    void open();
-    void close();
+  void open();
+  void close();
 signals:
-    void change_st(state);
-    void opened();
-    void closed();
+  void change_st(state);
+  void opened();
+  void closed();
 private slots:
-    void set_st(state);
+  void set_st(state);
 };
 #endif // DOORS_H

@@ -43,7 +43,7 @@ void MainWindow::change_lift_st(state_lift st_l)
         qApp->processEvents();
     }
     switch (st_l) {
-    case (state_lift::doors_closing):
+    case state_lift::doors_closing:
         ui->lift_state->setText("doors closing");
         break;
     case state_lift::doors_opening:
@@ -66,10 +66,6 @@ void MainWindow::change_lift_st(state_lift st_l)
 
 void MainWindow::on_floor1BTN_clicked()
 {
-
-    QMessageBox tt;
-    tt.setText("lol");
-    tt.exec();
     emit floor_button_pushed(1);
 }
 
@@ -101,4 +97,39 @@ void MainWindow::on_floor6BTN_clicked()
 void MainWindow::on_floor7BTN_clicked()
 {
     floor_button_pushed(7);
+}
+
+void MainWindow::on_floor1BTN_2_clicked()
+{
+    lift_button_pushed(1);
+}
+
+void MainWindow::on_floor2BTN_2_clicked()
+{
+    lift_button_pushed(2);
+}
+
+void MainWindow::on_floor3BTN_2_clicked()
+{
+    lift_button_pushed(3);
+}
+
+void MainWindow::on_floor4BTN_2_clicked()
+{
+    lift_button_pushed(4);
+}
+
+void MainWindow::on_floor5BTN_2_clicked()
+{
+    lift_button_pushed(5);
+}
+
+void MainWindow::on_floor6BTN_2_clicked()
+{
+    lift_button_pushed(6);
+}
+
+void MainWindow::on_floor7BTN_2_clicked()
+{
+    lift_button_pushed(7);
 }

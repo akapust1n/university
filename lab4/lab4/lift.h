@@ -19,11 +19,12 @@ private:
     int dest;
     doors door;
     state_lift st;
-    //emp empt;
+    bool empty;
     void set_st(state_lift a);
     int destination;
     QQueue<int> queue;
     void update();
+    void arriv();
 signals:
     void floor_changed(int);
     void open_doors();
@@ -34,13 +35,11 @@ signals:
     void hide_lift();
 
 public slots:
-    //lol
     void doors_opened_slot();
     void doors_closed_slot();
     void arrived_slot();
-    void floor_but(int f1);
-    void lift_but(int f2);
-
+    void floor_but(int);
+    void lift_but(int);
 };
 
 #endif // LIFT_H
