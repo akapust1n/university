@@ -6,7 +6,7 @@ lift::lift()
     min_floor = 1;
     max_floor = 7;
     floor = 1;
-    st = state_lift::wait;
+    set_st(state_lift::wait);
     empty = false;
     connect(this, SIGNAL(open_doors()), &door, SLOT(open())); // двери получают сигнал открываться
     connect(this, SIGNAL(close_doors()), &door, SLOT(close())); //двери получают сигнал закрываться
@@ -48,12 +48,15 @@ void lift::doors_opened_slot()
 }
 void lift::doors_closed_slot()
 {
-
     if ((!queue.isEmpty())) {
         dest = queue.first();
         queue.pop_front();
-        set_st(state_lift::go);
-        while (st == state_lift::go) {
+        if (dest != floor) {
+            set_st(state_lift::go);
+            while (st == state_lift::go) {
+                update();
+            }
+        } else {
             update();
         }
     }
@@ -78,8 +81,10 @@ void lift::floor_but(int f1)
                 update();
             }
         } else {
-           emit arrived();
+            update();
         }
+    } else {
+        emit arrived();
     }
 }
 void lift::lift_but(int f2)
