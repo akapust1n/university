@@ -14,7 +14,7 @@ Controller::Controller()
     connect(&control_panel,SIGNAL(hide_el()),this,SLOT(hide_slot()));
     connect(&control_panel,SIGNAL(hide_el()),&lft,SLOT(hide_panel()));
     connect(&control_panel,SIGNAL(show_el()),this,SLOT(show_slot()));
-    connect(&control_panel,SIGNAL(show_el()),&lft,SLOT(show_panel());
+    connect(&control_panel,SIGNAL(show_el()),&lft,SLOT(show_panel()));
     //connect(this,SIGNAL(hide()),&lft,);
     //connect(&control_panel,SIGNAL(hide_el2()),&lft,SLOT(hide_panel()));
 

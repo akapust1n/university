@@ -12,7 +12,6 @@ lift::lift()
     connect(this, SIGNAL(arrived()), this, SLOT(arrived_slot())); //прибываем
     connect(this, SIGNAL(wait()), this, SLOT(waiting()));
     //connect(this,SIGNAL(wait_end()),this,SLOT(floor_but(int)));
-    connect(this, SIGNAL(lift_button_pushed(int)), this, SLOT(lift_but(int)));
     connect(this, SIGNAL(floor_button_pushed(int)), this, SLOT(floor_but(int)));
     connect(this, SIGNAL(close_wh_hide()), this, SLOT(hide_panel()));
 }
@@ -37,7 +36,7 @@ bool lift::update()
 }
 void lift::arrived_slot()
 {
-    if (st == state_lift::go_full or st == state_lift::go_empty  or st == state_lift::doors_closing) {
+    if (st == state_lift::go_full or st == state_lift::go_empty or st == state_lift::doors_closing) {
         set_st(state_lift::wait);
         emit wait();
     }
@@ -101,25 +100,22 @@ void lift::floor_but(int f1) //STATE GO-ARRIVE
 }
 void lift::hide_panel()
 {
-    if (st == state_lift::hide_panel or st == state_lift::doors_opened) {
+    if (st == state_lift::hide_panel or st == state_lift::doors_opened ) {
         set_st(state_lift::doors_closing);
         emit close_doors();
     }
 }
 void lift::show_panel()
 {
-    if(st==state_lift::doors_opened){
+    if (st == state_lift::doors_opened) {
         set_st(state_lift::show_panel);
-       emit close_wh_hide();
     }
-
 }
 
 void lift::lift_but(int f2) //STATE doors_closing
 {
-    if (st == state_lift::doors_opened) {
-        if (f2 != 0)
-            queue.push_front(f2);
+    if (st == state_lift::show_panel) {
+        queue.push_front(f2);
 
         set_st(state_lift::hide_panel);
         emit hide_lift();

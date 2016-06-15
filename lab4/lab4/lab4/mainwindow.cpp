@@ -64,6 +64,10 @@ void MainWindow::change_lift_st(state_lift st_l)
         break;
     case state_lift::hide_panel:
         ui->lift_state->setText("hide panel");
+        break;
+    case state_lift::show_panel:
+        ui->lift_state->setText("show panel");
+        break;
         /* case state_lift::minor_wait:
         ui->lift_state->setText("minor_wait");
         break;*/
