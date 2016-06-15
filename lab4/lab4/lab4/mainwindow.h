@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 #include <lift.h>
 #include <QMainWindow>
-
+#include <Controller.h>
 namespace Ui {
 class MainWindow;
 }
@@ -17,15 +17,14 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    lift lft;
-signals:
-    void floor_button_pushed(int);
-    void lift_button_pushed(int);
+    Controller controller;
+
 public slots:
     void hide_el();
     void show_el();
-    void floor_changed(int);
     void change_lift_st(state_lift);
+    void floor_changed(int);
+
 private slots:
     void on_floor1BTN_clicked();
     void on_floor2BTN_clicked();
