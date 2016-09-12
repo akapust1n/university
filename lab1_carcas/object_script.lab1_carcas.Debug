@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\interface.o
+./debug\file_read.o
+./debug\entrypoint.o
+./debug\conversions.o
+./debug\matrixworks.o
+./debug\render.o
+./debug\redraw.o
+./debug\draw_lines.o
+./debug\moc_mainwindow.o
+);

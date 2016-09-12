@@ -1,0 +1,9 @@
+build*
+*.o
+MakeFile
+Makefile*
+Makefile.*
+*.gz
+*.tar.gz
+*autosave
+*pro.user
