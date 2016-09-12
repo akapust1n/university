@@ -1,7 +1,0 @@
-digraph test_tree {
-d -> b ;
-d -> e ;  
-b -> a ;
-b -> c ;  
-e -> f ;  
-}
