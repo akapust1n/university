@@ -1,0 +1,14 @@
+digraph test_tree {
+a -> s ;  
+s -> d;
+s -> u ;  
+d -> f ;  
+f -> g ;  
+g -> h ;  
+h -> j ;  
+j -> i;
+j -> o ;  
+o -> l;
+l -> k;
+h[shape="rectangle",style="filled",fillcolor="red"]
+}

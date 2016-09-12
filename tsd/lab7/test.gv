@@ -1,0 +1,11 @@
+digraph test_tree {
+w -> e;
+w -> z ;  
+e -> d;
+e -> r ;  
+d -> b;
+r -> h;
+h -> j ;  
+j -> k ;  
+k -> n ;  
+}
