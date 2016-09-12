@@ -1,0 +1,101 @@
+
+774    Mountain-100Silver,48 Silver    9715,90    3399,9900    Pontiac  
+785    Mountain-300Black,38 Black    11498,51    1079,9900    Madison Heights    
+786    Mountain-300Black,40 Black    11689,01    1079,9900    Westland    
+788    Mountain-300Black,48 Black    11983,85    1079,9900    Southgate    
+789    Road-250Red,44 Red    6699,52    2443,3500    Detroit    
+794    Road-250Black,48 Black    6862,82    2443,3500    Saginaw    
+795    Road-250Black,52 Black    6994,36    2443,3500    Saginaw    
+797    Road-550-WYellow,38 Yellow    7869,79    1120,4900    Midland    
+801    Road-550-WYellow,48 Yellow    8473,06    1120,4900    Holland    
+806    MLHeadset NULL    NULL    102,2900    Monroe    
+810    HLMountainHandlebars NULL    NULL    120,2700    Redford    
+825    HLMountainRearWheel Black    NULL    327,2200    Port Huron    
+826    LLRoadRearWheel Black    1050,00    112,5700    Howell    
+832    MLMountainFrame-Black,48 Black    1292,73    348,7600    Seattle    
+833    MLRoadFrame-W-Yellow,40 Yellow    1006,97    594,8300    Renton    
+834    MLRoadFrame-W-Yellow,42 Yellow    1025,11    594,8300    Bothell    
+835    MLRoadFrame-W-Yellow,44 Yellow    1043,26    594,8300    Kent    
+836    MLRoadFrame-W-Yellow,48 Yellow    1061,40    594,8300    Puyallup    
+837    HLRoadFrame-Black,62 Black    1043,26    1431,5000    Billings    
+838    HLRoadFrame-Black,44 Black    961,61    1431,5000    Medford    
+839    HLRoadFrame-Black,48 Black    979,75    1431,5000    Portland    
+840    HLRoadFrame-Black,52 Black    997,90    1431,5000    North Bend    
+841    Men'sSportsShorts,S Black    NULL    59,9900    Portland    
+842    Touring-Panniers,Large Grey    NULL    125,0000    Beaverton    
+843    CableLock NULL    NULL    25,0000    Woodinville    
+844    Minipump NULL    NULL    19,9900    Issaquah    
+845    MountainPump NULL    NULL    24,9900    Idaho Falls    
+846    Taillights-Battery-Powered NULL    NULL    13,9900    Redmond    
+847    Headlights-Dual-Beam NULL    NULL    34,9900    Wenatchee    
+848    Headlights-Weatherproof NULL    NULL    44,9900    Redmond    
+849    Men'sSportsShorts,M Black    NULL    59,9900    Seattle    
+850    Men'sSportsShorts,L Black    NULL    59,9900    Klamath Falls    
+851    Men'sSportsShorts,XL Black    NULL    59,9900    Troutdale    
+852    Women'sTights,S Black    NULL    74,9900    Clackamas    
+853    Women'sTights,M Black    NULL    74,9900    Milwaukie    
+854    Women'sTights,L Black    NULL    74,9900    Renton    
+855    Men'sBib-Shorts,S Multi    NULL    89,9900    Port Orchard    
+856    Men'sBib-Shorts,M Multi    NULL    89,9900    Shelton    
+857    Men'sBib-Shorts,L Multi    NULL    89,9900    Longview    
+858    Half-FingerGloves,S Black    NULL    24,4900    Lynnwood    
+859    Half-FingerGloves,M Black    NULL    24,4900    Seattle    
+860    Half-FingerGloves,L Black    NULL    24,4900    Puyallup    
+861    Full-FingerGloves,S Black    NULL    37,9900    Bellevue    
+862    Full-FingerGloves,M Black    NULL    37,9900    Washougal    
+863    Full-FingerGloves,L Black    NULL    37,9900    Tacoma    
+864    ClassicVest,S Blue    NULL    63,5000    Renton    
+865    ClassicVest,M Blue    NULL    63,5000    Bellingham    
+866    ClassicVest,L Blue    NULL    63,5000    Puyallup    
+867    Women'sMountainShorts,S Black    NULL    69,9900    Everett    
+868    Women'sMountainShorts,M Black    NULL    69,9900    Bothell    
+869    Women'sMountainShorts,L Black    NULL    69,9900    Kent    
+870    WaterBottle-30oz. NULL    NULL    4,9900    Ellensburg    
+871    MountainBottleCage NULL    NULL    9,9900    Everett    
+872    RoadBottleCage NULL    NULL    8,9900    Sequim    
+873    PatchKit/8Patches NULL    NULL    2,2900    Spokane    
+874    RacingSocks,M White NULL    8,9900    Portland    pokane    
+875    RacingSocks,L White NULL    8,9900    Cheyenne    okane    
+876    HitchRack-4-Bike NULL    NULL    120,0000    Seattle    
+877    BikeWash-Dissolver NULL    NULL    7,9500    Sandpoint    
+878    FenderSet-Mountain NULL    NULL    21,9800    Spokane    
+879    All-PurposeBikeStand NULL    NULL    159,0000    Union Gap    
+880    HydrationPack-70oz. Silver    NULL    54,9900    Lacey    
+881    Short-SleeveClassicJersey,S Yellow    NULL    53,9900    Missoula    
+882    Short-SleeveClassicJersey,M Yellow    NULL    53,9900    Medford    
+883    Short-SleeveClassicJersey,L Yellow    NULL    53,9900    Albany    
+884    Short-SleeveClassicJersey,XL Yellow    NULL    53,9900    Chehalis    
+885    HLTouringFrame-Yellow,60 Yellow    1397,06    1003,9100    Kennewick    
+886    LLTouringFrame-Yellow,62 Yellow    1451,49    333,4200    Salem    
+887    HLTouringFrame-Yellow,46 Yellow    1342,63    1003,9100    Lewiston    
+888    HLTouringFrame-Yellow,50 Yellow    1360,77    1003,9100    Kelso    
+889    HLTouringFrame-Yellow,54 Yellow    1378,91    1003,9100    Casper    
+890    HLTouringFrame-Blue,46 Blue    1342,63    1003,9100    Great Falls    
+891    HLTouringFrame-Blue,50 Blue    1360,77    1003,9100    Kirkland    
+892    HLTouringFrame-Blue,54 Blue    1378,91    1003,9100    Cheyenne    
+894    RearDerailleur Silver    215,00    121,4600    Tacoma    
+895    LLTouringFrame-Blue,50 Blue    1406,13    333,4200    Puyallup    
+896    LLTouringFrame-Blue,54 Blue    1424,27    333,4200    Albany    
+897    LLTouringFrame-Blue,58 Blue    1433,34    333,4200    Everett    
+898    LLTouringFrame-Blue,62 Blue    1451,49    333,4200    Clackamas    
+899    LLTouringFrame-Yellow,44 Yellow    1369,84    333,4200    Spokane    
+900    LLTouringFrame-Yellow,50 Yellow    1406,13    333,4200    Cheyenne    
+901    LLTouringFrame-Yellow,54 Yellow    1424,27    333,4200    Bellingham    
+902    LLTouringFrame-Yellow,58 Yellow    1433,34    333,4200    Springfield    
+903    LLTouringFrame-Blue,44 Blue    1369,84    333,4200    Beaverton    
+904    MLMountainFrame-W-Silver,40 Silver    1256,44    364,0900    Kelso    
+905    MLMountainFrame-W-Silver,42 Silver    1274,59    364,0900    Federal Way    
+906    MLMountainFrame-W-Silver,46 Silver    1292,73    364,0900    Tigard    
+907    RearBrakes Silver    317,00    106,5000    Hillsboro    
+988    Mountain-500Silver,52 Silver    13008,96    564,9900    Fremont    
+989    Mountain-500Black,40 Black    12405,69    539,9900    Camarillo    
+990    Mountain-500Black,42 Black    12596,19    539,9900    Salt Lake City    
+991    Mountain-500Black,44 Black    12759,49    539,9900    San Ramon    
+992    Mountain-500Black,48 Black    12891,03    539,9900    Union City    
+993    Mountain-500Black,52 Black    13008,96    539,9900    El Segundo    
+994    LLBottomBracket NULL    223,00    53,9900    Milpitas    
+995    MLBottomBracket NULL    168,00    101,2400    Newport Beach    
+996    HLBottomBracket NULL    170,00    121,4900    Edmonton    
+997    Road-750Black,44 Black    8967,47    539,9900    Visalia    
+998    Road-750Black,48 Black    9130,77    539,9900    Hayward    
+999    Road-750Black,52 Black    9262,31    539,9900    Fullerton    

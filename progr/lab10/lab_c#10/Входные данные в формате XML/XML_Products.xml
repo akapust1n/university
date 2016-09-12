@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+<Product>
+  <ProductID>774</ProductID>
+  <ProductName>Mountain-100 Silver, 48</ProductName>
+  <Color>Silver</Color>
+  <Weight>9715.90</Weight>
+  <Price>3399.9900</Price>
+  <City>Pontiac</City>
+</Product>
+<Product>
+  <ProductID>775</ProductID>
+  <ProductName>Mountain-100 Black, 38</ProductName>
+  <Color>Black</Color>
+  <Weight>9230.56</Weight>
+  <Price>3374.9900</Price>
+  <City>Novi</City>
+</Product>
+<Product>
+  <ProductID>776</ProductID>
+  <ProductName>Mountain-100 Black, 42</ProductName>
+  <Color>Black</Color>
+  <Weight>9421.06</Weight>
+  <Price>3374.9900</Price>
+  <City>Southfield</City>
+</Product>
+<Product>
+  <ProductID>785</ProductID>
+  <ProductName>Mountain-300 Black, 38</ProductName>
+  <Color>Black</Color>
+  <Weight>11498.51</Weight>
+  <Price>1079.9900</Price>
+  <City>Madison Heights</City>
+</Product>
+<Product>
+  <ProductID>786</ProductID>
+  <ProductName>Mountain-300 Black, 40</ProductName>
+  <Color>Black</Color>
+  <Weight>11689.01</Weight>
+  <Price>1079.9900</Price>
+  <City>Westland</City>
+</Product>
+<Product>
+  <ProductID>788</ProductID>
+  <ProductName>Mountain-300 Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>11983.85</Weight>
+  <Price>1079.9900</Price>
+  <City>Southgate</City>
+</Product>
+<Product>
+  <ProductID>789</ProductID>
+  <ProductName>Road-250 Red, 44</ProductName>
+  <Color>Red</Color>
+  <Weight>6699.52</Weight>
+  <Price>2443.3500</Price>
+  <City>Detroit</City>
+</Product>
+<Product>
+  <ProductID>794</ProductID>
+  <ProductName>Road-250 Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>6862.82</Weight>
+  <Price>2443.3500</Price>
+  <City>Saginaw</City>
+</Product>
+<Product>
+  <ProductID>795</ProductID>
+  <ProductName>Road-250 Black, 52</ProductName>
+  <Color>Black</Color>
+  <Weight>6994.36</Weight>
+  <Price>2443.3500</Price>
+  <City>Saginaw</City>
+</Product>
+<Product>
+  <ProductID>797</ProductID>
+  <ProductName>Road-550-W Yellow, 38</ProductName>
+  <Color>Yellow</Color>
+  <Weight>7869.79</Weight>
+  <Price>1120.4900</Price>
+  <City>Midland</City>
+</Product>
+<Product>
+  <ProductID>801</ProductID>
+  <ProductName>Road-550-W Yellow, 48</ProductName>
+  <Color>Yellow</Color>
+  <Weight>8473.06</Weight>
+  <Price>1120.4900</Price>
+  <City>Holland</City>
+</Product>
+<Product>
+  <ProductID>806</ProductID>
+  <ProductName>ML Headset</ProductName>
+  <Price>102.2900</Price>
+  <City>Monroe</City>
+</Product>
+<Product>
+  <ProductID>810</ProductID>
+  <ProductName>HL Mountain Handlebars</ProductName>
+  <Price>120.2700</Price>
+  <City>Redford</City>
+</Product>
+<Product>
+  <ProductID>825</ProductID>
+  <ProductName>HL Mountain Rear Wheel</ProductName>
+  <Color>Black</Color>
+  <Price>327.2200</Price>
+  <City>Port Huron</City>
+</Product>
+<Product>
+  <ProductID>826</ProductID>
+  <ProductName>LL Road Rear Wheel</ProductName>
+  <Color>Black</Color>
+  <Weight>1050.00</Weight>
+  <Price>112.5700</Price>
+  <City>Howell</City>
+</Product>
+<Product>
+  <ProductID>832</ProductID>
+  <ProductName>ML Mountain Frame - Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>1292.73</Weight>
+  <Price>348.7600</Price>
+  <City>Seattle</City>
+</Product>
+<Product>
+  <ProductID>833</ProductID>
+  <ProductName>ML Road Frame-W - Yellow, 40</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1006.97</Weight>
+  <Price>594.8300</Price>
+  <City>Renton</City>
+</Product>
+<Product>
+  <ProductID>834</ProductID>
+  <ProductName>ML Road Frame-W - Yellow, 42</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1025.11</Weight>
+  <Price>594.8300</Price>
+  <City>Bothell</City>
+</Product>
+<Product>
+  <ProductID>835</ProductID>
+  <ProductName>ML Road Frame-W - Yellow, 44</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1043.26</Weight>
+  <Price>594.8300</Price>
+  <City>Kent</City>
+</Product>
+<Product>
+  <ProductID>836</ProductID>
+  <ProductName>ML Road Frame-W - Yellow, 48</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1061.40</Weight>
+  <Price>594.8300</Price>
+  <City>Puyallup</City>
+</Product>
+<Product>
+  <ProductID>837</ProductID>
+  <ProductName>HL Road Frame - Black, 62</ProductName>
+  <Color>Black</Color>
+  <Weight>1043.26</Weight>
+  <Price>1431.5000</Price>
+  <City>Billings</City>
+</Product>
+<Product>
+  <ProductID>838</ProductID>
+  <ProductName>HL Road Frame - Black, 44</ProductName>
+  <Color>Black</Color>
+  <Weight>961.61</Weight>
+  <Price>1431.5000</Price>
+  <City>Medford</City>
+</Product>
+<Product>
+  <ProductID>839</ProductID>
+  <ProductName>HL Road Frame - Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>979.75</Weight>
+  <Price>1431.5000</Price>
+  <City>Portland</City>
+</Product>
+<Product>
+  <ProductID>840</ProductID>
+  <ProductName>HL Road Frame - Black, 52</ProductName>
+  <Color>Black</Color>
+  <Weight>997.90</Weight>
+  <Price>1431.5000</Price>
+  <City>North Bend</City>
+</Product>
+<Product>
+  <ProductID>841</ProductID>
+  <ProductName>Men's Sports Shorts, S</ProductName>
+  <Color>Black</Color>
+  <Price>59.9900</Price>
+  <City>Portland</City>
+</Product>
+<Product>
+  <ProductID>842</ProductID>
+  <ProductName>Touring-Panniers, Large</ProductName>
+  <Color>Grey</Color>
+  <Price>125.0000</Price>
+  <City>Beaverton</City>
+</Product>
+<Product>
+  <ProductID>843</ProductID>
+  <ProductName>Cable Lock</ProductName>
+  <Price>25.0000</Price>
+  <City>Woodinville</City>
+</Product>
+<Product>
+  <ProductID>844</ProductID>
+  <ProductName>Minipump</ProductName>
+  <Price>19.9900</Price>
+  <City>Issaquah</City>
+</Product>
+<Product>
+  <ProductID>845</ProductID>
+  <ProductName>Mountain Pump</ProductName>
+  <Price>24.9900</Price>
+  <City>Idaho Falls</City>
+</Product>
+<Product>
+  <ProductID>846</ProductID>
+  <ProductName>Taillights - Battery-Powered</ProductName>
+  <Price>13.9900</Price>
+  <City>Redmond</City>
+</Product>
+<Product>
+  <ProductID>847</ProductID>
+  <ProductName>Headlights - Dual-Beam</ProductName>
+  <Price>34.9900</Price>
+  <City>Wenatchee</City>
+</Product>
+<Product>
+  <ProductID>848</ProductID>
+  <ProductName>Headlights - Weatherproof</ProductName>
+  <Price>44.9900</Price>
+  <City>Redmond</City>
+</Product>
+<Product>
+  <ProductID>849</ProductID>
+  <ProductName>Men's Sports Shorts, M</ProductName>
+  <Color>Black</Color>
+  <Price>59.9900</Price>
+  <City>Seattle</City>
+</Product>
+<Product>
+  <ProductID>850</ProductID>
+  <ProductName>Men's Sports Shorts, L</ProductName>
+  <Color>Black</Color>
+  <Price>59.9900</Price>
+  <City>Klamath Falls</City>
+</Product>
+<Product>
+  <ProductID>851</ProductID>
+  <ProductName>Men's Sports Shorts, XL</ProductName>
+  <Color>Black</Color>
+  <Price>59.9900</Price>
+  <City>Troutdale</City>
+</Product>
+<Product>
+  <ProductID>852</ProductID>
+  <ProductName>Women's Tights, S</ProductName>
+  <Color>Black</Color>
+  <Price>74.9900</Price>
+  <City>Clackamas</City>
+</Product>
+<Product>
+  <ProductID>853</ProductID>
+  <ProductName>Women's Tights, M</ProductName>
+  <Color>Black</Color>
+  <Price>74.9900</Price>
+  <City>Milwaukie</City>
+</Product>
+<Product>
+  <ProductID>854</ProductID>
+  <ProductName>Women's Tights, L</ProductName>
+  <Color>Black</Color>
+  <Price>74.9900</Price>
+  <City>Renton</City>
+</Product>
+<Product>
+  <ProductID>855</ProductID>
+  <ProductName>Men's Bib-Shorts, S</ProductName>
+  <Color>Multi</Color>
+  <Price>89.9900</Price>
+  <City>Port Orchard</City>
+</Product>
+<Product>
+  <ProductID>856</ProductID>
+  <ProductName>Men's Bib-Shorts, M</ProductName>
+  <Color>Multi</Color>
+  <Price>89.9900</Price>
+  <City>Shelton</City>
+</Product>
+<Product>
+  <ProductID>857</ProductID>
+  <ProductName>Men's Bib-Shorts, L</ProductName>
+  <Color>Multi</Color>
+  <Price>89.9900</Price>
+  <City>Longview</City>
+</Product>
+<Product>
+  <ProductID>858</ProductID>
+  <ProductName>Half-Finger Gloves, S</ProductName>
+  <Color>Black</Color>
+  <Price>24.4900</Price>
+  <City>Lynnwood</City>
+</Product>
+<Product>
+  <ProductID>859</ProductID>
+  <ProductName>Half-Finger Gloves, M</ProductName>
+  <Color>Black</Color>
+  <Price>24.4900</Price>
+  <City>Seattle</City>
+</Product>
+<Product>
+  <ProductID>860</ProductID>
+  <ProductName>Half-Finger Gloves, L</ProductName>
+  <Color>Black</Color>
+  <Price>24.4900</Price>
+  <City>Puyallup</City>
+</Product>
+<Product>
+  <ProductID>861</ProductID>
+  <ProductName>Full-Finger Gloves, S</ProductName>
+  <Color>Black</Color>
+  <Price>37.9900</Price>
+  <City>Bellevue</City>
+</Product>
+<Product>
+  <ProductID>862</ProductID>
+  <ProductName>Full-Finger Gloves, M</ProductName>
+  <Color>Black</Color>
+  <Price>37.9900</Price>
+  <City>Washougal</City>
+</Product>
+<Product>
+  <ProductID>863</ProductID>
+  <ProductName>Full-Finger Gloves, L</ProductName>
+  <Color>Black</Color>
+  <Price>37.9900</Price>
+  <City>Tacoma</City>
+</Product>
+<Product>
+  <ProductID>864</ProductID>
+  <ProductName>Classic Vest, S</ProductName>
+  <Color>Blue</Color>
+  <Price>63.5000</Price>
+  <City>Renton</City>
+</Product>
+<Product>
+  <ProductID>865</ProductID>
+  <ProductName>Classic Vest, M</ProductName>
+  <Color>Blue</Color>
+  <Price>63.5000</Price>
+  <City>Bellingham</City>
+</Product>
+<Product>
+  <ProductID>866</ProductID>
+  <ProductName>Classic Vest, L</ProductName>
+  <Color>Blue</Color>
+  <Price>63.5000</Price>
+  <City>Puyallup</City>
+</Product>
+<Product>
+  <ProductID>867</ProductID>
+  <ProductName>Women's Mountain Shorts, S</ProductName>
+  <Color>Black</Color>
+  <Price>69.9900</Price>
+  <City>Everett</City>
+</Product>
+<Product>
+  <ProductID>868</ProductID>
+  <ProductName>Women's Mountain Shorts, M</ProductName>
+  <Color>Black</Color>
+  <Price>69.9900</Price>
+  <City>Bothell</City>
+</Product>
+<Product>
+  <ProductID>869</ProductID>
+  <ProductName>Women's Mountain Shorts, L</ProductName>
+  <Color>Black</Color>
+  <Price>69.9900</Price>
+  <City>Kent</City>
+</Product>
+<Product>
+  <ProductID>870</ProductID>
+  <ProductName>Water Bottle - 30 oz.</ProductName>
+  <Price>4.9900</Price>
+  <City>Ellensburg</City>
+</Product>
+<Product>
+  <ProductID>871</ProductID>
+  <ProductName>Mountain Bottle Cage</ProductName>
+  <Price>9.9900</Price>
+  <City>Everett</City>
+</Product>
+<Product>
+  <ProductID>872</ProductID>
+  <ProductName>Road Bottle Cage</ProductName>
+  <Price>8.9900</Price>
+  <City>Sequim</City>
+</Product>
+<Product>
+  <ProductID>873</ProductID>
+  <ProductName>Patch Kit/8 Patches</ProductName>
+  <Price>2.2900</Price>
+  <City>Spokane</City>
+</Product>
+<Product>
+  <ProductID>874</ProductID>
+  <ProductName>Racing Socks, M</ProductName>
+  <Color>White</Color>
+  <Price>8.9900</Price>
+  <City>Portland</City>
+</Product>
+<Product>
+  <ProductID>875</ProductID>
+  <ProductName>Racing Socks, L</ProductName>
+  <Color>White</Color>
+  <Price>8.9900</Price>
+  <City>Cheyenne</City>
+</Product>
+<Product>
+  <ProductID>876</ProductID>
+  <ProductName>Hitch Rack - 4-Bike</ProductName>
+  <Price>120.0000</Price>
+  <City>Seattle</City>
+</Product>
+<Product>
+  <ProductID>877</ProductID>
+  <ProductName>Bike Wash - Dissolver</ProductName>
+  <Price>7.9500</Price>
+  <City>Sandpoint</City>
+</Product>
+<Product>
+  <ProductID>878</ProductID>
+  <ProductName>Fender Set - Mountain</ProductName>
+  <Price>21.9800</Price>
+  <City>Spokane</City>
+</Product>
+<Product>
+  <ProductID>879</ProductID>
+  <ProductName>All-Purpose Bike Stand</ProductName>
+  <Price>159.0000</Price>
+  <City>Union Gap</City>
+</Product>
+<Product>
+  <ProductID>880</ProductID>
+  <ProductName>Hydration Pack - 70 oz.</ProductName>
+  <Color>Silver</Color>
+  <Price>54.9900</Price>
+  <City>Lacey</City>
+</Product>
+<Product>
+  <ProductID>881</ProductID>
+  <ProductName>Short-Sleeve Classic Jersey, S</ProductName>
+  <Color>Yellow</Color>
+  <Price>53.9900</Price>
+  <City>Missoula</City>
+</Product>
+<Product>
+  <ProductID>882</ProductID>
+  <ProductName>Short-Sleeve Classic Jersey, M</ProductName>
+  <Color>Yellow</Color>
+  <Price>53.9900</Price>
+  <City>Medford</City>
+</Product>
+<Product>
+  <ProductID>883</ProductID>
+  <ProductName>Short-Sleeve Classic Jersey, L</ProductName>
+  <Color>Yellow</Color>
+  <Price>53.9900</Price>
+  <City>Albany</City>
+</Product>
+<Product>
+  <ProductID>884</ProductID>
+  <ProductName>Short-Sleeve Classic Jersey, XL</ProductName>
+  <Color>Yellow</Color>
+  <Price>53.9900</Price>
+  <City>Chehalis</City>
+</Product>
+<Product>
+  <ProductID>885</ProductID>
+  <ProductName>HL Touring Frame - Yellow, 60</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1397.06</Weight>
+  <Price>1003.9100</Price>
+  <City>Kennewick</City>
+</Product>
+<Product>
+  <ProductID>886</ProductID>
+  <ProductName>LL Touring Frame - Yellow, 62</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1451.49</Weight>
+  <Price>333.4200</Price>
+  <City>Salem</City>
+</Product>
+<Product>
+  <ProductID>887</ProductID>
+  <ProductName>HL Touring Frame - Yellow, 46</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1342.63</Weight>
+  <Price>1003.9100</Price>
+  <City>Lewiston</City>
+</Product>
+<Product>
+  <ProductID>888</ProductID>
+  <ProductName>HL Touring Frame - Yellow, 50</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1360.77</Weight>
+  <Price>1003.9100</Price>
+  <City>Kelso</City>
+</Product>
+<Product>
+  <ProductID>889</ProductID>
+  <ProductName>HL Touring Frame - Yellow, 54</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1378.91</Weight>
+  <Price>1003.9100</Price>
+  <City>Casper</City>
+</Product>
+<Product>
+  <ProductID>890</ProductID>
+  <ProductName>HL Touring Frame - Blue, 46</ProductName>
+  <Color>Blue</Color>
+  <Weight>1342.63</Weight>
+  <Price>1003.9100</Price>
+  <City>Great Falls</City>
+</Product>
+<Product>
+  <ProductID>891</ProductID>
+  <ProductName>HL Touring Frame - Blue, 50</ProductName>
+  <Color>Blue</Color>
+  <Weight>1360.77</Weight>
+  <Price>1003.9100</Price>
+  <City>Kirkland</City>
+</Product>
+<Product>
+  <ProductID>892</ProductID>
+  <ProductName>HL Touring Frame - Blue, 54</ProductName>
+  <Color>Blue</Color>
+  <Weight>1378.91</Weight>
+  <Price>1003.9100</Price>
+  <City>Cheyenne</City>
+</Product>
+<Product>
+  <ProductID>893</ProductID>
+  <ProductName>HL Touring Frame - Blue, 60</ProductName>
+  <Color>Blue</Color>
+  <Weight>1397.06</Weight>
+  <Price>1003.9100</Price>
+  <City>Rock Springs</City>
+</Product>
+<Product>
+  <ProductID>894</ProductID>
+  <ProductName>Rear Derailleur</ProductName>
+  <Color>Silver</Color>
+  <Weight>215.00</Weight>
+  <Price>121.4600</Price>
+  <City>Tacoma</City>
+</Product>
+<Product>
+  <ProductID>895</ProductID>
+  <ProductName>LL Touring Frame - Blue, 50</ProductName>
+  <Color>Blue</Color>
+  <Weight>1406.13</Weight>
+  <Price>333.4200</Price>
+  <City> Puyallup</City>
+</Product>
+<Product>
+  <ProductID>896</ProductID>
+  <ProductName>LL Touring Frame - Blue, 54</ProductName>
+  <Color>Blue</Color>
+  <Weight>1424.27</Weight>
+  <Price>333.4200</Price>
+  <City>Albany</City>
+</Product>
+<Product>
+  <ProductID>897</ProductID>
+  <ProductName>LL Touring Frame - Blue, 58</ProductName>
+  <Color>Blue</Color>
+  <Weight>1433.34</Weight>
+  <Price>333.4200</Price>
+  <City>Everett</City>
+</Product>
+<Product>
+  <ProductID>898</ProductID>
+  <ProductName>LL Touring Frame - Blue, 62</ProductName>
+  <Color>Blue</Color>
+  <Weight>1451.49</Weight>
+  <Price>333.4200</Price>
+  <City>Clackamas</City>
+</Product>
+<Product>
+  <ProductID>899</ProductID>
+  <ProductName>LL Touring Frame - Yellow, 44</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1369.84</Weight>
+  <Price>333.4200</Price>
+  <City>Spokane</City>
+</Product>
+<Product>
+  <ProductID>900</ProductID>
+  <ProductName>LL Touring Frame - Yellow, 50</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1406.13</Weight>
+  <Price>333.4200</Price>
+  <City>Cheyenne</City>
+</Product>
+<Product>
+  <ProductID>901</ProductID>
+  <ProductName>LL Touring Frame - Yellow, 54</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1424.27</Weight>
+  <Price>333.4200</Price>
+  <City>Bellingham</City>
+</Product>
+<Product>
+  <ProductID>902</ProductID>
+  <ProductName>LL Touring Frame - Yellow, 58</ProductName>
+  <Color>Yellow</Color>
+  <Weight>1433.34</Weight>
+  <Price>333.4200</Price>
+  <City>Springfield</City>
+</Product>
+<Product>
+  <ProductID>903</ProductID>
+  <ProductName>LL Touring Frame - Blue, 44</ProductName>
+  <Color>Blue</Color>
+  <Weight>1369.84</Weight>
+  <Price>333.4200</Price>
+  <City>Beaverton</City>
+</Product>
+<Product>
+  <ProductID>904</ProductID>
+  <ProductName>ML Mountain Frame-W - Silver, 40</ProductName>
+  <Color>Silver</Color>
+  <Weight>1256.44</Weight>
+  <Price>364.0900</Price>
+  <City>Kelso</City>
+</Product>
+<Product>
+  <ProductID>905</ProductID>
+  <ProductName>ML Mountain Frame-W - Silver, 42</ProductName>
+  <Color>Silver</Color>
+  <Weight>1274.59</Weight>
+  <Price>364.0900</Price>
+  <City>Federal Way</City>
+</Product>
+<Product>
+  <ProductID>906</ProductID>
+  <ProductName>ML Mountain Frame-W - Silver, 46</ProductName>
+  <Color>Silver</Color>
+  <Weight>1292.73</Weight>
+  <Price>364.0900</Price>
+  <City>Tigard</City>
+</Product>
+<Product>
+  <ProductID>907</ProductID>
+  <ProductName>Rear Brakes</ProductName>
+  <Color>Silver</Color>
+  <Weight>317.00</Weight>
+  <Price>106.5000</Price>
+  <City>Hillsboro</City>
+</Product>
+<Product>
+  <ProductID>988</ProductID>
+  <ProductName>Mountain-500 Silver, 52</ProductName>
+  <Color>Silver</Color>
+  <Weight>13008.96</Weight>
+  <Price>564.9900</Price>
+  <City>Fremont</City>
+</Product>
+<Product>
+  <ProductID>989</ProductID>
+  <ProductName>Mountain-500 Black, 40</ProductName>
+  <Color>Black</Color>
+  <Weight>12405.69</Weight>
+  <Price>539.9900</Price>
+  <City>Camarillo</City>
+</Product>
+<Product>
+  <ProductID>990</ProductID>
+  <ProductName>Mountain-500 Black, 42</ProductName>
+  <Color>Black</Color>
+  <Weight>12596.19</Weight>
+  <Price>539.9900</Price>
+  <City>Salt Lake City</City>
+</Product>
+<Product>
+  <ProductID>991</ProductID>
+  <ProductName>Mountain-500 Black, 44</ProductName>
+  <Color>Black</Color>
+  <Weight>12759.49</Weight>
+  <Price>539.9900</Price>
+  <City>San Ramon</City>
+</Product>
+<Product>
+  <ProductID>992</ProductID>
+  <ProductName>Mountain-500 Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>12891.03</Weight>
+  <Price>539.9900</Price>
+  <City>Union City</City>
+</Product>
+<Product>
+  <ProductID>993</ProductID>
+  <ProductName>Mountain-500 Black, 52</ProductName>
+  <Color>Black</Color>
+  <Weight>13008.96</Weight>
+  <Price>539.9900</Price>
+  <City>El Segundo</City>
+</Product>
+<Product>
+  <ProductID>994</ProductID>
+  <ProductName>LL Bottom Bracket</ProductName>
+  <Weight>223.00</Weight>
+  <Price>53.9900</Price>
+  <City>Milpitas</City>
+</Product>
+<Product>
+  <ProductID>995</ProductID>
+  <ProductName>ML Bottom Bracket</ProductName>
+  <Weight>168.00</Weight>
+  <Price>101.2400</Price>
+  <City>Newport Beach</City>
+</Product>
+<Product>
+  <ProductID>996</ProductID>
+  <ProductName>HL Bottom Bracket</ProductName>
+  <Weight>170.00</Weight>
+  <Price>121.4900</Price>
+  <City>Edmonton</City>
+</Product>
+<Product>
+  <ProductID>997</ProductID>
+  <ProductName>Road-750 Black, 44</ProductName>
+  <Color>Black</Color>
+  <Weight>8967.47</Weight>
+  <Price>539.9900</Price>
+  <City>Visalia</City>
+</Product>
+<Product>
+  <ProductID>998</ProductID>
+  <ProductName>Road-750 Black, 48</ProductName>
+  <Color>Black</Color>
+  <Weight>9130.77</Weight>
+  <Price>539.9900</Price>
+  <City>Hayward</City>
+</Product>
+<Product>
+  <ProductID>999</ProductID>
+  <ProductName>Road-750 Black, 52</ProductName>
+  <Color>Black</Color>
+  <Weight>9262.31</Weight>
+  <Price>539.9900</Price>
+  <City>Fullerton</City>
+</Product>
+</Products>

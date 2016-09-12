@@ -1,0 +1,166 @@
+------------------------------------------------------------
+-- ¬¿–»¿Õ“ 02
+------------------------------------------------------------
+EXEC Query06 @City = 'High Wycombe
+
+28168,20
+
+EXEC Query07;
+
+EXEC Query08 @ProductID = 881;
+
+A Cycle Shop
+Active Life Toys
+All Seasons Sports Supply
+Alpine Ski House
+Area Bike Accessories
+Area Sheet Metal Supply
+Authentic Sales and Service
+Basic Sports Equipment
+Bicycle Accessories and Kits
+Big-Time Bike Store
+Bike Experts
+Black Bicycle Company
+Blue Bicycle Company
+Cash & Carry Bikes
+Central Bicycle Specialists
+Coho Sports
+Commuter Bicycle Store
+Consolidated Messenger
+Contoso, Ltd.
+Convenient Sales and Service
+Countryside Company
+Curbside Sporting Goods
+Cycle Clearance
+Cycling Goods
+Designated Distributors
+Designer Department Stores
+Discount Tours
+Downhill Bicycle Specialists
+Eastside Parts Shop
+Economy Center
+Efficient Cycling
+Exhilarating Cycles
+Extended Tours
+Extraordinary Bike Works
+Family's Favorite Bike Shop
+Famous Bike Shop
+Field Trip Store
+Finer Parts Shop
+Finer Sales and Service
+Finish and Sealant Products
+First Bike Store
+First Cycle Store
+Fitness Department Stores
+Friendly Bike Shop
+Friendly Neighborhood Bikes
+Fun Times Club
+Fun Toys and Bikes
+Futuristic Sport Distributors
+General Bike Corporation
+General Cycle Storehouse
+General Department Stores
+General Riding Supplies
+General Supplies
+Gift and Toy Store
+Global Sporting Goods
+Golf and Cycle Store
+Good Toys
+Great Bikes 
+Hardware Components
+Historic Bicycle Sales
+Honest Repair Service
+Imported and Domestic Cycles
+Little Bicycle Supply Shop
+Maintenance and Repair for Bicycles
+Major Cycling
+Major Sport Suppliers
+Major Sporting Goods
+Mercantile Outlet
+Metallic Paint and Overcoat Co
+Metro Metals Co.
+Metropolitan Bicycle Supply
+Mountain Toy Store
+Nonskid Tire Company
+Official Parts Shop
+One Bike Company
+Online Bike Warehouse
+Operational Manufacturing
+Our Sporting Goods Store
+Outstanding Cycles
+Permanent Finish Products
+Practical Bike Supply Company
+Price-Cutter Discount Bikes
+Professional Containers and Packaging Co.
+Prosperous Tours
+Quick Delivery Service
+Racing Bike Outlet
+Racing Toys
+Real Sporting Goods
+Recommended Bicycles
+Reliable Retail Center
+Remote Bicycle Specialists
+Retail Cycle Shop
+Retail Mall
+Retail Sporting Equipment
+Retail Sporting Goods
+Riders Company
+Riding Excursions
+Roadway Bike Emporium
+Running and Cycling Gear
+Rural Bicycle Supply
+Rural Sales and Service
+Safe Toys
+Seats and Saddles Company
+Sellers of Cycles
+Sharp Bikes
+Shipping Specialists
+Sleek Bikes 
+Small Bike Shop
+Social Activities Club
+Solid Bike Parts
+Some Discount Store
+Sports Products Store
+Sports Store
+Strenuous Exercise Shop
+Summer Sports Place
+Superior Hardware Distributors
+Synthetic Materials Manufacturing
+Systematic Sales
+Tandem Sales and Service
+Tenth Bike Store
+The Bike Shop
+The Showroom
+Timely Shipping Service
+Tires and Tubes
+Top Sports Supply
+Transport Bikes
+Tubeless Tire Company
+Unique Bikes
+Utilitarian Sporting Goods
+Valley Bicycle Distributors
+Valley Bicycle Specialists
+Valley Toy Store
+Variety Cycling
+Vast Bike Sales and Rental
+Vinyl and Plastic Goods Corporation
+Weekend Bike Tours
+Westside Plaza
+Wheel Gallery
+Wingtip Toys
+World Bike Discount Store
+Yellow Bicycle Company
+
+EXEC Query09 @SupplierID = 502
+
+Coalition Bike Company
+Metropolitan Bicycle Supply
+Professional Sales and Service
+
+EXEC Query10 @City = 'Missoula'
+
+7558,60
+
+
+
+

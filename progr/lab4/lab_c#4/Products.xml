@@ -1,0 +1,1410 @@
+<ROOT>
+<Product>
+  <ProductID>680</ProductID>
+  <Name>HL Road Frame - Black, 58</Name>
+  <ProductNumber>FR-R92B-58</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>58</Size>
+  <Weight>1016.04</Weight>
+</Product>
+<Product>
+  <ProductID>706</ProductID>
+  <Name>HL Road Frame - Red, 58</Name>
+  <ProductNumber>FR-R92R-58</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>58</Size>
+  <Weight>1016.04</Weight>
+</Product>
+<Product>
+  <ProductID>717</ProductID>
+  <Name>HL Road Frame - Red, 62</Name>
+  <ProductNumber>FR-R92R-62</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>62</Size>
+  <Weight>1043.26</Weight>
+</Product>
+<Product>
+  <ProductID>718</ProductID>
+  <Name>HL Road Frame - Red, 44</Name>
+  <ProductNumber>FR-R92R-44</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>44</Size>
+  <Weight>961.61</Weight>
+</Product>
+<Product>
+  <ProductID>719</ProductID>
+  <Name>HL Road Frame - Red, 48</Name>
+  <ProductNumber>FR-R92R-48</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>48</Size>
+  <Weight>979.75</Weight>
+</Product>
+<Product>
+  <ProductID>720</ProductID>
+  <Name>HL Road Frame - Red, 52</Name>
+  <ProductNumber>FR-R92R-52</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>52</Size>
+  <Weight>997.90</Weight>
+</Product>
+<Product>
+  <ProductID>721</ProductID>
+  <Name>HL Road Frame - Red, 56</Name>
+  <ProductNumber>FR-R92R-56</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>56</Size>
+  <Weight>1016.04</Weight>
+</Product>
+<Product>
+  <ProductID>722</ProductID>
+  <Name>LL Road Frame - Black, 58</Name>
+  <ProductNumber>FR-R38B-58</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>58</Size>
+  <Weight>1115.83</Weight>
+</Product>
+<Product>
+  <ProductID>723</ProductID>
+  <Name>LL Road Frame - Black, 60</Name>
+  <ProductNumber>FR-R38B-60</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>60</Size>
+  <Weight>1124.90</Weight>
+</Product>
+<Product>
+  <ProductID>724</ProductID>
+  <Name>LL Road Frame - Black, 62</Name>
+  <ProductNumber>FR-R38B-62</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>62</Size>
+  <Weight>1133.98</Weight>
+</Product>
+<Product>
+  <ProductID>725</ProductID>
+  <Name>LL Road Frame - Red, 44</Name>
+  <ProductNumber>FR-R38R-44</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>44</Size>
+  <Weight>1052.33</Weight>
+</Product>
+<Product>
+  <ProductID>726</ProductID>
+  <Name>LL Road Frame - Red, 48</Name>
+  <ProductNumber>FR-R38R-48</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>48</Size>
+  <Weight>1070.47</Weight>
+</Product>
+<Product>
+  <ProductID>727</ProductID>
+  <Name>LL Road Frame - Red, 52</Name>
+  <ProductNumber>FR-R38R-52</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>52</Size>
+  <Weight>1088.62</Weight>
+</Product>
+<Product>
+  <ProductID>728</ProductID>
+  <Name>LL Road Frame - Red, 58</Name>
+  <ProductNumber>FR-R38R-58</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>58</Size>
+  <Weight>1115.83</Weight>
+</Product>
+<Product>
+  <ProductID>729</ProductID>
+  <Name>LL Road Frame - Red, 60</Name>
+  <ProductNumber>FR-R38R-60</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>60</Size>
+  <Weight>1124.90</Weight>
+</Product>
+<Product>
+  <ProductID>730</ProductID>
+  <Name>LL Road Frame - Red, 62</Name>
+  <ProductNumber>FR-R38R-62</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>62</Size>
+  <Weight>1133.98</Weight>
+</Product>
+<Product>
+  <ProductID>731</ProductID>
+  <Name>ML Road Frame - Red, 44</Name>
+  <ProductNumber>FR-R72R-44</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>44</Size>
+  <Weight>1006.97</Weight>
+</Product>
+<Product>
+  <ProductID>732</ProductID>
+  <Name>ML Road Frame - Red, 48</Name>
+  <ProductNumber>FR-R72R-48</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>48</Size>
+  <Weight>1025.11</Weight>
+</Product>
+<Product>
+  <ProductID>733</ProductID>
+  <Name>ML Road Frame - Red, 52</Name>
+  <ProductNumber>FR-R72R-52</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>52</Size>
+  <Weight>1043.26</Weight>
+</Product>
+<Product>
+  <ProductID>734</ProductID>
+  <Name>ML Road Frame - Red, 58</Name>
+  <ProductNumber>FR-R72R-58</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>58</Size>
+  <Weight>1070.47</Weight>
+</Product>
+<Product>
+  <ProductID>735</ProductID>
+  <Name>ML Road Frame - Red, 60</Name>
+  <ProductNumber>FR-R72R-60</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>60</Size>
+  <Weight>1079.54</Weight>
+</Product>
+<Product>
+  <ProductID>736</ProductID>
+  <Name>LL Road Frame - Black, 44</Name>
+  <ProductNumber>FR-R38B-44</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>44</Size>
+  <Weight>1052.33</Weight>
+</Product>
+<Product>
+  <ProductID>737</ProductID>
+  <Name>LL Road Frame - Black, 48</Name>
+  <ProductNumber>FR-R38B-48</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>48</Size>
+  <Weight>1070.47</Weight>
+</Product>
+<Product>
+  <ProductID>738</ProductID>
+  <Name>LL Road Frame - Black, 52</Name>
+  <ProductNumber>FR-R38B-52</ProductNumber>
+  <ListPrice>337.2200</ListPrice>
+  <Size>52</Size>
+  <Weight>1088.62</Weight>
+</Product>
+<Product>
+  <ProductID>739</ProductID>
+  <Name>HL Mountain Frame - Silver, 42</Name>
+  <ProductNumber>FR-M94S-42</ProductNumber>
+  <ListPrice>1364.5000</ListPrice>
+  <Size>42</Size>
+  <Weight>1233.76</Weight>
+</Product>
+<Product>
+  <ProductID>740</ProductID>
+  <Name>HL Mountain Frame - Silver, 44</Name>
+  <ProductNumber>FR-M94S-44</ProductNumber>
+  <ListPrice>1364.5000</ListPrice>
+  <Size>44</Size>
+  <Weight>1251.91</Weight>
+</Product>
+<Product>
+  <ProductID>741</ProductID>
+  <Name>HL Mountain Frame - Silver, 48</Name>
+  <ProductNumber>FR-M94S-52</ProductNumber>
+  <ListPrice>1364.5000</ListPrice>
+  <Size>48</Size>
+  <Weight>1270.05</Weight>
+</Product>
+<Product>
+  <ProductID>742</ProductID>
+  <Name>HL Mountain Frame - Silver, 46</Name>
+  <ProductNumber>FR-M94S-46</ProductNumber>
+  <ListPrice>1364.5000</ListPrice>
+  <Size>46</Size>
+  <Weight>1288.20</Weight>
+</Product>
+<Product>
+  <ProductID>743</ProductID>
+  <Name>HL Mountain Frame - Black, 42</Name>
+  <ProductNumber>FR-M94B-42</ProductNumber>
+  <ListPrice>1349.6000</ListPrice>
+  <Size>42</Size>
+  <Weight>1233.76</Weight>
+</Product>
+<Product>
+  <ProductID>744</ProductID>
+  <Name>HL Mountain Frame - Black, 44</Name>
+  <ProductNumber>FR-M94B-44</ProductNumber>
+  <ListPrice>1349.6000</ListPrice>
+  <Size>44</Size>
+  <Weight>1251.91</Weight>
+</Product>
+<Product>
+  <ProductID>745</ProductID>
+  <Name>HL Mountain Frame - Black, 48</Name>
+  <ProductNumber>FR-M94B-48</ProductNumber>
+  <ListPrice>1349.6000</ListPrice>
+  <Size>48</Size>
+  <Weight>1270.05</Weight>
+</Product>
+<Product>
+  <ProductID>746</ProductID>
+  <Name>HL Mountain Frame - Black, 46</Name>
+  <ProductNumber>FR-M94B-46</ProductNumber>
+  <ListPrice>1349.6000</ListPrice>
+  <Size>46</Size>
+  <Weight>1288.20</Weight>
+</Product>
+<Product>
+  <ProductID>747</ProductID>
+  <Name>HL Mountain Frame - Black, 38</Name>
+  <ProductNumber>FR-M94B-38</ProductNumber>
+  <ListPrice>1349.6000</ListPrice>
+  <Size>38</Size>
+  <Weight>1215.62</Weight>
+</Product>
+<Product>
+  <ProductID>748</ProductID>
+  <Name>HL Mountain Frame - Silver, 38</Name>
+  <ProductNumber>FR-M94S-38</ProductNumber>
+  <ListPrice>1364.5000</ListPrice>
+  <Size>38</Size>
+  <Weight>1215.62</Weight>
+</Product>
+<Product>
+  <ProductID>749</ProductID>
+  <Name>Road-150 Red, 62</Name>
+  <ProductNumber>BK-R93R-62</ProductNumber>
+  <ListPrice>3578.2700</ListPrice>
+  <Size>62</Size>
+  <Weight>6803.85</Weight>
+</Product>
+<Product>
+  <ProductID>750</ProductID>
+  <Name>Road-150 Red, 44</Name>
+  <ProductNumber>BK-R93R-44</ProductNumber>
+  <ListPrice>3578.2700</ListPrice>
+  <Size>44</Size>
+  <Weight>6245.93</Weight>
+</Product>
+<Product>
+  <ProductID>751</ProductID>
+  <Name>Road-150 Red, 48</Name>
+  <ProductNumber>BK-R93R-48</ProductNumber>
+  <ListPrice>3578.2700</ListPrice>
+  <Size>48</Size>
+  <Weight>6409.23</Weight>
+</Product>
+<Product>
+  <ProductID>752</ProductID>
+  <Name>Road-150 Red, 52</Name>
+  <ProductNumber>BK-R93R-52</ProductNumber>
+  <ListPrice>3578.2700</ListPrice>
+  <Size>52</Size>
+  <Weight>6540.77</Weight>
+</Product>
+<Product>
+  <ProductID>753</ProductID>
+  <Name>Road-150 Red, 56</Name>
+  <ProductNumber>BK-R93R-56</ProductNumber>
+  <ListPrice>3578.2700</ListPrice>
+  <Size>56</Size>
+  <Weight>6658.70</Weight>
+</Product>
+<Product>
+  <ProductID>754</ProductID>
+  <Name>Road-450 Red, 58</Name>
+  <ProductNumber>BK-R68R-58</ProductNumber>
+  <ListPrice>1457.9900</ListPrice>
+  <Size>58</Size>
+  <Weight>8069.37</Weight>
+</Product>
+<Product>
+  <ProductID>755</ProductID>
+  <Name>Road-450 Red, 60</Name>
+  <ProductNumber>BK-R68R-60</ProductNumber>
+  <ListPrice>1457.9900</ListPrice>
+  <Size>60</Size>
+  <Weight>8119.26</Weight>
+</Product>
+<Product>
+  <ProductID>756</ProductID>
+  <Name>Road-450 Red, 44</Name>
+  <ProductNumber>BK-R68R-44</ProductNumber>
+  <ListPrice>1457.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>7606.70</Weight>
+</Product>
+<Product>
+  <ProductID>757</ProductID>
+  <Name>Road-450 Red, 48</Name>
+  <ProductNumber>BK-R68R-48</ProductNumber>
+  <ListPrice>1457.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>7770.00</Weight>
+</Product>
+<Product>
+  <ProductID>758</ProductID>
+  <Name>Road-450 Red, 52</Name>
+  <ProductNumber>BK-R68R-52</ProductNumber>
+  <ListPrice>1457.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>7901.54</Weight>
+</Product>
+<Product>
+  <ProductID>759</ProductID>
+  <Name>Road-650 Red, 58</Name>
+  <ProductNumber>BK-R50R-58</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>58</Size>
+  <Weight>8976.55</Weight>
+</Product>
+<Product>
+  <ProductID>760</ProductID>
+  <Name>Road-650 Red, 60</Name>
+  <ProductNumber>BK-R50R-60</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>60</Size>
+  <Weight>9026.44</Weight>
+</Product>
+<Product>
+  <ProductID>761</ProductID>
+  <Name>Road-650 Red, 62</Name>
+  <ProductNumber>BK-R50R-62</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>62</Size>
+  <Weight>9071.80</Weight>
+</Product>
+<Product>
+  <ProductID>762</ProductID>
+  <Name>Road-650 Red, 44</Name>
+  <ProductNumber>BK-R50R-44</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>8513.88</Weight>
+</Product>
+<Product>
+  <ProductID>763</ProductID>
+  <Name>Road-650 Red, 48</Name>
+  <ProductNumber>BK-R50R-48</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>8677.18</Weight>
+</Product>
+<Product>
+  <ProductID>764</ProductID>
+  <Name>Road-650 Red, 52</Name>
+  <ProductNumber>BK-R50R-52</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>8808.72</Weight>
+</Product>
+<Product>
+  <ProductID>765</ProductID>
+  <Name>Road-650 Black, 58</Name>
+  <ProductNumber>BK-R50B-58</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>58</Size>
+  <Weight>8976.55</Weight>
+</Product>
+<Product>
+  <ProductID>766</ProductID>
+  <Name>Road-650 Black, 60</Name>
+  <ProductNumber>BK-R50B-60</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>60</Size>
+  <Weight>9026.44</Weight>
+</Product>
+<Product>
+  <ProductID>767</ProductID>
+  <Name>Road-650 Black, 62</Name>
+  <ProductNumber>BK-R50B-62</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>62</Size>
+  <Weight>9071.80</Weight>
+</Product>
+<Product>
+  <ProductID>768</ProductID>
+  <Name>Road-650 Black, 44</Name>
+  <ProductNumber>BK-R50B-44</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>8513.88</Weight>
+</Product>
+<Product>
+  <ProductID>769</ProductID>
+  <Name>Road-650 Black, 48</Name>
+  <ProductNumber>BK-R50B-48</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>8677.18</Weight>
+</Product>
+<Product>
+  <ProductID>770</ProductID>
+  <Name>Road-650 Black, 52</Name>
+  <ProductNumber>BK-R50B-52</ProductNumber>
+  <ListPrice>782.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>8808.72</Weight>
+</Product>
+<Product>
+  <ProductID>771</ProductID>
+  <Name>Mountain-100 Silver, 38</Name>
+  <ProductNumber>BK-M82S-38</ProductNumber>
+  <ListPrice>3399.9900</ListPrice>
+  <Size>38</Size>
+  <Weight>9230.56</Weight>
+</Product>
+<Product>
+  <ProductID>772</ProductID>
+  <Name>Mountain-100 Silver, 42</Name>
+  <ProductNumber>BK-M82S-42</ProductNumber>
+  <ListPrice>3399.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>9421.06</Weight>
+</Product>
+<Product>
+  <ProductID>773</ProductID>
+  <Name>Mountain-100 Silver, 44</Name>
+  <ProductNumber>BK-M82S-44</ProductNumber>
+  <ListPrice>3399.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>9584.36</Weight>
+</Product>
+<Product>
+  <ProductID>774</ProductID>
+  <Name>Mountain-100 Silver, 48</Name>
+  <ProductNumber>BK-M82S-48</ProductNumber>
+  <ListPrice>3399.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>9715.90</Weight>
+</Product>
+<Product>
+  <ProductID>775</ProductID>
+  <Name>Mountain-100 Black, 38</Name>
+  <ProductNumber>BK-M82B-38</ProductNumber>
+  <ListPrice>3374.9900</ListPrice>
+  <Size>38</Size>
+  <Weight>9230.56</Weight>
+</Product>
+<Product>
+  <ProductID>776</ProductID>
+  <Name>Mountain-100 Black, 42</Name>
+  <ProductNumber>BK-M82B-42</ProductNumber>
+  <ListPrice>3374.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>9421.06</Weight>
+</Product>
+<Product>
+  <ProductID>777</ProductID>
+  <Name>Mountain-100 Black, 44</Name>
+  <ProductNumber>BK-M82B-44</ProductNumber>
+  <ListPrice>3374.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>9584.36</Weight>
+</Product>
+<Product>
+  <ProductID>778</ProductID>
+  <Name>Mountain-100 Black, 48</Name>
+  <ProductNumber>BK-M82B-48</ProductNumber>
+  <ListPrice>3374.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>9715.90</Weight>
+</Product>
+<Product>
+  <ProductID>779</ProductID>
+  <Name>Mountain-200 Silver, 38</Name>
+  <ProductNumber>BK-M68S-38</ProductNumber>
+  <ListPrice>2319.9900</ListPrice>
+  <Size>38</Size>
+  <Weight>10591.33</Weight>
+</Product>
+<Product>
+  <ProductID>780</ProductID>
+  <Name>Mountain-200 Silver, 42</Name>
+  <ProductNumber>BK-M68S-42</ProductNumber>
+  <ListPrice>2319.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>10781.83</Weight>
+</Product>
+<Product>
+  <ProductID>781</ProductID>
+  <Name>Mountain-200 Silver, 46</Name>
+  <ProductNumber>BK-M68S-46</ProductNumber>
+  <ListPrice>2319.9900</ListPrice>
+  <Size>46</Size>
+  <Weight>10945.13</Weight>
+</Product>
+<Product>
+  <ProductID>782</ProductID>
+  <Name>Mountain-200 Black, 38</Name>
+  <ProductNumber>BK-M68B-38</ProductNumber>
+  <ListPrice>2294.9900</ListPrice>
+  <Size>38</Size>
+  <Weight>10591.33</Weight>
+</Product>
+<Product>
+  <ProductID>783</ProductID>
+  <Name>Mountain-200 Black, 42</Name>
+  <ProductNumber>BK-M68B-42</ProductNumber>
+  <ListPrice>2294.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>10781.83</Weight>
+</Product>
+<Product>
+  <ProductID>784</ProductID>
+  <Name>Mountain-200 Black, 46</Name>
+  <ProductNumber>BK-M68B-46</ProductNumber>
+  <ListPrice>2294.9900</ListPrice>
+  <Size>46</Size>
+  <Weight>10945.13</Weight>
+</Product>
+<Product>
+  <ProductID>785</ProductID>
+  <Name>Mountain-300 Black, 38</Name>
+  <ProductNumber>BK-M47B-38</ProductNumber>
+  <ListPrice>1079.9900</ListPrice>
+  <Size>38</Size>
+  <Weight>11498.51</Weight>
+</Product>
+<Product>
+  <ProductID>786</ProductID>
+  <Name>Mountain-300 Black, 40</Name>
+  <ProductNumber>BK-M47B-40</ProductNumber>
+  <ListPrice>1079.9900</ListPrice>
+  <Size>40</Size>
+  <Weight>11689.01</Weight>
+</Product>
+<Product>
+  <ProductID>787</ProductID>
+  <Name>Mountain-300 Black, 44</Name>
+  <ProductNumber>BK-M47B-44</ProductNumber>
+  <ListPrice>1079.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>11852.31</Weight>
+</Product>
+<Product>
+  <ProductID>788</ProductID>
+  <Name>Mountain-300 Black, 48</Name>
+  <ProductNumber>BK-M47B-48</ProductNumber>
+  <ListPrice>1079.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>11983.85</Weight>
+</Product>
+<Product>
+  <ProductID>789</ProductID>
+  <Name>Road-250 Red, 44</Name>
+  <ProductNumber>BK-R89R-44</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>44</Size>
+  <Weight>6699.52</Weight>
+</Product>
+<Product>
+  <ProductID>790</ProductID>
+  <Name>Road-250 Red, 48</Name>
+  <ProductNumber>BK-R89R-48</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>48</Size>
+  <Weight>6862.82</Weight>
+</Product>
+<Product>
+  <ProductID>791</ProductID>
+  <Name>Road-250 Red, 52</Name>
+  <ProductNumber>BK-R89R-52</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>52</Size>
+  <Weight>6994.36</Weight>
+</Product>
+<Product>
+  <ProductID>792</ProductID>
+  <Name>Road-250 Red, 58</Name>
+  <ProductNumber>BK-R89R-58</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>58</Size>
+  <Weight>7162.19</Weight>
+</Product>
+<Product>
+  <ProductID>793</ProductID>
+  <Name>Road-250 Black, 44</Name>
+  <ProductNumber>BK-R89B-44</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>44</Size>
+  <Weight>6699.52</Weight>
+</Product>
+<Product>
+  <ProductID>794</ProductID>
+  <Name>Road-250 Black, 48</Name>
+  <ProductNumber>BK-R89B-48</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>48</Size>
+  <Weight>6862.82</Weight>
+</Product>
+<Product>
+  <ProductID>795</ProductID>
+  <Name>Road-250 Black, 52</Name>
+  <ProductNumber>BK-R89B-52</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>52</Size>
+  <Weight>6994.36</Weight>
+</Product>
+<Product>
+  <ProductID>796</ProductID>
+  <Name>Road-250 Black, 58</Name>
+  <ProductNumber>BK-R89B-58</ProductNumber>
+  <ListPrice>2443.3500</ListPrice>
+  <Size>58</Size>
+  <Weight>7112.29</Weight>
+</Product>
+<Product>
+  <ProductID>797</ProductID>
+  <Name>Road-550-W Yellow, 38</Name>
+  <ProductNumber>BK-R64Y-38</ProductNumber>
+  <ListPrice>1120.4900</ListPrice>
+  <Size>38</Size>
+  <Weight>7869.79</Weight>
+</Product>
+<Product>
+  <ProductID>798</ProductID>
+  <Name>Road-550-W Yellow, 40</Name>
+  <ProductNumber>BK-R64Y-40</ProductNumber>
+  <ListPrice>1120.4900</ListPrice>
+  <Size>40</Size>
+  <Weight>8060.29</Weight>
+</Product>
+<Product>
+  <ProductID>799</ProductID>
+  <Name>Road-550-W Yellow, 42</Name>
+  <ProductNumber>BK-R64Y-42</ProductNumber>
+  <ListPrice>1120.4900</ListPrice>
+  <Size>42</Size>
+  <Weight>8223.59</Weight>
+</Product>
+<Product>
+  <ProductID>800</ProductID>
+  <Name>Road-550-W Yellow, 44</Name>
+  <ProductNumber>BK-R64Y-44</ProductNumber>
+  <ListPrice>1120.4900</ListPrice>
+  <Size>44</Size>
+  <Weight>8355.13</Weight>
+</Product>
+<Product>
+  <ProductID>801</ProductID>
+  <Name>Road-550-W Yellow, 48</Name>
+  <ProductNumber>BK-R64Y-48</ProductNumber>
+  <ListPrice>1120.4900</ListPrice>
+  <Size>48</Size>
+  <Weight>8473.06</Weight>
+</Product>
+<Product>
+  <ProductID>814</ProductID>
+  <Name>ML Mountain Frame - Black, 38</Name>
+  <ProductNumber>FR-M63B-38</ProductNumber>
+  <ListPrice>348.7600</ListPrice>
+  <Size>38</Size>
+  <Weight>1238.30</Weight>
+</Product>
+<Product>
+  <ProductID>822</ProductID>
+  <Name>ML Road Frame-W - Yellow, 38</Name>
+  <ProductNumber>FR-R72Y-38</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>38</Size>
+  <Weight>988.83</Weight>
+</Product>
+<Product>
+  <ProductID>830</ProductID>
+  <Name>ML Mountain Frame - Black, 40</Name>
+  <ProductNumber>FR-M63B-40</ProductNumber>
+  <ListPrice>348.7600</ListPrice>
+  <Size>40</Size>
+  <Weight>1256.44</Weight>
+</Product>
+<Product>
+  <ProductID>831</ProductID>
+  <Name>ML Mountain Frame - Black, 44</Name>
+  <ProductNumber>FR-M63B-44</ProductNumber>
+  <ListPrice>348.7600</ListPrice>
+  <Size>44</Size>
+  <Weight>1274.59</Weight>
+</Product>
+<Product>
+  <ProductID>832</ProductID>
+  <Name>ML Mountain Frame - Black, 48</Name>
+  <ProductNumber>FR-M63B-48</ProductNumber>
+  <ListPrice>348.7600</ListPrice>
+  <Size>48</Size>
+  <Weight>1292.73</Weight>
+</Product>
+<Product>
+  <ProductID>833</ProductID>
+  <Name>ML Road Frame-W - Yellow, 40</Name>
+  <ProductNumber>FR-R72Y-40</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>40</Size>
+  <Weight>1006.97</Weight>
+</Product>
+<Product>
+  <ProductID>834</ProductID>
+  <Name>ML Road Frame-W - Yellow, 42</Name>
+  <ProductNumber>FR-R72Y-42</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>42</Size>
+  <Weight>1025.11</Weight>
+</Product>
+<Product>
+  <ProductID>835</ProductID>
+  <Name>ML Road Frame-W - Yellow, 44</Name>
+  <ProductNumber>FR-R72Y-44</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>44</Size>
+  <Weight>1043.26</Weight>
+</Product>
+<Product>
+  <ProductID>836</ProductID>
+  <Name>ML Road Frame-W - Yellow, 48</Name>
+  <ProductNumber>FR-R72Y-48</ProductNumber>
+  <ListPrice>594.8300</ListPrice>
+  <Size>48</Size>
+  <Weight>1061.40</Weight>
+</Product>
+<Product>
+  <ProductID>837</ProductID>
+  <Name>HL Road Frame - Black, 62</Name>
+  <ProductNumber>FR-R92B-62</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>62</Size>
+  <Weight>1043.26</Weight>
+</Product>
+<Product>
+  <ProductID>838</ProductID>
+  <Name>HL Road Frame - Black, 44</Name>
+  <ProductNumber>FR-R92B-44</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>44</Size>
+  <Weight>961.61</Weight>
+</Product>
+<Product>
+  <ProductID>839</ProductID>
+  <Name>HL Road Frame - Black, 48</Name>
+  <ProductNumber>FR-R92B-48</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>48</Size>
+  <Weight>979.75</Weight>
+</Product>
+<Product>
+  <ProductID>840</ProductID>
+  <Name>HL Road Frame - Black, 52</Name>
+  <ProductNumber>FR-R92B-52</ProductNumber>
+  <ListPrice>1431.5000</ListPrice>
+  <Size>52</Size>
+  <Weight>997.90</Weight>
+</Product>
+<Product>
+  <ProductID>885</ProductID>
+  <Name>HL Touring Frame - Yellow, 60</Name>
+  <ProductNumber>FR-T98Y-60</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>60</Size>
+  <Weight>1397.06</Weight>
+</Product>
+<Product>
+  <ProductID>886</ProductID>
+  <Name>LL Touring Frame - Yellow, 62</Name>
+  <ProductNumber>FR-T67Y-62</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>62</Size>
+  <Weight>1451.49</Weight>
+</Product>
+<Product>
+  <ProductID>887</ProductID>
+  <Name>HL Touring Frame - Yellow, 46</Name>
+  <ProductNumber>FR-T98Y-46</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>46</Size>
+  <Weight>1342.63</Weight>
+</Product>
+<Product>
+  <ProductID>888</ProductID>
+  <Name>HL Touring Frame - Yellow, 50</Name>
+  <ProductNumber>FR-T98Y-50</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>50</Size>
+  <Weight>1360.77</Weight>
+</Product>
+<Product>
+  <ProductID>889</ProductID>
+  <Name>HL Touring Frame - Yellow, 54</Name>
+  <ProductNumber>FR-T98Y-54</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>54</Size>
+  <Weight>1378.91</Weight>
+</Product>
+<Product>
+  <ProductID>890</ProductID>
+  <Name>HL Touring Frame - Blue, 46</Name>
+  <ProductNumber>FR-T98U-46</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>46</Size>
+  <Weight>1342.63</Weight>
+</Product>
+<Product>
+  <ProductID>891</ProductID>
+  <Name>HL Touring Frame - Blue, 50</Name>
+  <ProductNumber>FR-T98U-50</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>50</Size>
+  <Weight>1360.77</Weight>
+</Product>
+<Product>
+  <ProductID>892</ProductID>
+  <Name>HL Touring Frame - Blue, 54</Name>
+  <ProductNumber>FR-T98U-54</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>54</Size>
+  <Weight>1378.91</Weight>
+</Product>
+<Product>
+  <ProductID>893</ProductID>
+  <Name>HL Touring Frame - Blue, 60</Name>
+  <ProductNumber>FR-T98U-60</ProductNumber>
+  <ListPrice>1003.9100</ListPrice>
+  <Size>60</Size>
+  <Weight>1397.06</Weight>
+</Product>
+<Product>
+  <ProductID>895</ProductID>
+  <Name>LL Touring Frame - Blue, 50</Name>
+  <ProductNumber>FR-T67U-50</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>50</Size>
+  <Weight>1406.13</Weight>
+</Product>
+<Product>
+  <ProductID>896</ProductID>
+  <Name>LL Touring Frame - Blue, 54</Name>
+  <ProductNumber>FR-T67U-54</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>54</Size>
+  <Weight>1424.27</Weight>
+</Product>
+<Product>
+  <ProductID>897</ProductID>
+  <Name>LL Touring Frame - Blue, 58</Name>
+  <ProductNumber>FR-T67U-58</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>58</Size>
+  <Weight>1433.34</Weight>
+</Product>
+<Product>
+  <ProductID>898</ProductID>
+  <Name>LL Touring Frame - Blue, 62</Name>
+  <ProductNumber>FR-T67U-62</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>62</Size>
+  <Weight>1451.49</Weight>
+</Product>
+<Product>
+  <ProductID>899</ProductID>
+  <Name>LL Touring Frame - Yellow, 44</Name>
+  <ProductNumber>FR-T67Y-44</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>44</Size>
+  <Weight>1369.84</Weight>
+</Product>
+<Product>
+  <ProductID>900</ProductID>
+  <Name>LL Touring Frame - Yellow, 50</Name>
+  <ProductNumber>FR-T67Y-50</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>50</Size>
+  <Weight>1406.13</Weight>
+</Product>
+<Product>
+  <ProductID>901</ProductID>
+  <Name>LL Touring Frame - Yellow, 54</Name>
+  <ProductNumber>FR-T67Y-54</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>54</Size>
+  <Weight>1424.27</Weight>
+</Product>
+<Product>
+  <ProductID>902</ProductID>
+  <Name>LL Touring Frame - Yellow, 58</Name>
+  <ProductNumber>FR-T67Y-58</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>58</Size>
+  <Weight>1433.34</Weight>
+</Product>
+<Product>
+  <ProductID>903</ProductID>
+  <Name>LL Touring Frame - Blue, 44</Name>
+  <ProductNumber>FR-T67U-44</ProductNumber>
+  <ListPrice>333.4200</ListPrice>
+  <Size>44</Size>
+  <Weight>1369.84</Weight>
+</Product>
+<Product>
+  <ProductID>904</ProductID>
+  <Name>ML Mountain Frame-W - Silver, 40</Name>
+  <ProductNumber>FR-M63S-40</ProductNumber>
+  <ListPrice>364.0900</ListPrice>
+  <Size>40</Size>
+  <Weight>1256.44</Weight>
+</Product>
+<Product>
+  <ProductID>905</ProductID>
+  <Name>ML Mountain Frame-W - Silver, 42</Name>
+  <ProductNumber>FR-M63S-42</ProductNumber>
+  <ListPrice>364.0900</ListPrice>
+  <Size>42</Size>
+  <Weight>1274.59</Weight>
+</Product>
+<Product>
+  <ProductID>906</ProductID>
+  <Name>ML Mountain Frame-W - Silver, 46</Name>
+  <ProductNumber>FR-M63S-46</ProductNumber>
+  <ListPrice>364.0900</ListPrice>
+  <Size>46</Size>
+  <Weight>1292.73</Weight>
+</Product>
+<Product>
+  <ProductID>917</ProductID>
+  <Name>LL Mountain Frame - Silver, 42</Name>
+  <ProductNumber>FR-M21S-42</ProductNumber>
+  <ListPrice>264.0500</ListPrice>
+  <Size>42</Size>
+  <Weight>1324.48</Weight>
+</Product>
+<Product>
+  <ProductID>918</ProductID>
+  <Name>LL Mountain Frame - Silver, 44</Name>
+  <ProductNumber>FR-M21S-44</ProductNumber>
+  <ListPrice>264.0500</ListPrice>
+  <Size>44</Size>
+  <Weight>1342.63</Weight>
+</Product>
+<Product>
+  <ProductID>919</ProductID>
+  <Name>LL Mountain Frame - Silver, 48</Name>
+  <ProductNumber>FR-M21S-48</ProductNumber>
+  <ListPrice>264.0500</ListPrice>
+  <Size>48</Size>
+  <Weight>1360.77</Weight>
+</Product>
+<Product>
+  <ProductID>920</ProductID>
+  <Name>LL Mountain Frame - Silver, 52</Name>
+  <ProductNumber>FR-M21S-52</ProductNumber>
+  <ListPrice>264.0500</ListPrice>
+  <Size>52</Size>
+  <Weight>1378.91</Weight>
+</Product>
+<Product>
+  <ProductID>924</ProductID>
+  <Name>LL Mountain Frame - Black, 42</Name>
+  <ProductNumber>FR-M21B-42</ProductNumber>
+  <ListPrice>249.7900</ListPrice>
+  <Size>42</Size>
+  <Weight>1324.48</Weight>
+</Product>
+<Product>
+  <ProductID>925</ProductID>
+  <Name>LL Mountain Frame - Black, 44</Name>
+  <ProductNumber>FR-M21B-44</ProductNumber>
+  <ListPrice>249.7900</ListPrice>
+  <Size>44</Size>
+  <Weight>1342.63</Weight>
+</Product>
+<Product>
+  <ProductID>926</ProductID>
+  <Name>LL Mountain Frame - Black, 48</Name>
+  <ProductNumber>FR-M21B-48</ProductNumber>
+  <ListPrice>249.7900</ListPrice>
+  <Size>48</Size>
+  <Weight>1360.77</Weight>
+</Product>
+<Product>
+  <ProductID>927</ProductID>
+  <Name>LL Mountain Frame - Black, 52</Name>
+  <ProductNumber>FR-M21B-52</ProductNumber>
+  <ListPrice>249.7900</ListPrice>
+  <Size>52</Size>
+  <Weight>1378.91</Weight>
+</Product>
+<Product>
+  <ProductID>942</ProductID>
+  <Name>ML Mountain Frame-W - Silver, 38</Name>
+  <ProductNumber>FR-M63S-38</ProductNumber>
+  <ListPrice>364.0900</ListPrice>
+  <Size>38</Size>
+  <Weight>1238.30</Weight>
+</Product>
+<Product>
+  <ProductID>943</ProductID>
+  <Name>LL Mountain Frame - Black, 40</Name>
+  <ProductNumber>FR-M21B-40</ProductNumber>
+  <ListPrice>249.7900</ListPrice>
+  <Size>40</Size>
+  <Weight>1306.34</Weight>
+</Product>
+<Product>
+  <ProductID>944</ProductID>
+  <Name>LL Mountain Frame - Silver, 40</Name>
+  <ProductNumber>FR-M21S-40</ProductNumber>
+  <ListPrice>264.0500</ListPrice>
+  <Size>40</Size>
+  <Weight>1306.34</Weight>
+</Product>
+<Product>
+  <ProductID>953</ProductID>
+  <Name>Touring-2000 Blue, 60</Name>
+  <ProductNumber>BK-T44U-60</ProductNumber>
+  <ListPrice>1214.8500</ListPrice>
+  <Size>60</Size>
+  <Weight>12655.16</Weight>
+</Product>
+<Product>
+  <ProductID>954</ProductID>
+  <Name>Touring-1000 Yellow, 46</Name>
+  <ProductNumber>BK-T79Y-46</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>46</Size>
+  <Weight>11398.72</Weight>
+</Product>
+<Product>
+  <ProductID>955</ProductID>
+  <Name>Touring-1000 Yellow, 50</Name>
+  <ProductNumber>BK-T79Y-50</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>50</Size>
+  <Weight>11530.26</Weight>
+</Product>
+<Product>
+  <ProductID>956</ProductID>
+  <Name>Touring-1000 Yellow, 54</Name>
+  <ProductNumber>BK-T79Y-54</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>54</Size>
+  <Weight>11648.19</Weight>
+</Product>
+<Product>
+  <ProductID>957</ProductID>
+  <Name>Touring-1000 Yellow, 60</Name>
+  <ProductNumber>BK-T79Y-60</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>60</Size>
+  <Weight>11747.98</Weight>
+</Product>
+<Product>
+  <ProductID>958</ProductID>
+  <Name>Touring-3000 Blue, 54</Name>
+  <ProductNumber>BK-T18U-54</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>54</Size>
+  <Weight>13462.55</Weight>
+</Product>
+<Product>
+  <ProductID>959</ProductID>
+  <Name>Touring-3000 Blue, 58</Name>
+  <ProductNumber>BK-T18U-58</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>58</Size>
+  <Weight>13562.34</Weight>
+</Product>
+<Product>
+  <ProductID>960</ProductID>
+  <Name>Touring-3000 Blue, 62</Name>
+  <ProductNumber>BK-T18U-62</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>62</Size>
+  <Weight>13607.70</Weight>
+</Product>
+<Product>
+  <ProductID>961</ProductID>
+  <Name>Touring-3000 Yellow, 44</Name>
+  <ProductNumber>BK-T18Y-44</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>44</Size>
+  <Weight>13049.78</Weight>
+</Product>
+<Product>
+  <ProductID>962</ProductID>
+  <Name>Touring-3000 Yellow, 50</Name>
+  <ProductNumber>BK-T18Y-50</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>50</Size>
+  <Weight>13213.08</Weight>
+</Product>
+<Product>
+  <ProductID>963</ProductID>
+  <Name>Touring-3000 Yellow, 54</Name>
+  <ProductNumber>BK-T18Y-54</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>54</Size>
+  <Weight>13344.62</Weight>
+</Product>
+<Product>
+  <ProductID>964</ProductID>
+  <Name>Touring-3000 Yellow, 58</Name>
+  <ProductNumber>BK-T18Y-58</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>58</Size>
+  <Weight>13512.45</Weight>
+</Product>
+<Product>
+  <ProductID>965</ProductID>
+  <Name>Touring-3000 Yellow, 62</Name>
+  <ProductNumber>BK-T18Y-62</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>62</Size>
+  <Weight>13607.70</Weight>
+</Product>
+<Product>
+  <ProductID>966</ProductID>
+  <Name>Touring-1000 Blue, 46</Name>
+  <ProductNumber>BK-T79U-46</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>46</Size>
+  <Weight>11398.72</Weight>
+</Product>
+<Product>
+  <ProductID>967</ProductID>
+  <Name>Touring-1000 Blue, 50</Name>
+  <ProductNumber>BK-T79U-50</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>50</Size>
+  <Weight>11530.26</Weight>
+</Product>
+<Product>
+  <ProductID>968</ProductID>
+  <Name>Touring-1000 Blue, 54</Name>
+  <ProductNumber>BK-T79U-54</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>54</Size>
+  <Weight>11648.19</Weight>
+</Product>
+<Product>
+  <ProductID>969</ProductID>
+  <Name>Touring-1000 Blue, 60</Name>
+  <ProductNumber>BK-T79U-60</ProductNumber>
+  <ListPrice>2384.0700</ListPrice>
+  <Size>60</Size>
+  <Weight>11747.98</Weight>
+</Product>
+<Product>
+  <ProductID>970</ProductID>
+  <Name>Touring-2000 Blue, 46</Name>
+  <ProductNumber>BK-T44U-46</ProductNumber>
+  <ListPrice>1214.8500</ListPrice>
+  <Size>46</Size>
+  <Weight>12305.90</Weight>
+</Product>
+<Product>
+  <ProductID>971</ProductID>
+  <Name>Touring-2000 Blue, 50</Name>
+  <ProductNumber>BK-T44U-50</ProductNumber>
+  <ListPrice>1214.8500</ListPrice>
+  <Size>50</Size>
+  <Weight>12437.44</Weight>
+</Product>
+<Product>
+  <ProductID>972</ProductID>
+  <Name>Touring-2000 Blue, 54</Name>
+  <ProductNumber>BK-T44U-54</ProductNumber>
+  <ListPrice>1214.8500</ListPrice>
+  <Size>54</Size>
+  <Weight>12555.37</Weight>
+</Product>
+<Product>
+  <ProductID>973</ProductID>
+  <Name>Road-350-W Yellow, 40</Name>
+  <ProductNumber>BK-R79Y-40</ProductNumber>
+  <ListPrice>1700.9900</ListPrice>
+  <Size>40</Size>
+  <Weight>6962.61</Weight>
+</Product>
+<Product>
+  <ProductID>974</ProductID>
+  <Name>Road-350-W Yellow, 42</Name>
+  <ProductNumber>BK-R79Y-42</ProductNumber>
+  <ListPrice>1700.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>7153.11</Weight>
+</Product>
+<Product>
+  <ProductID>975</ProductID>
+  <Name>Road-350-W Yellow, 44</Name>
+  <ProductNumber>BK-R79Y-44</ProductNumber>
+  <ListPrice>1700.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>7316.41</Weight>
+</Product>
+<Product>
+  <ProductID>976</ProductID>
+  <Name>Road-350-W Yellow, 48</Name>
+  <ProductNumber>BK-R79Y-48</ProductNumber>
+  <ListPrice>1700.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>7447.95</Weight>
+</Product>
+<Product>
+  <ProductID>977</ProductID>
+  <Name>Road-750 Black, 58</Name>
+  <ProductNumber>BK-R19B-58</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>58</Size>
+  <Weight>9430.14</Weight>
+</Product>
+<Product>
+  <ProductID>978</ProductID>
+  <Name>Touring-3000 Blue, 44</Name>
+  <ProductNumber>BK-T18U-44</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>44</Size>
+  <Weight>13049.78</Weight>
+</Product>
+<Product>
+  <ProductID>979</ProductID>
+  <Name>Touring-3000 Blue, 50</Name>
+  <ProductNumber>BK-T18U-50</ProductNumber>
+  <ListPrice>742.3500</ListPrice>
+  <Size>50</Size>
+  <Weight>13213.08</Weight>
+</Product>
+<Product>
+  <ProductID>980</ProductID>
+  <Name>Mountain-400-W Silver, 38</Name>
+  <ProductNumber>BK-M38S-38</ProductNumber>
+  <ListPrice>769.4900</ListPrice>
+  <Size>38</Size>
+  <Weight>11952.10</Weight>
+</Product>
+<Product>
+  <ProductID>981</ProductID>
+  <Name>Mountain-400-W Silver, 40</Name>
+  <ProductNumber>BK-M38S-40</ProductNumber>
+  <ListPrice>769.4900</ListPrice>
+  <Size>40</Size>
+  <Weight>12142.60</Weight>
+</Product>
+<Product>
+  <ProductID>982</ProductID>
+  <Name>Mountain-400-W Silver, 42</Name>
+  <ProductNumber>BK-M38S-42</ProductNumber>
+  <ListPrice>769.4900</ListPrice>
+  <Size>42</Size>
+  <Weight>12305.90</Weight>
+</Product>
+<Product>
+  <ProductID>983</ProductID>
+  <Name>Mountain-400-W Silver, 46</Name>
+  <ProductNumber>BK-M38S-46</ProductNumber>
+  <ListPrice>769.4900</ListPrice>
+  <Size>46</Size>
+  <Weight>12437.44</Weight>
+</Product>
+<Product>
+  <ProductID>984</ProductID>
+  <Name>Mountain-500 Silver, 40</Name>
+  <ProductNumber>BK-M18S-40</ProductNumber>
+  <ListPrice>564.9900</ListPrice>
+  <Size>40</Size>
+  <Weight>12405.69</Weight>
+</Product>
+<Product>
+  <ProductID>985</ProductID>
+  <Name>Mountain-500 Silver, 42</Name>
+  <ProductNumber>BK-M18S-42</ProductNumber>
+  <ListPrice>564.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>12596.19</Weight>
+</Product>
+<Product>
+  <ProductID>986</ProductID>
+  <Name>Mountain-500 Silver, 44</Name>
+  <ProductNumber>BK-M18S-44</ProductNumber>
+  <ListPrice>564.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>12759.49</Weight>
+</Product>
+<Product>
+  <ProductID>987</ProductID>
+  <Name>Mountain-500 Silver, 48</Name>
+  <ProductNumber>BK-M18S-48</ProductNumber>
+  <ListPrice>564.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>12891.03</Weight>
+</Product>
+<Product>
+  <ProductID>988</ProductID>
+  <Name>Mountain-500 Silver, 52</Name>
+  <ProductNumber>BK-M18S-52</ProductNumber>
+  <ListPrice>564.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>13008.96</Weight>
+</Product>
+<Product>
+  <ProductID>989</ProductID>
+  <Name>Mountain-500 Black, 40</Name>
+  <ProductNumber>BK-M18B-40</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>40</Size>
+  <Weight>12405.69</Weight>
+</Product>
+<Product>
+  <ProductID>990</ProductID>
+  <Name>Mountain-500 Black, 42</Name>
+  <ProductNumber>BK-M18B-42</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>42</Size>
+  <Weight>12596.19</Weight>
+</Product>
+<Product>
+  <ProductID>991</ProductID>
+  <Name>Mountain-500 Black, 44</Name>
+  <ProductNumber>BK-M18B-44</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>12759.49</Weight>
+</Product>
+<Product>
+  <ProductID>992</ProductID>
+  <Name>Mountain-500 Black, 48</Name>
+  <ProductNumber>BK-M18B-48</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>12891.03</Weight>
+</Product>
+<Product>
+  <ProductID>993</ProductID>
+  <Name>Mountain-500 Black, 52</Name>
+  <ProductNumber>BK-M18B-52</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>13008.96</Weight>
+</Product>
+<Product>
+  <ProductID>997</ProductID>
+  <Name>Road-750 Black, 44</Name>
+  <ProductNumber>BK-R19B-44</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>44</Size>
+  <Weight>8967.47</Weight>
+</Product>
+<Product>
+  <ProductID>998</ProductID>
+  <Name>Road-750 Black, 48</Name>
+  <ProductNumber>BK-R19B-48</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>48</Size>
+  <Weight>9130.77</Weight>
+</Product>
+<Product>
+  <ProductID>999</ProductID>
+  <Name>Road-750 Black, 52</Name>
+  <ProductNumber>BK-R19B-52</ProductNumber>
+  <ListPrice>539.9900</ListPrice>
+  <Size>52</Size>
+  <Weight>9262.31</Weight>
+</Product>
+</ROOT>

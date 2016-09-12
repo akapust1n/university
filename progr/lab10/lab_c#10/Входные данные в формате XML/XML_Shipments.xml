@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shipments>
+<Shipment>
+  <ShipmentID>1</ShipmentID>
+  <SupplierID>25</SupplierID>
+  <ProductID>881</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>2</ShipmentID>
+  <SupplierID>25</SupplierID>
+  <ProductID>988</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>3</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>858</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>4</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>859</ProductID>
+  <Qty>50</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>5</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>864</ProductID>
+  <Qty>230</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>6</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>865</ProductID>
+  <Qty>80</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>7</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>870</ProductID>
+  <Qty>110</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>8</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>873</ProductID>
+  <Qty>80</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>9</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>876</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>10</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>877</ProductID>
+  <Qty>80</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>11</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>880</ProductID>
+  <Qty>90</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>12</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>881</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>13</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>883</ProductID>
+  <Qty>70</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>14</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>884</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>15</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>885</ProductID>
+  <Qty>80</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>16</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>889</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>17</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>893</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>18</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>895</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>19</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>896</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>20</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>899</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>21</ShipmentID>
+  <SupplierID>448</SupplierID>
+  <ProductID>900</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>22</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>860</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>23</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>867</ProductID>
+  <Qty>140</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>24</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>868</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>25</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>869</ProductID>
+  <Qty>80</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>26</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>894</ProductID>
+  <Qty>50</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>27</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>904</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>28</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>905</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>29</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>988</ProductID>
+  <Qty>50</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>30</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>992</ProductID>
+  <Qty>50</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>31</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>994</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>32</ShipmentID>
+  <SupplierID>502</SupplierID>
+  <ProductID>996</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>33</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>859</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>34</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>864</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>35</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>865</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>36</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>870</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>37</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>876</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>38</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>877</ProductID>
+  <Qty>100</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>39</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>880</ProductID>
+  <Qty>90</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>40</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>881</ProductID>
+  <Qty>60</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>41</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>883</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>42</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>884</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>43</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>885</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>44</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>886</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>45</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>892</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>46</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>893</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>47</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>894</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>48</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>994</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>49</ShipmentID>
+  <SupplierID>582</SupplierID>
+  <ProductID>996</ProductID>
+  <Qty>40</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>50</ShipmentID>
+  <SupplierID>609</SupplierID>
+  <ProductID>836</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>51</ShipmentID>
+  <SupplierID>649</SupplierID>
+  <ProductID>874</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>52</ShipmentID>
+  <SupplierID>649</SupplierID>
+  <ProductID>875</ProductID>
+  <Qty>110</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>53</ShipmentID>
+  <SupplierID>649</SupplierID>
+  <ProductID>998</ProductID>
+  <Qty>20</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>54</ShipmentID>
+  <SupplierID>649</SupplierID>
+  <ProductID>999</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>55</ShipmentID>
+  <SupplierID>674</SupplierID>
+  <ProductID>864</ProductID>
+  <Qty>30</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>56</ShipmentID>
+  <SupplierID>674</SupplierID>
+  <ProductID>876</ProductID>
+  <Qty>10</Qty>
+</Shipment>
+<Shipment>
+  <ShipmentID>57</ShipmentID>
+  <SupplierID>674</SupplierID>
+  <ProductID>884</ProductID>
+  <Qty>70</Qty>
+</Shipment>
+</Shipments>

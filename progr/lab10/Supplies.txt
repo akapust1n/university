@@ -1,0 +1,144 @@
+
+11    Sharp Bikes 89     Bothell    
+25    Coalition Bike Company 40     Dallas    
+185    Weekend Bike Tours 98     Bellevue    
+448    Action Bicycle Specialists 97     Toronto    
+451    Roadway Bike Emporium 84     Calgary    
+452    A Cycle Shop 73     Toronto    
+453    Unique Bikes 53     Montreal    
+454    Sleek Bike 50     Toronto    
+455    Timely Shipping Service 69     Weston    
+456    Riding Excursions 92     Burnaby    
+457    Retail Sporting Equipment 95     Vancouver    
+460    Price-Cutter Discount Bikes -19     Markham    
+461    Active Life Toys 56     Toronto    
+462    General Riding Supplies 45     Toronto    
+466    Central Bicycle Specialists 70     Calgary    
+468    Blue Bicycle Company 40     Vancouver    
+469    Vast Bike Sales and Rental 44     Vancouver    
+470    Wingtip Toys 39     Toronto    
+471    Social Activities Club 51     Montreal    
+472    Summer Sports Place 39     Richmond    
+473    Racing Toys 18     Vancouver    
+474    Retail Cycle Shop 11     Surrey    
+475    Real Sporting Goods 38     Calgary    
+478    Major Cycling 11     Toronto    
+479    General Supplies 41     Scarborough    
+480    General Bike Corporation 68     Toronto    
+484    Downhill Bicycle Specialists 21     Montreal    
+487    Bike Experts 82     Calgary    
+488    Bicycle Accessories and Kits 94     Burnaby    
+489    Cash & Carry Bikes 66     Toronto    
+490    Extraordinary Bike Works 66     Barrie    
+491    Area Bike Accessories 82     Montreal    
+492    Basic Sports Equipment 37     Sainte-Foy    
+493    Valley Bicycle Distributors 74     Winnipeg    
+496    Top Sports Supply 77     Mississauga    
+497    Valley Toy Store 77     Burnaby    
+498    Quick Delivery Service 11     Victoria    
+502    Metropolitan Bicycle Supply 98     Edmonton    
+504    Historic Bicycle Sales 90     Calgary    
+505    Honest Repair Service 35     Calgary    
+506    Great Bike 75     Surrey    
+507    Global Sporting Goods 93     Kingston    
+508    Designer Department Stores 62     Vancouver    
+509    Fun Toys and Bikes 37     Surrey    
+510    World Bike Discount Store 32     Waterloo    
+511    Wheel Gallery 74     Outremont    
+514    Retail Mall 49     Richmond Hill    
+515    Rural Bicycle Supply 51     Etobicoke    
+516    Seats and Saddles Company 79     Brampton    
+520    Metro Metals Co. 68     Brossard    
+523    Futuristic Sport Distributors 84     Richmond    
+526    Finer Sales and Service 80     Edmonton    
+527    Fun Times Club 11     Richmond    
+528    Alpine Ski House 55     Mississauga    
+529    Big-Time Bike Store 42     Richmond    
+532    The Showroom 51     Ottawa    
+533    Tenth Bike Store 39     Kanata    
+534    Recommended Bicycles 84     Sillery    
+538    Prosperous Tours 66     Toronto    
+541    Nonskid Tire Company 90     Montreal    
+542    Finer Parts Shop 77     Montreal    
+543    Friendly Neighborhood Bikes 52     Ottawa    
+544    Valley Bicycle Specialists 17     Burnaby    
+545    Finish and Sealant Products 37     Vancouver    
+546    Field Trip Store 70     Calgary    
+547    Curbside Sporting Goods 41     Toronto    
+550    Remote Bicycle Specialists -19     Toronto    
+551    Vinyl and Plastic Goods Corporation 31     Aurora    
+552    Consolidated Messenger 24     Dorval    
+556    Variety Cycling 26     Montreal    
+559    Some Discount Store 21     Irving    
+560    Major Sport Suppliers 36     Austin    
+561    Mountain Toy Store 76     Irving    
+562    Practical Bike Supply Company 65     North Sioux City    
+563    Systematic Sales 11     Edina    
+564    Imported and Domestic Cycles 99     Laredo    
+565    Metallic Paint and Overcoat Co 86     West Chicago    
+568    Economy Center 38     Wood Dale    
+569    Designated Distributors 46     Round Rock    
+570    Family's Favorite Bike Shop 35     Fort Worth    
+574    Area Sheet Metal Supply 84     Dallas    
+577    Synthetic Materials Manufacturing 30     Dallas    
+578    The Bike Shop 71     Garland    
+579    Riders Company 64     Chicago    
+580    Rural Sales and Service 25     Carrollton    
+581    Safe Toys 94     Dallas    
+582    Professional Sales and Service 50     Plano    
+583    Professional Containers and Packaging Co. 51     Chicago    
+586    One Bike Company 27     Jefferson City    
+587    Our Sporting Goods Store 51     Houston    
+588    General Cycle Storehouse 21     Dallas    
+592    Cycling Goods 14     Houston    
+595    Cycle Clearance 16     Saint Louis    
+596    Coho Sports 22     San Antonio    
+597    All Seasons Sports Supply 37     Humble    
+598    Black Bicycle Company 51     Moline    
+599    Westside Plaza 18     Saint Ann    
+600    Strenuous Exercise Shop 34     Ferguson    
+601    Transport Bikes 39     Saint Louis    
+604    Sellers of Cycles 54     Joliet    
+605    Outstanding Cycles 31     San Antonio    
+606    Little Bicycle Supply Shop 97     Racine    
+607    Maintenance and Repair for Bicycles 25     Corpus Christi    
+608    Golf and Cycle Store 33     College Station    
+609    Good Toys 57     Milwaukee    
+610    Fitness Department Stores 80     Denby    
+613    Famous Bike Shop 53     Cedar Park    
+617    Tubeless Tire Company 11     Johnson Creek    
+620    Tires and Tubes 54     Woodbury    
+621    Running and Cycling Gear 63     Branch    
+622    Gift and Toy Store 76     San Antonio    
+623    Hardware Components 88     Houston    
+624    First Cycle Store 94     Branson    
+625    Major Sporting Goods 17     Mosinee    
+626    Retail Sporting Goods 66     La Marque    
+629    Efficient Cycling 27     Saint Louis    
+630    Eastside Parts Shop 51     Arlington    
+631    Tandem Sales and Service 90     Odessa    
+635    Sports Store 42     London    
+637    Reliable Retail Center 72     Gloucestershire    
+641    Extended Tours 42     W. York    
+643    Friendly Bike Shop 69     Oxon    
+644    Convenient Sales and Service 41     W. York    
+645    Superior Hardware Distributors 33     Milton Keynes    
+646    Yellow Bicycle Company 21     Lancaster    
+647    Solid Bike Parts 64     Basingstoke Hants    
+648    Small Bike Shop 19     London    
+649    Sports Products Store 88     High Wycombe    
+650    Permanent Finish Products 21     Reading    
+653    Mercantile Outlet -19     West Sussex    
+654    Online Bike Warehouse 84     York    
+655    Operational Manufacturing 61     Berkshire    
+659    Shipping Specialists 91     Woolston    
+660    Exhilarating Cycles -29     Maidenhead    
+661    General Department Stores 12     Berks    
+665    Authentic Sales and Service 71     London    
+668    Official Parts Shop 20     Oxford    
+669    Racing Bike Outlet 28     Cambridge    
+670    First Bike Store 64     London    
+671    Contoso, Ltd. 89     London    
+672    Utilitarian Sporting Goods 10     London    
+673    Countryside Company 48     London    
+674    Discount Tours 62     London    
