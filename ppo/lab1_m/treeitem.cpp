@@ -6,6 +6,7 @@ TreeItem::TreeItem(const QVector<QVariant> &data, TreeItem *parent)
 {
     parentItem = parent;
     itemData = data;
+    itemData.resize(6);
 }
 
 TreeItem::~TreeItem()
@@ -73,11 +74,11 @@ bool TreeItem::removeChildren(int position, int count)
 
 
 
-bool TreeItem::setData(int column, const QVariant &value)
+bool TreeItem::setData(int position, const QVariant &value)
 {
-    if (column < 0 || column >= itemData.size())
+    if (position < 0 /*|| position >= itemData.size()*/)
         return false;
 
-    itemData[column] = value;
+    itemData[position] = value;
     return true;
 }

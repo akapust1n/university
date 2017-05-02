@@ -13,8 +13,7 @@ class MainWindow : public QMainWindow, private Ui::MainWindow
 public:
     MainWindow(QWidget *parent = 0);
 
-public slots:
-    void updateActions();
+
 
 private slots:
     void insertChild();
@@ -22,6 +21,7 @@ private slots:
     void insertRow();
     bool removeColumn();
     void removeRow();
+    void openFile();
 };
 
 #endif // MAINWINDOW_H

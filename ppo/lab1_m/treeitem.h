@@ -19,7 +19,7 @@ public:
     TreeItem *parent();
     bool removeChildren(int position, int count);
     int childNumber() const;
-    bool setData(int column, const QVariant &value);
+    bool setData(int position, const QVariant &value);
 
 private:
     QList<TreeItem*> childItems;

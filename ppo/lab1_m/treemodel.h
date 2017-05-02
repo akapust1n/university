@@ -38,9 +38,10 @@ public:
                     const QModelIndex &parent = QModelIndex()) override;
     bool removeRows(int position, int rows,
                     const QModelIndex &parent = QModelIndex()) override;
+    TreeItem *findGroup(QString group);
 
 private:
-    void setupModelData(const QStringList &lines, TreeItem *parent);
+    void setupModelData(const QString &lines, TreeItem *parent);
     TreeItem *getItem(const QModelIndex &index) const;
 
     TreeItem *rootItem;
