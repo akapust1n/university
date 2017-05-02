@@ -4,9 +4,8 @@
 #include <QAbstractItemModel>
 #include <QModelIndex>
 #include <QVariant>
-#include <GroupItem.h>
 
-class StudentItem;
+class TreeItem;
 
 class TreeModel : public QAbstractItemModel
 {
@@ -25,29 +24,26 @@ public:
                       const QModelIndex &parent = QModelIndex()) const override;
     QModelIndex parent(const QModelIndex &index) const override;
 
+    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    int columnCount(const QModelIndex &parent = QModelIndex()) const override;
 
     Qt::ItemFlags flags(const QModelIndex &index) const override;
     bool setData(const QModelIndex &index, const QVariant &value,
                  int role = Qt::EditRole) override;
+    bool setHeaderData(int section, Qt::Orientation orientation,
+                       const QVariant &value, int role = Qt::EditRole) override;
+
 
     bool insertRows(int position, int rows,
                     const QModelIndex &parent = QModelIndex()) override;
     bool removeRows(int position, int rows,
                     const QModelIndex &parent = QModelIndex()) override;
-    //should to override
-
-    int columnCount(const QModelIndex &parent = QModelIndex()) const override;
-    bool hasChildren(const QModelIndex &parent = QModelIndex()) const override;
-    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
-
-
 
 private:
-    GroupItem* findGroup(QString group, int &number);
-    void setupModelData(const QJsonArray &array);
-    StudentItem *getItem(const QModelIndex &index) const;
+    void setupModelData(const QStringList &lines, TreeItem *parent);
+    TreeItem *getItem(const QModelIndex &index) const;
 
-    QVector<GroupItem*> parents;
+    TreeItem *rootItem;
 };
 
 #endif // TREEMODEL_H

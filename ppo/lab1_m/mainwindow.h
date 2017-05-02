@@ -5,7 +5,6 @@
 
 #include <QMainWindow>
 #include <QModelIndex>
-#include <QUndoStack>
 
 class MainWindow : public QMainWindow, private Ui::MainWindow
 {
@@ -19,15 +18,10 @@ public slots:
 
 private slots:
     void insertChild();
+    bool insertColumn();
     void insertRow();
     bool removeColumn();
     void removeRow();
-    void openFile();
-    void undo();
-    void redo();
-private:
-    QUndoStack undostack;
-
 };
 
 #endif // MAINWINDOW_H

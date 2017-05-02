@@ -6,64 +6,57 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>751</width>
-    <height>478</height>
+    <width>573</width>
+    <height>468</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Editable Tree Model</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
-   <widget class="QTreeView" name="view">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>600</width>
-      <height>411</height>
-     </rect>
+   <layout class="QVBoxLayout">
+    <property name="spacing">
+     <number>0</number>
     </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
+    <property name="leftMargin">
+     <number>0</number>
     </property>
-    <property name="minimumSize">
-     <size>
-      <width>600</width>
-      <height>300</height>
-     </size>
+    <property name="topMargin">
+     <number>0</number>
     </property>
-    <property name="alternatingRowColors">
-     <bool>true</bool>
+    <property name="rightMargin">
+     <number>0</number>
     </property>
-    <property name="selectionBehavior">
-     <enum>QAbstractItemView::SelectItems</enum>
+    <property name="bottomMargin">
+     <number>0</number>
     </property>
-    <property name="horizontalScrollMode">
-     <enum>QAbstractItemView::ScrollPerPixel</enum>
-    </property>
-    <property name="animated">
-     <bool>false</bool>
-    </property>
-    <property name="allColumnsShowFocus">
-     <bool>true</bool>
-    </property>
-   </widget>
+    <item>
+     <widget class="QTreeView" name="view">
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectItems</enum>
+      </property>
+      <property name="horizontalScrollMode">
+       <enum>QAbstractItemView::ScrollPerPixel</enum>
+      </property>
+      <property name="animated">
+       <bool>false</bool>
+      </property>
+      <property name="allColumnsShowFocus">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>751</width>
+     <width>573</width>
      <height>23</height>
     </rect>
    </property>
@@ -80,11 +73,12 @@
     </property>
     <addaction name="insertRowAction"/>
     <addaction name="removeRowAction"/>
-    <addaction name="separator"/>
     <addaction name="insertChildAction"/>
     <addaction name="separator"/>
     <addaction name="actionUndo"/>
     <addaction name="actionRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen_Card"/>
    </widget>
    <addaction name="fileMenu"/>
    <addaction name="actionsMenu"/>
@@ -151,6 +145,11 @@
   <action name="actionRedo">
    <property name="text">
     <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionOpen_Card">
+   <property name="text">
+    <string>Open Card</string>
    </property>
   </action>
  </widget>
