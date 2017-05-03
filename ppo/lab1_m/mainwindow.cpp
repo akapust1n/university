@@ -1,12 +1,15 @@
 #include "mainwindow.h"
+#include "groupinfo.h"
 #include "treemodel.h"
 #include <QFile>
 #include <QFileDialog>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QMessageBox>
+#include <QModelIndexList>
 #include <QTreeView>
 #include <QTreeWidget>
 #include <iostream>
-#include <QMessageBox>
-#include "groupinfo.h"
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -24,7 +27,6 @@ MainWindow::MainWindow(QWidget* parent)
     connect(actionUndo, &QAction::triggered, this, &MainWindow::undo);
     connect(actionRedo, &QAction::triggered, this, &MainWindow::redo);
 
-
     QStringList headers;
     headers << tr("Groups");
 
@@ -32,8 +34,8 @@ MainWindow::MainWindow(QWidget* parent)
     view->setModel(models[0]);
     //view->model->d
 
-    connect(view->model(), &QAbstractItemModel::layoutChanged,
-        this, &MainWindow::itemChanged);
+    updateConnects();
+
 }
 
 void MainWindow::itemChanged()
@@ -46,8 +48,10 @@ void MainWindow::itemChanged()
     view->setModel(models.last());
     view->update();
     index = models.size() - 2;
-    connect(view->model(), &QAbstractItemModel::dataChanged,
-        this, &MainWindow::itemChanged);
+    updateConnects();
+
+
+
 }
 
 void MainWindow::insertChild()
@@ -69,11 +73,11 @@ void MainWindow::insertChild()
         QModelIndex child = model->index(0, column, index);
         model->setData(child, QVariant("[No data]"), Qt::EditRole);
         if (!model->headerData(column, Qt::Horizontal).isValid())
-            model->setHeaderData(column, Qt::Horizontal, QVariant("[No header]"), Qt::EditRole);
+            model->setHeaderData(column, Qt::Horizontal, QVariant(" "), Qt::EditRole);
     }
-
-    view->selectionModel()->setCurrentIndex(model->index(0, 0, index),
-        QItemSelectionModel::ClearAndSelect);
+    if (!indexes.isEmpty())
+        view->selectionModel()->setCurrentIndex(model->index(0, 0, index),
+           QItemSelectionModel::ClearAndSelect);
     view->update();
 }
 
@@ -143,9 +147,13 @@ void MainWindow::openFile()
         view->update();
         for (int column = 0; column < models.last()->columnCount(); ++column)
             view->resizeColumnToContents(column);
-        connect(view->model(), &QAbstractItemModel::dataChanged,
-            this, &MainWindow::itemChanged);
+       updateConnects();
+
+
         index = models.size() - 2;
+        indexes = view->selectionModel()->selectedIndexes();
+        if (!indexes.isEmpty())
+            view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
     }
 }
 
@@ -156,27 +164,42 @@ void MainWindow::undo()
     index -= 1;
     if (index < 0)
         index = 0;
-    std::cout << "UNDO CALLED " <<index<< std::endl;
+    std::cout << "UNDO CALLED " << index << std::endl;
 
     view->setModel(models[index]);
-    connect(view->model(), &QAbstractItemModel::dataChanged,
-        this, &MainWindow::itemChanged);
+
+
     view->update();
-    connect(view->model(), &QAbstractItemModel::dataChanged,
-        this, &MainWindow::itemChanged);
+    updateConnects();
+
+
+    if (!indexes.isEmpty())
+        view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
+
+
 }
 
 void MainWindow::redo()
 {
     index += 1;
-    std::cout << "REDO CALLED " <<index << std::endl;
+    std::cout << "REDO CALLED " << index << std::endl;
 
-    if (index > models.size()-2)
-        index =  models.size()-2;
-    if(index<0)
+    if (index > models.size() - 2)
+        index = models.size() - 2;
+    if (index < 0)
         index = 0;
     view->setModel(models[index]);
     view->update();
+
+    updateConnects();
+    if (!indexes.isEmpty())
+       view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
+}
+
+void MainWindow::selectionChanged()
+{
+    std::cout<<"SELECTION CHANGED"<<std::endl;
+    indexes = view->selectionModel()->selectedIndexes();
 }
 
 QString MainWindow::getName(int index)
@@ -195,32 +218,86 @@ QString MainWindow::getName(int index)
     }
 }
 
+void MainWindow::updateConnects()
+{
+    connect(view->model(), &QAbstractItemModel::dataChanged,
+        this, &MainWindow::itemChanged);
+    connect(view->selectionModel(), &QItemSelectionModel::currentChanged, this, &MainWindow::selectionChanged);
+}
+
 void MainWindow::on_actionOpen_Card_triggered()
 {
-   if( view->selectionModel()->currentIndex().parent().isValid()){
-       QMessageBox msgBox;
-       msgBox.setWindowTitle("Информация о группе");
-       msgBox.setText("Это не группа");
-       msgBox.exec();
-       return;
+    if (view->selectionModel()->currentIndex().parent().isValid()) {
+        QMessageBox msgBox;
+        msgBox.setWindowTitle("Информация о группе");
+        msgBox.setText("Это не группа");
+        msgBox.exec();
+        return;
+    } else {
+        GroupInfo groupInfo(view->model());
+        QString result;
+        int row = view->currentIndex().row();
+        int column = 1;
+        QString group = view->model()->index(row, column).data(0).toString();
+        std::cout << "GRP_INDEX" << view->model()->index(row, column).data(0).toString().toStdString() << std::endl;
+        std::cout << "BEFORE" << std::endl;
+
+        result = groupInfo.getGroupInfo(group);
+        std::cout << "HERE" << std::endl;
+        //result = groupInfo.getGroupInfo(view->selectionModel()->currentIndex().data(1).toString());
+        QMessageBox msgBox;
+        msgBox.setWindowTitle("Информация о группе");
+        msgBox.setText(result);
+        msgBox.exec();
+        return;
+    };
+
+    //GroupInfo groupInfo;
+    std::cout << "actionOpenCard" << std::endl;
 }
-       else{
-       GroupInfo groupInfo(view->model());
-       QString result;
-       std::cout<<"GRP"<<view->selectionModel()->currentIndex().data(1).toString().toStdString()<<std::endl;
-       std::cout<<"GRP"<<view->selectionModel()->currentIndex().data(0).toString().toStdString()<<std::endl;
 
-                  //result = groupInfo.getGroupInfo(view->selectionModel()->currentIndex().data(1).toString());
-       QMessageBox msgBox;
-       msgBox.setWindowTitle("Информация о группе");
-       msgBox.setText("Это  группа");
-       msgBox.exec();
-       return;
+void MainWindow::on_actionSave_As_triggered()
+{
 
-   };
+    QFile file("result.json");
+    file.open(QIODevice::WriteOnly);
 
-//GroupInfo groupInfo;
-std::cout<<"actionOpenCard"<<std::endl;
+    QJsonArray students;
 
+    TreeItem* root = models[index]->rootItem;
+    int rows = root->childCount(); //Groups
+    for (int i = 0; i < rows; i++) {
+        TreeItem* group = root->child(i);
+        QString groupName = group->data(1).toString();
+        int stdntsCount = group->childCount();
 
+        for (int j = 0; j < stdntsCount; j++) {
+            TreeItem* man = group->child(i);
+            QString surname = man->data(1).toString();
+
+            QString name = man->child(0)->data(1).toString();
+
+            QString secondName = man->child(1)->data(1).toString();
+
+            int rating = man->child(2)->data(1).toInt();
+
+            QString role = man->child(3)->data(1).toString();
+
+            QJsonObject student;
+
+            student["Surname"] = surname;
+            student["Name"] = name;
+            student["SecondName"] = secondName;
+            student["Rating"] = rating;
+            student["Group"] = groupName;
+            student["Role"] = role;
+
+            students.append(student);
+        }
+    }
+
+    QJsonDocument saveDoc(students);
+
+    file.write(saveDoc.toJson());
+    file.close();
 }

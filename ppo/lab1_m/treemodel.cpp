@@ -29,7 +29,7 @@ TreeModel* TreeModel::getCopy()
 
     TreeModel* obj = new TreeModel;
     QVector<QVariant> rootData;
-    rootData << "header";
+    rootData << "Groups";
 
     obj->rootItem = new TreeItem(rootData);
     int tt = rootItem->childCount();

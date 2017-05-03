@@ -25,13 +25,20 @@ private slots:
     void openFile();
     void undo();
     void redo();
+    void selectionChanged();
     void on_actionOpen_Card_triggered();
+    void on_actionSave_As_triggered();
 
+    
 private:
     QString getName(int index);
     int index = 0;
     QVector<TreeModel*> models;
-    QVector<TreeModel*> models_stack2;
+    QModelIndexList indexes;
+private:
+    void updateConnects();
+
+
 
 
 
