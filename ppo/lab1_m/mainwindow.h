@@ -25,6 +25,8 @@ private slots:
     void openFile();
     void undo();
     void redo();
+    void on_actionOpen_Card_triggered();
+
 private:
     QString getName(int index);
     int index = 0;

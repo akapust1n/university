@@ -5,6 +5,8 @@
 #include <QTreeView>
 #include <QTreeWidget>
 #include <iostream>
+#include <QMessageBox>
+#include "groupinfo.h"
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -191,4 +193,34 @@ QString MainWindow::getName(int index)
     default:
         "No data";
     }
+}
+
+void MainWindow::on_actionOpen_Card_triggered()
+{
+   if( view->selectionModel()->currentIndex().parent().isValid()){
+       QMessageBox msgBox;
+       msgBox.setWindowTitle("Информация о группе");
+       msgBox.setText("Это не группа");
+       msgBox.exec();
+       return;
+}
+       else{
+       GroupInfo groupInfo(view->model());
+       QString result;
+       std::cout<<"GRP"<<view->selectionModel()->currentIndex().data(1).toString().toStdString()<<std::endl;
+       std::cout<<"GRP"<<view->selectionModel()->currentIndex().data(0).toString().toStdString()<<std::endl;
+
+                  //result = groupInfo.getGroupInfo(view->selectionModel()->currentIndex().data(1).toString());
+       QMessageBox msgBox;
+       msgBox.setWindowTitle("Информация о группе");
+       msgBox.setText("Это  группа");
+       msgBox.exec();
+       return;
+
+   };
+
+//GroupInfo groupInfo;
+std::cout<<"actionOpenCard"<<std::endl;
+
+
 }
