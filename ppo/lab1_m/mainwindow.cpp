@@ -35,7 +35,6 @@ MainWindow::MainWindow(QWidget* parent)
     //view->model->d
 
     updateConnects();
-
 }
 
 void MainWindow::itemChanged()
@@ -43,15 +42,17 @@ void MainWindow::itemChanged()
     std::cout << "ITEM CHANGED" << std::endl;
     //в стеке пустой рут, один файлоначальный итем, один измененный итем
     //добавляем ещё один измененный итем
+    selectionChanged();
     auto temp = models.last()->getCopy();
     models.push_back(temp);
     view->setModel(models.last());
-    view->update();
+    //view->update();
     index = models.size() - 2;
     updateConnects();
-
-
-
+    if (!indexes.isEmpty())
+        //view->setCurrentIndex(indexes.first());
+        view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
+    view->update();
 }
 
 void MainWindow::insertChild()
@@ -76,8 +77,7 @@ void MainWindow::insertChild()
             model->setHeaderData(column, Qt::Horizontal, QVariant(" "), Qt::EditRole);
     }
     if (!indexes.isEmpty())
-        view->selectionModel()->setCurrentIndex(model->index(0, 0, index),
-           QItemSelectionModel::ClearAndSelect);
+        view->setCurrentIndex(indexes.first());
     view->update();
 }
 
@@ -122,9 +122,16 @@ bool MainWindow::removeColumn()
 
 void MainWindow::removeRow()
 {
-    QModelIndex index = view->selectionModel()->currentIndex();
+    QModelIndex _index = view->selectionModel()->currentIndex();
     QAbstractItemModel* model = view->model();
-    model->removeRow(index.row(), index.parent());
+    model->removeRow(_index.row(), _index.parent());
+    selectionChanged();
+    auto temp = models.last()->getCopy();
+    models.push_back(temp);
+    view->setModel(models.last());
+    view->update();
+    index = models.size() - 2;
+    updateConnects();
 }
 
 void MainWindow::openFile()
@@ -147,8 +154,7 @@ void MainWindow::openFile()
         view->update();
         for (int column = 0; column < models.last()->columnCount(); ++column)
             view->resizeColumnToContents(column);
-       updateConnects();
-
+        updateConnects();
 
         index = models.size() - 2;
         indexes = view->selectionModel()->selectedIndexes();
@@ -168,15 +174,11 @@ void MainWindow::undo()
 
     view->setModel(models[index]);
 
-
     view->update();
     updateConnects();
 
-
     if (!indexes.isEmpty())
         view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
-
-
 }
 
 void MainWindow::redo()
@@ -193,12 +195,12 @@ void MainWindow::redo()
 
     updateConnects();
     if (!indexes.isEmpty())
-       view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
+        view->selectionModel()->setCurrentIndex(indexes.first(), QItemSelectionModel::ClearAndSelect);
 }
 
 void MainWindow::selectionChanged()
 {
-    std::cout<<"SELECTION CHANGED"<<std::endl;
+    std::cout << "SELECTION CHANGED" << std::endl;
     indexes = view->selectionModel()->selectedIndexes();
 }
 
@@ -222,7 +224,7 @@ void MainWindow::updateConnects()
 {
     connect(view->model(), &QAbstractItemModel::dataChanged,
         this, &MainWindow::itemChanged);
-    connect(view->selectionModel(), &QItemSelectionModel::currentChanged, this, &MainWindow::selectionChanged);
+    //connect(view->selectionModel(), &QItemSelectionModel::currentChanged, this, &MainWindow::selectionChanged);
 }
 
 void MainWindow::on_actionOpen_Card_triggered()
@@ -270,9 +272,9 @@ void MainWindow::on_actionSave_As_triggered()
         TreeItem* group = root->child(i);
         QString groupName = group->data(1).toString();
         int stdntsCount = group->childCount();
-
+        if (stdntsCount>3){
         for (int j = 0; j < stdntsCount; j++) {
-            TreeItem* man = group->child(i);
+            TreeItem* man = group->child(j);
             QString surname = man->data(1).toString();
 
             QString name = man->child(0)->data(1).toString();
@@ -293,6 +295,7 @@ void MainWindow::on_actionSave_As_triggered()
             student["Role"] = role;
 
             students.append(student);
+        }
         }
     }
 
