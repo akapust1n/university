@@ -10,6 +10,7 @@ class TreeItem
 public:
     explicit TreeItem(const QVector<QVariant> &data, TreeItem *parent = 0);
     ~TreeItem();
+    TreeItem(const TreeItem &obj);
 
     TreeItem *child(int number);
     int childCount() const;

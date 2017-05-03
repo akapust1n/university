@@ -1,0 +1,170 @@
+[
+ {
+   "Surname": "Аверьянов",
+   "Name": "Игорь",
+   "SecondName": "Анатольевич",
+   "Rating": 100,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Агафонова",
+   "Name": "Татьяна",
+   "SecondName": "Витальевна",
+   "Rating": 69,
+   "Group": "ГР1",
+   "Role": "head"
+ },
+ {
+   "Surname": "Адук",
+   "Name": "Игорь",
+   "SecondName": "Борисович",
+   "Rating": 75,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Аксенов",
+   "Name": "Алексей",
+   "SecondName": "Геннадьевич",
+   "Rating": 80,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Аксенов",
+   "Name": "Дмитрий",
+   "SecondName": "Викторович",
+   "Rating": 58,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Бабкин",
+   "Name": "Сергей",
+   "SecondName": "Николаевич",
+   "Rating": 65,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Базаров",
+   "Name": "Андрей",
+   "SecondName": "Викторович",
+   "Rating": 71,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Байдин",
+   "Name": "Александр",
+   "SecondName": "Иванович",
+   "Rating": 76,
+   "Group": "ГР1",
+   "Role": "student"
+ },
+ {
+   "Surname": "Балихина",
+   "Name": "Ольга",
+   "SecondName": "Вячеславовна",
+   "Rating": 82,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Башмакова",
+   "Name": "Елена",
+   "SecondName": "Сергеевнa",
+   "Rating": 85,
+   "Group": "ГР2",
+   "Role": "head"
+ },
+ {
+   "Surname": "Васильев",
+   "Name": "Максим",
+   "SecondName": "Викторович",
+   "Rating": 54,
+   "Group": "ГР3",
+   "Role": "student"
+ },
+ {
+   "Surname": "Вдовин",
+   "Name": "Виталий",
+   "SecondName": "Юрьевич",
+   "Rating": 58,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Вдовин",
+   "Name": "Евгений",
+   "SecondName": "Федорович",
+   "Rating": 75,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Величко",
+   "Name": "Ольга",
+   "SecondName": "Валерьевна",
+   "Rating": 79,
+   "Group": "ГР3",
+   "Role": "student"
+ },
+ {
+   "Surname": "Гаврилов",
+   "Name": "Роман",
+   "SecondName": "Николаевич",
+   "Rating": 60,
+   "Group": "ГР3",
+   "Role": "head"
+ },
+ {
+   "Surname": "Григорьев",
+   "Name": "Павел",
+   "SecondName": "Владимирович",
+   "Rating": 70,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Данилов",
+   "Name": "Николай",
+   "SecondName": "Валентинович",
+   "Rating": 83,
+   "Group": "ГР2",
+   "Role": "student"
+ },
+ {
+   "Surname": "Долгов",
+   "Name": "Николай",
+   "SecondName": "Алексеевич",
+   "Rating": 95,
+   "Group": "ГР3",
+   "Role": "student"
+ },
+ {
+   "Surname": "Дюков",
+   "Name": "Владимир",
+   "SecondName": "Евгеньевич",
+   "Rating": 97,
+   "Group": "ГР3",
+   "Role": "student"
+ },
+ {
+   "Surname": "Емельянов",
+   "Name": "Дмитрий",
+   "SecondName": "Юрьевич",
+   "Rating": 75,
+   "Group": "ГР3",
+   "Role": "student"
+ },
+ {
+   "Surname": "Ерохин",
+   "Name": "Александр",
+   "SecondName": "Викторович",
+   "Rating": 89,
+   "Group": "ГР3",
+   "Role": "student"
+ }
+]

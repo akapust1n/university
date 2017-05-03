@@ -6,12 +6,16 @@ TreeItem::TreeItem(const QVector<QVariant> &data, TreeItem *parent)
 {
     parentItem = parent;
     itemData = data;
-    itemData.resize(6);
+    itemData.resize(8);
 }
 
 TreeItem::~TreeItem()
 {
     qDeleteAll(childItems);
+}
+
+TreeItem::TreeItem(const TreeItem &obj)
+{
 }
 
 TreeItem *TreeItem::child(int number)
@@ -34,7 +38,7 @@ int TreeItem::childNumber() const
 
 int TreeItem::columnCount() const
 {
-    return itemData.count();
+    return 2; //that's why
 }
 
 QVariant TreeItem::data(int column) const

@@ -12,8 +12,11 @@ class TreeModel : public QAbstractItemModel
     Q_OBJECT
 
 public:
+    TreeModel();
     TreeModel(const QStringList &headers, const QString &data,
               QObject *parent = 0);
+
+    TreeModel *getCopy();
     ~TreeModel();
 
     QVariant data(const QModelIndex &index, int role) const override;
@@ -39,12 +42,13 @@ public:
     bool removeRows(int position, int rows,
                     const QModelIndex &parent = QModelIndex()) override;
     TreeItem *findGroup(QString group);
+    TreeItem *rootItem;
+
 
 private:
     void setupModelData(const QString &lines, TreeItem *parent);
     TreeItem *getItem(const QModelIndex &index) const;
 
-    TreeItem *rootItem;
 };
 
 #endif // TREEMODEL_H

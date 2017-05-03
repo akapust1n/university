@@ -2,6 +2,9 @@
 #include "treemodel.h"
 #include <QFile>
 #include <QFileDialog>
+#include <QTreeView>
+#include <QTreeWidget>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -16,20 +19,47 @@ MainWindow::MainWindow(QWidget* parent)
     connect(removeColumnAction, &QAction::triggered, this, &MainWindow::removeColumn);
     connect(insertChildAction, &QAction::triggered, this, &MainWindow::insertChild);
     connect(actionOpen_File, &QAction::triggered, this, &MainWindow::openFile);
+    connect(actionUndo, &QAction::triggered, this, &MainWindow::undo);
+    connect(actionRedo, &QAction::triggered, this, &MainWindow::redo);
 
+
+    QStringList headers;
+    headers << tr("Groups");
+
+    models.push_back(new TreeModel(headers, " "));
+    view->setModel(models[0]);
+    //view->model->d
+
+    connect(view->model(), &QAbstractItemModel::layoutChanged,
+        this, &MainWindow::itemChanged);
+}
+
+void MainWindow::itemChanged()
+{
+    std::cout << "ITEM CHANGED" << std::endl;
+    //в стеке пустой рут, один файлоначальный итем, один измененный итем
+    //добавляем ещё один измененный итем
+    auto temp = models.last()->getCopy();
+    models.push_back(temp);
+    view->setModel(models.last());
+    view->update();
+    index = models.size() - 2;
+    connect(view->model(), &QAbstractItemModel::dataChanged,
+        this, &MainWindow::itemChanged);
 }
 
 void MainWindow::insertChild()
 {
     QModelIndex index = view->selectionModel()->currentIndex();
+    std::cout << "INSERT CHILD " << index.data(Qt::EditRole).toString().toStdString() << std::endl;
     QAbstractItemModel* model = view->model();
-    if (index.parent().internalPointer())
-        return;
+    //if (index.parent().internalPointer())
+    //  return;
     if (model->columnCount(index) == 0) {
         if (!model->insertColumn(0, index))
             return;
     }
-
+    std::cout << "befor insert row" << std::endl;
     if (!model->insertRow(0, index))
         return;
 
@@ -42,6 +72,7 @@ void MainWindow::insertChild()
 
     view->selectionModel()->setCurrentIndex(model->index(0, 0, index),
         QItemSelectionModel::ClearAndSelect);
+    view->update();
 }
 
 bool MainWindow::insertColumn()
@@ -51,9 +82,8 @@ bool MainWindow::insertColumn()
 
     // Insert a column in the parent item.
     bool changed = model->insertColumn(column + 1);
-    if (changed)
-        model->setHeaderData(column + 1, Qt::Horizontal, QVariant("[No header]"), Qt::EditRole);
-
+    //if (changed)
+    //   model->setHeaderData(column + 1, Qt::Horizontal, QVariant("[No header]"), Qt::EditRole);
 
     return changed;
 }
@@ -66,9 +96,9 @@ void MainWindow::insertRow()
     if (!model->insertRow(index.row() + 1, index.parent()))
         return;
 
-
     for (int column = 0; column < model->columnCount(index.parent()); ++column) {
         QModelIndex child = model->index(index.row() + 1, column, index.parent());
+
         model->setData(child, QVariant("[No data]"), Qt::EditRole);
     }
 }
@@ -80,7 +110,6 @@ bool MainWindow::removeColumn()
 
     // Insert columns in each child of the parent item.
     bool changed = model->removeColumn(column);
-
 
     return changed;
 }
@@ -102,12 +131,64 @@ void MainWindow::openFile()
 
         QFile file(fileName);
         file.open(QIODevice::ReadOnly);
-        TreeModel* model = new TreeModel(headers, file.readAll());
+        models.push_back(new TreeModel(headers, file.readAll()));
+        int size = models.size();
+        models.push_back(models[size - 1]->getCopy()); //одна модель исходная, другая изменяемая
+
         file.close();
 
-        view->setModel(model);
-        for (int column = 0; column < model->columnCount(); ++column)
+        view->setModel(models.last());
+        view->update();
+        for (int column = 0; column < models.last()->columnCount(); ++column)
             view->resizeColumnToContents(column);
+        connect(view->model(), &QAbstractItemModel::dataChanged,
+            this, &MainWindow::itemChanged);
+        index = models.size() - 2;
     }
 }
 
+void MainWindow::undo()
+{
+    //if(index ==3)
+    //    index--;
+    index -= 1;
+    if (index < 0)
+        index = 0;
+    std::cout << "UNDO CALLED " <<index<< std::endl;
+
+    view->setModel(models[index]);
+    connect(view->model(), &QAbstractItemModel::dataChanged,
+        this, &MainWindow::itemChanged);
+    view->update();
+    connect(view->model(), &QAbstractItemModel::dataChanged,
+        this, &MainWindow::itemChanged);
+}
+
+void MainWindow::redo()
+{
+    index += 1;
+    std::cout << "REDO CALLED " <<index << std::endl;
+
+    if (index > models.size()-2)
+        index =  models.size()-2;
+    if(index<0)
+        index = 0;
+    view->setModel(models[index]);
+    view->update();
+}
+
+QString MainWindow::getName(int index)
+{
+    switch (index) {
+    case 0:
+        return "Имя";
+    case 1:
+        return "Отчество";
+    case 2:
+        return "Рейтинг";
+    case 3:
+        return "Роль";
+    default:
+        "No data";
+    }
+}
