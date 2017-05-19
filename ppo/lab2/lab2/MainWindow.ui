@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>599</width>
-    <height>362</height>
+    <width>623</width>
+    <height>378</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,8 +30,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>0</y>
+      <x>320</x>
+      <y>10</y>
       <width>72</width>
       <height>18</height>
      </rect>
@@ -43,7 +43,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>480</x>
       <y>260</y>
       <width>94</width>
       <height>26</height>
@@ -56,10 +56,10 @@
    <widget class="QListWidget" name="allItems">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>256</width>
-      <height>192</height>
+      <x>25</x>
+      <y>51</y>
+      <width>251</width>
+      <height>191</height>
      </rect>
     </property>
    </widget>
@@ -73,13 +73,65 @@
      </rect>
     </property>
    </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update last10:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeLast10">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>260</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update all</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeAll">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>280</y>
+      <width>72</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>time</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>599</width>
+     <width>623</width>
      <height>23</height>
     </rect>
    </property>

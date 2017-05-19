@@ -3,7 +3,11 @@
 
 #include <QMainWindow>
 #include <QMutex>
-#include <Queue.h>
+#include <QueueThreadSafe.h>
+#include <mutex>
+#include <QStringList>
+#include <QVector>
+#include <QListWidget>
 
 namespace Ui {
 class MainWindow;
@@ -20,17 +24,24 @@ public:
 private slots:
     void on_pushButton_clicked();
     void updateMainCycle();
+    void updateTimerAll();
+    void updateTimerLast10();
 
 
 private:
     Ui::MainWindow *ui;
-    QMutex mutex;
-    Queue queue;
-    bool generated = false;
-    void updateCurrentList();
-    void updateAllList();
-    int queueSize = 50;
+    QueueThreadSafe queue;
     int msec_left = 0;
+    int last10_left = 0;
+
+    int const timerTick = 60;
+private:
+    void updateLast10();
+    void updateAllList();
+    void updateList(QVector<int> values, int position, QListWidget *view);
+
+
+
 };
 
 #endif // MAINWINDOW_H

@@ -1,6 +1,6 @@
 #ifndef QUEUE_H
 #define QUEUE_H
-#include <Stack.h>
+#include "/home/alexey/16/university/ppo/lab2/lab2/Stack.h"
 #include <QVector>
 class Queue {
 public:
@@ -14,6 +14,7 @@ public:
 
 private:
     Stack in, out;
+    int maxSize = 15;
 };
 
 #endif // QUEUE_H

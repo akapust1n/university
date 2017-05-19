@@ -15,7 +15,8 @@ public:
     int min() const;
     int max() const;
     int size() const;
-    QStack<Item> items; //item-min-max
+    QVector<Item> items; //item-min-max
+    std::vector<int> getVector() const;
 
 
 };
