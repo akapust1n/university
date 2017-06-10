@@ -1,5 +1,6 @@
 #include "TreeItem.h"
 
+
 TreeItem::TreeItem(const QVector<QVariant> &data, TreeItem *parent)
 {
     parentItem = parent;
@@ -38,7 +39,7 @@ bool TreeItem::insertChildren(int position, int count, int columns)
 
     for (int row = 0; row < count; ++row) {
         QVector<QVariant> data(columns);
-        TreeItem *item = new TreeItem(data, this);
+        TreeItem* item = new TreeItem(data, this);
         childItems.insert(position, item);
     }
 

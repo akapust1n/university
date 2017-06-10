@@ -1,14 +1,74 @@
 #include "TreeModel.h"
 
+
+
+
+//bool TreeModel::insertGroup(QString groupName)
+//{
+//    QVector<QVariant> groupData;
+//    groupData << groupName;
+
+//    TreeItem *root = rootItem->child(0);
+
+//    bool result = root->insertChildren(root->childCount(), 1, 1);
+//    for (int i = 0; i < groupData.size(); i++)
+//        root->child(root->childCount() - 1)->setData(i, groupData[i]);
+
+//    return result;
+//}
+
+//bool TreeModel::insertStudent(QStringList studentInfo, QString groupName)
+//{
+//    bool result;
+//    TreeItem *root = rootItem->child(0);
+
+//    QVector<QVariant> studentData;
+//    foreach (QString buf, studentInfo) {
+//        studentData << buf;
+//    }
+
+//    TreeItem *groupItem = Q_NULLPTR;
+
+//    for (int i = 0; i < root->childCount(); i++) {
+//        if (root->child(i)->data(0).toString() == groupName) {
+//            result = true;
+//            groupItem = root->child(i);
+//        }
+//    }
+
+//    if (!groupItem) {
+//        result = insertGroup(groupName);
+//        groupItem = root->child(root->childCount() - 1);
+//    }
+
+//    if (!result) {
+//        return result;
+//    }
+
+//    result = groupItem->insertChildren(groupItem->childCount(), 1, studentData.size());
+//    for (int i = 0; i < studentInfo.size(); i++)
+//        groupItem->child(groupItem->childCount() - 1)->setData(i, studentData[i]);
+//}
+
+
+
+
+
+
+
+
+
 TreeModel::TreeModel(const QStringList &headers, QObject *parent)
     : QAbstractItemModel(parent)
 {
+    //std::cout<<"start create TreeModel"<<std::endl;
     QVector<QVariant> rootData;
     foreach (QString header, headers)
         rootData << header;
 
     rootItem = new TreeItem(rootData);
     setupModelData(rootItem);
+    //std::cout<<"end create Tree Model"<<std::endl;
 }
 
 TreeModel::~TreeModel()
@@ -37,14 +97,32 @@ QVariant TreeModel::headerData(int section, Qt::Orientation orientation, int rol
     return QVariant();
 }
 
-TreeItem *TreeModel::getItem(const QModelIndex &index) const
+QModelIndex TreeModel::index(int row, int column, const QModelIndex &parent) const
 {
-    if (index.isValid()) {
-        TreeItem *item = static_cast<TreeItem*>(index.internalPointer());
-        if (item)
-            return item;
-    }
-    return rootItem;
+    if (parent.isValid() && parent.column() != 0)
+        return QModelIndex();
+
+    TreeItem *parentItem = getItem(parent);
+
+    TreeItem *childItem = parentItem->child(row);
+    if (childItem)
+        return createIndex(row, column, childItem);
+    else
+        return QModelIndex();
+}
+
+QModelIndex TreeModel::parent(const QModelIndex &index) const
+{
+    if (!index.isValid())
+        return QModelIndex();
+
+    TreeItem *childItem = getItem(index);
+    TreeItem *parentItem = childItem->parent();
+
+    if (parentItem == rootItem)
+        return QModelIndex();
+
+    return createIndex(parentItem->childNumber(), 0, parentItem);
 }
 
 int TreeModel::rowCount(const QModelIndex &parent) const
@@ -54,7 +132,7 @@ int TreeModel::rowCount(const QModelIndex &parent) const
     return parentItem->childCount();
 }
 
-int TreeModel::columnCount(const QModelIndex & /* parent */) const
+int TreeModel::columnCount(const QModelIndex &parent) const
 {
     TreeItem *buf = rootItem;
     int max = 0;
@@ -150,51 +228,9 @@ bool TreeModel::removeRows(int position, int rows, const QModelIndex &parent)
     return success;
 }
 
-bool TreeModel::insertGroup(QString groupName)
+TreeItem *TreeModel::getRootItem()
 {
-    QVector<QVariant> groupData;
-    groupData << groupName;
-
-    TreeItem *root = rootItem->child(0);
-
-    bool result = root->insertChildren(root->childCount(), 1, 1);
-    for (int i = 0; i < groupData.size(); i++)
-        root->child(root->childCount() - 1)->setData(i, groupData[i]);
-
-    return result;
-}
-
-bool TreeModel::insertStudent(QStringList studentInfo, QString groupName)
-{
-    bool result;
-    TreeItem *root = rootItem->child(0);
-
-    QVector<QVariant> studentData;
-    foreach (QString buf, studentInfo) {
-        studentData << buf;
-    }
-
-    TreeItem *groupItem = Q_NULLPTR;
-
-    for (int i = 0; i < root->childCount(); i++) {
-        if (root->child(i)->data(0).toString() == groupName) {
-            result = true;
-            groupItem = root->child(i);
-        }
-    }
-
-    if (!groupItem) {
-        result = insertGroup(groupName);
-        groupItem = root->child(root->childCount() - 1);
-    }
-
-    if (!result) {
-        return result;
-    }
-
-    result = groupItem->insertChildren(groupItem->childCount(), 1, studentData.size());
-    for (int i = 0; i < studentInfo.size(); i++)
-        groupItem->child(groupItem->childCount() - 1)->setData(i, studentData[i]);
+    return rootItem;
 }
 
 void TreeModel::setupModelData(TreeItem *parent)
@@ -205,30 +241,12 @@ void TreeModel::setupModelData(TreeItem *parent)
     parent->child(parent->childCount() - 1)->setData(0, data[0]);
 }
 
-QModelIndex TreeModel::index(int row, int column, const QModelIndex &parent) const
+TreeItem *TreeModel::getItem(const QModelIndex &index) const
 {
-    if (parent.isValid() && parent.column() != 0)
-        return QModelIndex();
-
-    TreeItem *parentItem = getItem(parent);
-
-    TreeItem *childItem = parentItem->child(row);
-    if (childItem)
-        return createIndex(row, column, childItem);
-    else
-        return QModelIndex();
-}
-
-QModelIndex TreeModel::parent(const QModelIndex &index) const
-{
-    if (!index.isValid())
-        return QModelIndex();
-
-    TreeItem *childItem = getItem(index);
-    TreeItem *parentItem = childItem->parent();
-
-    if (parentItem == rootItem)
-        return QModelIndex();
-
-    return createIndex(parentItem->childNumber(), 0, parentItem);
+    if (index.isValid()) {
+        TreeItem *item = static_cast<TreeItem*>(index.internalPointer());
+        if (item)
+            return item;
+    }
+    return rootItem;
 }

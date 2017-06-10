@@ -7,7 +7,17 @@ TEMPLATE = lib
 CONFIG += plugin
 
 INCLUDEPATH  += ../../
-HEADERS       += pluginStudent.h
-SOURCES       += pluginStudent.cpp
+HEADERS       += pluginStudent.h \ 
+    SComand.h \
+    ../../TreeModel.h \
+    ../../TreeItem.h \
+    ../../Comands.h
+   
+                          
+SOURCES       += pluginStudent.cpp \ 
+    SComand.cpp \
+    ../../TreeModel.cpp \
+    ../../TreeItem.cpp \
+    ../../Comands.cpp
 
-#DESTDIR       = ../../plugins
+DESTDIR       = ../

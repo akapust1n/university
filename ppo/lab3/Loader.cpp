@@ -66,7 +66,7 @@ void JsonFileLoaderImpl::loadStrudents(QFile &FileLoader, TreeModel *Unit)
         QStringList studentInfo = getStudentInfo(stud);
         QString groupName = stud["Group"].toString();
 
-        Unit->insertStudent(studentInfo, groupName);
+       // Unit->insertStudent(studentInfo, groupName);
     }
 }
 

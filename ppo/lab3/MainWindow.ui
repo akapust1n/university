@@ -35,13 +35,6 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QPushButton" name="openFileButton">
-       <property name="text">
-        <string>Open  Sudent File</string>
-       </property>
-      </widget>
-     </item>
-     <item>
       <widget class="QPushButton" name="setFont">
        <property name="text">
         <string>Set Font size</string>

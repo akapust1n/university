@@ -1,8 +1,9 @@
-#ifndef TREEMODEL_H
+﻿#ifndef TREEMODEL_H
 #define TREEMODEL_H
 
 #include <QAbstractItemModel>
 #include "TreeItem.h"
+#include <iostream>
 
 class TreeModel : public QAbstractItemModel
 {
@@ -40,8 +41,9 @@ public:
     bool removeRows(int position, int rows,
                     const QModelIndex &parent = QModelIndex()) override;
 
-    bool insertGroup(QString groupName);
-    bool insertStudent(QStringList studentInfo, QString groupName);
+   // bool insertGroup(QString groupName);
+   // bool insertStudent(QStringList studentInfo, QString groupName);
+    TreeItem *getRootItem();
 
 private:
     void setupModelData(TreeItem *parent);

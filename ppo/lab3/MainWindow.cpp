@@ -1,12 +1,12 @@
 #include "MainWindow.h"
+#include "QTextEdit"
 #include "ui_MainWindow.h"
 #include <Comands.h>
 #include <QColorDialog>
+#include <QDebug>
 #include <QFileDialog>
 #include <QInputDialog>
-#include "QTextEdit"
 #include <QLayout>
-#include <QDebug>
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
@@ -16,18 +16,16 @@ MainWindow::MainWindow(QWidget* parent)
     undoStack = new QUndoStack(this);
     comandManager.reset(new ComandManager);
     ui->treeView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    QVBoxLayout *layout = new QVBoxLayout();
-   ui->pluginsWidget->setLayout(layout);
+    QVBoxLayout* layout = new QVBoxLayout();
+    ui->pluginsWidget->setLayout(layout);
     loadSettings();
     loadPlugins();
-
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-
 
 void MainWindow::on_setFont_clicked()
 {
@@ -88,30 +86,34 @@ void MainWindow::loadSettings()
 
 void MainWindow::on_openFileButton_clicked()
 {
-   // QPushButton * btn =new QPushButton("ss");
- //ui->centralWidget->layout()->addWidget(btn);
- //QTextEdit *te = new QTextEdit();
+    // QPushButton * btn =new QPushButton("ss");
+    //ui->centralWidget->layout()->addWidget(btn);
+    //QTextEdit *te = new QTextEdit();
 
-// ui->pluginWidget->layout()->addWidget(te);
+    // ui->pluginWidget->layout()->addWidget(te);
+}
 
+QWidget* MainWindow::getWidgetsPlugins()
+{
+    return ui->pluginsWidget;
 }
 
 void MainWindow::loadPlugins()
 {
     pluginsDir = QDir(qApp->applicationDirPath());
 
-    pluginsDir.cd("plugins");
+    pluginsDir.cd("/home/alexey/16/university/ppo/lab3/plugins");
 
     foreach (QString fileName, pluginsDir.entryList(QDir::Files)) {
         QPluginLoader loader(pluginsDir.absoluteFilePath(fileName));
         if (loader.load()) {
             qDebug() << fileName << " loaded";
-            QObject *plugin = loader.instance();
+            QObject* plugin = loader.instance();
             if (plugin) {
-                plugins.push_back(qobject_cast<PluginAbstruct *>(plugin));
+                plugins.push_back(qobject_cast<PluginAbstruct*>(plugin));
                 plugins.last()->doThing(this);
-               // populateContext(plugin);
-               // pluginFileNames += fileName;
+                // populateContext(plugin);
+                // pluginFileNames += fileName;
             }
         } else {
             qDebug() << loader.isLoaded() << loader.errorString();
