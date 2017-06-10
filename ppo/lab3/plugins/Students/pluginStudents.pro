@@ -8,16 +8,18 @@ CONFIG += plugin
 
 INCLUDEPATH  += ../../
 HEADERS       += pluginStudent.h \ 
-    SComand.h \
     ../../TreeModel.h \
     ../../TreeItem.h \
-    ../../Comands.h
+    ../../Comands.h \
+    LoadComand.h \
+    RemoveComand.h
    
                           
 SOURCES       += pluginStudent.cpp \ 
-    SComand.cpp \
     ../../TreeModel.cpp \
     ../../TreeItem.cpp \
-    ../../Comands.cpp
+    ../../Comands.cpp \
+    LoadComand.cpp \
+    RemoveComand.cpp
 
 DESTDIR       = ../

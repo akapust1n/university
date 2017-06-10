@@ -14,7 +14,6 @@ MainWindow::MainWindow(QWidget* parent)
 {
     ui->setupUi(this);
     undoStack = new QUndoStack(this);
-    comandManager.reset(new ComandManager);
     ui->treeView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     QVBoxLayout* layout = new QVBoxLayout();
     ui->pluginsWidget->setLayout(layout);

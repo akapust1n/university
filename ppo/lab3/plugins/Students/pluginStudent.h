@@ -19,9 +19,12 @@ public:
     QVariant doThing(MainWindow* _th) override;
 public slots:
     void onOpenFileClicked();
+    void  onRemoveStudentsClicked();
 
 private:
     QWidget* PluginsWidget;
     QUndoStack* undoStack;
     QTreeView *treeView;
+    QModelIndexList list;
+    TreeModel *treeModel;
 };

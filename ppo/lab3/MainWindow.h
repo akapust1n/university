@@ -1,7 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "ComandManager.h"
 #include "PluginInterface.h"
 #include <QDir>
 #include <QMainWindow>
@@ -34,7 +33,6 @@ public:
     QWidget* getWidgetsPlugins();
     Ui::MainWindow* ui;
     QUndoStack* undoStack;
-    std::shared_ptr<ComandManager> comandManager;
     QSettings settings;
 
 private:

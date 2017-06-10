@@ -1,4 +1,4 @@
-#include "SComand.h"
+#include "LoadComand.h"
 
 LoadStudentsCommand::LoadStudentsCommand(QString name, QTreeView* widget)
     : fileName(name)
@@ -151,4 +151,9 @@ bool LoadStudentsCommand::insertGroup(QString groupName, TreeModel *_treeModel)
         root->child(root->childCount() - 1)->setData(i, groupData[i]);
 
     return result;
+}
+
+TreeModel *LoadStudentsCommand::getTreeModel()
+{
+    return treeModel;
 }

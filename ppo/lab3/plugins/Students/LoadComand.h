@@ -24,6 +24,8 @@ public:
     void undo() override;
 
     void redo() override;
+    TreeModel *getTreeModel();
+
 
 private:
     void loadGroupsFromJson(QString fileName);

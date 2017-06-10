@@ -29,10 +29,7 @@ SOURCES += \
     Comands.cpp \
     TreeItem.cpp \
     TreeModel.cpp \
-    ComandManager.cpp \
-    Loader.cpp \
     Error.cpp \
-    LoadManager.cpp \
     Student.cpp \
     Insert.cpp \
     Change.cpp \
@@ -43,10 +40,7 @@ HEADERS += \
     Comands.h \
     TreeItem.h \
     TreeModel.h \
-    ComandManager.h \
-    Loader.h \
     Error.h \
-    LoadManager.h \
     Student.h \
     Insert.h \
     Change.h \
