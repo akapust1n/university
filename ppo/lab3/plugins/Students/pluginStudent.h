@@ -21,6 +21,9 @@ public slots:
     void onOpenFileClicked();
     void  onRemoveStudentsClicked();
     void onInsertClicked();
+    void onChangeClicked();
+
+
 
 private:
     QWidget* PluginsWidget;

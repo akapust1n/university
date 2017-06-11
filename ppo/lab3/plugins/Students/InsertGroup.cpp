@@ -19,11 +19,6 @@ InsertGroup::~InsertGroup()
     delete ui;
 }
 
-//void InsertGroup::setParam(Facade *facade, QModelIndex &parent)
-//{
-//    m_parent = parent;
-// //   m_facade = facade;
-//}
 
 void InsertGroup::on_m_cancel_clicked()
 {

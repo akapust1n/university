@@ -28,23 +28,13 @@ SOURCES += \
         MainWindow.cpp \
     Comands.cpp \
     TreeItem.cpp \
-    TreeModel.cpp \
-    Error.cpp \
-    Student.cpp \
-    Insert.cpp \
-    Change.cpp \
-    InfoByTree.cpp
+    TreeModel.cpp
 
 HEADERS += \
         MainWindow.h \
     Comands.h \
     TreeItem.h \
     TreeModel.h \
-    Error.h \
-    Student.h \
-    Insert.h \
-    Change.h \
-    InfoByTree.h \
     PluginInterface.h
 
 FORMS += \

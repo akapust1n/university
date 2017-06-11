@@ -14,7 +14,11 @@ HEADERS       += pluginStudent.h \
     LoadComand.h \
     RemoveComand.h \
     InsertComand.h \
-    InsertGroup.h
+    InsertGroup.h \
+    InsertStudent.h \
+    ChangeComand.h \
+    ChangeGroup.h \
+    ChangeStudent.h
    
                           
 SOURCES       += pluginStudent.cpp \ 
@@ -24,8 +28,17 @@ SOURCES       += pluginStudent.cpp \
     LoadComand.cpp \
     RemoveComand.cpp \
     InsertComand.cpp \
-    InsertGroup.cpp
+    InsertGroup.cpp \
+    InsertStudent.cpp \
+    ChangeComand.cpp \
+    ChangeGroup.cpp \
+    ChangeStudent.cpp
 FORMS    +=  insertgroup.ui \
-         insertsudent.ui
+        insertstudent.ui \
+    changegroup.ui \
+    changestudent.ui
 DESTDIR       = ../
+
+DISTFILES += \
+    .qmake.stash
 
