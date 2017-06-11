@@ -25,7 +25,7 @@ QVariant StudentsPlugin::doThing(MainWindow* _th)
     treeView = th->ui->treeView;
     std::cout << "BUtton open file shoud be added" << std::endl;
 
-    QPushButton* removeStudentsButton = new QPushButton("Remove students\gr");
+    QPushButton* removeStudentsButton = new QPushButton("Remove students/gr");
     th->ui->pluginsWidget->layout()->addWidget(removeStudentsButton);
     connect(removeStudentsButton, SIGNAL(clicked()), this, SLOT(onRemoveStudentsClicked()));
 
