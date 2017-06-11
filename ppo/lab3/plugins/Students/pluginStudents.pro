@@ -12,7 +12,9 @@ HEADERS       += pluginStudent.h \
     ../../TreeItem.h \
     ../../Comands.h \
     LoadComand.h \
-    RemoveComand.h
+    RemoveComand.h \
+    InsertComand.h \
+    InsertGroup.h
    
                           
 SOURCES       += pluginStudent.cpp \ 
@@ -20,6 +22,10 @@ SOURCES       += pluginStudent.cpp \
     ../../TreeItem.cpp \
     ../../Comands.cpp \
     LoadComand.cpp \
-    RemoveComand.cpp
-
+    RemoveComand.cpp \
+    InsertComand.cpp \
+    InsertGroup.cpp
+FORMS    +=  insertgroup.ui \
+         insertsudent.ui
 DESTDIR       = ../
+

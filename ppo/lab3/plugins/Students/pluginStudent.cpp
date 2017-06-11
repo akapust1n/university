@@ -8,6 +8,7 @@
 //#include <TreeModel.h>
 #include <QVector>
 #include <QVariant>
+#include "InsertGroup.h"
 
 
 QVariant StudentsPlugin::doThing(MainWindow* _th)
@@ -25,6 +26,10 @@ QVariant StudentsPlugin::doThing(MainWindow* _th)
     QPushButton* removeStudentsButton= new QPushButton("Remove students");
     th->ui->pluginsWidget->layout()->addWidget(removeStudentsButton);
     connect(removeStudentsButton, SIGNAL(clicked()), this, SLOT(onRemoveStudentsClicked()));
+
+    QPushButton* insertButton= new QPushButton("Insert");
+    th->ui->pluginsWidget->layout()->addWidget(insertButton);
+    connect(insertButton, SIGNAL(clicked()), this, SLOT(onInsertClicked()));
 
 
 
@@ -50,6 +55,7 @@ void StudentsPlugin::onOpenFileClicked()
     std::cout << "befor push" << std::endl;
     undoStack->push(loadCommand);
     treeModel = loadCommand->getTreeModel(); // :)))
+
 }
 
 void StudentsPlugin::onRemoveStudentsClicked()
@@ -78,4 +84,15 @@ void StudentsPlugin::onRemoveStudentsClicked()
         RemoveCommand *removeComand = new RemoveCommand(tnh, allData,treeModel);
         undoStack->push(removeComand);
     }
+}
+
+void StudentsPlugin::onInsertClicked()
+{
+    list= treeView->selectionModel()->selectedIndexes();
+    QModelIndex tnh = list.first();
+
+    InsertGroup *insrtGrp = new InsertGroup(tnh,treeModel, undoStack,PluginsWidget);
+    //insrtGrp->setParam(m_facade, tnh);
+    insrtGrp->show();
+
 }
