@@ -1,4 +1,4 @@
-#include "/home/alexey/16/university/ppo/lab2/lab2/Queue.h"
+#include "Queue.h"
 #include <QtTest/QtTest>
 #include <iostream>
 #include <stack>

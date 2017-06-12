@@ -1,5 +1,5 @@
 #include "Queue.h"
-#include "/home/alexey/16/university/ppo/lab2/lab2/Stack.h"
+#include "Stack.h"
 #include <iostream>
 #include <thread>
 #include <tuple>

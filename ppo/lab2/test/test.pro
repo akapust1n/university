@@ -8,7 +8,7 @@ CONFIG += console
 CONFIG -= app_bundle
 
 TEMPLATE = app
-INCLUDEPATH +="/home/alexey/16/university/lab2/lab2"
+INCLUDEPATH +="../lab2/"
 SOURCES += main.cpp \
     ../lab2/Stack.cpp \
     ../lab2/Queue.cpp

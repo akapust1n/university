@@ -1,6 +1,6 @@
 #ifndef QUEUE_H
 #define QUEUE_H
-#include "/home/alexey/16/university/ppo/lab2/lab2/Stack.h"
+#include "Stack.h"
 #include <QVector>
 class Queue {
 public:
