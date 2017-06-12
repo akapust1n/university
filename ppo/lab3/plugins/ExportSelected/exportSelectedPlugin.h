@@ -8,7 +8,7 @@
 
 #include "../../MainWindow.h"
 #include "../../PluginInterface.h"
-#include "/home/alexey/16/university/ppo/build/ui_MainWindow.h" //Сначала должна быть скомпилена основная программа
+#include "../../ui_MainWindow.h" //Сначала должна быть скомпилена основная программа
 #include <QUndoStack>
 #include <QWidget>
 #include <QTreeView>
