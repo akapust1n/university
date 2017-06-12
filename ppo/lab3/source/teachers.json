@@ -1,0 +1,127 @@
+[
+ {
+   "Surname": "Аверьянов",
+   "Name": "Игорь",
+   "SecondName": "Анатольевич",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Агафонова",
+   "Name": "Татьяна",
+   "SecondName": "Витальевна",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Адук",
+   "Name": "Игорь",
+   "SecondName": "Борисович",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Аксенов",
+   "Name": "Алексей",
+   "SecondName": "Геннадьевич",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Аксенов",
+   "Name": "Дмитрий",
+   "SecondName": "Викторович",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Бабкин",
+   "Name": "Сергей",
+   "SecondName": "Николаевич",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Базаров",
+   "Name": "Андрей",
+   "SecondName": "Викторович",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Байдин",
+   "Name": "Александр",
+   "SecondName": "Иванович",
+   "Subject": "chemistry"
+ },
+ {
+   "Surname": "Балихина",
+   "Name": "Ольга",
+   "SecondName": "Вячеславовна",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Башмакова",
+   "Name": "Елена",
+   "SecondName": "Сергеевнa",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Васильев",
+   "Name": "Максим",
+   "SecondName": "Викторович",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Вдовин",
+   "Name": "Виталий",
+   "SecondName": "Юрьевич",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Вдовин",
+   "Name": "Евгений",
+   "SecondName": "Федорович",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Величко",
+   "Name": "Ольга",
+   "SecondName": "Валерьевна",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Гаврилов",
+   "Name": "Роман",
+   "SecondName": "Николаевич",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Григорьев",
+   "Name": "Павел",
+   "SecondName": "Владимирович",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Данилов",
+   "Name": "Николай",
+   "SecondName": "Валентинович",
+   "Subject": "Maths"
+ },
+ {
+   "Surname": "Долгов",
+   "Name": "Николай",
+   "SecondName": "Алексеевич",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Дюков",
+   "Name": "Владимир",
+   "SecondName": "Евгеньевич",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Емельянов",
+   "Name": "Дмитрий",
+   "SecondName": "Юрьевич",
+   "Subject": "Physics"
+ },
+ {
+   "Surname": "Ерохин",
+   "Name": "Александр",
+   "SecondName": "Викторович",
+   "Subject": "Physics" }
+]
