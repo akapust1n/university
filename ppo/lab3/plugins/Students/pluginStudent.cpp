@@ -22,7 +22,8 @@ QVariant StudentsPlugin::doThing(MainWindow* _th)
     th->ui->pluginsWidget->layout()->addWidget(openFileButton);
     PluginsWidget = th->ui->pluginsWidget;
     undoStack = th->undoStack;
-    treeView = th->ui->treeView;
+    treeView = th->tree->treeView;
+    tree =  th->tree;
     std::cout << "BUtton open file shoud be added" << std::endl;
 
     QPushButton* removeStudentsButton = new QPushButton("Remove students/gr");
@@ -57,7 +58,8 @@ void StudentsPlugin::onOpenFileClicked()
     LoadStudentsCommand* loadCommand = new LoadStudentsCommand(fileName, treeView);
     std::cout << "befor push" << std::endl;
     undoStack->push(loadCommand);
-    treeModel = loadCommand->getTreeModel(); // :)))
+    tree->treeModel = loadCommand->getTreeModel(); // :))) //совместимость
+    treeModel = tree->treeModel;
 }
 
 void StudentsPlugin::onRemoveStudentsClicked()

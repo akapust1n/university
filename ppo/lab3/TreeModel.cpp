@@ -3,57 +3,6 @@
 
 
 
-//bool TreeModel::insertGroup(QString groupName)
-//{
-//    QVector<QVariant> groupData;
-//    groupData << groupName;
-
-//    TreeItem *root = rootItem->child(0);
-
-//    bool result = root->insertChildren(root->childCount(), 1, 1);
-//    for (int i = 0; i < groupData.size(); i++)
-//        root->child(root->childCount() - 1)->setData(i, groupData[i]);
-
-//    return result;
-//}
-
-//bool TreeModel::insertStudent(QStringList studentInfo, QString groupName)
-//{
-//    bool result;
-//    TreeItem *root = rootItem->child(0);
-
-//    QVector<QVariant> studentData;
-//    foreach (QString buf, studentInfo) {
-//        studentData << buf;
-//    }
-
-//    TreeItem *groupItem = Q_NULLPTR;
-
-//    for (int i = 0; i < root->childCount(); i++) {
-//        if (root->child(i)->data(0).toString() == groupName) {
-//            result = true;
-//            groupItem = root->child(i);
-//        }
-//    }
-
-//    if (!groupItem) {
-//        result = insertGroup(groupName);
-//        groupItem = root->child(root->childCount() - 1);
-//    }
-
-//    if (!result) {
-//        return result;
-//    }
-
-//    result = groupItem->insertChildren(groupItem->childCount(), 1, studentData.size());
-//    for (int i = 0; i < studentInfo.size(); i++)
-//        groupItem->child(groupItem->childCount() - 1)->setData(i, studentData[i]);
-//}
-
-
-
-
-
 
 
 

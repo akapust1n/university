@@ -9,6 +9,7 @@
 #include <QUndoStack>
 #include <QVector>
 #include <memory>
+#include "Tree.h"
 
 namespace Ui {
 class MainWindow;
@@ -30,7 +31,7 @@ private slots:
     void on_openFileButton_clicked();
 
 public:
-    QWidget* getWidgetsPlugins();
+    Tree *tree;
     Ui::MainWindow* ui;
     QUndoStack* undoStack;
     QSettings settings;

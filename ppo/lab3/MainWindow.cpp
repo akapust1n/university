@@ -14,15 +14,22 @@ MainWindow::MainWindow(QWidget* parent)
 {
     ui->setupUi(this);
     undoStack = new QUndoStack(this);
-    ui->treeView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     QVBoxLayout* layout = new QVBoxLayout();
     ui->pluginsWidget->setLayout(layout);
+    tree = new Tree();
+    QVBoxLayout* layout2 = new QVBoxLayout();
+    ui->treeWidget->setLayout(layout2);
+    tree->treeView = new QTreeView;
+    tree->treeView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+     ui->treeWidget->layout()->addWidget(tree->treeView);
+
     loadSettings();
     loadPlugins();
 }
 
 MainWindow::~MainWindow()
 {
+    delete  tree;
     delete ui;
 }
 
@@ -30,11 +37,11 @@ void MainWindow::on_setFont_clicked()
 {
 
     bool ok = false;
-    int fontSize = QInputDialog::getInt(this, tr("Input"), tr("Font size"), ui->treeView->font().pointSize(), 1, 50, 1, &ok);
+    int fontSize = QInputDialog::getInt(this, tr("Input"), tr("Font size"), tree->treeView->font().pointSize(), 1, 50, 1, &ok);
     if (ok) {
-        QFont fnt = ui->treeView->font();
+        QFont fnt = tree->treeView->font();
         fnt.setPointSize(fontSize);
-        ui->treeView->setFont(fnt);
+        tree->treeView->setFont(fnt);
         createSetting();
     }
 }
@@ -42,9 +49,9 @@ void MainWindow::on_setFont_clicked()
 void MainWindow::on_setBackground_clicked()
 {
     QColor bg = QColorDialog::getColor();
-    QPalette palet = ui->treeView->palette();
+    QPalette palet = tree->treeView->palette();
     palet.setColor(QPalette::Text, bg);
-    ui->treeView->setPalette(palet);
+    tree->treeView->setPalette(palet);
     createSetting();
 }
 void MainWindow::createSetting()
@@ -54,9 +61,9 @@ void MainWindow::createSetting()
     settings.endGroup();
 
     settings.beginGroup("TreeView");
-    QColor color = ui->treeView->palette().text().color();
+    QColor color = tree->treeView->palette().text().color();
     settings.setValue("fontColor", color);
-    int fontSize = ui->treeView->font().pointSize();
+    int fontSize = tree->treeView->font().pointSize();
     settings.setValue("fontSize", fontSize);
     settings.endGroup();
 }
@@ -70,12 +77,12 @@ void MainWindow::loadSettings()
         QColor color = settings.value("fontColor").value<QColor>();
         QPalette palet;
         palet.setColor(QPalette::Text, color);
-        ui->treeView->setPalette(palet);
+        tree->treeView->setPalette(palet);
 
         int fontSize = settings.value("fontSize").toInt();
-        QFont fnt = ui->treeView->font();
+        QFont fnt = tree->treeView->font();
         fnt.setPointSize(fontSize);
-        ui->treeView->setFont(fnt);
+       tree->treeView->setFont(fnt);
         settings.endGroup();
     } else {
         settings.endGroup();
@@ -92,10 +99,6 @@ void MainWindow::on_openFileButton_clicked()
     // ui->pluginWidget->layout()->addWidget(te);
 }
 
-QWidget* MainWindow::getWidgetsPlugins()
-{
-    return ui->pluginsWidget;
-}
 
 void MainWindow::loadPlugins()
 {

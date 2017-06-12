@@ -28,14 +28,16 @@ SOURCES += \
         MainWindow.cpp \
     Comands.cpp \
     TreeItem.cpp \
-    TreeModel.cpp
+    TreeModel.cpp \
+    Tree.cpp
 
 HEADERS += \
         MainWindow.h \
     Comands.h \
     TreeItem.h \
     TreeModel.h \
-    PluginInterface.h
+    PluginInterface.h \
+    Tree.h
 
 FORMS += \
         MainWindow.ui
