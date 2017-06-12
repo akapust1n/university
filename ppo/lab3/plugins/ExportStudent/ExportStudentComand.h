@@ -1,6 +1,5 @@
-#ifndef INSERTCOMAND_H
-#define INSERTCOMAND_H
-
+#ifndef EXPORTSTUDENTCOMAND_H
+#define EXPORTSTUDENTCOMAND_H
 
 #include "TreeModel.h"
 
@@ -17,19 +16,22 @@
 #include <iostream>
 #include <memory>
 
-class InsertCommand : public BaseCommand
-{
+class ExportStudentComand : public BaseCommand {
 
 public:
-    InsertCommand(QModelIndex parent, QVector<QVariant> insertData, TreeModel *_treeModel);
-    ~InsertCommand();
+    ExportStudentComand(QModelIndex parent, QString _filename, TreeModel* _treeModel);
+
+
+    ~ExportStudentComand() {};
 
     virtual void undo();
 
     virtual void redo();
+
 private:
-    TreeModel *treeModel;
-    QModelIndex m_parent;
-    QVector<QVariant> m_insertData;
+    TreeModel* treeModel;
+    QModelIndex group;
+    QString filename;
 };
-#endif // INSERTCOMAND_H
+
+#endif // EXPORTSTUDENTCOMAND_H

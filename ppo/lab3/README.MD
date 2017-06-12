@@ -5,4 +5,5 @@
 
 ### Загружаем плагин "Студенты"
 ![With students plugin](https://raw.githubusercontent.com/akapust1n/university/master/ppo/lab3/Screens/withStudentsPlugin.png)
-Появилась возможность осуществлять действия,описываемы в первой лабораторной
+
+Появилась возможность осуществлять действия,описываемы в первой лабораторной.
