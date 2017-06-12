@@ -76,7 +76,9 @@ QModelIndex TreeModel::parent(const QModelIndex &index) const
 
 int TreeModel::rowCount(const QModelIndex &parent) const
 {
+    std::cout<<" row count phase1"<<std::endl;
     TreeItem *parentItem = getItem(parent);
+    std::cout<<" row count phas21"<<std::endl;
 
     return parentItem->childCount();
 }
@@ -192,10 +194,15 @@ void TreeModel::setupModelData(TreeItem *parent)
 
 TreeItem *TreeModel::getItem(const QModelIndex &index) const
 {
+    std::cout<<"get Item phase1"<<std::endl;
     if (index.isValid()) {
         TreeItem *item = static_cast<TreeItem*>(index.internalPointer());
+        std::cout<<"get Item phase2"<<std::endl;
+
         if (item)
             return item;
     }
+    std::cout<<"get Item phase3"<<std::endl;
+
     return rootItem;
 }

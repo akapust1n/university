@@ -58,7 +58,7 @@ void StudentsPlugin::onOpenFileClicked()
     LoadStudentsCommand* loadCommand = new LoadStudentsCommand(fileName, treeView);
     std::cout << "befor push" << std::endl;
     undoStack->push(loadCommand);
-    tree->treeModel = loadCommand->getTreeModel(); // :))) //совместимость
+    tree->treeModel = loadCommand->getTreeModel(); // :)))
     treeModel = tree->treeModel;
 }
 
