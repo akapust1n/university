@@ -48,5 +48,7 @@ void TeachersPlugin::onOpenFileClicked()
     undoStack->push(loadCommand);
     tree->treeModel = loadCommand->getTreeModel(); // :)))
     treeModel = tree->treeModel;
+    tree->kindTree = new QString("TEACHERS");
+
 }
 

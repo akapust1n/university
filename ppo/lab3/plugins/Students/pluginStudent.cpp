@@ -12,6 +12,7 @@
 #include "InsertStudent.h"
 #include <QVariant>
 #include <QVector>
+#include "QMessageBox"
 
 QVariant StudentsPlugin::doThing(MainWindow* _th)
 {
@@ -37,6 +38,7 @@ QVariant StudentsPlugin::doThing(MainWindow* _th)
     QPushButton* changeButton = new QPushButton("Change st/group");
     th->ui->pluginsWidget->layout()->addWidget(changeButton);
     connect(changeButton, SIGNAL(clicked()), this, SLOT(onChangeClicked()));
+
 }
 void StudentsPlugin::onOpenFileClicked()
 {
@@ -60,10 +62,13 @@ void StudentsPlugin::onOpenFileClicked()
     undoStack->push(loadCommand);
     tree->treeModel = loadCommand->getTreeModel(); // :)))
     treeModel = tree->treeModel;
+    tree->kindTree = new QString("STUDENTS");
 }
 
 void StudentsPlugin::onRemoveStudentsClicked()
 {
+    if(tree->kindTree ==QString("STUDENTS")) {
+
     list = treeView->selectionModel()->selectedIndexes();
     std::cout << "Start remove students" << std::endl;
     QModelIndex tnh = list.first();
@@ -88,10 +93,18 @@ void StudentsPlugin::onRemoveStudentsClicked()
         RemoveCommand* removeComand = new RemoveCommand(tnh, allData, treeModel);
         undoStack->push(removeComand);
     }
+    }
+    else{
+        QMessageBox box;
+        box.setText("It is not student!");
+        box.exec();
+    }
 }
 
 void StudentsPlugin::onInsertClicked()
 {
+    if(tree->kindTree ==QString("STUDENTS")) {
+
     list = treeView->selectionModel()->selectedIndexes();
     QModelIndex tnh = list.first();
     if (tnh.data().toString() == "Groups") {
@@ -101,10 +114,18 @@ void StudentsPlugin::onInsertClicked()
         InsertStudent* stdntChng = new InsertStudent(tnh, treeModel, undoStack, PluginsWidget);
         stdntChng->show();
     }
+    }
+    else{
+        QMessageBox box;
+        box.setText("It is not student!");
+        box.exec();
+    }
 }
 
 void StudentsPlugin::onChangeClicked()
 {
+    if(tree->kindTree ==QString("STUDENTS")) {
+
     list = treeView->selectionModel()->selectedIndexes();
     QModelIndex tnh = list.first().parent();
     if (tnh.data().toString() == "Groups") {
@@ -114,5 +135,11 @@ void StudentsPlugin::onChangeClicked()
 
         ChangeStudent *stdntChng = new ChangeStudent(treeView,treeModel,undoStack,PluginsWidget);
         stdntChng->show();
+    }
+    }
+    else{
+        QMessageBox box;
+        box.setText("It is not student!");
+        box.exec();
     }
 }

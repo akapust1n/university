@@ -22,11 +22,13 @@ void ExportStudentComand::redo()
     std::cout<<treeModel<<std::endl;
     std::cout<<group.data().toString().toStdString()<<std::endl;
     std::cout<<"COLUMN COUNT"<<treeModel->getRootItem()<<std::endl;
-    std::cout<<"dd "<<treeModel->rowCount()<<std::endl;
+    //std::cout<<"dd "<<treeModel->columnCount(temp)<<std::endl;
     QStringList students;
-    for (int i = 0; i < treeModel->rowCount(group) - 1; i++) {
+    for (int i = 0; i < treeModel->rowCount2(group); i++) {
         std::cout<<"append export "<<i<<std::endl;
-        students.append(group.child(i, treeModel->columnCount(group)-1 ).data(i).toString()); //Фамилия
+        QString namePlusSurname = group.child(i,0 ).data(0).toString()+QString(" ") + group.child(i,1).data(0).toString();
+        students.append(namePlusSurname);
+        std::cout<<"STUDENT1"<<group.child(i,0 ).data(0).toString().toStdString()<<std::endl;
     }
     std::cout<<"redo export phase2"<<std::endl;
 

@@ -104,7 +104,7 @@ void MainWindow::loadPlugins()
 {
     pluginsDir = QDir(qApp->applicationDirPath());
 
-    pluginsDir.cd("/home/alexey/16/university/ppo/lab3/plugins");
+    pluginsDir.cd("./plugins");
 
     foreach (QString fileName, pluginsDir.entryList(QDir::Files)) {
         QPluginLoader loader(pluginsDir.absoluteFilePath(fileName));
@@ -121,4 +121,9 @@ void MainWindow::loadPlugins()
             qDebug() << loader.isLoaded() << loader.errorString();
         }
     }
+}
+
+void MainWindow::on_undoButton_clicked()
+{
+    undoStack->undo();
 }

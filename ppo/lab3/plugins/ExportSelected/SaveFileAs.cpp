@@ -27,7 +27,7 @@ void SaveFileAs::on_m_cancel_clicked()
 void SaveFileAs::on_m_ok_clicked()
 {
     QString filename = ui->m_filename->text();
-    exportComand* exportCommand = new exportComand(m_parent, filename);
+    exportComand* exportCommand = new exportComand(m_parent, filename,treeModel);
     std::cout << "befor push" << std::endl;
    std::cout<<"after export comand"<<std::endl;
     this->close();

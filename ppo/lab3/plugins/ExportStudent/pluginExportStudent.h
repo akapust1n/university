@@ -28,4 +28,5 @@ private:
     QTreeView *treeView;
     QModelIndexList list;
     TreeModel *treeModel;
+    Tree *tree;
 };

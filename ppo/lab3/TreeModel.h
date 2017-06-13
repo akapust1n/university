@@ -23,7 +23,10 @@ public:
     QModelIndex parent(const QModelIndex &index) const override;
 
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    int  rowCount2(const QModelIndex &parent);
+
     int columnCount(const QModelIndex &parent = QModelIndex()) const override;
+    int columnCount2(const QModelIndex &parent) const;
 
     // Editing and resizing methods
     Qt::ItemFlags flags(const QModelIndex &index) const override;

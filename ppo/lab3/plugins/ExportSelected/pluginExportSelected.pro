@@ -2,6 +2,8 @@ QT       += core
 QT       -= gui
 QT += widgets
 
+CONFIG +=c++14
+
 TARGET = exporteSelectedPlugin
 TEMPLATE = lib
 CONFIG += plugin

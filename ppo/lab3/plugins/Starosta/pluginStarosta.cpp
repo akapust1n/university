@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <iostream>
 //#include <TreeModel.h>
+#include <QMessageBox>
 
 #include <QVariant>
 #include <QVector>
@@ -42,6 +43,11 @@ void StarostaPlugin::onOpenFileClicked()
             SCommand* sCommand = new SCommand(tnh2);
             std::cout << "befor push" << std::endl;
             undoStack->push(sCommand);
+        }
+        else {
+            QMessageBox box;
+             box.setText("It is not starosta");
+             box.exec();
         }
     }
 }

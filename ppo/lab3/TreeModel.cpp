@@ -35,6 +35,9 @@ QVariant TreeModel::data(const QModelIndex &index, int role) const
 
     TreeItem *item = getItem(index);
 
+    if(role>=columnCount2(index))
+        return QVariant();
+
     return item->data(index.column());
 }
 
@@ -76,6 +79,15 @@ QModelIndex TreeModel::parent(const QModelIndex &index) const
 
 int TreeModel::rowCount(const QModelIndex &parent) const
 {
+    std::cout<<" row BASE count phase1"<<std::endl;
+    TreeItem *parentItem = getItem(parent);
+    std::cout<<" row  BASE count phas21"<<std::endl;
+
+    return parentItem->childCount();
+}
+
+int TreeModel::rowCount2(const QModelIndex &parent)
+{
     std::cout<<" row count phase1"<<std::endl;
     TreeItem *parentItem = getItem(parent);
     std::cout<<" row count phas21"<<std::endl;
@@ -84,6 +96,17 @@ int TreeModel::rowCount(const QModelIndex &parent) const
 }
 
 int TreeModel::columnCount(const QModelIndex &parent) const
+{
+    TreeItem *buf = rootItem;
+    int max = 0;
+    while (buf->child(0)) {
+        if (buf->columnCount() > max)
+            max = buf->columnCount();
+        buf = buf->child(0);
+    }
+    return max;
+}
+int TreeModel::columnCount2(const QModelIndex &parent) const
 {
     TreeItem *buf = rootItem;
     int max = 0;

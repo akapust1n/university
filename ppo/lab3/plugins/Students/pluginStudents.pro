@@ -1,7 +1,7 @@
 QT       += core
 QT       -= gui
 QT += widgets
-
+CONFIG +=c++14
 TARGET = studentPlugin
 TEMPLATE = lib
 CONFIG += plugin

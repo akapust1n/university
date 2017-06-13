@@ -9,6 +9,7 @@ public:
     Tree();
     TreeModel *treeModel;
     QTreeView *treeView;
+    QString *kindTree = nullptr;
 };
 
 #endif // TREE_H

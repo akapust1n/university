@@ -2,9 +2,10 @@
 #include <QFile>
 #include <QTextStream>
 
-exportComand::exportComand(QModelIndex _selected, QString _filename)
+exportComand::exportComand(QModelIndex _selected, QString _filename, TreeModel *_treeModel)
     : selected(_selected),
-     filename(_filename)
+     filename(_filename),
+     treeModel(_treeModel)
 {
 }
 
@@ -21,9 +22,13 @@ void exportComand::redo()
     QFile result(filename);
     if (result.open(QIODevice::ReadWrite)) {
         std::cout<<"redo export phase2"<<std::endl;
+        std::cout<<selected.data().toString().toStdString()<<std::endl;
 
         QTextStream stream(&result);
-        stream<<selected.data().toString()<<endl;
+       // for(int i = 1; i<treeModel->columnCount2(selected);i++) {
+            std::cout<<"SELECTED1"<<selected.data().toString().toStdString()<<std::endl;
+            stream<<selected.data().toString()<<endl;
+        //}
     }
 
     std::cout<<"redo export phase3"<<std::endl;

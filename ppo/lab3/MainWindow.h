@@ -30,6 +30,8 @@ private slots:
 
     void on_openFileButton_clicked();
 
+    void on_undoButton_clicked();
+
 public:
     Tree *tree;
     Ui::MainWindow* ui;

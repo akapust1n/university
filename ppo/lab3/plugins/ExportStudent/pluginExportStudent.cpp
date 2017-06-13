@@ -7,10 +7,11 @@
 #include <QVariant>
 #include <QVector>
 #include <SaveFileAs.h>
+#include "QMessageBox"
 
 QVariant StudentsExportPlugin::doThing(MainWindow* _th)
 {
-    QPushButton* exportStudent = new QPushButton("Export student");
+    QPushButton* exportStudent = new QPushButton("Export students");
     connect(exportStudent, SIGNAL(clicked()), this, SLOT(onExportStudentClicked()));
 
     th = _th;
@@ -19,10 +20,12 @@ QVariant StudentsExportPlugin::doThing(MainWindow* _th)
     undoStack = th->undoStack;
     treeView = th->tree->treeView;
     treeModel = th->tree->treeModel;
+    tree = th->tree;
     std::cout << "BUtton export shoud be added" << std::endl;
 }
 void StudentsExportPlugin::onExportStudentClicked()
 {
+    if(tree->kindTree ==QString("STUDENTS")) {
     if (treeView->selectionModel()) {
         list = treeView->selectionModel()->selectedIndexes();
         QModelIndex tnh = list.first();
@@ -36,6 +39,12 @@ void StudentsExportPlugin::onExportStudentClicked()
                 saveFileAs->show();
             }
         }
+    }
+    }
+    else{
+        QMessageBox box;
+        box.setText("It is not student!");
+        box.exec();
     }
     std::cout << "export student clicked phase3" << std::endl;
 }

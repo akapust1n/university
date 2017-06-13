@@ -20,7 +20,7 @@
 class exportComand : public BaseCommand {
 
 public:
-   exportComand(QModelIndex _selected, QString _filename);
+   exportComand(QModelIndex _selected, QString _filename, TreeModel *_treeModel);
 
 
     ~ exportComand() {};
@@ -32,5 +32,6 @@ public:
 private:
     QModelIndex selected;
     QString filename;
+    TreeModel *treeModel;
 };
 #endif // EXPORTCOMAND_H
