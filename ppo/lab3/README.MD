@@ -3,6 +3,10 @@
 Без загрузки плагинов лаба ничего не умеет.
 После загрузки плагина "Студенты" появляется функционал, присущей первой лабе.
 
+### Как собрать?
+При компиляции при помощи Qt Creator - убрать галочку с "Shadow build" (Projects - Build - General - Shadow build).
+Запуск через консоль: ``` qmake && make && ./lab3 ```
+
 <img src="https://raw.githubusercontent.com/akapust1n/university/master/ppo/lab3/Screens/myimage.gif" data-canonical-src="https://raw.githubusercontent.com/akapust1n/university/master/ppo/lab3/Screens/myimage.gif" width="410" height="260" />
 
 
