@@ -10,6 +10,7 @@ Makefile.*
 moc_*
 .vscode/
 *.docx#
+**/node_modules/*
 
 =======
 # Windows image file caches
