@@ -6,7 +6,7 @@ let express = require('express'); // Get the module
 let app = express();
 let bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+//app.use(bodyParser.json());
 app.use(express.static('static'));
 
 app.get('/', function (req, res) {
@@ -35,8 +35,8 @@ app.get('/hack2', function (req, res) {
 
 app.post('/save', function (req, res) {
     let pathtofile = __dirname + '/static/temp';
-
-    fs.writeFile(pathtofile, JSON.stringify(req.body), (err) => {
+    console.log(req.body)
+    fs.writeFile(pathtofile, req.body, (err) => {
         console.log(err)
         if (err) console.log("error write to file")
     });
