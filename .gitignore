@@ -11,6 +11,7 @@ moc_*
 .vscode/
 *.docx#
 **/node_modules/*
+*.swp
 
 =======
 # Windows image file caches
