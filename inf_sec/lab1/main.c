@@ -8,6 +8,7 @@ int main()
     usb_find_busses();
     usb_find_devices();
     for (bus = usb_busses; bus; bus = bus->next)
+    {
         for (dev = bus->devices; dev; dev = dev->next)
         {
             //printf("Trying device %s/%s\n", bus->dirname, dev->filename);
@@ -19,6 +20,7 @@ int main()
                 return 0;
             }
         }
+    }
     printf("ERROR. Can't find flash drive!!\n");
     return -1;
 }

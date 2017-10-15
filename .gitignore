@@ -12,6 +12,10 @@ moc_*
 *.docx#
 **/node_modules/*
 *.swp
+*md.save
+# reports in tex
+tex_*
+
 
 =======
 # Windows image file caches
