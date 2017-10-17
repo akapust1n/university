@@ -1,0 +1,15 @@
+{
+  "generator-mocha": {
+    "ui": "bdd",
+    "rjs": false
+  },
+  "generator-express": {
+    "promptValues": {
+      "type": "MVC",
+      "viewEngine": "EJS",
+      "cssPreprocessor": "less",
+      "database": "MongoDB",
+      "buildTool": "Gulp"
+    }
+  }
+}

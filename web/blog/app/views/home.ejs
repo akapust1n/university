@@ -1,0 +1,29 @@
+<%- include('navbar') %>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+              <a href="/post/<%= topPost.id %>" STYLE="text-decoration: none" class = "text-muted" >
+                  <h1><%= topPost.title %></h1>
+                  <p class="list-group-item-text "><%= topPost.author %></p>
+              </a>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="list-group">
+     
+                  <% posts.forEach((post) => { %>
+                  <a href="/post/<%= post.id %>" class="list-group-item">
+                  <h4 class="list-group-item-heading"><%= post.title %></h4>
+                  <p class="list-group-item-text"><%= post.author %></p>
+                  </a>
+                  <% }) %>
+                </div>
+            </div>
+        </div>
+        <%- include('footer') %>
+    </div>
+</body>
+
+</html>
