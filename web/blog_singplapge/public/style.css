@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.cell {
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+  border: solid 1px;
+  box-sizing: border-box;
+  transition: background-color 1s ease-in-out;
+}
+.cell0 { background-image: url(images/a.png); }
+.cell1 { background-image: url(images/b.png); }
+.cell2 { background-image: url(images/g.png); }
+
+#game {
+  width: 100vmin;
+  height: 100vmin;
+  text-align: center;
+  font-size: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#menu {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  border: solid 6px;
+  width: calc(100% - 100vmin);
+  font-size: 18;
+}
+
+#newGame {
+  margin: 10px 5px;
+}

@@ -1,14 +1,14 @@
 // Example model
-let mongoose = require('mongoose'),
-  Post = mongoose.Schema;
+// let mongoose = require('mongoose'),
+//   Post = mongoose.Schema;
 
-var PostSchema = new Post({
-  title: String,
-  url: String,
-  text: String,
-  date: String,
-});
+// var PostSchema = new Post({
+//   title: String,
+//   url: String,
+//   text: String,
+//   date: String,
+// });
 
 
 
-mongoose.model('Article', ArticleSchema);
+//mongoose.model('Post', PostSchema);

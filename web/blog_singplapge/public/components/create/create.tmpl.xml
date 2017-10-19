@@ -1,0 +1,23 @@
+<fest:template 
+    xmlns:fest="http://fest.mail.ru" context_name="data">
+    <div class="grid">
+        <div class="grid__row flex_center" flex="1">
+            <div class="header clearfix">
+                <nav>
+                    <a href="/">
+                        <h1 class="ghost-button-rounded-corners ">Blog about anything                                              </h1>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="grid__row flex_center" flex="1">
+            <br/>
+            <br/>
+        </div>
+        <div class="grid__row grid__padding7 flex_center " flex="2">
+            <div class="grid__column">
+                <textarea id="editor"></textarea >
+            </div>
+        </div>
+    </div>
+</fest:template>

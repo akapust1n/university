@@ -1,0 +1,42 @@
+{
+  "name": "Rainbow_square",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "heroku-postbuild": "npm run fest; ./node_modules/.bin/webpack --config=webpack.heroku.config.js",
+    "fest": "./node_modules/.bin/fest-build --dir=public/components/",
+    "webpack": "./node_modules/.bin/webpack",
+    "karma:start": "karma start",
+    "karma:run": "karma run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-park-mail-ru/sample.git"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fest": "^0.12.1",
+    "webpack": "^1.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-core": "^6.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "json-schema-mock": "0.0.8",
+    "bootstrap-social": "^5.0.0",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "simplemde": "^1.11.2"
+  }
+}

@@ -1,0 +1,93 @@
+.all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.data {
+    width: 400px;
+    /* Ширина элемента в пикселах */
+    padding: 10px;
+    /* Поля вокруг текста */
+    margin: auto;
+    /* Выравниваем по центру */
+}
+
+.input_text {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: Squareo;
+    /* Гарнитура шрифта */
+    src: url("../data/fonts/Squareo.ttf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Square;
+    /* Гарнитура шрифта */
+    src: url("../data/fonts/Square.ttf");
+    /* Путь к файлу со шрифтом */
+}
+
+h1 {
+    font: 35pt Squareo;
+}
+
+.grid {
+    border: solid 0px #e7e7e7;
+    margin-top: 2%;
+}
+
+.grid__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid__padding7 {
+    padding: 7px;
+}
+
+.grid__item {
+    padding: 7px;
+    border: solid 0px #e7e7e7;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid rgb(8, 6, 6);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button1:hover {
+    color: #000000;
+    background-color: rgb(27, 233, 199);
+}
+
+@media all and (max-width:30em) {
+    .button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}

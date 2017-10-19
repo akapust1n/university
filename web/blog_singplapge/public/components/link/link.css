@@ -1,0 +1,21 @@
+.ghost-button-rounded-corners {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font: 35pt  Squareo;
+    width: initial;
+}
+
+.ghost-button-rounded-corners:hover,
+
+.ghost-button-rounded-corners:active {
+    color: #000000;
+    text-decoration: none;
+    font: 35pt  Square;
+}

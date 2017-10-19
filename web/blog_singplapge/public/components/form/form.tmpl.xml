@@ -1,0 +1,31 @@
+<fest:template 
+    xmlns:fest="http://fest.mail.ru" context_name="data">
+    <form>
+        <div class="grid">
+            <div class="grid__row flex_center" flex="1">
+                <div class="header clearfix">
+                    <nav>
+                        <a href="/">
+                            <h1 class="ghost-button-rounded-corners ">Blog about anything                                                </h1>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="grid__row" flex="1"></div>
+            <fest:for iterate="data.fields" index="i" value="field">
+                <div class="grid__row grid__padding7" flex="1">
+                    <input type="{field.type || 'text'}" name="{field.name}" placeholder="{field.placeholder}"/>
+                </div>
+            </fest:for>
+            <div class="grid__row " flex="1">
+                <fest:for iterate="data.controls" index="i" value="control">
+                    <div class="grid__item ">
+                        <button type="{control.type}" class="{control.class}">
+                            <fest:value>control.text</fest:value>
+                        </button>
+                    </div>
+                </fest:for>
+            </div>
+        </div>
+    </form>
+</fest:template>

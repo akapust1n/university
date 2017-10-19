@@ -1,0 +1,12 @@
+node_modules/
+public/api
+*.idea/*
+*.log
+.travis.yml
+*.bak
+.tern-project
+public/build
+*.tmpl.js
+public/coverage
+
+

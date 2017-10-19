@@ -1,0 +1,31 @@
+.mainMenu_buttom {
+  display: block;
+  width: 100%;
+  margin: 0.2em;
+  background-color: #4dca62;
+  border: .1rem solid #4dca62;
+  border-radius: .4rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: .1rem;
+  line-height: 3.8rem;
+  padding: 0 3rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo {
+  alt: "лого";
+  align: "middle";
+  width: 6%;
+  height: 6%;
+}
+
+.header1 {
+  text-decoration: none
+}
