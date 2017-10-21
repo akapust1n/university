@@ -4,7 +4,7 @@ import Model from "./model.js";
 
 export default class User extends Model {
 
-	constructor(attributes) {
+	constructor(attributes = {}) {
 		super(attributes);
 	}
 
@@ -15,13 +15,15 @@ export default class User extends Model {
 	get defaults() {
 		return {
 			name: 'Default name',
-			email: 'anon@mail.ru',
-      password: 'password'
-    }
+			password: 'password'
+		}
 	}
 
-  remove() {
-    super.remove().then(attrs => {return attrs})
-  }
+
+	remove() {
+		super.remove().then(attrs => {
+			return attrs
+		})
+	}
 
 }

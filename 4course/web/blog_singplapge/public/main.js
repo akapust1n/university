@@ -4,12 +4,11 @@ import Router from "./modules/router.js"
 import MainView from "./views/main.js"
 import LoginView from "./views/login.js"
 import PostView from "./views/post.js"
-import CreateView from "./views/create.js"
-
 import Session from "./models/session"
 
-window.onload = function () {
-  let routerConfig = function () {
+
+window.onload = () => {
+  let routerConfig = () => {
     (new Router)
     .addRoute('/login', LoginView)
       .addRoute('/post', PostView)

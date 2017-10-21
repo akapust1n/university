@@ -4,16 +4,16 @@ import Model from "./model.js";
 
 export default class Session extends Model {
 
-	constructor(attributes) {
-		super(attributes);
-	}
+  constructor(attributes) {
+    super(attributes);
+  }
 
-	url() {
-		return `${this.baseUrl}/session`;
-	}
+  url() {
+    return `${this.baseUrl}/session`;
+  }
 
   save() {
-    let f = function (attrs) {
+    let f = (attrs) => {
       this._auth = true;
       localStorage.userinfo = JSON.stringify(this.attributes);
     };

@@ -10,8 +10,7 @@ module.exports = {
   watch: true,
   devtool: "source-map",
   module: {
-    loaders: [
-      {
+    loaders: [{
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
@@ -27,6 +26,8 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("style.css",  {allChunks: true})
+    new ExtractTextPlugin("style.css", {
+      allChunks: true
+    })
   ]
 };

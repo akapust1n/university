@@ -2,6 +2,8 @@ const express = require('express');
 const parser = require('body-parser');
 
 const app = express();
+//import Server from "./public/server/server"
+const calculator = require("./public/server/server")
 
 app.use('/', express.static('public', {
   maxAge: 2
@@ -25,6 +27,16 @@ function pseudoUrlHandler(req, res) {
   });
 }
 
+function pseudoServerUrlHanderl(req, res) {
+  //let server = new Server(req);
+  console.log("hey")
+  const resp = calculator.response(req);
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify({
+    a: resp
+  }));
+}
+app.post('/api/session', pseudoServerUrlHanderl)
 app.get('/login', pseudoUrlHandler);
 app.get('/create', pseudoUrlHandler);
 app.get('/post/:id', pseudoUrlHandler);

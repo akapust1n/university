@@ -8,7 +8,7 @@ export default class Model {
   }
 
   get baseUrl() {
-    return 'https://rainbow-square-backend.herokuapp.com/api';
+    return 'http://localhost:3000/api';
   }
 
   get defaults() {
@@ -30,7 +30,9 @@ export default class Model {
   }
 
   fetch() {
-    return this.send('GET', { id: this.attributes.id })
+    return this.send('GET', {
+        id: this.attributes.id
+      })
       .then(data => JSON.parse(data))
       .then(json => {
         this.attributes = json;
@@ -49,7 +51,9 @@ export default class Model {
   }
 
   remove() {
-    return this.send('DELETE', { id: this.attributes.id })
+    return this.send('DELETE', {
+        id: this.attributes.id
+      })
       .then(() => {
         this.attributes = {};
       });
@@ -63,7 +67,7 @@ export default class Model {
       xhr.open(method, url, true);
       xhr.setRequestHeader('Content-type', 'application/json');
 
-      xhr.onreadystatechange = function () {
+      xhr.onreadystatechange = () => {
         if (xhr.readyState === XMLHttpRequest.DONE) {
           if (xhr.status === 200) {
             resolve(xhr.responseText);
