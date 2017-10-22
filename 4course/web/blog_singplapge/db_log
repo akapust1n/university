@@ -1,0 +1,4 @@
+use Web;
+db.createCollection("User");
+db.createCollection("Token");
+db.User.insert([ {name: "abc1", password:"abc1" }, {name: "cba1", password:"cba1" }]);
