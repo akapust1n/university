@@ -14,7 +14,7 @@ export default class LoginView extends View {
     this._form = new Form({
       data: {
         fields: [{
-            name: 'login',
+            name: 'name',
             placeholder: 'Username',
             class: 'input_text'
           },
@@ -43,6 +43,7 @@ export default class LoginView extends View {
       event.preventDefault();
       const formData = this._form.getFormData();
       let session = (window.session = new Session(formData));
+      console.log("submt")
       session.save().then(attrs => {
           window.userinfo = formData;
           this.router.go('/');

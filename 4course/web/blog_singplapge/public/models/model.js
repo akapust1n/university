@@ -41,10 +41,13 @@ export default class Model {
   }
 
   save() {
-    const method = this.attributes.id ? 'PUT' : 'POST';
-
+    const method = 'POST';
+    console.log("auth  ", this.attributes)
     return this.send(method, this.attributes)
-      .then((data => JSON.parse(data)))
+      .then((data => {
+        JSON.parse(data);
+        console.log(data)
+      }))
       .then(json => {
         return this.attributes;
       });

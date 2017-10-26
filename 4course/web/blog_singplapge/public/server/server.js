@@ -18,26 +18,23 @@ const schema = {
 };
 
 
-function schemaUser() {
-    const schema = mongoose.Schema({
-        name: String,
-        password: String,
-    }, {
-        collection: "User"
-    });
-    let User = mongoose.model('User', schema);
-    return User;
-}
 
-function tokenUser() {
-    const schema = mongoose.Schema({
-        token: String,
-    }, {
-        collection: "Token"
-    });
-    let Token = mongoose.model('Token', schema);
-    return Token;
-}
+const schema3 = mongoose.Schema({
+    name: String,
+    password: String,
+}, {
+    collection: "User"
+});
+let User = mongoose.model('User', schema3);
+
+
+const schema2 = mongoose.Schema({
+    token: String,
+}, {
+    collection: "Token"
+});
+let Token = mongoose.model('Token', schema2);
+
 
 
 module.exports.response = (async function (req) {
@@ -57,13 +54,14 @@ module.exports.response = (async function (req) {
 
 function _session(req) {
     return new Promise((resolve, reject) => {
-        const userSchema = schemaUser();
-        const userToken = tokenUser()
+        // const userSchema = schemaUser();
+        // const userToken = tokenUser()
+        resolve("not such user");
         const user = JSON.parse(JSON.stringify(req.body))
         console.log(v.validate(JSON.parse(JSON.stringify(req.body)), schema));
         if (!v.validate(JSON.parse(JSON.stringify(req.body)), schema).valid)
             return "wrong json";
-        userSchema.count({
+        User.count({
             name: user.name,
             password: user.password
         }, (err, count) => {
@@ -71,12 +69,12 @@ function _session(req) {
             if (count > 0) {
                 console.log("countinto", count);
                 const token1 = Math.random().toString(36).substr(2);
-                const newToken = new userToken({
+                const newToken = new Token({
                     token: token1
                 });
 
                 newToken.save((err) => {
-                    if (err) resolve(403);
+                    if (err) resolve("not such user");
                     else resolve(token1);;
                     console.log("result2__", resolve)
                 })

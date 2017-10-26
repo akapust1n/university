@@ -1,6 +1,6 @@
 const express = require('express');
 const parser = require('body-parser');
-var async = require('async');
+const async = require('async');
 
 const app = express();
 //import Server from "./public/server/server"
@@ -34,7 +34,7 @@ async function pseudoServerUrlHanderl(req, res) {
   const resp = await handler.response(req);
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify({
-    a: resp
+    result: resp
   }));
 }
 app.post('/api/session', pseudoServerUrlHanderl)
