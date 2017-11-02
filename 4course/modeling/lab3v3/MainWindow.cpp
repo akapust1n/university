@@ -2,7 +2,10 @@
 #include "ui_MainWindow.h"
 #include <algorithm>
 #include <bitset>
+#include <functional>
 #include <string>
+using namespace std::placeholders;
+
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -137,10 +140,11 @@ int MainWindow::getTableValue(int div)
     return array[counter] % div;
 }
 
-double MainWindow::testValues(std::vector<int>& values)
+double MainWindow::frequencyBitwiseTest(std::vector<int>& values)
 {
     std::vector<int> results(values.size());
     int countNumbers = 0;
+    //неудачное решение
     std::transform(values.begin(), values.end(), results.begin(), [&countNumbers](int value) {
         std::string temp = std::bitset<32>(value).to_string();
         if (temp.find('1', 0) != std::string::npos) {
@@ -169,39 +173,103 @@ double MainWindow::testValues(std::vector<int>& values)
     return _erfc;
 }
 
+double MainWindow::identicalConsecutiveBitstest(std::vector<int>& values)
+{
+
+    int countNumbers = 0;
+    int sum = 0;
+    auto toBinary = [](int value) {
+        std::string temp = std::bitset<32>(value).to_string();
+        if (temp.find('1', 0) != std::string::npos) {
+            temp = temp.substr(temp.find("1"));
+
+        } else {
+            temp = "0";
+        };
+        return temp;
+    };
+
+    for (auto value : values) {
+        std::string temp = toBinary(value);
+        for (auto letter : temp) {
+            if (letter == '1') {
+                sum++;
+            }
+            countNumbers++;
+        }
+    };
+
+    double stat = abs(sum) * 1.0 / countNumbers;
+    if (abs(stat - 0.5) >= 2 / sqrt(countNumbers))
+        return 0;
+
+    int signChange = 0; // that's why
+    std::string lastValue = "8";
+    for (auto value : values) {
+        std::string temp = toBinary(value);
+        if (temp[0] != lastValue[0])
+            signChange++;
+        for (int i = 1; i < temp.size(); i++) {
+            if (temp[i] != temp[i - 1]) {
+                signChange++;
+            }
+        }
+        lastValue = temp[temp.size() - 1];
+    };
+
+    double p = erfc(abs(signChange - 2 * countNumbers * stat * (1 - stat)) / (2 * stat * (1 - stat) * sqrt(2 * countNumbers)));
+
+    return p;
+}
+
 void MainWindow::on_pushButton_2_clicked()
 {
     int numTab = ui->tabWidget->currentIndex();
     int numLines = ui->numLines->text().toInt();
 
-    auto test = [=](int index, QTableWidget* table) {
+    auto test = [=](int index, QTableWidget* table, std::function<double(std::vector<int>&)> testFunct, int offset) {
         std::vector<int> values;
         for (int i = 0; i < numLines; i++) {
             values.push_back(table->item(i, index)->text().toInt());
         }
-        double testValue = testValues(values);
+        double testValue = testFunct(values);
         QTableWidgetItem* newItem = new QTableWidgetItem(QString::number(testValue));
-        table->setRowCount(numLines + 1);
-        table->setItem(numLines, index, newItem);
+        table->setRowCount(numLines + offset);
+        table->setItem(numLines + offset - 1, index, newItem);
     };
+    std::function<double(std::vector<int>&)> funct0 = std::bind(&MainWindow::frequencyBitwiseTest, this, _1); //не знаю как нормально сделать
+    std::function<double(std::vector<int>&)> funct1 = std::bind(&MainWindow::identicalConsecutiveBitstest, this, _1); //identicalConsecutiveBitstest
+
     switch (numTab) {
     case algoritm: {
 
-        test(0, ui->Algtable);
-        test(1, ui->Algtable);
-        test(2, ui->Algtable);
+        test(0, ui->Algtable, funct0, 1);
+        test(1, ui->Algtable, funct0, 1);
+        test(2, ui->Algtable, funct0, 1);
+
+        test(0, ui->Algtable, funct1, 2);
+        test(1, ui->Algtable, funct1, 2);
+        test(2, ui->Algtable, funct1, 2);
         break;
     }
     case table: {
-        test(0, ui->tableTable);
-        test(1, ui->tableTable);
-        test(2, ui->tableTable);
+        test(0, ui->tableTable, funct0, 1);
+        test(1, ui->tableTable, funct0, 1);
+        test(2, ui->tableTable, funct0, 1);
+
+        test(0, ui->tableTable, funct1, 2);
+        test(1, ui->tableTable, funct1, 2);
+        test(2, ui->tableTable, funct1, 2);
         break;
     }
     case custom: {
-        test(0, ui->customTable);
-        test(1, ui->customTable);
-        test(2, ui->customTable);
+        test(0, ui->customTable, funct0, 1);
+        test(1, ui->customTable, funct0, 1);
+        test(2, ui->customTable, funct0, 1);
+
+        test(0, ui->customTable, funct1, 2);
+        test(1, ui->customTable, funct1, 2);
+        test(2, ui->customTable, funct1, 2);
         break;
     }
 
