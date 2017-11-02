@@ -33,6 +33,16 @@ function run() {
 
         return;
     }
+    for (let i = 1; i < matrix.rows.length; i++) {
+        let sum = 0
+        for (let j = 0; j < matrix.rows.length; j++) {
+            if (i != j) {
+                sum += matrix[i][j]
+            }
+        }
+        console.log(sum)
+        ans[i] /= sum;
+    }
 
     for (let c = 1, m = tableData.rows[1].cells.length; c < m; c++) {
         tableResult.rows[1].cells[c].innerText = ans[c - 1].toFixed(2);

@@ -42,7 +42,9 @@ export default class LoginView extends View {
     this._form.on('submit', event => {
       event.preventDefault();
       const formData = this._form.getFormData();
-      let session = (window.session = new Session(formData));
+      window.session = new Session();
+      window.session.save(formData);
+      let session = ();
       console.log("submt")
       session.save().then(attrs => {
           window.userinfo = formData;

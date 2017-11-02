@@ -4,35 +4,29 @@ import Model from "./model.js";
 
 export default class Session extends Model {
 
-  constructor(attributes) {
-    super(attributes);
+  constructor(attributes = {}) {
+    this.auth = false;
   }
 
   url() {
-    return `${this.baseUrl}/session`;
+    return `https://localhost:3000/api/session`;
   }
 
-  save() {
-    let f = (attrs) => {
-      console.log(JSON.stringify(this.attributes))
-      this._auth = true;
-      localStorage.userinfo = JSON.stringify(this.attributes);
-      let result = JSON.stringify(this.attributes).result;
-      if (result != "not such user") { //:))))
-        localStorage.result = result
-      }
+  save(attrs) {
+
+    console.log("hey save", JSON.stringify(this.attributes).result)
+    this._auth = true;
+    localStorage.userinfo = JSON.stringify(this.attributes);
+    let result = JSON.stringify(this.attributes).result;
+    if (result != "not such user") { //:))))
+      localStorage.result = result
+
     };
     console.log("server____", JSON.stringify(this.attributes));
-    return super.save()
-      .then(f.bind(this));
   }
-
   remove() {
     this._auth = false;
     localStorage.removeItem('userinfo');
-    return super.remove().catch(() => {
-      return {}
-    });
   }
 
   get isAuthenticated() {
