@@ -1,12 +1,9 @@
 'use strict';
 
-import Model from "./model.js";
 
-export default class User extends Model {
+export default class User {
 
-	constructor(attributes = {}) {
-		super(attributes);
-	}
+	constructor(attributes = {}) {}
 
 	url() {
 		return `${this.baseUrl}/user/`;

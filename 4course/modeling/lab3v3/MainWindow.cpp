@@ -234,6 +234,7 @@ void MainWindow::on_pushButton_2_clicked()
         }
         double testValue = testFunct(values);
         QTableWidgetItem* newItem = new QTableWidgetItem(QString::number(testValue));
+        newItem->setBackgroundColor(Qt::cyan);
         table->setRowCount(numLines + offset);
         table->setItem(numLines + offset - 1, index, newItem);
     };

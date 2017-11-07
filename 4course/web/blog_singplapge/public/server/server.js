@@ -44,7 +44,6 @@ module.exports.response = (async function (req) {
     switch (method) {
         case 'session':
             let temp = await _sessionWrapper(req);
-            console.log("TTTTTT", temp);
             return temp;
         default:
             return _wrongMethod(req);
@@ -56,7 +55,6 @@ function _session(req) {
     return new Promise((resolve, reject) => {
         // const userSchema = schemaUser();
         // const userToken = tokenUser()
-        resolve("not such user");
         const user = JSON.parse(JSON.stringify(req.body))
         console.log(v.validate(JSON.parse(JSON.stringify(req.body)), schema));
         if (!v.validate(JSON.parse(JSON.stringify(req.body)), schema).valid)
@@ -74,13 +72,14 @@ function _session(req) {
                 });
 
                 newToken.save((err) => {
-                    if (err) resolve("not such user");
+                    if (err) resolve("no such user");
                     else resolve(token1);;
-                    console.log("result2__", resolve)
                 })
 
 
-            };
+            } else {
+                resolve("no such user");
+            }
         });
     })
 }

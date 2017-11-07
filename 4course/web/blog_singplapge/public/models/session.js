@@ -1,34 +1,57 @@
 'use strict';
 
-import Model from "./model.js";
 
-export default class Session extends Model {
+export default class Session {
 
   constructor(attributes = {}) {
     this.auth = false;
   }
 
   url() {
-    return `https://localhost:3000/api/session`;
+    return 'http://localhost:3000/api/session';
   }
 
   save(attrs) {
+    return new Promise((resolve, reject) => {
+      console.log("hello");
+      console.log("hello2");
+      let result = this.send('POST', attrs);
 
-    console.log("hey save", JSON.stringify(this.attributes).result)
-    this._auth = true;
-    localStorage.userinfo = JSON.stringify(this.attributes);
-    let result = JSON.stringify(this.attributes).result;
-    if (result != "not such user") { //:))))
-      localStorage.result = result
+      console.log("result", result)
 
-    };
-    console.log("server____", JSON.stringify(this.attributes));
+      localStorage.userinfo = JSON.stringify(attrs);
+      if (result != "no such user") { //:))))
+        localStorage.result = result
+        this._auth = true;
+        resolve()
+      } else {
+        console.log("hello3");
+
+        reject()
+      };
+      console.log("server____", JSON.stringify(attrs));
+
+    });
+
   }
+
   remove() {
     this._auth = false;
     localStorage.removeItem('userinfo');
   }
+  send(method, data) {
+    console.log("url")
+    const url = this.url()
 
+    let xhr = new XMLHttpRequest();
+    xhr.open(method, url, false);
+    xhr.setRequestHeader('Content-type', 'application/json');
+
+    xhr.send(JSON.stringify(data));;
+    console.log(xhr.responseText)
+    const result = JSON.parse(xhr.responseText).result
+    return result
+  }
   get isAuthenticated() {
     return !!this._auth;
   }

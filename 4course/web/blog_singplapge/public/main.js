@@ -19,8 +19,9 @@ window.onload = () => {
   }
 
   if (!!localStorage.userinfo) {
-    window.session = new Session(JSON.parse(localStorage.userinfo));
-    window.session.save().then(routerConfig);
+    window.session = new Session();
+    //   window.session.save(JSON.parse(localStorage.userinfo)).then(routerConfig);
+    routerConfig();
   } else {
     window.session = new Session();
     routerConfig();
