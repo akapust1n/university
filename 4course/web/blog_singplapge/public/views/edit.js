@@ -9,7 +9,7 @@ import SimpleMDE from 'simplemde';
 
 
 
-export default class CreateView extends View {
+export default class EditView extends View {
     constructor(options = {}) {
         super(options);
         this._init();
@@ -23,7 +23,7 @@ export default class CreateView extends View {
                 fields: [],
                 template: 'create/create.tmpl',
                 controls: [{
-                    text: 'publicate',
+                    text: 'edit',
                     type: 'submit',
                     class: 'button1'
                 }],
@@ -37,6 +37,15 @@ export default class CreateView extends View {
         let simplemde = new SimpleMDE({
             element: document.getElementById("editor")
         });
+        let parts = document.URL.split('/')
+        let lastId = parts[parts.length - 1]
+        const params = "?id=" + lastId.toString()
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', '/api/postById' + params, false);
+        xhr.send();
+        let post = JSON.parse(xhr.responseText).result[0]
+        simplemde.value(post.text)
+        document.getElementById('title').value = post.title
 
         let publicate = document.querySelector('.button1');
         publicate.onclick = (() => {
@@ -51,9 +60,10 @@ export default class CreateView extends View {
                         text: simplemde.value(),
                         author: session.username,
                         title: document.getElementById('title').value,
+                        id: post.id
                     }
                     let xhr = new XMLHttpRequest();
-                    xhr.open('POST', "/api/create", false);
+                    xhr.open('POST', "/api/edit", false);
                     xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 
 

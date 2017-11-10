@@ -38,6 +38,11 @@ async function pseudoServerUrlHanderl(req, res) {
   }));
 }
 app.post('/api/session', pseudoServerUrlHanderl)
+app.post('/api/create', pseudoServerUrlHanderl)
+app.post('/api/edit', pseudoServerUrlHanderl)
+app.get('/api/posts', pseudoServerUrlHanderl)
+app.get('/api/postById', pseudoServerUrlHanderl)
 app.get('/login', pseudoUrlHandler);
 app.get('/create', pseudoUrlHandler);
 app.get('/post/:id', pseudoUrlHandler);
+app.get('/edit/:id', pseudoUrlHandler);

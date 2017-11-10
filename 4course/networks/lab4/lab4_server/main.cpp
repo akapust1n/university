@@ -1,71 +1,63 @@
-#include <boost/array.hpp>
 #include <boost/asio.hpp>
+#include <ctime>
 #include <fstream>
 #include <iostream>
 #include <sstream>
+#include <string>
+unsigned short tcp_port = 1234;
 
-using boost::asio::ip::tcp;
 int main(int argc, char* argv[])
 {
-    if (argc != 3) {
-        std::cerr << "Usage: " << argv[0] << " <server-address> <file path>" << std::endl;
-        std::cerr << "sample: " << argv[0] << " 127.0.0.1:1234 c:\\tmp\\a.txt" << std::endl;
-        return __LINE__;
-    }
+    boost::array<char, 1024> buf;
+    size_t file_size = 0;
     try {
-        std::string server_ip_or_host = argv[1];
-        size_t pos = server_ip_or_host.find(":");
-        if (pos == std::string::npos)
-            return __LINE__;
-        std::string port_string = server_ip_or_host.substr(pos + 1);
-        server_ip_or_host = server_ip_or_host.substr(0, pos);
+        if (argc == 2) {
+            tcp_port = atoi(argv[1]);
+        }
+        std::cout << argv[0] << " listen on port " << tcp_port << std::endl;
         boost::asio::io_service io_service;
-        tcp::resolver resolver(io_service);
-        tcp::resolver::query query(server_ip_or_host, port_string);
-        tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
-        tcp::resolver::iterator end;
-        tcp::socket socket(io_service);
-        boost::system::error_code error = boost::asio::error::host_not_found;
-        while (error && endpoint_iterator != end) {
-            socket.close();
-            socket.connect(*endpoint_iterator++, error);
-        }
-        if (error)
-            return __LINE__;
-        std::cout << "connected to " << argv[1] << std::endl;
-        boost::array<char, 1024> buf;
-        std::ifstream source_file(argv[2], std::ios_base::binary | std::ios_base::ate);
-        if (!source_file) {
-            std::cout << "failed to open " << argv[2] << std::endl;
-            return __LINE__;
-        }
-        size_t file_size = source_file.tellg();
-        source_file.seekg(0);
-        // first send file name and file size to server
-        boost::asio::streambuf request;
-        std::ostream request_stream(&request);
-        request_stream << argv[2] << "\n"
-                       << file_size << "\n\n";
-        boost::asio::write(socket, request);
-        std::cout << "start sending file content.\n";
-        for (;;) {
+        boost::asio::ip::tcp::acceptor acceptor(io_service, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), tcp_port));
+        boost::system::error_code error;
+        boost::asio::ip::tcp::socket socket(io_service);
+        acceptor.accept(socket);
+        std::cout << "get client connection." << std::endl;
+        boost::asio::streambuf request_buf;
+        boost::asio::read_until(socket, request_buf, "\n\n");
+        std::cout << "request size:" << request_buf.size() << "\n";
+        std::istream request_stream(&request_buf);
+        std::string file_path;
+        request_stream >> file_path;
+        request_stream >> file_size;
+        request_stream.read(buf.c_array(), 2);
 
-            if (source_file.eof() == false) {
-                source_file.read(buf.c_array(), (std::streamsize)buf.size());
-                if (source_file.gcount() <= 0) {
-                    std::cout << "read file error " << std::endl;
-                    return __LINE__;
-                }
-                boost::asio::write(socket, boost::asio::buffer(buf.c_array(), source_file.gcount()),
-                    boost::asio::transfer_all(), error);
-                if (error) {
-                    std::cout << "send error:" << error << std::endl;
-                    return __LINE__;
-                }
-            } else
-                break;
+        std::cout << file_path << " size is " << file_size << std::endl;
+        size_t pos = file_path.find_last_of(‘\\’);
+        if (pos != std::string::npos)
+            file_path = file_path.substr(pos + 1);
+        std::ofstream output_file(file_path.c_str(), std::ios_base::binary);
+        if (!output_file) {
+            std::cout << "failed to open " << file_path << std::endl;
+            return __LINE__;
         }
-        std::cout << "send file " << argv[2] << " completed successfully.\n";
+
+        do {
+            request_stream.read(buf.c_array(), (std::streamsize)buf.size());
+            std::cout << __FUNCTION__ << " write " << request_stream.gcount() << " bytes.\n";
+            output_file.write(buf.c_array(), request_stream.gcount());
+        } while (request_stream.gcount() > 0);
+
+        for (;;) {
+            size_t len = socket.read_some(boost::asio::buffer(buf), error);
+            if (len > 0)
+                output_file.write(buf.c_array(), (std::streamsize)len);
+            if (output_file.tellp() == (std::fstream::pos_type)(std::streamsize)file_size)
+                break; // file was received
+            if (error) {
+                std::cout << error << std::endl;
+                break;
+            }
+        }
+        std::cout << "received " << output_file.tellp() << " bytes.\n";
     } catch (std::exception& e) {
         std::cerr << e.what() << std::endl;
     }

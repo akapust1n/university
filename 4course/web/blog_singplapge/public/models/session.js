@@ -4,8 +4,13 @@
 export default class Session {
 
   constructor(attributes = {}) {
-    this.auth = false;
+    if (localStorage.userinfo != undefined) {
+      this._auth = true;
+    } else {
+      this._auth = false;
+    }
   }
+
 
   url() {
     return 'http://localhost:3000/api/session';
@@ -13,14 +18,13 @@ export default class Session {
 
   save(attrs) {
     return new Promise((resolve, reject) => {
-      console.log("hello");
-      console.log("hello2");
+
       let result = this.send('POST', attrs);
 
       console.log("result", result)
 
       localStorage.userinfo = JSON.stringify(attrs);
-      if (result != "no such user") { //:))))
+      if (result != "not such user") { //:))))
         localStorage.result = result
         this._auth = true;
         resolve()
@@ -40,7 +44,6 @@ export default class Session {
     localStorage.removeItem('userinfo');
   }
   send(method, data) {
-    console.log("url")
     const url = this.url()
 
     let xhr = new XMLHttpRequest();
@@ -54,6 +57,9 @@ export default class Session {
   }
   get isAuthenticated() {
     return !!this._auth;
+  }
+  get username() {
+    return JSON.parse(localStorage.userinfo).name
   }
 
 }

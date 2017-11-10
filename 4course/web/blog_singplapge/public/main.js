@@ -5,6 +5,8 @@ import MainView from "./views/main.js"
 import LoginView from "./views/login.js"
 import PostView from "./views/post.js"
 import CreateView from "./views/create.js"
+import EditView from "./views/edit.js"
+
 import Session from "./models/session"
 
 
@@ -13,6 +15,7 @@ window.onload = () => {
     (new Router)
     .addRoute('/login', LoginView)
       .addRoute('/post', PostView)
+      .addRoute('/edit', EditView)
       .addRoute('/create', CreateView)
       .addRoute('/', MainView)
       .start();

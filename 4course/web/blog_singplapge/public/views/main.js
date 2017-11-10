@@ -14,27 +14,24 @@ export default class MainView extends View {
 
   _init() {
     let container = document.querySelector('.content_container');
+    const params = "?num=10&offset=0"
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/posts' + params, false);
+    xhr.send();
+    let posts = []
+    let jsonPosts = JSON.parse(xhr.responseText).result
+    console.log(jsonPosts)
+    jsonPosts.forEach((post, i, arr) => {
+      posts.push({
+        id: post.id,
+        body: post.text,
+        title: post.title,
+        author: post.author
+      })
+    }, this);
     this._main = new Main({
       data: {
-        fields: [{
-            id: 1,
-            body: "blog1",
-            title: "title1",
-            author: "author1"
-          },
-          {
-            id: 2,
-            body: "blog2",
-            title: "title2",
-            author: "author2"
-          },
-          {
-            id: 3,
-            body: "blog3",
-            title: "title3",
-            author: "author3"
-          }
-        ],
+        fields: posts,
         template: "main/main.tmpl",
       }
     });
@@ -43,13 +40,4 @@ export default class MainView extends View {
 
   }
 
-  // resume(options = {}) {
-  //   let session = window.session;
-  //   if (!session || !session.isAuthenticated) {
-  //     this.router.go('/login');
-  //   }
-  //   else {
-  //     this.show();
-  //   }
-  // }
 }

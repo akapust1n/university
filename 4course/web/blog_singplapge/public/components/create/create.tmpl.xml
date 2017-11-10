@@ -14,10 +14,24 @@
             <br/>
             <br/>
         </div>
+        <div class="grid__row grid__padding7 flex_center " flex="4">
+            <div class="grid__column ">
+                <input class ='input_title' type="text" value="Title" id="title"></input >
+            </div>
+        </div>
         <div class="grid__row grid__padding7 flex_center " flex="2">
             <div class="grid__column">
                 <textarea id="editor"></textarea >
             </div>
+        </div>
+        <div class="grid__row " flex="1">
+            <fest:for iterate="data.controls" index="i" value="control">
+                <div class="grid__item ">
+                    <button type="{control.type}" class="{control.class}">
+                        <fest:value>control.text</fest:value>
+                    </button>
+                </div>
+            </fest:for>
         </div>
     </div>
 </fest:template>

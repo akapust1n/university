@@ -5,7 +5,7 @@
             <div class="header clearfix">
                 <nav>
                     <a href="/">
-                        <h1 class="ghost-button-rounded-corners ">Blog about anything(post)                                               </h1>
+                        <h1 class="ghost-button-rounded-corners h1_title ">Blog about anything                                               </h1>
                     </a>
                 </nav>
             </div>
@@ -22,18 +22,27 @@
                             <h2>
                                 <fest:value>field.title</fest:value>
                             </h2>
-                            <p>by___                                                                                                                                                                                                                                                                                                                                                                 
+                            <p>by___                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                                 <a href="#">
                                     <fest:value>field.author</fest:value>
                                 </a>
                             </p>
-                            <p>
-                                <fest:value>field.body</fest:value>
-                            </p>
+                            <div>
+                                <fest:value output="text">field.body</fest:value>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </fest:for>
+        <div class="grid__row " flex="1">
+            <fest:for iterate="data.controls" index="i" value="control">
+                <div class="grid__item ">
+                    <button type="{control.type}" class="{control.class}" onclick="location.href='/edit/{control.id}';">
+                        <fest:value>control.text</fest:value>
+                    </button>
+                </div>
+            </fest:for>
+        </div>
     </div>
 </fest:template>
