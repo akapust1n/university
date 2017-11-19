@@ -10,6 +10,14 @@
                 </nav>
             </div>
         </div>
+        <fest:for iterate="data.login" index="i" value="login">
+            <div class="grid__row flex_center" flex="1">
+                <h4>authorized as  
+                    <fest:space/>
+                    <fest:value> login.text</fest:value>
+                </h4>
+            </div>
+        </fest:for>
         <div class="grid__row flex_center" flex="1">
             <br/>
             <br/>

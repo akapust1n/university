@@ -1,18 +1,13 @@
 {
-  "name": "Rainbow_square",
+  "name": "Personal_blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild": "npm run fest; ./node_modules/.bin/webpack --config=webpack.heroku.config.js",
     "fest": "./node_modules/.bin/fest-build --dir=public/components/",
     "webpack": "./node_modules/.bin/webpack",
     "karma:start": "karma start",
     "karma:run": "karma run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frontend-park-mail-ru/sample.git"
   },
   "engines": {
     "node": "6.3.1"

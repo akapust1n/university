@@ -9,4 +9,4 @@ public/build
 *.tmpl.js
 public/coverage
 package-lock.json
-
+.git

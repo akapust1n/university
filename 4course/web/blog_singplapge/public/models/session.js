@@ -23,10 +23,11 @@ export default class Session {
 
       console.log("result", result)
 
-      localStorage.userinfo = JSON.stringify(attrs);
-      if (result != "not such user") { //:))))
+      if (result != "no such user") { //:))))
         localStorage.result = result
         this._auth = true;
+        localStorage.userinfo = JSON.stringify(attrs);
+
         resolve()
       } else {
         console.log("hello3");

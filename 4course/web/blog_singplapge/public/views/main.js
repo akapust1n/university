@@ -29,15 +29,29 @@ export default class MainView extends View {
         author: post.author
       })
     }, this);
-    this._main = new Main({
-      data: {
-        fields: posts,
-        template: "main/main.tmpl",
-      }
-    });
+
+    if (!session || !session.isAuthenticated) {
+      this._main = new Main({
+        data: {
+          fields: posts,
+          template: "main/main.tmpl",
+        }
+      });
+    } else {
+      console.log("Username", session.username)
+      this._main = new Main({
+        data: {
+          fields: posts,
+          login: [{
+            text: session.username,
+
+          }],
+          template: "main/main.tmpl",
+        }
+      });
+    };
     this._el = this._main._el;
     container.appendChild(this._main._el);
 
   }
-
 }

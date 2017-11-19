@@ -54,7 +54,7 @@ let Token = mongoose.model('Token', schemaToken);
 module.exports.response = (async function (req) {
     let parts = req.url.split('?')[0].split('/')
     let method = parts[parts.length - 1]
-    console.log(method)
+    //console.log(method)
     switch (method) {
         case 'session':
             let temp = await _Wrapper(req, _session);
@@ -83,7 +83,7 @@ function _session(req) {
         // const userSchema = schemaUser();
         // const userToken = tokenUser()
         const user = JSON.parse(JSON.stringify(req.body))
-        console.log(v.validate(JSON.parse(JSON.stringify(req.body)), schema));
+        //console.log(v.validate(JSON.parse(JSON.stringify(req.body)), schema));
         if (!v.validate(JSON.parse(JSON.stringify(req.body)), schema).valid)
             return "wrong json";
         User.count({
@@ -92,7 +92,7 @@ function _session(req) {
         }, (err, count) => {
             console.log("count", count);
             if (count > 0) {
-                console.log("countinto", count);
+                //console.log("countinto", count);
                 const token1 = Math.random().toString(36).substr(2);
                 const newToken = new Token({
                     token: token1
@@ -114,10 +114,11 @@ function _session(req) {
 function _create(req) {
     return new Promise((resolve, reject) => {
         const post = JSON.parse(JSON.stringify(req.body))
+        //("POST_", post)
         PostModel.findOne({}).sort('-id').exec((err, max) => {
-
+            //console.log("INTO__", err, max.id)
             const newPost = new PostModel({
-                id: max + 1,
+                id: max.id + 1,
                 author: post.author,
                 title: post.title,
                 text: post.text,
@@ -137,7 +138,7 @@ function _posts(req) {
         var query = url_parts.query;
         const num = query.num
         const offset = query.offset
-        console.log("num", num)
+        //  console.log("num", num)
         PostModel.find({}).sort('-date').skip(offset).limit(num).exec((err, posts) => {
             if (err) resolve("cant get posts!")
             else resolve(posts)
@@ -186,7 +187,7 @@ function _edit(req) {
 
 async function _Wrapper(req, func) {
     let x = await func(req);
-    console.log("wrapper_result__ ", x);
+    //console.log("wrapper_result__ ", x);
     return x;
 }
 
