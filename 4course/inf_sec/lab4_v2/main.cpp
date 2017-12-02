@@ -1,4 +1,4 @@
-#include <AES.h>
+#include <RSA.h>
 #include <iostream>
 #include <math.h>
 #include <string>
@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
     }
 
     std::string filename(argv[1]);
-    AES aes;
+    RSA aes;
 
     aes.encrypt(filename);
     aes.decrypt("encrypted_" + filename);

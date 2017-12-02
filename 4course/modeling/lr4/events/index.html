@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Управляющая программа имитационной модели</title>
+
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+	<script src="src/include.js"></script>
+
+	<script src="src/event-principle.js"></script>
+</head>
+
+<body>
+	<h1>Управляющая программа имитационной модели по событийному принципу</h1>
+
+	<h3>Параметры имитационной модели</h3>
+	<label>время работы:
+		<input type="text" id="sm-finish_time" value="100">
+	</label>
+	<br />
+	<label>
+		<input type="checkbox" id="sm-release_order" checked>Выпускать обработанные заявки</label>
+
+	<hr />
+
+	<h3>Источник информации</h3>
+	<h4>параметры равномерного распределения:</h4>
+	<label>a:
+		<input type="text" id="si-a" value="5">
+	</label>
+	<br />
+	<label>b:
+		<input type="text" id="si-b" value="10">
+	</label>
+
+	<hr />
+
+	<h3>Обслуживающий аппарат</h3>
+	<h4>параметры распределения Пуассона:</h4>
+	<label>lambda:
+		<input type="text" id="su-lambda" value="15">
+	</label>
+
+	<hr />
+
+	<label>Минимальная длина буферной памяти:
+		<input type="text" id="sm-result" readonly>
+	</label>
+
+
+	<script>
+		function run() {
+			let a = parseInt(document.getElementById('si-a').value);
+			let b = parseInt(document.getElementById('si-b').value);
+			let lambda = parseInt(document.getElementById('su-lambda').value);
+			let finishTime = parseInt(document.getElementById('sm-finish_time').value);
+			let releaseOrder = document.getElementById('sm-release_order').checked;
+
+			let result = findMinLengthQueue(a, b, lambda, finishTime, releaseOrder);
+
+			document.getElementById('sm-result').value = result;
+		}
+	</script>
+
+	<p>
+		<button onclick="run()">найти минимальную длинну буферной памяти</button>
+	</p>
+
+
+</body>
+
+</html>
