@@ -16,6 +16,7 @@ moc_*
 # reports in tex
 tex_*
 *.qmake.stash
+/4course/modeling/*/report/
 
 
 =======
@@ -65,3 +66,4 @@ Temporary Items
 
 #Makefile for os lab
 !/Other_subject/os/lab7/Makefile
+

@@ -1,0 +1,196 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Управляющая программа имитационной модели информационного центра</title>
+
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+	<script src="src/include.js"></script>
+
+	<script src="src/centerOfInformation.js"></script>
+</head>
+
+<body>
+	<h1>Управляющая программа имитационной модели информационного центра (принцип dt)</h1>
+
+	<h3>Параметры имитационной модели</h3>
+
+	<label>шаг времени:
+		<input type="text" id="sm-dt" value="1">
+	</label>
+	<br />
+	<label>кол-во заявок:
+		<input type="text" id="sm-amount_request" value="300">
+	</label>
+	<br />
+	<label>
+		<input type="checkbox" id="sm-on_input" checked>На входе</label>
+
+	<hr />
+
+	<h3>Клиенты:</h3>
+
+	<h4>интервал времени прихода:</h4>
+	<label>min:
+		<input type="text" id="client-min_time" value="8">
+	</label>
+	<br />
+	<label>max:
+		<input type="text" id="client-max_time" value="12">
+	</label>
+
+	<hr />
+
+	<table border=1>
+		<tr>
+			<h3>Операторы:</h3>
+		</tr>
+
+		<tr>
+			<td>
+				<h4>№1 интервал времени обслуживания:</h4>
+				<label>min:
+					<input type="text" id="operator1-min_time" value="15">
+				</label>
+				<br />
+				<label>max:
+					<input type="text" id="operator1-max_time" value="25">
+				</label>
+			</td>
+			<td>
+
+				<h4>№2 интервал времени обслуживания:</h4>
+				<label>min:
+					<input type="text" id="operator2-min_time" value="30">
+				</label>
+				<br />
+				<label>max:
+					<input type="text" id="operator2-max_time" value="50">
+				</label>
+
+			</td>
+			<td>
+
+				<h4>№3 интервал времени обслуживания:</h4>
+				<label>min:
+					<input type="text" id="operator3-min_time" value="20">
+				</label>
+				<br />
+				<label>max:
+					<input type="text" id="operator3-max_time" value="60">
+				</label>
+
+			</td>
+		</tr>
+	</table>
+
+	<hr />
+
+	<table border=1>
+		<tr>
+			<h3>Приемные накопители:</h3>
+		</tr>
+
+		<tr>
+			<td>
+				<h4>№1 время обработки:</h4>
+				<label>время:
+					<input type="text" id="store1-time" value="15">
+				</label>
+			</td>
+			<td>
+
+				<h4>№2 время обработки:</h4>
+				<label>время:
+					<input type="text" id="store2-time" value="30">
+				</label>
+
+			</td>
+		</tr>
+	</table>
+
+
+	<hr />
+
+	<script>
+		function run() {
+			let simulator = {
+				onInput: document.getElementById('sm-on_input').checked,
+				amountRequest: parseInt(document.getElementById('sm-amount_request').value),
+				dt: parseFloat(document.getElementById('sm-dt').value)
+			}
+
+			let client = {
+				min: parseInt(document.getElementById('client-min_time').value),
+				max: parseInt(document.getElementById('client-max_time').value)
+			};
+
+			let operators = [{
+					min: parseInt(document.getElementById('operator1-min_time').value),
+					max: parseInt(document.getElementById('operator1-max_time').value)
+				},
+				{
+					min: parseInt(document.getElementById('operator2-min_time').value),
+					max: parseInt(document.getElementById('operator2-max_time').value)
+				},
+				{
+					min: parseInt(document.getElementById('operator3-min_time').value),
+					max: parseInt(document.getElementById('operator3-max_time').value)
+				}
+			]
+
+
+			let stores = [{
+					time: parseInt(document.getElementById('store1-time').value)
+				},
+				{
+					time: parseInt(document.getElementById('store2-time').value)
+				}
+			]
+
+			console.log(simulator);
+			console.log(client);
+			console.log(operators);
+			console.log(stores);
+
+			let result = findProbabilityOfFailure(simulator, client, operators, stores);
+
+			console.log(result);
+			document.getElementById('sm-probability_failure').value = result.probabilityFailure;
+			document.getElementById('sm-amount_lost').value = result.amountLost;
+			document.getElementById('sm-amount_input').value = result.amountInput;
+			document.getElementById('sm-amount_output').value = result.amountOutput;
+			document.getElementById('sm-all_time').value = result.allTime;
+		}
+	</script>
+
+	<p>
+		<button onclick="run()">Запуск</button>
+	</p>
+	<label>Вероятность отказа:
+		<input type="text" id="sm-probability_failure" readonly>
+	</label>
+	<br />
+	<label>Кол-во потеряных заявок:
+		<input type="text" id="sm-amount_lost" readonly>
+	</label>
+	<br />
+	<label>Кол-во зашедших заявок:
+		<input type="text" id="sm-amount_input" readonly>
+	</label>
+	<br />
+	<label>Кол-во обработанных заявок:
+		<input type="text" id="sm-amount_output" readonly>
+	</label>
+	<br />
+	<label>Время работы системы:
+		<input type="text" id="sm-all_time" readonly>
+	</label>
+
+	<hr />
+
+
+</body>
+
+</html>
