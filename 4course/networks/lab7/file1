@@ -1,0 +1,2 @@
+one two three
+he advantage when used frequently is that Counter calculates all the counts ONE TIME, which is almost as fast as doing mystring.count('a') one time. Thus, if you do this 20 times, you are saving maybe 10 times the computation time. Counter also can tell you if an item is in the string: for example, if 'a' in counter:

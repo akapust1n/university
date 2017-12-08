@@ -1,0 +1,4 @@
+one one one one
+Here, we took the assistance of the len() built-in function, which provides the total number of elements in the tuple as well as the range() built-in function to give us the actual sequence to iterate over.
+
+
