@@ -46,18 +46,8 @@ std::vector<StatePtr> Automatia::states() const
         });
     return visited;
 }
-/*
-void write_dot(const char * fname, const graph_t & g)
+
+StatePtr Automatia::getStartState() const
 {
-    ofstream out(fname);
-    out << "digraph {\n";
-    for (size_t i = 0; i < g.size(); ++i) {
-        out << "  " << i << ";\n";
-    }
-    for (size_t v = 0; v < g.size(); ++v) {
-        for (auto u : g[v]) {
-            out << "  " << v << " -> " << u << ";\n";
-        }
-    }
-    out << "}\n";
-}*/
+    return startState;
+}

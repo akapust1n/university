@@ -12,4 +12,5 @@ SOURCES += \
 HEADERS += \
     DKA.h \
     State.h \
-    Automatia.h
+    Automatia.h \
+    Brzozowski.h

@@ -9,6 +9,8 @@ public:
     void visualize(const std::string& dot, const std::string& filename);
     std::vector<StatePtr> states() const;
 
+    StatePtr getStartState() const;
+
 private:
     StatePtr startState;
 };

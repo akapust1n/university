@@ -1,3 +1,4 @@
+#include <Brzozowski.h>
 #include <DKA.h>
 #include <State.h>
 #include <algorithm>
@@ -5,6 +6,7 @@
 #include <set>
 #include <string>
 #include <vector>
+
 int main()
 {
     //build DKA
@@ -22,7 +24,9 @@ int main()
         std::cout << setToString(state->positions) << std::endl;
     }
     FA.visualize(dka.GetDot(FA), "dka");
-    const std::string dotString = dka.GetDot(FA);
+
+    Automatia newFA = Brzozowski::fa_rev(FA);
+    newFA.visualize(dka.GetDot(newFA), "dka_rev");
 
     return 0;
 }

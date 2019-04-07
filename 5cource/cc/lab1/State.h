@@ -6,16 +6,29 @@
 #include <set>
 #include <vector>
 class State;
+class NkaState;
 using StatePtr = std::shared_ptr<State>;
+using StateNkaPtr = std::shared_ptr<NkaState>;
 
-class State {
+//class NkaState {
+//public:
+//    NkaState() {}
+//    void moveOnChar(char character, const StateNkaPtr& destinationState);
+
+//public:
+//    std::set<uint32_t> positions;
+//    std::multimap<char, StateNkaPtr> charMultiTransitions;
+//    bool isFinalState = false;
+//    bool operator==(const NkaState& state) const;
+//};
+class State /*: public NkaState*/ { //should be template :0
 public:
     State() {}
-    void moveOnChar(char character, const StatePtr& destinationState);
+    void moveOnChar(char character, const StatePtr& destinationState, bool simulateMap = true);
 
 public:
     std::set<uint32_t> positions;
-    std::map<char, StatePtr> charTransitions;
+    std::multimap<char, StatePtr> charTransitions;
     bool isFinalState = false;
     bool operator==(const State& state) const;
 };
