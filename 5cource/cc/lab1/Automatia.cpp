@@ -51,3 +51,15 @@ StatePtr Automatia::getStartState() const
 {
     return startState;
 }
+
+bool Automatia::checkRegex(const std::string& regex)
+{
+    auto currentState = getStartState();
+    for (auto& c : regex) {
+        auto nextStateIt = currentState->charTransitions.find(c);
+        if (nextStateIt == currentState->charTransitions.cend())
+            break;
+        currentState = nextStateIt->second;
+    }
+    return currentState->isFinalState;
+}

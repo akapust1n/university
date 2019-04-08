@@ -1,7 +1,9 @@
 #ifndef BRZOZOWSKI_H
 #define BRZOZOWSKI_H
-#include <Automatia.h>
+#include "Automatia.h"
 #include <iostream>
+#include <queue>
+#include <stack>
 
 namespace Brzozowski {
 inline Automatia fa_rev(const Automatia& fa)
@@ -44,16 +46,24 @@ inline Automatia fa_rev(const Automatia& fa)
                             return *capturePass == *ptr;
                         });
 
-                    if (findPos != copyStates.cend()) {
+                    if (findPos != copyStates.cend())
                         copyState->moveOnChar(letter, *findPos, false);
-                    } else {
-                        std::cout << "\nEEE\n";
-                    }
                 }
             }
         }
 
     return Automatia(startState);
+}
+inline uint32_t getPosOfStartState(const Automatia& FA)
+{
+    auto tempStates = fa_rev(FA).states();
+    return tempStates.size() < 2 or !tempStates[0]->isFinalState ? 0 : 1;
+}
+inline Automatia dr(const Automatia& FA)
+{
+    Automatia au = Automatia(fa_rev(FA).states()[getPosOfStartState(FA)]);
+    //Automatia(fa_rev(Automatia(fa_rev(FA).states()[startState])).states()[startState]);
+    return au;
 }
 };
 

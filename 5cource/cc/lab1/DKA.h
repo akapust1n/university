@@ -1,6 +1,6 @@
 #ifndef TREEBUILDER_H
 #define TREEBUILDER_H
-#include <Automatia.h>
+#include "Automatia.h"
 #include <limits>
 #include <map>
 #include <memory>
@@ -83,7 +83,6 @@ public:
 private:
     bool isValid;
     const std::string operations;
-    const char endSymbol;
     const std::string operationNeedDot;
     uint32_t position;
     RegexTreeElPtr syntaxTreeRoot;

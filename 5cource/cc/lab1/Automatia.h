@@ -1,6 +1,6 @@
 #ifndef AUTOMATIA_H
 #define AUTOMATIA_H
-#include <State.h>
+#include "State.h"
 #include <graphviz/gvc.h>
 
 class Automatia {
@@ -10,6 +10,7 @@ public:
     std::vector<StatePtr> states() const;
 
     StatePtr getStartState() const;
+    bool checkRegex(const std::string& regex);
 
 private:
     StatePtr startState;

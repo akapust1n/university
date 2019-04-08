@@ -20,7 +20,6 @@ RegexTreeElPtr RegexTreeEl::addRightChild(RegexTreeElPtr child)
 DKA::DKA(const std::string& regex)
     : isValid(true)
     , operations("()*|.+")
-    , endSymbol('#')
     , operationNeedDot("+*")
     , position(1)
 {
@@ -303,6 +302,7 @@ std::vector<uint32_t> DKA::getPositions(RegexTreeElPtr root, char letter) const
     result.insert(result.end(), leftTree.cbegin(), leftTree.cend());
     auto rightTree = getPositions(root->rightChild, letter);
     result.insert(result.end(), rightTree.cbegin(), rightTree.cend());
+    return result;
 }
 
 std::string DKA::getPreparedRegex() const
