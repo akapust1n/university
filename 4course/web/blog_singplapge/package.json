@@ -34,7 +34,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "jsonschema": "^1.2.0",
-    "mongoose": "^4.13.0",
+    "mongoose": "^5.7.6",
     "regexp-clone": "0.0.1",
     "showdown": "^1.8.1",
     "simplemde": "^1.11.2"
